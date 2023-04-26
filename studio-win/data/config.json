@@ -1,5 +1,5 @@
 {
   "port": 8080,
-  "endEffectorLength": 88.5,
+  "endEffectorLength": 50,
   "trajectoryFollowMethod": "SpeedFollow"
 }

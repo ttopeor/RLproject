@@ -3,28 +3,28 @@ import json
 import time
 import threading
 import keyboard
-
+import math
 # define the WebSocket URL
 ws_url = "ws://localhost:8080/api/ws"
 hz = 80
-spd = 80 #mm/s
+spd = 50 #mm/s
 count = 0
 
 cur = {
     'x': 0,
-    'y': 0,
-    'z': 0,
-    'roll': 0,
+    'y': 0.150,
+    'z': 70,
+    'roll': 180,
     'pitch': 0,
-    'yaw': 0
+    'yaw': -90
 }
 des = {
     'x': 0,
     'y': 0,
-    'z': 0,
+    'z': 0.070,
     'roll': 180,
     'pitch': 0,
-    'yaw': -90
+    'yaw': 0
 }
 last_pos = cur
 
@@ -72,26 +72,44 @@ def stop_websocket(ws):
 def process_key_events():
     global des
     step_size = (1/hz)*(spd/1000)
-    roll_size = (1/hz)*(spd/2)
+    roll_size = (1/hz)*(spd)
+
+    def is_within_bounds(x, y):
+        return y <= 0.280 and x <= 0.150 and y >= 0.150 and x >= -0.150
+
+    current_x, current_y = des["x"], des["y"]
+
     if keyboard.is_pressed("w"):
-        des["y"] += step_size
-    elif keyboard.is_pressed("s"):
-        des["y"] -= step_size
-    elif keyboard.is_pressed("a"):
-        des["x"] -= step_size
-    elif keyboard.is_pressed("d"):
-        des["x"] += step_size
-    elif keyboard.is_pressed("z"):
-        des["z"] += step_size
-    elif keyboard.is_pressed("c"):
-        des["z"] -= step_size
-    elif keyboard.is_pressed("q"):
-        des["yaw"] += roll_size
-    elif keyboard.is_pressed("e"):
-        des["yaw"] -= roll_size
+        new_y = current_y + math.sin(((-des["yaw"])/180)*math.pi)*step_size
+        new_x = current_x + math.cos(((-des["yaw"])/180)*math.pi)*step_size
+        if is_within_bounds(new_x, new_y):
+            des["y"], des["x"] = new_y, new_x
+    if keyboard.is_pressed("s"):
+        new_y = current_y - math.sin(((-des["yaw"])/180)*math.pi)*step_size
+        new_x = current_x - math.cos(((-des["yaw"])/180)*math.pi)*step_size
+        if is_within_bounds(new_x, new_y):
+            des["y"], des["x"] = new_y, new_x
+    if keyboard.is_pressed("q"):
+        new_y = current_y - math.sin(((-des["yaw"]-90)/180)*math.pi)*step_size
+        new_x = current_x - math.cos(((-des["yaw"]-90)/180)*math.pi)*step_size
+        if is_within_bounds(new_x, new_y):
+            des["y"], des["x"] = new_y, new_x
+    if keyboard.is_pressed("e"):
+        new_y = current_y + math.sin(((-des["yaw"]-90)/180)*math.pi)*step_size
+        new_x = current_x + math.cos(((-des["yaw"]-90)/180)*math.pi)*step_size
+        if is_within_bounds(new_x, new_y):
+            des["y"], des["x"] = new_y, new_x
+    if keyboard.is_pressed("d"):
+        if(des["yaw"]<=50):
+            des["yaw"] += roll_size
+    if keyboard.is_pressed("a"):
+        if(des["yaw"]>=-230):
+            des["yaw"] -= roll_size
+
+    des["z"] = 0.070
     des["roll"] = 180
     des["pitch"] = 0
-
+    
 
 def print_states(time):
     global last_pos
@@ -100,12 +118,15 @@ def print_states(time):
     
     x = round(cur["x"]*1000,1)
     y = round(cur["y"]*1000,1)
-    z = round(cur["z"]*1000,1)
+    z = round(cur["yaw"]+90,1)
+    if (cur["yaw"]+90>180):
+        z = round(cur["yaw"]+90-360,1)
+        
     x_vel =  round(((cur["x"]-last_pos["x"])/time)*1000,1)
     y_vel =  round(((cur["y"]-last_pos["y"])/time)*1000,1)
-    z_vel =  round(((cur["z"]-last_pos["z"])/time)*1000,1)
-    print(" Px: ",x,"mm"," Py: ",y,"mm"," Pz: ",z,"mm")
-    print(" Vx: ",x_vel,"mm/s"," Vy: ",y_vel,"mm/s"," Vz: ",z_vel,"mm/s")
+    z_vel =  round(((cur["yaw"]-last_pos["yaw"])/time),1)
+    print(" Px: ",x,"mm"," Py: ",y,"mm"," Pz: ",z,"deg")
+    print(" Vx: ",x_vel,"mm/s"," Vy: ",y_vel,"mm/s"," Vz: ",z_vel,"deg/s")
     print("Freq:",count/time)
     last_pos = cur
     count = 0
@@ -125,6 +146,7 @@ if __name__ == "__main__":
     last_print_time = time.time()  # add a timestamp for the last time cur was printed
     time.sleep(1)
     des = cur
+    if_first_second = 0
     
     try:
         while not stop_event.is_set():
@@ -136,8 +158,12 @@ if __name__ == "__main__":
                 # check if a second has passed since the last print
                 current_time = time.time()
                 if current_time - last_print_time >= 1:
-                    print_states(1)
-                    last_print_time = current_time
+                    if(if_first_second==0):
+                        if_first_second = 1
+                        last_pos = cur
+                    else:
+                        print_states(1)
+                        last_print_time = current_time
                     
             # Calculate remaining time and sleep until next iteration
             elapsed_time = time.time() - start_time
