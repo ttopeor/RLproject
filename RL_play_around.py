@@ -85,7 +85,7 @@ class PhysicalEnv(gym.Env):
 
     def get_validation_camera_state(self):
         # Initialize the USB camera for the third view
-        cap = cv2.VideoCapture(1)
+        cap = cv2.VideoCapture(3)
 
         # Check if the camera is opened successfully
         if not cap.isOpened():
@@ -225,7 +225,7 @@ class PhysicalEnv(gym.Env):
         # Implement the logic for capturing the current RGB image from the first view camera
         # and returning it as a 100x100x3 numpy array
         # Initialize the USB camera
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(1)
 
         # Check if the camera is opened successfully
         if not cap.isOpened():
@@ -273,3 +273,13 @@ if __name__ == '__main__':
 
     # Close the environment
     env.close()
+
+
+# import cv2
+
+# cap = cv2.VideoCapture(3)
+# ret, frame = cap.read()
+# cv2.imshow('frame', frame)
+# cv2.waitKey(0)
+# cap.release()
+# cv2.destroyAllWindows()

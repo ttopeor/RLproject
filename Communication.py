@@ -100,10 +100,10 @@ def process_key_events():
         if is_within_bounds(new_x, new_y):
             des["y"], des["x"] = new_y, new_x
     if keyboard.is_pressed("d"):
-        if(des["yaw"]<=50):
+        if(des["yaw"]<=40):
             des["yaw"] += roll_size
     if keyboard.is_pressed("a"):
-        if(des["yaw"]>=-230):
+        if(des["yaw"]>=-220):
             des["yaw"] -= roll_size
 
     des["z"] = 0.070
