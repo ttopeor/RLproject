@@ -6,6 +6,7 @@ import numpy as np
 from pynput.keyboard import Key, Controller
 import cv2
 from stable_baselines3 import A2C
+import time
 
 
 # Define the environment class
@@ -41,34 +42,44 @@ class PhysicalEnv(gym.Env):
         # based on the given action
         if action == 0: # x trans positive
             self.keyboard.press('w')
+            time.sleep(0.5)
             self.keyboard.release('w')
         elif action == 1: # x trans negative
             self.keyboard.press('s')
+            time.sleep(0.5)
             self.keyboard.release('s')
         elif action == 2: # y trans positive
             self.keyboard.press('d')
+            time.sleep(0.5)
             self.keyboard.release('d')
         elif action == 3: # y trans negative
             self.keyboard.press('a')
+            time.sleep(0.5)
             self.keyboard.release('a')
         elif action == 4: # z rot positive
             self.keyboard.press('e')
+            time.sleep(0.5)
             self.keyboard.release('e')
         elif action == 5: # z rot negative
             self.keyboard.press('q')
+            time.sleep(0.5)
             self.keyboard.release('q')
         else:
             raise ValueError("Invalid action")
+        print("For debug - finish action")
         
 
         # Update the robot state based on the new position and orientation
         self.robot_state = self.get_camera_state()
-        
+        print("For debug - finish reading first view camera")
+
         # Calculate the reward based on the new state
         reward = self.calculate_reward()
+        print("For debug - finish reading validation camera")
         
         # Check if the episode is done based on the new state
         done = self.check_if_done()
+        print("For debug - done checking if done")
         
         # Update the validation camera state
         self.validation_camera_state = self.get_validation_camera_state()
@@ -79,7 +90,8 @@ class PhysicalEnv(gym.Env):
     def get_camera_state(self):
         # Get the current RGB image from the first view camera and 
         # use it as the robot state
-        rgb_image = self.get_rgb_image_from_camera()
+        # rgb_image = self.get_rgb_image_from_camera()
+        rgb_image = self.get_validation_camera_state()
         return rgb_image
     
 
@@ -93,6 +105,8 @@ class PhysicalEnv(gym.Env):
 
         # Read in a frame from the camera
         ret, frame = cap.read()
+
+        cv2.imshow('frame', frame)
 
         # Release the camera
         cap.release()
@@ -234,6 +248,8 @@ class PhysicalEnv(gym.Env):
         # Read in a frame from the camera
         ret, frame = cap.read()
 
+        # cv2.imshow('frame', frame)
+
         # Release the camera
         cap.release()
 
@@ -275,11 +291,3 @@ if __name__ == '__main__':
     env.close()
 
 
-# import cv2
-
-# cap = cv2.VideoCapture(3)
-# ret, frame = cap.read()
-# cv2.imshow('frame', frame)
-# cv2.waitKey(0)
-# cap.release()
-# cv2.destroyAllWindows()
