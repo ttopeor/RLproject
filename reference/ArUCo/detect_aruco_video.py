@@ -1,5 +1,6 @@
 '''
 Sample Command:-
+pip install opencv-contrib-python==4.6.0.66
 python detect_aruco_video.py --type DICT_5X5_100 --camera True
 python detect_aruco_video.py --type DICT_5X5_100 --camera False --video test_video.mp4
 '''

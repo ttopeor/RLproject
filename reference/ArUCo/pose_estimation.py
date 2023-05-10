@@ -28,9 +28,8 @@ def pose_esitmation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
     parameters = cv2.aruco.DetectorParameters_create()
 
 
-    corners, ids, rejected_img_points = cv2.aruco.detectMarkers(gray, cv2.aruco_dict,parameters=parameters,
-        cameraMatrix=matrix_coefficients,
-        distCoeff=distortion_coefficients)
+    corners, ids, rejected_img_points = cv2.aruco.detectMarkers(gray, cv2.aruco_dict, parameters=parameters)
+
 
         # If markers are detected
     if len(corners) > 0:
@@ -42,7 +41,7 @@ def pose_esitmation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
             cv2.aruco.drawDetectedMarkers(frame, corners) 
 
             # Draw Axis
-            cv2.aruco.drawAxis(frame, matrix_coefficients, distortion_coefficients, rvec, tvec, 0.01)  
+            cv2.aruco.drawAxis(frame, matrix_coefficients, distortion_coefficients, rvec[0], tvec[0], 0.01)
 
     return frame
 
