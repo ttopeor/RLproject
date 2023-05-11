@@ -1,6 +1,6 @@
 '''
 Sample Usage:-
-python calibration.py --dir calibration_checkerboard/ --square_size 0.024
+python calibration.py --dir calibration_checkerboard/ --square_size 0.027
 '''
 
 import numpy as np
