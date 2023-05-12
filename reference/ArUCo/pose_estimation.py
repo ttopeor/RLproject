@@ -65,7 +65,7 @@ if __name__ == '__main__':
     k = np.load(calibration_matrix_path)
     d = np.load(distortion_coefficients_path)
 
-    video = cv2.VideoCapture(0)
+    video = cv2.VideoCapture(2)
     time.sleep(2.0)
 
     while True:

@@ -1,5 +1,10 @@
 import cv2
 import numpy as np
+import cv2.aruco as aruco
+
+# Read in calibration matrix and distortion matrix
+calibration_matrix = np.load("calibration_matrix.npy")
+distortion_matrix = np.load("distortion_coefficients.npy")
 
 # Define the dictionary of ArUco markers
 aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_250)
@@ -20,32 +25,36 @@ while True:
     # Read a frame from the camera stream
     ret, frame = cap.read()
 
+    # Undistort frame
+    undistorted_frame = cv2.undistort(frame, calibration_matrix, distortion_matrix)
+
     # Check if the frame was successfully read
     if not ret:
         print("Failed to read frame")
         break
 
     # Convert the frame to grayscale
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    gray = cv2.cvtColor(undistorted_frame, cv2.COLOR_BGR2GRAY)
 
     # Detect the markers in the grayscale image
     corners, ids, rejected = cv2.aruco.detectMarkers(gray, aruco_dict, parameters=parameters)
 
-    # If markers are detected, draw a bounding box around them and show the center of each marker
-    if ids is not None:
-        # Draw a bounding box around the markers for visualization
-        cv2.aruco.drawDetectedMarkers(frame, corners, ids)
-
-        # Loop over the detected markers and show the center of each marker
+    # If markers are detected
+    if len(corners) > 0:
+        rvecs, tvecs, _ = aruco.estimatePoseSingleMarkers(corners, 0.05, calibration_matrix, distortion_matrix)
         for i in range(len(ids)):
-            # Get the center of the marker
-            center = np.mean(corners[i][0], axis=0).astype(int)
+            # Draw circle around marker
+            center = tuple(corners[i][0][0])
+            radius = 10
+            color = (0, 255, 0)
+            thickness = 2
+            cv2.circle(undistorted_frame, center, radius, color, thickness)
 
-            # Draw a circle at the center of the marker for visualization
-            cv2.circle(frame, tuple(center), 5, (0, 0, 255), -1)
+            # Print marker ID and position
+            print("Marker ID:", ids[i], "Position:", tvecs[i])
 
     # Display the frame in a window
-    cv2.imshow("Camera Stream", frame)
+    cv2.imshow("Camera Stream", undistorted_frame)
 
     # Wait for a key press and check if the 'q' key was pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):

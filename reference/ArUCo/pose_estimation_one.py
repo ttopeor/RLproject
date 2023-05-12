@@ -33,7 +33,7 @@ dist = np.array(([[ 0.11238687,-0.11429915,-0.00124426,0.00161879,0.05449028]]))
 # mtx=np.load(r'C:\Users\Admin\Desktop\ArUCo-Markers-Pose-Estimation-Generation-Python-main\npy\calibration_matrix.npy')
 # dist=np.load((r'C:\Users\Admin\Desktop\ArUCo-Markers-Pose-Estimation-Generation-Python-main\npy\distortion_coefficients.npy'))
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 font = cv2.FONT_HERSHEY_SIMPLEX #font for displaying text (below)
 #num = 0
 while True:
@@ -63,6 +63,7 @@ while True:
     #使用aruco.detectMarkers()函数可以检测到marker，返回ID和标志板的4个角点坐标
     corners, ids, rejectedImgPoints = detector.detectMarkers(gray)
     objPoints = cv2.Mat(4, 1, cv2.CV_32FC3)
+    # objPoints = cv2.Mat(4, 1)
  
 #    如果找不打id
     if ids is not None:
