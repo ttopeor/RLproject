@@ -33,7 +33,7 @@ dist = np.array(([[ 0.11238687,-0.11429915,-0.00124426,0.00161879,0.05449028]]))
 # mtx=np.load(r'C:\Users\Admin\Desktop\ArUCo-Markers-Pose-Estimation-Generation-Python-main\npy\calibration_matrix.npy')
 # dist=np.load((r'C:\Users\Admin\Desktop\ArUCo-Markers-Pose-Estimation-Generation-Python-main\npy\distortion_coefficients.npy'))
 
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(1)
 font = cv2.FONT_HERSHEY_SIMPLEX #font for displaying text (below)
 #num = 0
 while True:
