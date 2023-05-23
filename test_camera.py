@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 t0 = time.monotonic()
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(2)
 t1 = time.monotonic()
 
 t2 = time.monotonic()

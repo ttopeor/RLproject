@@ -23,6 +23,7 @@ def pose_esitmation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
     '''
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    gray = cv2.GaussianBlur(gray, (7, 7), 1)# for testing, delete me
     cv2.aruco_dict = cv2.aruco.getPredefinedDictionary(aruco_dict_type)
     parameters = cv2.aruco.DetectorParameters()
 
@@ -68,7 +69,7 @@ if __name__ == '__main__':
     k=np.load('calibration_matrix.npy')
     d=np.load('distortion_coefficients.npy')
 
-    video = cv2.VideoCapture(1)
+    video = cv2.VideoCapture(2)
     time.sleep(2.0)
 
     while True:

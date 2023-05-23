@@ -4,6 +4,7 @@ import time
 import threading
 import keyboard
 import math
+
 # define the WebSocket URL
 ws_url = "ws://localhost:8080/api/ws"
 hz = 80
@@ -134,7 +135,7 @@ def precise_sleep(delay):
     start = time.perf_counter()
     while time.perf_counter() - start < delay:
         pass
-    
+
 # main thread
 if __name__ == "__main__":
     # create a WebSocket object

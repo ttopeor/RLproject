@@ -1,0 +1,50 @@
+"""
+Goal: 
+request the robot state from the arm and cube state from the validation camera.
+send out a request, and reveive two distance and the cube location
+send the cube state to the reward() to canculate the reward
+return three variable: robot_state, cube_state, and reward
+
+
+
+
+"""
+
+import asyncio
+import websockets
+import cv2
+import numpy as np
+import json
+
+
+async def request_distances():
+    # Connect to the WebSocket server
+    async with websockets.connect("ws://localhost:8765") as websocket:
+        # Send a request to the server for distances
+        await websocket.send("distance")
+
+        # Wait for the response from the server
+        response = await websocket.recv()
+        distance1, distance2, cube_location = response.split(",")
+
+        # Process the distances as needed
+        print("Distance 1:", distance1)
+        print("Distance 2:", distance2)
+        print("Cube location:", cube_location)
+
+async def receive_message():
+    async with websockets.connect('ws://localhost:8080') as websocket: # replace with the appropriate websocket URL
+        while True:
+            received = await websocket.recv()
+            state = json.loads(received)
+            print(f"Received state update: {state}")
+
+
+
+       
+
+
+# Make a request for distances from the server
+asyncio.run(request_distances())
+# asyncio.get_event_loop().run_until_complete(receive_message())
+asyncio.run(receive_message())
