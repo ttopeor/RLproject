@@ -1,17 +1,15 @@
-import websocket
 import json
+import math
 import time
 import threading
 import keyboard
-import math
-
-#Tin
+import websockets
 import asyncio
 
-# define the WebSocket URL
-ws_url = "ws://localhost:8080/api/ws"
+# Define the WebSocket server URL
+ws_server_url = "ws://localhost:8080/api/ws"
 hz = 80
-spd = 50 #mm/s
+spd = 50  # mm/s
 count = 0
 
 cur = {
@@ -35,13 +33,13 @@ last_pos = cur
 ws_open = False
 stop_event = threading.Event()
 
-def on_message(ws, message):
+async def on_message(ws, message):
     global cur
     msg = json.loads(message)
     if msg['event'] == 'StatusUpdate':
         cur = msg['payload']['jointState']['cartesianPosition']
 
-def on_open(ws):
+async def on_open(ws):
     global ws_open
     ws_open = True
     msg = {
@@ -50,29 +48,29 @@ def on_open(ws):
             'type': 'ExternalPositionControlTask',
         }
     }
-    ws.send(json.dumps(msg))
+    await ws.send(json.dumps(msg))
 
-def on_close(ws):
+async def on_close(ws):
     global ws_open
     ws_open = False
 
-def on_action(ws, des):
-    ws.send(json.dumps({
+async def on_action(ws, des):
+    await ws.send(json.dumps({
         'action': 'ExternalPositionControl',
         'payload': des
     }))
 
-def run_websocket(ws):
-    ws.run_forever()
+async def run_websocket(ws):
+    async with ws:
+        await on_open(ws)
+        while ws_open:
+            message = await ws.recv()
+            await on_message(ws, message)
 
-def stop_websocket(ws):
-    msg = {
-        'action': 'Stop',
-    }
-    ws.send(json.dumps(msg))
-    ws.close()
+def stop_websocket():
+    global stop_event
+    stop_event.set()
 
-# added function to process key events
 def process_key_events():
     global des
     step_size = (1/hz)*(spd/1000)
@@ -104,98 +102,87 @@ def process_key_events():
         if is_within_bounds(new_x, new_y):
             des["y"], des["x"] = new_y, new_x
     if keyboard.is_pressed("d"):
-        if(des["yaw"]<=40):
+        if des["yaw"] <= 40:
             des["yaw"] += roll_size
     if keyboard.is_pressed("a"):
-        if(des["yaw"]>=-220):
+        if des["yaw"] >= -220:
             des["yaw"] -= roll_size
 
     des["z"] = 0.070
     des["roll"] = 180
     des["pitch"] = 0
-    
 
-def print_states(time, ws):
+async def print_states(websocket, path):
     global last_pos
     global cur
     global count
-    
-    x = round(cur["x"]*1000,1)
-    y = round(cur["y"]*1000,1)
-    z = round(cur["yaw"]+90,1)
-    if (cur["yaw"]+90>180):
-        z = round(cur["yaw"]+90-360,1)
-        
-    x_vel =  round(((cur["x"]-last_pos["x"])/time)*1000,1)
-    y_vel =  round(((cur["y"]-last_pos["y"])/time)*1000,1)
-    z_vel =  round(((cur["yaw"]-last_pos["yaw"])/time),1)
-    print(" Px: ",x,"mm"," Py: ",y,"mm"," Pz: ",z,"deg")
-    print(" Vx: ",x_vel,"mm/s"," Vy: ",y_vel,"mm/s"," Vz: ",z_vel,"deg/s")
-    print("Freq:",count/time)
-    last_pos = cur
-    count = 0
-    state = {
+
+    x = round(cur["x"] * 1000, 1)
+    y = round(cur["y"] * 1000, 1)
+    z = round(cur["yaw"] + 90, 1)
+    if (cur["yaw"] + 90 > 180):
+        z = round(cur["yaw"] + 90 - 360, 1)
+
+    x_vel = round(((cur["x"] - last_pos["x"]) / hz) * 1000, 1)
+    y_vel = round(((cur["y"] - last_pos["y"]) / hz) * 1000, 1)
+    z_vel = round(((cur["yaw"] - last_pos["yaw"]) / hz), 1)
+
+    state_data = {
         "x": x,
         "y": y,
         "z": z,
         "x_vel": x_vel,
         "y_vel": y_vel,
-        "z_vel": z_vel,
-        "freq": count/time
+        "z_vel": z_vel
     }
-    ws.send(json.dumps(state))
-    print("dump the state")
 
+    await websocket.send(json.dumps(state_data))
 
-def precise_sleep(delay):
-    start = time.perf_counter()
-    while time.perf_counter() - start < delay:
-        pass
+    last_pos = cur
+    count += 1
 
+async def start_server():
+    server = await websockets.serve(print_states, "localhost", 8087)
+    await server.wait_closed()
 
-
-# main thread
-if __name__ == "__main__":
-    # create a WebSocket object
-    ws = websocket.WebSocketApp(ws_url, on_message=on_message, on_open=on_open, on_close=on_close)
-
-    # create and start the WebSocket thread
-    ws_thread = threading.Thread(target=run_websocket, args=(ws,))
-    ws_thread.start()
-    last_print_time = time.time()  # add a timestamp for the last time cur was printed
+# Main thread
+async def async_main(ws):
+    ws_open = True
+    asyncio.create_task(run_websocket(ws))
+    last_print_time = time.time()
     time.sleep(1)
     des = cur
     if_first_second = 0
-    
+
     try:
+        threading.Thread(target=asyncio.run, args=(start_server(),)).start()
         while not stop_event.is_set():
             start_time = time.time()
 
             if ws_open:
-                process_key_events()  # call the function to process key events
-                on_action(ws, des)
-                # check if a second has passed since the last print
+                process_key_events()
+                await on_action(ws, des)
                 current_time = time.time()
                 if current_time - last_print_time >= 1:
-                    if(if_first_second==0):
+                    if if_first_second == 0:
                         if_first_second = 1
                         last_pos = cur
                     else:
-                        print_states(1,ws) # send the state through the WebSocket
+                        await print_states()
                         last_print_time = current_time
-                    
-            # Calculate remaining time and sleep until next iteration
+
             elapsed_time = time.time() - start_time
-            remaining_time = (1/hz) - elapsed_time
+            remaining_time = (1 / hz) - elapsed_time
             if remaining_time > 0:
-                precise_sleep(remaining_time)
-            count = count + 1
-            
+                time.sleep(remaining_time)
+            count += 1
+
     except KeyboardInterrupt:
         print("Stopping...")
-        stop_event.set()
+        stop_websocket()
     finally:
-        stop_websocket(ws)
-        ws_thread.join()
         print("Stopped")
- 
+
+if __name__ == "__main__":
+    ws = websockets.connect(ws_server_url)
+    asyncio.run(async_main(ws))

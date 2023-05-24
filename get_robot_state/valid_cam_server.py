@@ -80,7 +80,7 @@ async def handle_client(websocket, path):
         while True:
             # Wait for a request from the client
             request = await websocket.recv()
-            if request == "distance":
+            if request == "cube_state":
                 # Capture an image from the camera
                 ret, frame = camera.read()
                 
