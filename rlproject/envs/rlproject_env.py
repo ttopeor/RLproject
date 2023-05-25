@@ -32,5 +32,5 @@ class RLprojectEnv(gym.Env):
         
         print('CustomEnv Environment reset')
         
-    def render(self):
-        # visualize the agent, no need in our case
+    # def render(self):
+    #     # visualize the agent, no need in our case

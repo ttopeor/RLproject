@@ -8,6 +8,11 @@ rlproject.egg-info/SOURCES.txt
 rlproject.egg-info/dependency_links.txt
 rlproject.egg-info/requires.txt
 rlproject.egg-info/top_level.txt
+rlproject/data/d4rl_datasets.py
+rlproject/data/dataset.py
+rlproject/data/generate_test_json.py
+rlproject/data/test_dataset.py
+rlproject/data/types.py
 rlproject/envs/__init__.py
 rlproject/envs/rlproject_env.py
 rlproject/get_robot_state/StateRequester.py
