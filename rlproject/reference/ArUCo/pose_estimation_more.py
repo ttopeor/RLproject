@@ -35,18 +35,23 @@ def pose_esitmation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
 
         # If markers are detected
     if len(corners) > 0:
-        tvec_list = [[None,None,None],[None,None,None],[None,None,None],[None,None,None],[None,None,None],\
-                     [None,None,None],[None,None,None],[None,None,None],[None,None,None],[None,None,None]]
-        for i in range(0, len(ids)):
-            # Estimate pose of each marker and return the values rvec and tvec---(different from those of camera coefficients)
-            rvec, tvec, markerPoints = cv2.aruco.estimatePoseSingleMarkers(corners[i], 0.02, matrix_coefficients,
-                                                                       distortion_coefficients)
-            #for j in range(rvec.shape[0]):
-                #cv2.drawFrameAxes(frame, matrix_coefficients, distortion_coefficients, rvec[j, :, :], tvec[j, :, :], 0.01)
+        max_id = 104  # Or any number that you expect to be the maximum ID
+        tvec_list = [None]*max_id
+
+        ids = ids.flatten()  # Flatten the ids array
+
+        for i in range(len(ids)):
+            rvec, tvec, markerPoints = cv2.aruco.estimatePoseSingleMarkers(corners[i], 0.02, matrix_coefficients, distortion_coefficients)
             cv2.aruco.drawDetectedMarkers(frame, corners)
-            tvec_list[i]=np.round(tvec[0][0],3)
-        print("ID_0:", tvec_list[0],"ID_1:", tvec_list[1],"ID_2:", tvec_list[2],"ID_3:", tvec_list[3],"ID_4:", tvec_list[4], \
-              "ID_5:", tvec_list[5],"ID_6:", tvec_list[6],"ID_7:", tvec_list[7],"ID_8:", tvec_list[8],"ID_9:", tvec_list[9])
+            
+            if ids[i] < max_id:  # Check if the id is within the expected range
+                tvec_list[ids[i]] = np.round(tvec[0][0],3)
+            else:
+                print(f"Warning: Detected id {ids[i]} is greater than the maximum expected id {max_id-1}. Ignoring this id.")
+
+        for i in range(len(tvec_list)):
+            if tvec_list[i] is not None:  # Print only the IDs that were detected
+                print(f"ID_{i}: {tvec_list[i]}")
     # np.savetxt('./corners',corners)
     # print(type(corners))
     #print(corners)
@@ -55,7 +60,7 @@ def pose_esitmation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
 if __name__ == '__main__':
 
     ap = argparse.ArgumentParser()
-    ap.add_argument("-t", "--type", type=str, default="DICT_ARUCO_ORIGINAL", help="Type of ArUCo tag to detect")
+    ap.add_argument("-t", "--type", type=str, default="DICT_6X6_250", help="Type of ArUCo tag to detect")
     args = vars(ap.parse_args())
 
     
@@ -69,7 +74,7 @@ if __name__ == '__main__':
     k=np.load('calibration_matrix.npy')
     d=np.load('distortion_coefficients.npy')
 
-    video = cv2.VideoCapture(2)
+    video = cv2.VideoCapture(3)
     time.sleep(2.0)
 
     while True:
