@@ -6,7 +6,7 @@ python pose_estimation_more.py -t DICT_6X6_250
 import numpy as np
 import cv2
 import sys
-from utils import ARUCO_DICT
+from .utils import ARUCO_DICT
 import argparse
 import time
 
@@ -23,27 +23,43 @@ def pose_esitmation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
 
     # If markers are detected
     if len(corners) > 0:
-        max_id = 104  # Or any number that you expect to be the maximum ID
-        tvec_list = [None]*max_id
 
-        ids = ids.flatten()  # Flatten the ids array
+        tvec_base = None
+        # Identify base vector with ID 100
+        for i, id in enumerate(ids):
+            if id == 100:
+                rvec_base, tvec_base, _ = cv2.aruco.estimatePoseSingleMarkers(
+                    corners[i], 0.02, matrix_coefficients, distortion_coefficients)
+                R_base, _ = cv2.Rodrigues(rvec_base)
+                tvec_base = tvec_base[0]
+                # make tvec_base a column vector before hstack
+                T_base = np.hstack((R_base, tvec_base.reshape(3, 1)))
+                T_base = np.vstack((T_base, [0, 0, 0, 1]))
+                break
 
-        for i in range(len(ids)):
-            rvec, tvec, markerPoints = cv2.aruco.estimatePoseSingleMarkers(
-                corners[i], 0.02, matrix_coefficients, distortion_coefficients)
-            cv2.aruco.drawDetectedMarkers(frame, corners)
+        # Only proceed if ID 100 was found
+        if tvec_base is not None:
+            T_base_inv = np.linalg.inv(T_base)
+            tvec_rels = []
+            # Compute relative positions for IDs 1-6
+            for i, id in enumerate(ids):
+                if 0 <= id <= 6:
+                    rvec_target, tvec_target, _ = cv2.aruco.estimatePoseSingleMarkers(
+                        corners[i], 0.02, matrix_coefficients, distortion_coefficients)
+                    R_target, _ = cv2.Rodrigues(rvec_target)
+                    rvec_target = rvec_target[0]
+                    T_target = np.hstack((R_target, rvec_target.reshape(3, 1)))
+                    T_target = np.vstack((T_target, [0, 0, 0, 1]))
+                    T_rel = np.dot(T_base_inv, T_target)
+                    tvec_rels.append(T_rel[:3, 3])
 
-            if ids[i] < max_id:  # Check if the id is within the expected range
-                tvec_list[ids[i]] = np.round(tvec[0][0], 3)
-            else:
-                print(
-                    f"Warning: Detected id {ids[i]} is greater than the maximum expected id {max_id-1}. Ignoring this id.")
+            # Return relative position with maximum z value
+            if tvec_rels:
+                max_tvec_rel = max(tvec_rels, key=lambda tvec: tvec[2])
+                max_tvec_rel[1] = 0.29 - max_tvec_rel[1]
+                return max_tvec_rel
 
-        for i in range(len(tvec_list)):
-            if tvec_list[i] is not None:  # Print only the IDs that were detected
-                print(f"ID_{i}: {tvec_list[i]}")
-
-    return frame
+    return np.array([None, None, None])
 
 
 if __name__ == '__main__':
@@ -73,7 +89,7 @@ if __name__ == '__main__':
 
         output = pose_esitmation(frame, aruco_dict_type, k, d)
 
-        cv2.imshow('Estimated Pose', output)
+        # cv2.imshow('Estimated Pose', output)
 
         key = cv2.waitKey(1) & 0xFF
         if key == ord('q'):
