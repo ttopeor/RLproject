@@ -32,12 +32,6 @@ def process_key_events(env):
     env.robot.action(x_speed, y_speed, yaw_speed)
 
 
-def precise_sleep(delay):
-    start = time.perf_counter()
-    while time.perf_counter() - start < delay:
-        pass
-
-
 # main thread
 if __name__ == "__main__":
     robot_url = "ws://localhost:8080/api/ws"
@@ -48,8 +42,8 @@ if __name__ == "__main__":
     Env.start()
     # Main event loop
     while True:
-        # process_key_events(Env)
+        process_key_events(Env)
         # Consider adding a delay to prevent the loop from running too fast
-        Env.robot.action(1, 0, 0)
-        print(Env.get_state())
-        precise_sleep(0.1)
+        # Env.robot.action(-1, 0, 0)
+        # print(Env.get_state())
+        time.sleep(0.1)
