@@ -19,8 +19,9 @@ from ml_collections import config_flags
 
 import wandb
 from rlpd.agents import SACLearner
-from rlpd.data import ReplayBuffer
-from rlpd.data.d4rl_datasets import D4RLDataset
+from rlproject.data.replay_buffer import ReplayBuffer
+# from rlpd.data.d4rl_datasets import D4RLDataset
+from rlproject.data.wings_datasets import WingsDataset
 
 try:
     from rlpd.data.binary_datasets import BinaryDataset
