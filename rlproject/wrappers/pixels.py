@@ -3,9 +3,9 @@ from typing import Optional, Tuple
 import gym
 from gym.wrappers.pixel_observation import PixelObservationWrapper
 
-from rlpd.wrappers.frame_stack import FrameStack
-from rlpd.wrappers.repeat_action import RepeatAction
-from rlpd.wrappers.universal_seed import UniversalSeed
+from rlproject.wrappers.frame_stack import FrameStack
+from rlproject.wrappers.repeat_action import RepeatAction
+from rlproject.wrappers.universal_seed import UniversalSeed
 
 
 def wrap_pixels(

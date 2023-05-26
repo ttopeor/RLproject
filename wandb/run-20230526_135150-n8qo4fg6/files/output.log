@@ -1,0 +1,2546 @@
+E0526 13:51:53.611706 140203926275840 _logging.py:64] [Errno 111] Connection refused - goodbye
+E0526 13:51:53.612197 140203926275840 _logging.py:64] error from callback <bound method Robot.on_close of <rlproject.toolkits.communication.Robot object at 0x7f83c5e50a90>>: on_close() takes 2 positional arguments but 4 were given
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0526 13:51:55.929659 140205383452224 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Host Interpreter CUDA
+I0526 13:51:55.971165 140205383452224 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0526 13:51:55.976556 140205383452224 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - agent created
+For debug - replay_buffer created
+For debug - pretrain_steps 100
+For debug - in the first for loop
+For debug - batch created
+  0%|                                                                                                                                                 | 0/100 [00:00<?, ?it/s]
+For debug - agent updated
+For debug - in the first for loop
+
+  1%|█▎                                                                                                                                       | 1/100 [00:03<05:54,  3.58s/it]
+For debug - agent updated
+For debug - in the first for loop
+
+  2%|██▋                                                                                                                                      | 2/100 [00:05<04:28,  2.74s/it]
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+
+
+ 33%|████████████████████████████████████████████▉                                                                                           | 33/100 [00:11<00:11,  5.85it/s]
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+
+ 52%|██████████████████████████████████████████████████████████████████████▋                                                                 | 52/100 [00:13<00:05,  8.27it/s]
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+
+
+For debug - batch createdfor loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:18<00:00,  5.42it/s]
+  0%|                                                                                                                                  | 92/1000001 [00:01<3:15:39, 85.17it/s]
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - first for loop ended
+CustomEnv Environment reset
+For debug - env reset
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|                                                                                                                                 | 196/1000001 [00:03<5:08:58, 53.93it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|                                                                                                                                 | 330/1000001 [00:05<3:35:11, 77.43it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|                                                                                                                                 | 470/1000001 [00:07<3:54:32, 71.03it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|                                                                                                                                 | 581/1000001 [00:09<5:07:36, 54.15it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|                                                                                                                                 | 732/1000001 [00:11<3:37:32, 76.56it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|                                                                                                                                 | 855/1000001 [00:13<4:18:31, 64.41it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▏                                                                                                                                | 977/1000001 [00:15<4:37:13, 60.06it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▏                                                                                                                               | 1105/1000001 [00:17<3:56:43, 70.33it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▏                                                                                                                               | 1222/1000001 [00:19<4:31:31, 61.31it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▏                                                                                                                               | 1325/1000001 [00:21<4:59:11, 55.63it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▏                                                                                                                               | 1540/1000001 [00:23<2:47:59, 99.05it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▏                                                                                                                               | 1655/1000001 [00:25<4:06:45, 67.43it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▏                                                                                                                               | 1747/1000001 [00:27<5:03:43, 54.78it/s]
+
+  0%|▏                                                                                                                               | 1893/1000001 [00:29<3:10:47, 87.19it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▎                                                                                                                               | 2021/1000001 [00:31<4:18:39, 64.30it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▎                                                                                                                               | 2134/1000001 [00:33<4:56:56, 56.01it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▎                                                                                                                               | 2244/1000001 [00:35<5:14:43, 52.84it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▎                                                                                                                               | 2387/1000001 [00:37<4:28:18, 61.97it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▎                                                                                                                               | 2566/1000001 [00:39<2:47:33, 99.21it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▎                                                                                                                               | 2684/1000001 [00:41<4:08:17, 66.94it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▎                                                                                                                               | 2871/1000001 [00:43<3:13:05, 86.07it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▍                                                                                                                               | 2993/1000001 [00:45<4:07:56, 67.02it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▍                                                                                                                               | 3127/1000001 [00:47<3:48:46, 72.63it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▍                                                                                                                               | 3251/1000001 [00:49<4:36:04, 60.17it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▍                                                                                                                               | 3394/1000001 [00:51<3:37:41, 76.30it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+
+  0%|▍                                                                                                                               | 3522/1000001 [00:53<4:24:56, 62.69it/s]
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+For debug - second for loop started
+  0%|▍                                                                                                                               | 3529/1000001 [00:53<4:13:01, 65.64it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 248, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 170, in main
+    # print("For debug - second for loop started") #delete me
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 643, in write
+    cb(data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2082, in <lambda>
+    lambda data: self._console_raw_callback("stdout", data),
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 345, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1428, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 657, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 79, in _publish_output_raw
+    self._publish(rec)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

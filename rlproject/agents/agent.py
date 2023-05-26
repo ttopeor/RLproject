@@ -31,6 +31,10 @@ class Agent(struct.PyTreeNode):
         return np.asarray(actions)
 
     def sample_actions(self, observations: np.ndarray) -> np.ndarray:
+        # print(f"For debug - self.rng = {self.rng}")
+        # print(f"For debug - self.actor.apply_fn = {self.actor.apply_fn}")
+        # print(f"For debug - self.actor.params = {self.actor.params}")
+        # print(f"For debug - observations = {observations}")
         actions, new_rng = _sample_actions(
             self.rng, self.actor.apply_fn, self.actor.params, observations
         )

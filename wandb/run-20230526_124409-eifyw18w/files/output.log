@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 230, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 102, in main
+    env = gym.make(FLAGS.env_name)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/envs/registration.py", line 235, in make
+    return registry.make(id, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/envs/registration.py", line 129, in make
+    env = spec.make(**kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/envs/registration.py", line 89, in make
+    cls = load(self.entry_point)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/envs/registration.py", line 27, in load
+    mod = importlib.import_module(mod_name)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/howard/RLproject/rlproject/envs/__init__.py", line 1, in <module>
+    from rlproject.envs.rlproject_env import RLprojectEnv
+  File "/home/howard/RLproject/rlproject/envs/rlproject_env.py", line 4, in <module>
+    from rlproject.toolkits.communication import *
+  File "/home/howard/RLproject/rlproject/toolkits/communication.py", line 3, in <module>
+    from .Cam_communication import pose_esitmation
+  File "/home/howard/RLproject/rlproject/toolkits/Cam_communication.py", line 7, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'

@@ -3,7 +3,7 @@ import random
 
 data = []
 
-for _ in range(100):
+for _ in range(10000):
     data_point = {
         "stage": random.randint(1, 2),
         "observations": [random.random() for _ in range(5)],

@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 230, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 102, in main
+    env = gym.make(FLAGS.env_name)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/envs/registration.py", line 235, in make
+    return registry.make(id, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/envs/registration.py", line 129, in make
+    env = spec.make(**kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/envs/registration.py", line 90, in make
+    env = cls(**_kwargs)
+  File "/home/howard/RLproject/rlproject/envs/rlproject_env.py", line 16, in __init__
+    self.Env.start()
+  File "/home/howard/RLproject/rlproject/toolkits/communication.py", line 25, in start
+    k = np.load(self.k)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/numpy/lib/npyio.py", line 405, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'calibration_matrix.npy'

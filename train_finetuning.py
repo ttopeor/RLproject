@@ -11,29 +11,27 @@ import numpy as np
 import tqdm
 from absl import app, flags
 
-try:
-    from flax.training import checkpoints
-except:
-    print("Not loading checkpointing functionality.")
 from ml_collections import config_flags
 
 import wandb
 from rlproject.agents import SACLearner
 from rlproject.data.replay_buffer import ReplayBuffer
-# from rlpd.data.d4rl_datasets import D4RLDataset
-from rlproject.data.wings_datasets import WingsDataset
+from rlproject.data.wings_datasets import WingsDataset #to process our own data
 
-# try:
-#     from rlpd.data.binary_datasets import BinaryDataset
-# except:
-#     print("not importing binary dataset")
 from rlproject.evaluation import evaluate
 from rlproject.wrappers import wrap_gym
 
+try:
+    from flax.training import checkpoints
+except:
+    print("Not loading checkpointing functionality.")
+
+
+
 FLAGS = flags.FLAGS
 
-flags.DEFINE_string("project_name", "rlpd", "wandb project name.")
-flags.DEFINE_string("env_name", "halfcheetah-expert-v2", "D4rl dataset name.")
+flags.DEFINE_string("project_name", "rlproject", "wandb project name.") #change the default name from rlpd to rlproject
+flags.DEFINE_string("env_name", "rlproject/RLproject-v0", "D4rl dataset name.") #change the default name from half-cheetha to RLproject-v0
 flags.DEFINE_float("offline_ratio", 0.5, "Offline ratio.")
 flags.DEFINE_integer("seed", 42, "Random seed.")
 flags.DEFINE_integer("eval_episodes", 10, "Number of episodes used for evaluation.")
@@ -58,7 +56,7 @@ flags.DEFINE_boolean(
 
 config_flags.DEFINE_config_file(
     "config",
-    "configs/sac_config.py",
+    "rlproject/configs/sac_config.py", #change the path to config file
     "File path to the training hyperparameter configuration.",
     lock_config=False,
 )
@@ -105,30 +103,40 @@ def main(_):
     env = wrap_gym(env, rescale_actions=True)
     env = gym.wrappers.RecordEpisodeStatistics(env, deque_size=1)
     env.seed(FLAGS.seed)
+    print("For debug - env created") #delete me
+
     # not ideal, but works for now:
     if "binary" in FLAGS.env_name:
         ds = BinaryDataset(env, include_bc_data=FLAGS.binary_include_bc)
     else:
-        ds = D4RLDataset(env)
+        # ds = D4RLDataset(env)
+        path = "/home/howard/rlpd/data_test/data.json"
+        ds = WingsDataset(path) #change to our own dataset
+        print("For debug - ds created") #delete me
 
-    eval_env = gym.make(FLAGS.env_name)
-    eval_env = wrap_gym(eval_env, rescale_actions=True)
-    eval_env.seed(FLAGS.seed + 42)
+    # eval_env = gym.make(FLAGS.env_name)
+    # eval_env = wrap_gym(eval_env, rescale_actions=True)
+    # eval_env.seed(FLAGS.seed + 42)
 
     kwargs = dict(FLAGS.config)
     model_cls = kwargs.pop("model_cls")
     agent = globals()[model_cls].create(
         FLAGS.seed, env.observation_space, env.action_space, **kwargs
     )
+    print("For debug - agent created") #delete me
 
     replay_buffer = ReplayBuffer(
         env.observation_space, env.action_space, FLAGS.max_steps
     )
     replay_buffer.seed(FLAGS.seed)
+    print("For debug - replay_buffer created") #delete me
+
+    print("For debug - pretrain_steps", FLAGS.pretrain_steps)
 
     for i in tqdm.tqdm(
         range(0, FLAGS.pretrain_steps), smoothing=0.1, disable=not FLAGS.tqdm
     ):
+        print("For debug - in the first for loop") #delete me
         offline_batch = ds.sample(FLAGS.batch_size * FLAGS.utd_ratio)
         batch = {}
         for k, v in offline_batch.items():
@@ -136,21 +144,31 @@ def main(_):
             if "antmaze" in FLAGS.env_name and k == "rewards":
                 batch[k] -= 1
 
+        print("For debug - batch created") #delete me
+
         agent, update_info = agent.update(batch, FLAGS.utd_ratio)
+
+        print("For debug - agent updated") #delete me
 
         if i % FLAGS.log_interval == 0:
             for k, v in update_info.items():
                 wandb.log({f"offline-training/{k}": v}, step=i)
 
-        if i % FLAGS.eval_interval == 0:
-            eval_info = evaluate(agent, eval_env, num_episodes=FLAGS.eval_episodes)
-            for k, v in eval_info.items():
-                wandb.log({f"offline-evaluation/{k}": v}, step=i)
+        # if i % FLAGS.eval_interval == 0:
+        #     eval_info = evaluate(agent, eval_env, num_episodes=FLAGS.eval_episodes)
+        #     for k, v in eval_info.items():
+        #         wandb.log({f"offline-evaluation/{k}": v}, step=i)
+
+    print("For debug - first for loop ended") #delete me
 
     observation, done = env.reset(), False
+
+    print("For debug - env reset") #delete me
     for i in tqdm.tqdm(
         range(0, FLAGS.max_steps + 1), smoothing=0.1, disable=not FLAGS.tqdm
     ):
+        # print("For debug - second for loop started") #delete me
+
         if i < FLAGS.start_training:
             action = env.action_space.sample()
         else:
@@ -199,16 +217,16 @@ def main(_):
                 for k, v in update_info.items():
                     wandb.log({f"training/{k}": v}, step=i + FLAGS.pretrain_steps)
 
-        if i % FLAGS.eval_interval == 0:
-            eval_info = evaluate(
-                agent,
-                eval_env,
-                num_episodes=FLAGS.eval_episodes,
-                save_video=FLAGS.save_video,
-            )
+        # if i % FLAGS.eval_interval == 0:
+        #     eval_info = evaluate(
+        #         agent,
+        #         eval_env,
+        #         num_episodes=FLAGS.eval_episodes,
+        #         save_video=FLAGS.save_video,
+        #     )
 
-            for k, v in eval_info.items():
-                wandb.log({f"evaluation/{k}": v}, step=i + FLAGS.pretrain_steps)
+        #     for k, v in eval_info.items():
+        #         wandb.log({f"evaluation/{k}": v}, step=i + FLAGS.pretrain_steps)
 
             if FLAGS.checkpoint_model:
                 try:

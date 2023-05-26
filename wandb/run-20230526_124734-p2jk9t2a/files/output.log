@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 230, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 102, in main
+    env = gym.make(FLAGS.env_name)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/envs/registration.py", line 235, in make
+    return registry.make(id, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/envs/registration.py", line 129, in make
+    env = spec.make(**kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/envs/registration.py", line 90, in make
+    env = cls(**_kwargs)
+  File "/home/howard/RLproject/rlproject/envs/rlproject_env.py", line 18, in __init__
+    self.Env.start()
+  File "/home/howard/RLproject/rlproject/toolkits/communication.py", line 37, in start
+    self.robot = Robot(ws_url)
+  File "/home/howard/RLproject/rlproject/toolkits/communication.py", line 75, in __init__
+    self.ws = websocket.WebSocketApp(
+AttributeError: module 'websocket' has no attribute 'WebSocketApp'
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

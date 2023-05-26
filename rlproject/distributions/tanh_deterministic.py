@@ -3,7 +3,7 @@ from typing import Type
 import flax.linen as nn
 import jax.numpy as jnp
 
-from rlpd.networks import default_init
+from rlproject.networks import default_init
 
 
 class TanhDeterministic(nn.Module):

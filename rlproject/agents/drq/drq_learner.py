@@ -10,13 +10,13 @@ import optax
 from flax import struct
 from flax.training.train_state import TrainState
 
-from rlpd.agents.drq.augmentations import batched_random_crop
-from rlpd.agents.sac.sac_learner import SACLearner
-from rlpd.agents.sac.temperature import Temperature
-from rlpd.data.dataset import DatasetDict
-from rlpd.distributions import TanhNormal
-from rlpd.networks import MLP, Ensemble, PixelMultiplexer, StateActionValue
-from rlpd.networks.encoders import D4PGEncoder
+from rlproject.agents.drq.augmentations import batched_random_crop
+from rlproject.agents.sac.sac_learner import SACLearner
+from rlproject.agents.sac.temperature import Temperature
+from rlproject.data.dataset import DatasetDict
+from rlproject.distributions import TanhNormal
+from rlproject.networks import MLP, Ensemble, PixelMultiplexer, StateActionValue
+from rlproject.networks.encoders import D4PGEncoder
 
 
 # Helps to minimize CPU to GPU transfer.

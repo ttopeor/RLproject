@@ -1,0 +1,1211 @@
+2023-05-26 14:17:05,095 INFO    StreamThr :76361 [internal.py:wandb_internal():86] W&B internal server running at pid: 76361, started at: 2023-05-26 14:17:05.094933
+2023-05-26 14:17:05,097 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status
+2023-05-26 14:17:05,100 INFO    WriterThread:76361 [datastore.py:open_for_write():85] open: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/run-4r08mqt5.wandb
+2023-05-26 14:17:05,101 DEBUG   SenderThread:76361 [sender.py:send():375] send: header
+2023-05-26 14:17:05,115 DEBUG   SenderThread:76361 [sender.py:send():375] send: run
+2023-05-26 14:17:05,374 INFO    SenderThread:76361 [dir_watcher.py:__init__():219] watching files in: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files
+2023-05-26 14:17:05,374 INFO    SenderThread:76361 [sender.py:_start_run_threads():1124] run started: 4r08mqt5 with start time 1685135825.093386
+2023-05-26 14:17:05,452 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:17:05,453 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:17:05,458 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: check_version
+2023-05-26 14:17:05,458 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: check_version
+2023-05-26 14:17:05,643 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: run_start
+2023-05-26 14:17:05,654 DEBUG   HandlerThread:76361 [system_info.py:__init__():31] System info init
+2023-05-26 14:17:05,654 DEBUG   HandlerThread:76361 [system_info.py:__init__():46] System info init done
+2023-05-26 14:17:05,654 INFO    HandlerThread:76361 [system_monitor.py:start():181] Starting system monitor
+2023-05-26 14:17:05,654 INFO    SystemMonitor:76361 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-26 14:17:05,655 INFO    HandlerThread:76361 [system_monitor.py:probe():201] Collecting system info
+2023-05-26 14:17:05,655 INFO    SystemMonitor:76361 [interfaces.py:start():190] Started cpu monitoring
+2023-05-26 14:17:05,657 INFO    SystemMonitor:76361 [interfaces.py:start():190] Started disk monitoring
+2023-05-26 14:17:05,658 INFO    SystemMonitor:76361 [interfaces.py:start():190] Started gpu monitoring
+2023-05-26 14:17:05,659 INFO    SystemMonitor:76361 [interfaces.py:start():190] Started memory monitoring
+2023-05-26 14:17:05,659 INFO    SystemMonitor:76361 [interfaces.py:start():190] Started network monitoring
+2023-05-26 14:17:05,699 DEBUG   HandlerThread:76361 [system_info.py:probe():195] Probing system
+2023-05-26 14:17:05,706 DEBUG   HandlerThread:76361 [system_info.py:_probe_git():180] Probing git
+2023-05-26 14:17:05,723 DEBUG   HandlerThread:76361 [system_info.py:_probe_git():188] Probing git done
+2023-05-26 14:17:05,723 DEBUG   HandlerThread:76361 [system_info.py:probe():240] Probing system done
+2023-05-26 14:17:05,723 DEBUG   HandlerThread:76361 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-72-generic-x86_64-with-glibc2.31', 'python': '3.9.16', 'heartbeatAt': '2023-05-26T21:17:05.699852', 'startedAt': '2023-05-26T21:17:05.084552', 'docker': None, 'cuda': None, 'args': ('--pretrain_steps', '10000'), 'state': 'running', 'program': '/home/howard/RLproject/train_finetuning.py', 'codePath': 'train_finetuning.py', 'git': {'remote': 'https://github.com/ttopeor/RLproject.git', 'commit': '89f1cfffb7ca4b717818c11ae5c95976f6412e31'}, 'email': 'chehao27@uw.edu', 'root': '/home/howard/RLproject', 'host': 'howard-Stealth-15M-A11SEK', 'username': 'howard', 'executable': '/home/howard/anaconda3/envs/rlpd/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2989.3801249999997, 'min': 400.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 2990.639, 'min': 400.0, 'max': 3000.0}, {'current': 3000.0, 'min': 400.0, 'max': 3000.0}, {'current': 3000.0, 'min': 400.0, 'max': 3000.0}, {'current': 3000.0, 'min': 400.0, 'max': 3000.0}, {'current': 3000.0, 'min': 400.0, 'max': 3000.0}, {'current': 3000.0, 'min': 400.0, 'max': 3000.0}, {'current': 3000.0, 'min': 400.0, 'max': 3000.0}, {'current': 3000.0, 'min': 400.0, 'max': 3000.0}], 'disk': {'total': 365.1813850402832, 'used': 42.55612564086914}, 'gpu': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'memory_total': 6442450944}], 'memory': {'total': 15.335796356201172}}
+2023-05-26 14:17:05,723 INFO    HandlerThread:76361 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-26 14:17:05,724 INFO    HandlerThread:76361 [system_monitor.py:probe():214] Publishing system info
+2023-05-26 14:17:05,724 DEBUG   HandlerThread:76361 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-26 14:17:05,724 DEBUG   HandlerThread:76361 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-26 14:17:05,724 DEBUG   HandlerThread:76361 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-26 14:17:05,729 ERROR   HandlerThread:76361 [system_info.py:_save_conda():85] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/internal/system/system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2023-05-26 14:17:05,730 DEBUG   HandlerThread:76361 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-26 14:17:05,731 INFO    HandlerThread:76361 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-26 14:17:05,733 DEBUG   SenderThread:76361 [sender.py:send():375] send: files
+2023-05-26 14:17:05,733 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-26 14:17:05,738 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:17:05,738 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:17:05,828 DEBUG   SenderThread:76361 [sender.py:send():375] send: telemetry
+2023-05-26 14:17:05,828 DEBUG   SenderThread:76361 [sender.py:send():375] send: config
+2023-05-26 14:17:06,064 INFO    wandb-upload_0:76361 [upload_job.py:push():137] Uploaded file /tmp/tmpmzwnq1sxwandb/ixnvz664-wandb-metadata.json
+2023-05-26 14:17:06,377 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_created():278] file/dir created: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/requirements.txt
+2023-05-26 14:17:06,377 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_created():278] file/dir created: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/conda-environment.yaml
+2023-05-26 14:17:06,377 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_created():278] file/dir created: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:17:06,378 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_created():278] file/dir created: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-metadata.json
+2023-05-26 14:17:08,375 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_created():278] file/dir created: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:10,106 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:17:10,376 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:12,377 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:15,377 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:17:18,378 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:20,379 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:20,755 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:17:20,755 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:17:20,849 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:17:21,210 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:17:21,226 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:17:21,236 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:17:21,252 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:17:21,278 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:17:21,304 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:17:22,380 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:24,380 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:25,861 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:17:26,381 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:28,381 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:30,382 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:30,866 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:17:32,382 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:34,383 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:35,810 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:17:35,811 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:17:35,886 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:17:36,384 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/config.yaml
+2023-05-26 14:17:36,384 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:38,384 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:40,385 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:41,057 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:17:42,386 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:44,387 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:46,059 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:17:46,387 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:48,388 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:50,389 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:50,788 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:17:50,789 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:17:51,065 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:17:52,389 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:54,390 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:56,072 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:17:56,391 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:17:58,391 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:00,392 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:01,075 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:02,392 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:04,393 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:05,659 DEBUG   SystemMonitor:76361 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-26 14:18:05,661 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:18:05,842 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:18:05,843 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:18:06,086 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:06,393 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:08,394 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:10,395 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:11,103 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:12,395 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:14,396 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:16,107 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:16,397 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:18,397 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:20,398 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:20,817 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:18:20,818 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:18:21,119 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:22,399 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:24,399 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:26,128 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:26,400 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:28,400 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:30,401 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:31,129 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:32,402 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:34,402 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:35,661 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:18:35,827 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:18:35,827 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:18:36,134 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:36,403 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:38,403 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:40,404 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:41,138 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:42,405 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:44,405 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:46,146 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:46,406 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:48,406 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:50,407 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:50,821 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:18:50,821 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:18:51,156 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:52,408 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:54,408 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:56,200 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:18:56,409 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:18:58,409 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:00,410 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:01,239 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:02,410 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:03,104 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:19:03,106 DEBUG   SenderThread:76361 [sender.py:send():375] send: history
+2023-05-26 14:19:03,106 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:19:03,107 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:19:03,111 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:19:03,117 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:19:03,133 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:19:03,139 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:19:03,150 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:19:03,410 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:19:04,411 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:05,662 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:19:05,805 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:19:05,806 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:19:06,300 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:06,411 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:08,412 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:10,412 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:11,305 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:12,413 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:14,413 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:16,311 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:16,414 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:18,415 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:20,416 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:20,830 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:19:20,831 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:19:21,317 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:22,417 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:24,417 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:26,323 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:26,418 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:28,418 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:30,419 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:31,325 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:32,419 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:34,420 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:35,662 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:19:35,822 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:19:35,822 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:19:36,330 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:36,420 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:38,421 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:40,422 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:41,350 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:42,422 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:44,423 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:46,353 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:46,423 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:48,424 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:50,425 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:50,824 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:19:50,825 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:19:51,361 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:52,426 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:54,426 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:56,371 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:19:56,427 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:19:58,427 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:00,428 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:01,395 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:02,429 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:04,429 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:05,663 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:20:05,886 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:20:05,887 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:20:06,398 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:06,430 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:08,430 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:10,431 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:11,410 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:12,432 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:14,433 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:16,410 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:16,433 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:18,434 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:20,434 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:20,878 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:20:20,879 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:20:21,466 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:22,435 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:24,435 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:26,436 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:26,468 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:28,436 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:30,437 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:31,487 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:32,438 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:34,438 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:35,663 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:20:35,878 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:20:35,879 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:20:36,439 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:36,492 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:38,439 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:40,440 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:41,501 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:42,440 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:43,127 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:20:43,128 DEBUG   SenderThread:76361 [sender.py:send():375] send: history
+2023-05-26 14:20:43,128 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:20:43,129 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:20:43,179 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:20:43,215 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:20:43,231 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:20:43,246 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:20:43,262 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:20:43,441 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:20:44,441 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:46,442 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:46,505 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:48,442 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:50,443 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:50,898 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:20:50,898 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:20:51,546 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:52,444 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:54,444 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:56,445 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:20:56,550 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:20:58,445 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:00,446 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:01,570 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:02,446 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:04,447 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:05,664 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:21:05,878 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:21:05,879 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:21:06,448 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:09,077 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:10,449 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:12,451 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:14,082 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:14,452 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:16,453 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:18,453 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:19,084 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:20,454 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:20,899 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:21:20,899 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:21:22,454 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:24,092 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:24,455 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:26,456 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:28,456 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:29,105 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:30,457 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:32,457 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:34,110 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:34,458 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:35,664 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:21:35,938 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:21:35,939 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:21:36,458 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:38,459 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:39,122 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:40,459 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:42,460 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:44,135 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:44,461 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:46,461 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:48,462 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:49,136 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:50,463 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:50,916 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:21:50,917 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:21:52,463 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:54,208 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:21:54,464 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:56,464 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:58,465 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:21:59,219 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:00,466 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:02,466 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:04,231 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:04,467 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:05,665 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:22:05,897 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:22:05,898 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:22:06,467 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:08,468 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:09,237 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:10,468 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:12,469 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:14,248 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:14,470 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:16,471 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:18,471 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:19,249 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:20,472 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:20,934 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:22:20,934 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:22:22,472 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:22,875 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:22:22,876 DEBUG   SenderThread:76361 [sender.py:send():375] send: history
+2023-05-26 14:22:22,876 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:22:22,877 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:22:22,886 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:22:22,897 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:22:22,908 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:22:22,934 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:22:22,970 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:22:23,473 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:22:24,253 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:24,473 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:26,474 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:28,474 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:29,275 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:30,475 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:32,475 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:34,281 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:34,476 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:35,666 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:22:35,946 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:22:35,946 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:22:36,477 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:38,477 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:39,282 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:40,478 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:42,478 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:44,291 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:44,479 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:46,479 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:48,480 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:49,295 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:50,480 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:50,982 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:22:50,983 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:22:52,481 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:54,303 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:22:54,482 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:56,482 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:58,483 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:22:59,307 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:00,483 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:02,484 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:04,343 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:04,485 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:05,666 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:23:05,915 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:23:05,916 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:23:06,487 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:08,488 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:09,378 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:09,488 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:10,488 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:11,488 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:12,489 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:13,489 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:14,386 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:14,489 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:15,490 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:16,490 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:17,490 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:18,490 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:19,391 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:19,491 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:20,491 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:20,930 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:23:20,931 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:23:21,491 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:22,491 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:23,492 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:24,395 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:24,492 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:25,492 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:26,493 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:27,494 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:28,495 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:29,399 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:29,495 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:30,495 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:31,496 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:32,496 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:33,496 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:34,405 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:34,496 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:35,496 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:35,666 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:23:35,941 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:23:35,941 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:23:36,497 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:37,497 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:38,499 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:39,407 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:39,499 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:40,500 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:41,500 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:43,501 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:44,426 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:45,501 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:47,502 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:49,451 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:49,503 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:50,940 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:23:50,940 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:23:51,503 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:53,504 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:54,496 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:23:55,505 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:57,505 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:59,506 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:23:59,514 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:01,507 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:03,508 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:04,425 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:24:04,425 DEBUG   SenderThread:76361 [sender.py:send():375] send: history
+2023-05-26 14:24:04,426 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:24:04,426 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:24:04,440 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:24:04,451 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:24:04,462 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:24:04,472 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:24:04,483 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:24:04,508 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:24:04,515 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:05,508 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:05,667 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:24:05,940 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:24:05,940 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:24:07,509 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:09,509 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:09,567 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:11,510 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:13,510 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:14,602 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:15,511 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:17,511 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:19,512 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:19,625 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:20,973 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:24:20,973 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:24:21,512 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:23,513 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:24,636 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:25,514 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:27,515 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:29,515 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:29,647 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:31,515 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:33,516 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:34,662 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:35,517 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:35,667 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:24:35,947 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:24:35,948 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:24:37,518 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:39,518 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:39,672 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:41,519 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:43,519 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:44,685 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:45,520 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:47,520 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:49,521 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:49,692 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:51,001 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:24:51,001 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:24:51,521 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:53,522 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:54,697 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:24:55,523 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:57,524 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:59,524 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:24:59,706 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:01,525 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:03,525 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:04,731 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:05,526 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:05,668 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:25:05,976 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:25:05,976 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:25:07,527 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:10,067 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:11,528 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:13,528 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:15,078 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:15,529 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:17,529 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:19,530 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:20,091 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:20,997 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:25:20,998 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:25:21,530 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:23,532 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:25,105 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:25,533 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:27,533 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:29,534 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:30,130 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:31,535 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:33,536 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:35,142 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:35,537 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:35,668 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:25:36,012 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:25:36,012 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:25:37,538 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:39,539 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:40,180 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:41,539 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:43,540 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:45,195 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:45,540 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:47,541 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:48,813 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:25:48,814 DEBUG   SenderThread:76361 [sender.py:send():375] send: history
+2023-05-26 14:25:48,815 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:25:48,815 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:25:48,824 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:25:48,835 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:25:48,845 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:25:48,856 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:25:48,867 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:25:49,541 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:25:49,541 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:50,253 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:50,993 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:25:50,993 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:25:51,542 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:53,542 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:55,267 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:25:55,543 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:57,543 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:25:59,544 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:00,269 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:01,545 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:03,545 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:05,290 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:05,546 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:05,668 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:26:06,090 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:26:06,091 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:26:07,547 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:09,547 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:10,303 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:11,548 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:13,548 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:15,305 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:15,549 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:17,549 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:19,550 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:20,315 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:21,008 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:26:21,009 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:26:21,551 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:23,551 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:25,326 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:25,551 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:27,552 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:29,553 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:30,351 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:31,553 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:33,554 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:35,371 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:35,555 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:35,669 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:26:36,030 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:26:36,031 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:26:37,555 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:39,556 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:40,403 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:41,556 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:43,557 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:45,409 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:45,557 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:47,558 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:49,558 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:50,413 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:51,040 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:26:51,040 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:26:51,559 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:53,559 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:55,428 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:26:55,560 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:57,560 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:26:59,561 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:00,438 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:01,561 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:03,562 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:05,495 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:05,563 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:05,669 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:27:06,049 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:27:06,049 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:27:07,563 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:09,564 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:10,528 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:11,564 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:13,565 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:15,537 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:15,565 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:17,566 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:19,567 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:20,549 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:21,017 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:27:21,017 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:27:21,567 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:23,568 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:25,569 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:25,569 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:27,569 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:29,570 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:30,572 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:31,570 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:33,227 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:27:33,228 DEBUG   SenderThread:76361 [sender.py:send():375] send: history
+2023-05-26 14:27:33,228 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:27:33,228 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:27:33,238 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:27:33,272 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:27:33,283 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:27:33,293 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:27:33,319 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:27:33,571 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:27:33,571 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:35,572 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:35,581 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:35,670 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:27:36,020 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:27:36,020 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:27:37,572 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:39,575 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:40,583 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:41,577 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:43,577 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:45,578 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:45,612 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:47,578 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:49,579 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:50,623 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:51,026 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:27:51,026 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:27:51,579 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:53,580 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:55,580 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:55,657 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:27:57,581 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:27:59,581 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:00,664 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:01,582 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:03,582 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:05,583 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:05,670 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:28:05,671 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:06,125 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:28:06,125 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:28:07,584 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:09,584 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:10,676 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:11,585 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:13,585 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:15,586 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:15,678 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:17,586 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:19,587 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:20,680 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:21,079 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:28:21,079 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:28:21,587 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:23,588 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:25,588 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:25,689 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:27,589 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:29,589 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:30,723 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:31,590 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:33,590 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:35,591 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:35,671 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:28:35,728 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:36,038 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:28:36,038 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:28:37,592 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:39,592 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:40,760 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:41,593 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:43,593 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:45,594 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:45,768 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:47,594 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:49,595 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:50,771 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:51,037 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:28:51,037 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:28:51,595 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:53,596 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:55,596 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:55,799 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:28:57,597 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:28:59,598 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:00,807 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:01,598 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:03,599 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:05,600 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:05,671 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:29:05,890 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:06,059 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:29:06,059 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:29:07,600 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:09,601 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:10,922 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:11,601 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:13,602 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:15,602 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:15,944 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:17,603 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:19,165 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:29:19,166 DEBUG   SenderThread:76361 [sender.py:send():375] send: history
+2023-05-26 14:29:19,166 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:29:19,167 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:29:19,176 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:29:19,197 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:29:19,223 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:29:19,239 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:29:19,250 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:29:19,603 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:29:19,603 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:20,963 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:21,036 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:29:21,036 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:29:21,604 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:23,604 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:25,605 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:25,998 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:27,605 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:29,606 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:31,016 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:31,606 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:33,607 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:35,608 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:35,671 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:29:36,036 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:36,067 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:29:36,067 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:29:37,609 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:39,609 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:41,040 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:41,610 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:43,610 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:45,611 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:46,044 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:47,611 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:49,652 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:51,058 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:51,074 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:29:51,074 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:29:51,652 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:53,653 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:55,654 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:56,066 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:29:57,654 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:29:59,655 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:01,072 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:01,655 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:03,656 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:05,656 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:05,672 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:30:06,080 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:30:06,080 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:30:06,168 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:07,657 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:09,657 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:11,173 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:11,658 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:13,659 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:15,659 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:16,201 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:17,660 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:19,660 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:21,086 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:30:21,087 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:30:21,202 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:21,661 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:23,661 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:25,662 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:26,204 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:27,662 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:29,663 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:31,219 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:31,663 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:33,664 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:35,664 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:35,672 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:30:36,128 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:30:36,128 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:30:36,226 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:37,665 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:39,666 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:41,235 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:41,666 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:43,667 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:45,668 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:46,241 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:47,668 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:49,669 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:51,094 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:30:51,094 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:30:51,246 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:51,669 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:53,670 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:55,670 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:56,283 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:30:57,671 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:30:59,671 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:01,294 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:01,672 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:02,453 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:31:02,454 DEBUG   SenderThread:76361 [sender.py:send():375] send: history
+2023-05-26 14:31:02,454 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:31:02,454 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:31:02,464 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:31:02,474 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:31:02,485 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:31:02,501 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:31:02,512 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:31:02,672 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:31:03,672 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:05,673 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:31:05,674 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:06,109 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:31:06,109 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:31:06,305 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:07,674 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:09,675 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:11,308 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:11,675 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:13,676 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:15,677 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:16,320 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:17,677 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:19,678 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:21,134 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:31:21,134 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:31:21,335 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:21,678 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:23,679 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:25,679 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:26,335 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:27,680 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:29,680 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:31,342 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:31,681 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:33,681 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:35,673 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:31:35,682 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:36,157 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:31:36,157 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:31:36,349 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:37,682 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:39,683 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:41,361 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:41,683 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:43,684 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:45,684 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:46,376 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:47,685 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:49,686 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:51,122 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:31:51,122 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:31:51,376 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:51,687 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:53,687 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:55,688 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:56,381 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:31:57,688 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:31:59,689 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:01,392 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:01,689 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:03,690 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:05,674 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:32:05,692 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:06,144 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:32:06,144 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:32:06,417 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:07,692 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:09,693 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:11,433 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:11,694 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:13,694 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:15,695 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:16,450 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:17,695 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:19,696 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:21,126 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:32:21,126 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:32:21,454 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:21,697 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:23,697 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:25,698 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:26,468 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:27,698 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:29,699 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:31,507 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:31,699 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:33,700 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:35,674 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:32:35,700 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:36,150 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:32:36,150 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:32:36,515 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:37,701 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:39,701 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:41,530 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:41,702 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:43,702 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:45,703 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:45,810 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:32:45,810 DEBUG   SenderThread:76361 [sender.py:send():375] send: history
+2023-05-26 14:32:45,810 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:32:45,811 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:32:45,821 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:32:45,841 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:32:45,852 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:32:45,863 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:32:45,873 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-26 14:32:46,562 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:46,703 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:32:47,704 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:49,704 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:51,209 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:32:51,210 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:32:51,565 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:51,705 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:53,705 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:55,706 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:56,616 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:32:57,706 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:32:59,707 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:01,621 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:01,707 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:03,708 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:05,675 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:33:05,709 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:06,142 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:33:06,143 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:33:06,639 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:07,709 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:09,710 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:11,655 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:11,710 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:13,711 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:15,711 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:16,666 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:17,712 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:19,713 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:21,194 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:33:21,195 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:33:21,670 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:21,714 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:23,714 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:25,715 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:26,695 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:27,715 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:29,716 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:31,697 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:31,716 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:33,717 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:35,675 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:33:35,717 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:36,144 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:33:36,144 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:33:36,755 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:37,718 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:39,718 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:41,719 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:41,768 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:43,720 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:45,720 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:46,803 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:47,721 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:49,722 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:51,158 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:33:51,158 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:33:51,722 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:51,810 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:53,723 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:55,723 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:56,818 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:33:57,724 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:33:59,724 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:01,725 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:01,836 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:34:03,726 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:05,676 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:34:05,726 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:06,178 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:34:06,179 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:34:06,849 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:34:07,727 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:09,727 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:11,728 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:11,864 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:34:13,728 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:15,729 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:16,901 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:34:17,729 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:19,730 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:21,221 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:34:21,222 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:34:21,730 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:21,920 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:34:23,731 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:25,731 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:26,924 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:34:27,732 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:29,732 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:31,733 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:32,520 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:34:33,733 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:35,676 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:34:35,734 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:36,226 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-26 14:34:36,226 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: stop_status
+2023-05-26 14:34:38,292 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:34:42,288 DEBUG   SenderThread:76361 [sender.py:send():375] send: exit
+2023-05-26 14:34:42,288 INFO    SenderThread:76361 [sender.py:send_exit():598] handling exit code: 1
+2023-05-26 14:34:42,288 INFO    SenderThread:76361 [sender.py:send_exit():600] handling runtime: 1056
+2023-05-26 14:34:42,288 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:34:42,288 INFO    SenderThread:76361 [sender.py:send_exit():606] send defer
+2023-05-26 14:34:42,288 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:42,288 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-26 14:34:42,289 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:42,289 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-26 14:34:42,289 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 1
+2023-05-26 14:34:42,289 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:42,289 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-26 14:34:42,289 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:42,289 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-26 14:34:42,289 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 2
+2023-05-26 14:34:42,289 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:42,289 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-26 14:34:42,289 INFO    HandlerThread:76361 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-26 14:34:42,289 DEBUG   SystemMonitor:76361 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-26 14:34:42,290 DEBUG   SystemMonitor:76361 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-26 14:34:42,290 INFO    HandlerThread:76361 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-26 14:34:42,290 INFO    HandlerThread:76361 [interfaces.py:finish():202] Joined disk monitor
+2023-05-26 14:34:42,333 INFO    HandlerThread:76361 [interfaces.py:finish():202] Joined gpu monitor
+2023-05-26 14:34:42,334 INFO    HandlerThread:76361 [interfaces.py:finish():202] Joined memory monitor
+2023-05-26 14:34:42,334 INFO    HandlerThread:76361 [interfaces.py:finish():202] Joined network monitor
+2023-05-26 14:34:42,334 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:42,334 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-26 14:34:42,334 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 3
+2023-05-26 14:34:42,334 DEBUG   SenderThread:76361 [sender.py:send():375] send: stats
+2023-05-26 14:34:42,335 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:42,335 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-26 14:34:42,335 DEBUG   SenderThread:76361 [sender.py:send():375] send: history
+2023-05-26 14:34:42,335 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: summary_record
+2023-05-26 14:34:42,336 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:34:42,336 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:42,336 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-26 14:34:42,336 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 4
+2023-05-26 14:34:42,336 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:42,336 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-26 14:34:42,336 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:42,336 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-26 14:34:42,336 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 5
+2023-05-26 14:34:42,336 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:42,336 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-26 14:34:42,336 DEBUG   SenderThread:76361 [sender.py:send():375] send: summary
+2023-05-26 14:34:42,337 INFO    SenderThread:76361 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-26 14:34:42,337 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:42,337 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-26 14:34:42,337 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 6
+2023-05-26 14:34:42,337 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:42,337 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-26 14:34:42,337 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:42,337 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-26 14:34:42,337 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 7
+2023-05-26 14:34:42,337 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: status_report
+2023-05-26 14:34:42,337 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:42,337 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-26 14:34:42,337 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:42,337 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-26 14:34:42,736 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:34:43,288 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-26 14:34:43,406 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 8
+2023-05-26 14:34:43,407 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: poll_exit
+2023-05-26 14:34:43,407 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:43,407 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-26 14:34:43,407 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:43,407 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-26 14:34:43,413 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 9
+2023-05-26 14:34:43,414 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:43,414 DEBUG   SenderThread:76361 [sender.py:send():375] send: artifact
+2023-05-26 14:34:43,414 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-26 14:34:43,736 INFO    Thread-12 :76361 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:43,861 INFO    SenderThread:76361 [sender.py:send_artifact():1474] sent artifact job-https___github.com_ttopeor_RLproject.git_train_finetuning.py - {'id': 'QXJ0aWZhY3Q6NDY3NDU3Mjc3', 'digest': 'b6d09e3bc4fea1e9d6befc867287927c', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_ttopeor_RLproject.git_train_finetuning.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_ttopeor_RLproject.git_train_finetuning.py', 'alias': 'v5'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMjM4NzI4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDY3NDU3Mjc3', 'versionIndex': 5}}, 'version': 'v5'}
+2023-05-26 14:34:43,861 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:43,861 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-26 14:34:43,861 INFO    SenderThread:76361 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-26 14:34:44,288 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-26 14:34:44,737 INFO    SenderThread:76361 [dir_watcher.py:finish():395] scan: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files
+2023-05-26 14:34:44,737 INFO    SenderThread:76361 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/conda-environment.yaml conda-environment.yaml
+2023-05-26 14:34:44,738 INFO    SenderThread:76361 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json wandb-summary.json
+2023-05-26 14:34:44,738 INFO    SenderThread:76361 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-metadata.json wandb-metadata.json
+2023-05-26 14:34:44,738 INFO    SenderThread:76361 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/config.yaml config.yaml
+2023-05-26 14:34:44,738 INFO    SenderThread:76361 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/requirements.txt requirements.txt
+2023-05-26 14:34:44,746 INFO    SenderThread:76361 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log output.log
+2023-05-26 14:34:44,747 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 10
+2023-05-26 14:34:44,747 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: poll_exit
+2023-05-26 14:34:44,748 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:44,753 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-26 14:34:44,758 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:44,758 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-26 14:34:44,758 INFO    SenderThread:76361 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-26 14:34:45,149 INFO    wandb-upload_0:76361 [upload_job.py:push():137] Uploaded file /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/wandb-summary.json
+2023-05-26 14:34:45,171 INFO    wandb-upload_1:76361 [upload_job.py:push():137] Uploaded file /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/config.yaml
+2023-05-26 14:34:45,196 INFO    wandb-upload_2:76361 [upload_job.py:push():137] Uploaded file /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/requirements.txt
+2023-05-26 14:34:45,208 INFO    wandb-upload_3:76361 [upload_job.py:push():137] Uploaded file /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/files/output.log
+2023-05-26 14:34:45,289 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-26 14:34:45,290 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: poll_exit
+2023-05-26 14:34:45,409 INFO    Thread-11 :76361 [sender.py:transition_state():626] send defer: 11
+2023-05-26 14:34:45,409 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:45,410 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-26 14:34:45,410 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:45,410 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-26 14:34:45,410 INFO    SenderThread:76361 [file_pusher.py:join():172] waiting for file pusher
+2023-05-26 14:34:45,411 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 12
+2023-05-26 14:34:45,411 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:45,411 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-26 14:34:45,411 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:45,412 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-26 14:34:45,698 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 13
+2023-05-26 14:34:45,699 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:45,699 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-26 14:34:45,699 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:45,699 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-26 14:34:45,700 INFO    SenderThread:76361 [sender.py:transition_state():626] send defer: 14
+2023-05-26 14:34:45,700 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: defer
+2023-05-26 14:34:45,700 INFO    HandlerThread:76361 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-26 14:34:45,701 DEBUG   SenderThread:76361 [sender.py:send():375] send: final
+2023-05-26 14:34:45,701 DEBUG   SenderThread:76361 [sender.py:send():375] send: footer
+2023-05-26 14:34:45,701 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: defer
+2023-05-26 14:34:45,701 INFO    SenderThread:76361 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-26 14:34:45,702 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-26 14:34:45,703 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-26 14:34:45,703 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: poll_exit
+2023-05-26 14:34:45,704 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: poll_exit
+2023-05-26 14:34:45,704 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: server_info
+2023-05-26 14:34:45,705 DEBUG   SenderThread:76361 [sender.py:send_request():402] send_request: server_info
+2023-05-26 14:34:45,710 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-26 14:34:45,711 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-26 14:34:45,772 INFO    MainThread:76361 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-05-26 14:34:45,772 INFO    MainThread:76361 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-05-26 14:34:45,773 INFO    MainThread:76361 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-05-26 14:34:45,773 DEBUG   HandlerThread:76361 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-26 14:34:45,773 INFO    HandlerThread:76361 [handler.py:finish():842] shutting down handler
+2023-05-26 14:34:46,705 INFO    WriterThread:76361 [datastore.py:close():298] close: /home/howard/RLproject/wandb/run-20230526_141705-4r08mqt5/run-4r08mqt5.wandb
+2023-05-26 14:34:46,771 INFO    SenderThread:76361 [sender.py:finish():1550] shutting down sender
+2023-05-26 14:34:46,772 INFO    SenderThread:76361 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-26 14:34:46,772 INFO    SenderThread:76361 [file_pusher.py:join():172] waiting for file pusher

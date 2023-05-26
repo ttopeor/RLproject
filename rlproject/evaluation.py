@@ -3,7 +3,7 @@ from typing import Dict
 import gym
 import numpy as np
 
-from rlpd.wrappers.wandb_video import WANDBVideo
+from rlproject.wrappers.wandb_video import WANDBVideo
 
 
 def evaluate(
