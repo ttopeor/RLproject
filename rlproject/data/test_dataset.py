@@ -1,10 +1,16 @@
-import d4rl
-import gym
+# import d4rl
+# import gym
 import numpy as np
-from d4rl_datasets import D4RLDataset
+from wings_datasets import WingsDataset
 
-env = gym.make("halfcheetah-expert-v2")
+path = "/home/howard/rlpd/data_test/data.json"
 
-ds = D4RLDataset(env)
-
+ds = WingsDataset(path)
 print(type(ds))
+print(ds)
+
+
+sample_ds = ds.sample(1)
+
+print(type(sample_ds))
+print(sample_ds)
