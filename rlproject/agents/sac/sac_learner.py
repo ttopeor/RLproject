@@ -12,10 +12,10 @@ from flax import struct
 from flax.training.train_state import TrainState
 
 from rlproject.agents.agent import Agent
-from rlpd.agents.sac.temperature import Temperature
-from rlpd.data.dataset import DatasetDict
-from rlpd.distributions import TanhNormal
-from rlpd.networks import (
+from rlproject.agents.sac.temperature import Temperature
+from rlproject.data.dataset import DatasetDict
+from rlproject.distributions import TanhNormal
+from rlproject.networks import (
     MLP,
     Ensemble,
     MLPResNetV2,
