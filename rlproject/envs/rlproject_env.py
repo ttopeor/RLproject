@@ -2,6 +2,7 @@ import gym
 from gym import error, spaces, utils
 import numpy as np
 from rlproject.toolkits.communication import *
+from rlproject.toolkits.reward import cal_reward
 import random
 
 class RLprojectEnv(gym.Env):
@@ -32,11 +33,15 @@ class RLprojectEnv(gym.Env):
         
     def step(self, action):
         
+        # take action
         self.Env.robot.action(action[0], action[1], action[2])
-
+        
         # get state
-
+        x, y, yaw, xc, yc = self.Env.get_state()
+        
         # get reward
+        reward = cal_reward(x, y, yaw, xc, yc, 0, 0)
+        
         
         observation = [random.random() for _ in range(5)]
         reward = round(random.uniform(0, 1000), 2)
