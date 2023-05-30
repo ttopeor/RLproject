@@ -3,6 +3,7 @@ from gym import error, spaces, utils
 import numpy as np
 from rlproject.toolkits.communication import *
 from rlproject.toolkits.reward import cal_reward
+from rlproject.toolkits.stage import stage_update
 import random
 
 class RLprojectEnv(gym.Env):
@@ -37,14 +38,21 @@ class RLprojectEnv(gym.Env):
         self.Env.robot.action(action[0], action[1], action[2])
         
         # get state
-        x, y, yaw, xc, yc = self.Env.get_state()
-        
+        state = self.Env.get_state()
+
+        #get stage
+        state, current_goal, current_stage = stage_update(state)
+
         # get reward
-        reward = cal_reward(x, y, yaw, xc, yc, 0, 0)
+        reward = cal_reward(state, current_goal)
         
         
-        observation = [random.random() for _ in range(5)]
-        reward = round(random.uniform(0, 1000), 2)
+        # observation = [random.random() for _ in range(5)]
+        # reward = round(random.uniform(0, 1000), 2)
+        # done = False
+        # info = None #not sure about this one. Assign None temporaly
+
+        observation = state
         done = False
         info = None #not sure about this one. Assign None temporaly
         
