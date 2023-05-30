@@ -1,10 +1,13 @@
 import numpy as np
 
-def cal_reward(x, y, yaw, xc, yc, gaol_x, goal_y):
-    # x, y, yaw, xc, yc = state 
+def cal_reward(state, goal):
+
+    #extract data from the input param
+    x, y, yaw, xc, yc = state 
+    goal_x, goal_y = goal
     
     dist_robot2cube = np.sqrt((x - xc)**2 + (y - yc)**2)
-    dist_cube2goal = np.sqrt((xc - gaol_x)**2 + (yc - goal_y)**2)
+    dist_cube2goal = np.sqrt((xc - goal_x)**2 + (yc - goal_y)**2)
     
     reward = 0
     
