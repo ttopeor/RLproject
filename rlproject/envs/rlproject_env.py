@@ -12,7 +12,7 @@ class RLprojectEnv(gym.Env):
         
         # robot handling
         robot_url = "ws://localhost:8080/api/ws"
-        cam_port = 0
+        cam_port = 4
         # k = "calibration_matrix.npy"
         k = "/home/howard/RLproject/rlproject/toolkits/calibration_matrix.npy"
         # d = "distortion_coefficients.npy"

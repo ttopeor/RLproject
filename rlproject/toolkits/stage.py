@@ -1,8 +1,9 @@
 import numpy as np
+import random
 
 #define the goal and goal threshold
-goal_1 = []
-goal_2 = []
+goal_1 = [1.0,1.0]
+goal_2 = [10.0,10.0]
 threshold = 0.5
 
 previous_stage = None #initially none
@@ -16,6 +17,13 @@ def dist_cube_to_goal(xc, yc, goal):
 
 
 def stage_update(state):
+    print("state: ", state)
+
+    #check if the state is None
+    if any(element is None for element in state):
+        print("error from stage.py - No state yet")
+        print("using fake random state ")
+        state = [random.random() for _ in range(5)]
 
     #get the cube location from the state data
     xc = state[3]
@@ -23,6 +31,10 @@ def stage_update(state):
 
     #make the previous_stage global variable so that it can memorize
     global previous_stage
+
+    if previous_stage == None:
+        current_goal = goal_1
+        current_stage = 1
 
     if previous_stage is not None:
         if previous_stage == 1: # the cube is moving toward goal_1
@@ -50,8 +62,8 @@ def stage_update(state):
             print("error from stage.py - stage is nither 1 nor 2")
             pass
 
-    else:
-        current_stage = 1 #set the stage to 1 initially
+    # else:
+    #     current_stage = 1 #set the stage to 1 initially
 
     #update the global variable
     previous_stage = current_stage

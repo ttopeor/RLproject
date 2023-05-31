@@ -1,0 +1,24 @@
+E0530 14:53:18.459151 139656221943552 _logging.py:64] [Errno 111] Connection refused - goodbye
+E0530 14:53:18.459652 139656221943552 _logging.py:64] error from callback <bound method Robot.on_close of <rlproject.toolkits.communication.Robot object at 0x7f044c490d90>>: on_close() takes 2 positional arguments but 4 were given
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 248, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 114, in main
+    ds = WingsDataset(path) #change to our own dataset
+  File "/home/howard/RLproject/rlproject/data/wings_datasets.py", line 11, in __init__
+    with open(file_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/howard/rlproject/data/data.json'
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

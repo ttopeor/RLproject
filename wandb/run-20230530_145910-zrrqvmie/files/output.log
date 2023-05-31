@@ -1,0 +1,359 @@
+E0530 14:59:13.948811 139777965815552 _logging.py:64] [Errno 111] Connection refused - goodbye
+E0530 14:59:13.949297 139777965815552 _logging.py:64] error from callback <bound method Robot.on_close of <rlproject.toolkits.communication.Robot object at 0x7f20acc46eb0>>: on_close() takes 2 positional arguments but 4 were given
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0530 14:59:16.501201 139779760109120 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0530 14:59:16.517576 139779760109120 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0530 14:59:16.528127 139779760109120 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+  0%|                                                                                                                                                      | 0/100 [00:00<?, ?it/s]
+For debug - agent created
+For debug - replay_buffer created
+For debug - pretrain_steps 100
+For debug - in the first for loop
+
+  1%|█▍                                                                                                                                            | 1/100 [00:02<04:45,  2.88s/it]
+For debug - agent updated
+For debug - in the first for loop
+
+  2%|██▊                                                                                                                                           | 2/100 [00:04<03:53,  2.38s/it]
+For debug - agent updated
+For debug - in the first for loop
+
+ 20%|████████████████████████████▏                                                                                                                | 20/100 [00:08<00:18,  4.35it/s]
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+
+ 37%|████████████████████████████████████████████████████▏                                                                                        | 37/100 [00:10<00:08,  7.16it/s]
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+
+ 54%|████████████████████████████████████████████████████████████████████████████▏                                                                | 54/100 [00:12<00:06,  7.66it/s]
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+
+ 72%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌                                       | 72/100 [00:14<00:03,  8.50it/s]
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+
+For debug - agent updatedfor loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updatedfor loop
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:17<00:00,  5.74it/s]
+  0%|                                                                                                                                                  | 0/1000001 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 248, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 176, in main
+    next_observation, reward, done, info = env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/record_episode_statistics.py", line 26, in step
+    observations, rewards, dones, infos = super(RecordEpisodeStatistics, self).step(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 289, in step
+    return self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 289, in step
+    return self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 323, in step
+    observation, reward, done, info = self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/order_enforcing.py", line 11, in step
+    observation, reward, done, info = self.env.step(action)
+  File "/home/howard/RLproject/rlproject/envs/rlproject_env.py", line 47, in step
+    reward = cal_reward(state, current_goal)
+  File "/home/howard/RLproject/rlproject/toolkits/reward.py", line 7, in cal_reward
+    goal_x, goal_y = goal
+ValueError: not enough values to unpack (expected 2, got 0)
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - first for loop ended
+CustomEnv Environment reset
+For debug - env reset
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

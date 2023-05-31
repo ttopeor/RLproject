@@ -1,0 +1,1921 @@
+E0530 15:18:18.352108 139748545484544 _logging.py:64] [Errno 111] Connection refused - goodbye
+E0530 15:18:18.352662 139748545484544 _logging.py:64] error from callback <bound method Robot.on_close of <rlproject.toolkits.communication.Robot object at 0x7f19bf158eb0>>: on_close() takes 2 positional arguments but 4 were given
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0530 15:18:21.005135 139750002644544 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0530 15:18:21.046786 139750002644544 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0530 15:18:21.052179 139750002644544 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - agent created
+For debug - replay_buffer created
+For debug - pretrain_steps 10
+For debug - in the first for loop
+For debug - batch created
+
+ 10%|██████████████▎                                                                                                                                | 1/10 [00:03<00:33,  3.71s/it]
+For debug - agent updated
+For debug - in the first for loop
+
+ 20%|████████████████████████████▌                                                                                                                  | 2/10 [00:05<00:22,  2.81s/it]
+For debug - agent updated
+For debug - in the first for loop
+
+ 90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋              | 9/10 [00:08<00:00,  1.44it/s]
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+For debug - agent updated
+For debug - in the first for loop
+For debug - batch created
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:08<00:00,  1.19it/s]
+  0%|                                                                                                                                       | 35/1000001 [00:01<9:53:18, 28.09it/s]
+For debug - first for loop ended
+CustomEnv Environment reset
+For debug - env reset
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+  0%|                                                                                                                                      | 104/1000001 [00:03<8:51:43, 31.34it/s]
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+
+  0%|                                                                                                                                     | 134/1000001 [00:05<13:35:26, 20.44it/s]
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:
+
+  0%|                                                                                                                                     | 233/1000001 [00:09<13:05:26, 21.21it/s]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+  0%|                                                                                                                                     | 264/1000001 [00:11<16:26:25, 16.89it/s]
+
+using fake random state None, None]e yet
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|                                                                                                                                     | 331/1000001 [00:15<17:17:07, 16.06it/s]
+
+  0%|                                                                                                                                     | 361/1000001 [00:17<19:17:30, 14.39it/s]
+
+  0%|                                                                                                                                     | 392/1000001 [00:19<18:36:05, 14.93it/s]
+
+  0%|                                                                                                                                     | 419/1000001 [00:21<20:25:12, 13.60it/s]
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:
+
+  0%|                                                                                                                                     | 500/1000001 [00:25<13:05:10, 21.22it/s]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+using fake random state None, None]e yet
+state:  [0, 0.221, -90, None, None]
+
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|                                                                                                                                     | 611/1000001 [00:31<16:44:11, 16.59it/s]
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+
+  0%|                                                                                                                                     | 722/1000001 [00:37<16:39:04, 16.67it/s]
+
+  0%|                                                                                                                                     | 746/1000001 [00:39<20:55:35, 13.26it/s]
+
+using fake random state  robot state yet
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+  0%|                                                                                                                                     | 815/1000001 [00:43<15:26:04, 17.98it/s]
+
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+  0%|▏                                                                                                                                     | 937/1000001 [00:47<7:24:42, 37.44it/s]
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+
+  0%|▏                                                                                                                                   | 1045/1000001 [00:53<14:44:18, 18.83it/s]
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+error from stage.py - No robot state yet
+using fake random state
+state:
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+using fake random state None, None]e yet
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▏                                                                                                                                   | 1221/1000001 [01:03<16:17:23, 17.03it/s]
+
+  0%|▏                                                                                                                                   | 1250/1000001 [01:05<16:58:03, 16.35it/s]
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▏                                                                                                                                   | 1349/1000001 [01:09<11:03:18, 25.09it/s]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+  0%|▏                                                                                                                                   | 1390/1000001 [01:11<12:51:47, 21.56it/s]
+
+  0%|▏                                                                                                                                   | 1424/1000001 [01:13<14:59:18, 18.51it/s]
+
+error from stage.py - No robot state yet
+using fake random state
+
+using fake random state  robot state yet
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▏                                                                                                                                   | 1585/1000001 [01:21<13:02:38, 21.26it/s]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▏                                                                                                                                   | 1618/1000001 [01:23<14:38:22, 18.94it/s]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▏                                                                                                                                   | 1630/1000001 [01:24<16:19:48, 16.98it/s]
+
+  0%|▏                                                                                                                                   | 1684/1000001 [01:27<15:26:01, 17.97it/s]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+using fake random state None, None]e yet
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:
+
+  0%|▏                                                                                                                                   | 1802/1000001 [01:33<15:48:42, 17.54it/s]
+
+using fake random state None, None]e yet
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+
+  0%|▏                                                                                                                                   | 1870/1000001 [01:37<16:29:54, 16.81it/s]
+
+  0%|▎                                                                                                                                   | 1896/1000001 [01:39<18:43:29, 14.81it/s]
+
+  0%|▎                                                                                                                                   | 1929/1000001 [01:41<18:31:49, 14.96it/s]
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▎                                                                                                                                   | 2036/1000001 [01:47<16:04:43, 17.24it/s]
+
+  0%|▎                                                                                                                                   | 2069/1000001 [01:49<17:45:14, 15.61it/s]
+
+  0%|▎                                                                                                                                   | 2096/1000001 [01:51<18:59:52, 14.59it/s]
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▎                                                                                                                                   | 2181/1000001 [01:55<14:31:56, 19.07it/s]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+
+  0%|▎                                                                                                                                   | 2217/1000001 [01:57<15:36:35, 17.76it/s]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+  0%|▎                                                                                                                                   | 2250/1000001 [01:59<17:02:15, 16.27it/s]
+
+  0%|▎                                                                                                                                   | 2283/1000001 [02:01<16:55:33, 16.37it/s]
+
+  0%|▎                                                                                                                                   | 2313/1000001 [02:03<17:49:17, 15.55it/s]
+
+  0%|▎                                                                                                                                   | 2352/1000001 [02:05<14:49:11, 18.70it/s]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▎                                                                                                                                   | 2384/1000001 [02:07<17:10:46, 16.13it/s]
+
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▎                                                                                                                                   | 2488/1000001 [02:13<17:36:16, 15.74it/s]
+
+  0%|▎                                                                                                                                   | 2512/1000001 [02:15<21:12:39, 13.06it/s]
+
+error from stage.py - No robot state yet
+
+  0%|▎                                                                                                                                   | 2578/1000001 [02:19<16:37:55, 16.66it/s]
+using fake random state
+state:
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▎                                                                                                                                   | 2662/1000001 [02:23<15:34:02, 17.80it/s]
+
+  0%|▎                                                                                                                                   | 2691/1000001 [02:25<17:49:04, 15.55it/s]
+
+using fake random state None, None]e yet
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▎                                                                                                                                   | 2820/1000001 [02:31<14:17:30, 19.38it/s]
+
+state:  [0, 0.221, -90, None, None]e yet
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+
+  0%|▍                                                                                                                                   | 2887/1000001 [02:35<13:54:25, 19.92it/s]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:  [0, 0.221, -90, None, None]
+error from stage.py - No robot state yet
+using fake random state
+state:
+
+  0%|▍                                                                                                                                   | 2912/1000001 [02:37<18:26:15, 15.02it/s]
+
+  0%|▍                                                                                                                                   | 2942/1000001 [02:39<15:00:53, 18.45it/s]
+state:  [0, 0.221, -90, None, None]e yet
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 248, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 176, in main
+    next_observation, reward, done, info = env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/record_episode_statistics.py", line 26, in step
+    observations, rewards, dones, infos = super(RecordEpisodeStatistics, self).step(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 289, in step
+    return self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 289, in step
+    return self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 323, in step
+    observation, reward, done, info = self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/order_enforcing.py", line 11, in step
+    observation, reward, done, info = self.env.step(action)
+  File "/home/howard/RLproject/rlproject/envs/rlproject_env.py", line 44, in step
+    state, current_goal, current_stage = stage_update(state)
+  File "/home/howard/RLproject/rlproject/toolkits/stage.py", line 20, in stage_update
+    print("state: ", state)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 643, in write
+    cb(data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2082, in <lambda>
+    lambda data: self._console_raw_callback("stdout", data),
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 345, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1428, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 657, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 79, in _publish_output_raw
+    self._publish(rec)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

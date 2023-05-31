@@ -1,0 +1,135 @@
+
+I0530 17:56:56.965800 140191571642112 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - action_dim = 3
+For debug - observation_space = Box([-10. -10. -10. -10. -10.], [10. 10. 10. 10. 10.], (5,), float32)
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0530 17:56:59.532414 140193028802112 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: CUDA Interpreter Host
+I0530 17:56:59.550108 140193028802112 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0530 17:56:59.552346 140193028802112 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - x =  [-2.5171325  -0.31322896  8.415417   -0.36109042  1.1218832 ] (5,)
+For debug - x =  [-2.5171325  -0.31322896  8.415417   -0.36109042  1.1218832   0.29404205
+  0.80143553  0.20960325] (8,)
+For debug - agent created
+For debug - replay_buffer created
+For debug - pretrain_steps 0
+For debug - first for loop ended
+CustomEnv Environment reset
+For debug - env reset
+action:  -40.48242607321363 2.130644027053974 7.142386279876312
+state:  [-0.001518090977745511, 7.989915101452402e-05, 0.2678394854953617, None, None]
+error from stage.py - No state yet
+using fake random state
+For debug - replay_buffer inserted
+action:  -37.22915197366786 0.29179969947356055 -49.49927883793575
+state:  [-0.004513607006992212, 0.00021671189894881693, 0.09549764251343429, None, None]
+error from stage.py - No state yet
+using fake random state
+For debug - replay_buffer inserted
+action:  14.1271412477451 27.303540459703846 26.30550787081227
+state:  [-0.004272614344275803, 0.001585536418177429, 0.792032050579851, None, None]
+error from stage.py - No state yet
+using fake random state
+For debug - replay_buffer inserted
+action:  -24.082111228306445 23.777886229697685 23.445935057412946
+state:  [-0.004043872937839192, 0.0029066427632875444, 2.071562783952973, None, None]
+error from stage.py - No state yet
+using fake random state
+For debug - replay_buffer inserted
+action:  12.8043308380399 8.036866284241938 -31.003253086987026
+0it [00:00, ?it/s]
+ 36%|██████████████████████████████████████████████████████████████████████████████▏                                                                                                                                        | 4/11 [00:00<00:00, 13.69it/s]
+state:  [-0.004908788347706349, 0.004794603966855746, 1.9867710706919297, None, None]
+error from stage.py - No state yet
+using fake random state
+For debug - replay_buffer inserted
+ 45%|█████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                                     | 5/11 [00:02<00:03,  1.84it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 251, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 176, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 208, in cache_miss
+    outs, out_flat, out_tree, args_flat = _python_pjit_helper(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 150, in _python_pjit_helper
+    args_flat, _, params, in_tree, out_tree, _ = infer_params_fn(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api.py", line 301, in infer_params
+    return pjit.common_infer_params(pjit_info_args, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 474, in common_infer_params
+    jaxpr, consts, canonicalized_out_shardings_flat = _pjit_jaxpr(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 935, in _pjit_jaxpr
+    jaxpr, final_consts, out_type = _create_pjit_jaxpr(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/linear_util.py", line 345, in memoized_fun
+    ans = call(fun, *args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 888, in _create_pjit_jaxpr
+    jaxpr, global_out_avals, consts = pe.trace_to_jaxpr_dynamic(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/interpreters/partial_eval.py", line 2150, in trace_to_jaxpr_dynamic
+    jaxpr, out_avals, consts = trace_to_subjaxpr_dynamic(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/interpreters/partial_eval.py", line 2172, in trace_to_subjaxpr_dynamic
+    ans = fun.call_wrapped(*in_tracers_)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/linear_util.py", line 188, in call_wrapped
+    ans = self.f(*args, **dict(self.params, **kwargs))
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 15, in _sample_actions
+    dist = apply_fn({"params": params}, observations)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 1489, in apply
+    return apply(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/core/scope.py", line 933, in wrapper
+    y = fn(root, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 2060, in scope_fn
+    return fn(module.clone(parent=scope), *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 432, in wrapped_module_method
+    return self._call_wrapped_method(fun, args, kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 864, in _call_wrapped_method
+    y = fun(self, *args, **kwargs)
+  File "/home/howard/RLproject/rlproject/distributions/tanh_normal.py", line 27, in __call__
+    x = self.base_cls()(inputs, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 432, in wrapped_module_method
+    return self._call_wrapped_method(fun, args, kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 864, in _call_wrapped_method
+    y = fun(self, *args, **kwargs)
+  File "/home/howard/RLproject/rlproject/networks/mlp.py", line 21, in __call__
+    print("For debug - x = ", x, x.shape) #delete me"
+jax._src.traceback_util.UnfilteredStackTrace: AttributeError: 'NoneType' object has no attribute 'shape'
+The stack trace below excludes JAX-internal frames.
+The preceding is the original exception that occurred, unmodified.
+--------------------
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 251, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 176, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 15, in _sample_actions
+    dist = apply_fn({"params": params}, observations)
+  File "/home/howard/RLproject/rlproject/distributions/tanh_normal.py", line 27, in __call__
+    x = self.base_cls()(inputs, *args, **kwargs)
+  File "/home/howard/RLproject/rlproject/networks/mlp.py", line 21, in __call__
+    print("For debug - x = ", x, x.shape) #delete me"
+AttributeError: 'NoneType' object has no attribute 'shape'
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

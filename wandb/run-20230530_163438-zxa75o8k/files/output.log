@@ -1,0 +1,68 @@
+
+I0530 16:34:42.037901 140135216957184 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0530 16:34:44.527946 140136674133568 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0530 16:34:44.530894 140136674133568 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0530 16:34:44.531154 140136674133568 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+0it [00:00, ?it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 11/11 [00:00<00:00, 38.45it/s]
+For debug - agent created
+For debug - replay_buffer created
+For debug - pretrain_steps 0
+For debug - first for loop ended
+CustomEnv Environment reset
+For debug - env reset
+action:  22.627403606193532 -13.192391651065915 24.252699292357683
+state:  [0.0005656850901548384, 0, 0.6063174823089421, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  3.7472684686906677 28.824830662747303 -27.956292489502633
+state:  [0.0005656850901548384, 0, 0.6063174823089421, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  -22.858793052663952 34.92171767096621 -20.971140419952484
+state:  [0.0005656850901548384, 0, 0.6063174823089421, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  6.19764157390188 43.422275191391044 -38.475455773471744
+state:  [0.0007206261295023853, 0.0010855568797847762, -0.35556891202785157, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  -48.47382763978294 -21.622349738207124 -14.366934454998981
+state:  [0.0007206261295023853, 0.0010855568797847762, -0.35556891202785157, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  -42.49563225430267 -9.131257372517855 -3.239400709812268
+state:  [0.00018943072632360194, 0.0010855568797847762, -0.3960614209005049, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  -6.6171453367134925 25.99456554395253 -4.434441169050185
+state:  [0.00010671640961468328, 0.0014104889490841829, -0.4514919355136322, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  2.153250574859933 -34.47667023431532 -19.72930780950557
+state:  [-8.759527614057437e-05, 0.0023852851569824028, -1.1110161745906535, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  45.43706588704223 -25.632120695684215 47.82569997302741
+state:  [-8.759527614057437e-05, 0.0023852851569824028, -1.1110161745906535, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  8.786481265686675 37.696996578657235 47.77475576999345
+state:  [0.00046155980296484284, 0.0047413474431484805, 1.8749060610339372, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  -22.577621177849128 -49.163984698732854 33.40536645918737
+state:  [-0.00027526997538341604, 0.005212559900381696, 3.7247917503783823, None, None]
+error from stage.py - No state yet
+using fake random state
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

@@ -1,0 +1,59 @@
+
+I0530 17:25:55.836148 140555958875904 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0530 17:25:58.398467 140557759907392 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0530 17:25:58.404192 140557759907392 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0530 17:25:58.415964 140557759907392 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+0it [00:00, ?it/s]
+ 45%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                                                              | 5/11 [00:00<00:00, 11.49it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 251, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 175, in main
+    print("For debug - observation", observation, observation.shape) #delete me
+AttributeError: 'NoneType' object has no attribute 'shape'
+For debug - agent created
+For debug - replay_buffer created
+For debug - pretrain_steps 0
+For debug - first for loop ended
+CustomEnv Environment reset
+For debug - env reset
+action:  20.84890150599853 -28.812456414930733 20.2982799874149
+state:  [0.0, 0, 0, None, None]
+error from stage.py - No state yet
+using fake random state
+For debug - replay_buffer inserted
+action:  -18.69450797605372 33.67597620943468 48.54227896899872
+state:  [-0.0007010440491020146, 0.0012628491078538005, 1.8203354613374523, None, None]
+error from stage.py - No state yet
+using fake random state
+For debug - replay_buffer inserted
+action:  -37.206715330680815 45.482344858537985 -20.225010093522535
+state:  [-0.0009347253988026862, 0.001683798810471734, 2.427113948449936, None, None]
+error from stage.py - No state yet
+using fake random state
+For debug - replay_buffer inserted
+action:  45.29226717351445 37.62153452366207 -47.14514253215986
+state:  [-0.0034220208544974862, 0.008211370151694585, -1.6161425320273446, None, None]
+error from stage.py - No state yet
+using fake random state
+For debug - replay_buffer inserted
+action:  -42.66547048900148 23.13430246651177 21.016491946449246
+state:  [-0.004357317782496873, 0.01182751956286607, -2.3971627626516447, None, None]
+error from stage.py - No state yet
+using fake random state
+For debug - replay_buffer inserted
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

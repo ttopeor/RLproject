@@ -169,7 +169,7 @@ class Robot:
         self.x_speed = max(-1, min(1, x_speed))*50
         self.y_speed = max(-1, min(1, y_speed))*50
         self.yaw_speed = max(-1, min(1, yaw_speed))*50
-        # print(self.x_speed, self.y_speed, self.yaw_speed)
+        print("action: ", self.x_speed, self.y_speed, self.yaw_speed)
 
     def start(self):
         self.ws_thread.start()

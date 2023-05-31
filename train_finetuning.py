@@ -110,7 +110,7 @@ def main(_):
         ds = BinaryDataset(env, include_bc_data=FLAGS.binary_include_bc)
     else:
         # ds = D4RLDataset(env)
-        path = "/home/howard/rlpd/data_test/data.json"
+        path = "/home/howard/RLproject/rlproject/data/data.json"
         ds = WingsDataset(path) #change to our own dataset
         print("For debug - ds created") #delete me
 
@@ -172,7 +172,9 @@ def main(_):
         if i < FLAGS.start_training:
             action = env.action_space.sample()
         else:
+            print("For debug - observation", observation, np.shape(observation)) #delete me
             action, agent = agent.sample_actions(observation)
+            
         next_observation, reward, done, info = env.step(action)
 
         if not done or "TimeLimit.truncated" in info:
@@ -190,6 +192,7 @@ def main(_):
                 next_observations=next_observation,
             )
         )
+        print("For debug - replay_buffer inserted") #delete me
         observation = next_observation
 
         if done:

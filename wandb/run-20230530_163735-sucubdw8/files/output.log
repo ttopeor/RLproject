@@ -1,0 +1,132 @@
+
+I0530 16:37:39.154842 140437732202240 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0530 16:37:41.638314 140439189362240 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Host CUDA Interpreter
+I0530 16:37:41.651182 140439189362240 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0530 16:37:41.651736 140439189362240 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+0it [00:00, ?it/s]
+ 36%|████████████████████████████████████████████████████████████████████████████████████▎                                                                                                                                                   | 4/11 [00:00<00:00, 10.98it/s]
+For debug - agent created
+For debug - replay_buffer created
+For debug - pretrain_steps 0
+For debug - first for loop ended
+CustomEnv Environment reset
+For debug - env reset
+action:  -3.9502710795403018 -31.1652061431566 -33.35244283405186
+state:  [-9.875677698850755e-05, 0, -0.8338110708512965, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  -49.35337530290922 44.72789924853552 9.56661290961912
+state:  [-0.0027639390961109837, 0.0022363949624267764, -2.0231025670729337, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  36.37724554193657 -36.463129101494886 -39.98374600998096
+state:  [-0.0023411128235990425, 0.003913691184246859, -4.163338708586027, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  -0.6115628789110983 3.278476238351413 -9.131933421479255
+state:  [-0.0010075442597219763, 0.00407761499616443, -6.119325855034277, None, None]
+error from stage.py - No state yet
+using fake random state
+action:  -22.510294125369544 18.999708766433365 12.636430823335964
+state:  [-0.0013271456162210393, 0.004520016120641811, -6.5321163085850324, None, None]
+error from stage.py - No state yet
+ 45%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                                                              | 5/11 [00:02<00:03,  1.99it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 248, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 175, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 208, in cache_miss
+    outs, out_flat, out_tree, args_flat = _python_pjit_helper(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 150, in _python_pjit_helper
+    args_flat, _, params, in_tree, out_tree, _ = infer_params_fn(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api.py", line 301, in infer_params
+    return pjit.common_infer_params(pjit_info_args, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 474, in common_infer_params
+    jaxpr, consts, canonicalized_out_shardings_flat = _pjit_jaxpr(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 935, in _pjit_jaxpr
+    jaxpr, final_consts, out_type = _create_pjit_jaxpr(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/linear_util.py", line 345, in memoized_fun
+    ans = call(fun, *args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 888, in _create_pjit_jaxpr
+    jaxpr, global_out_avals, consts = pe.trace_to_jaxpr_dynamic(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/interpreters/partial_eval.py", line 2150, in trace_to_jaxpr_dynamic
+    jaxpr, out_avals, consts = trace_to_subjaxpr_dynamic(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/interpreters/partial_eval.py", line 2172, in trace_to_subjaxpr_dynamic
+    ans = fun.call_wrapped(*in_tracers_)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/linear_util.py", line 188, in call_wrapped
+    ans = self.f(*args, **dict(self.params, **kwargs))
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 15, in _sample_actions
+    dist = apply_fn({"params": params}, observations)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 1489, in apply
+    return apply(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/core/scope.py", line 933, in wrapper
+    y = fn(root, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 2060, in scope_fn
+    return fn(module.clone(parent=scope), *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 432, in wrapped_module_method
+    return self._call_wrapped_method(fun, args, kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 864, in _call_wrapped_method
+    y = fun(self, *args, **kwargs)
+  File "/home/howard/RLproject/rlproject/distributions/tanh_normal.py", line 27, in __call__
+    x = self.base_cls()(inputs, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 432, in wrapped_module_method
+    return self._call_wrapped_method(fun, args, kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 864, in _call_wrapped_method
+    y = fun(self, *args, **kwargs)
+  File "/home/howard/RLproject/rlproject/networks/mlp.py", line 25, in __call__
+    x = nn.Dense(size, kernel_init=default_init())(x)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 432, in wrapped_module_method
+    return self._call_wrapped_method(fun, args, kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/module.py", line 864, in _call_wrapped_method
+    y = fun(self, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/linear.py", line 198, in __call__
+    (jnp.shape(inputs)[-1], self.features),
+jax._src.traceback_util.UnfilteredStackTrace: IndexError: tuple index out of range
+The stack trace below excludes JAX-internal frames.
+The preceding is the original exception that occurred, unmodified.
+--------------------
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 248, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 175, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 15, in _sample_actions
+    dist = apply_fn({"params": params}, observations)
+  File "/home/howard/RLproject/rlproject/distributions/tanh_normal.py", line 27, in __call__
+    x = self.base_cls()(inputs, *args, **kwargs)
+  File "/home/howard/RLproject/rlproject/networks/mlp.py", line 25, in __call__
+    x = nn.Dense(size, kernel_init=default_init())(x)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/flax/linen/linear.py", line 198, in __call__
+    (jnp.shape(inputs)[-1], self.features),
+IndexError: tuple index out of range
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

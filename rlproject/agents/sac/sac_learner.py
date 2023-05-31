@@ -72,6 +72,8 @@ class SACLearner(Agent):
         """
 
         action_dim = action_space.shape[-1]
+        print(f"For debug - action_dim = {action_dim}") #delete me
+        print(f"For debug - observation_space = {observation_space}") #delete me
         observations = observation_space.sample()
         actions = action_space.sample()
 
