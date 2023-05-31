@@ -1,0 +1,54 @@
+
+I0530 22:21:38.994851 140525144532736 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - action_dim = 3<class 'int'>
+For debug - observation_space = Box([-10. -10. -10. -10. -10.], [10. 10. 10. 10. 10.], (5,), float32)<class 'gym.spaces.box.Box'>
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0530 22:21:41.498097 140526803256896 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Host Interpreter CUDA
+I0530 22:21:41.533772 140526803256896 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0530 22:21:41.546121 140526803256896 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - x(after nn.Dense) =  (256,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x(after nn.Dense) =  (256,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - agent created
+For debug - replay_buffer created
+For debug - pretrain_steps 0
+For debug - first for loop ended
+For debug - observation(after reset) [0.4421311492571438, 0.1398781727308097, 0.8145787560730289, 0.4042802757658912, 0.6653221088923674] (5,)
+For debug - random action
+0it [00:00, ?it/s]
+  0%|                                                                                                                                                                                                                                | 0/6 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 259, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 186, in main
+    next_observation, reward, done, info = env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/record_episode_statistics.py", line 26, in step
+    observations, rewards, dones, infos = super(RecordEpisodeStatistics, self).step(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 289, in step
+    return self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 289, in step
+    return self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 323, in step
+    observation, reward, done, info = self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/order_enforcing.py", line 10, in step
+    assert self._has_reset, "Cannot call env.step() before calling reset()"
+AssertionError: Cannot call env.step() before calling reset()
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

@@ -26,6 +26,8 @@ try:
 except:
     print("Not loading checkpointing functionality.")
 
+import random
+
 
 
 FLAGS = flags.FLAGS
@@ -131,12 +133,12 @@ def main(_):
     replay_buffer.seed(FLAGS.seed)
     print("For debug - replay_buffer created") #delete me
 
-    print("For debug - pretrain_steps", FLAGS.pretrain_steps)
+    # print("For debug - pretrain_steps", FLAGS.pretrain_steps)
 
     for i in tqdm.tqdm(
         range(0, FLAGS.pretrain_steps), smoothing=0.1, disable=not FLAGS.tqdm
     ):
-        print("For debug - in the first for loop") #delete me
+        # print("For debug - in the first for loop") #delete me
         offline_batch = ds.sample(FLAGS.batch_size * FLAGS.utd_ratio)
         batch = {}
         for k, v in offline_batch.items():
@@ -144,11 +146,11 @@ def main(_):
             if "antmaze" in FLAGS.env_name and k == "rewards":
                 batch[k] -= 1
 
-        print("For debug - batch created") #delete me
+        # print("For debug - batch created") #delete me
 
         agent, update_info = agent.update(batch, FLAGS.utd_ratio)
 
-        print("For debug - agent updated") #delete me
+        # print("For debug - agent updated") #delete me
 
         if i % FLAGS.log_interval == 0:
             for k, v in update_info.items():
@@ -159,11 +161,15 @@ def main(_):
         #     for k, v in eval_info.items():
         #         wandb.log({f"offline-evaluation/{k}": v}, step=i)
 
-    print("For debug - first for loop ended") #delete me
+    # print("For debug - first for loop ended") #delete me
 
     observation, done = env.reset(), False
+    # observation = env.reset()
+    # observation = [random.random() for _ in range(5)]
+    # done = False
+    # print("For debug - observation(after reset)", observation, np.shape(observation), type(observation)) #delete me
 
-    print("For debug - env reset") #delete me
+    # print("For debug - env reset") #delete me
     for i in tqdm.tqdm(
         range(0, FLAGS.max_steps + 1), smoothing=0.1, disable=not FLAGS.tqdm
     ):
@@ -171,11 +177,15 @@ def main(_):
 
         if i < FLAGS.start_training:
             action = env.action_space.sample()
+            # print("For debug - random action ") #delete me
         else:
-            print("For debug - observation", observation, np.shape(observation)) #delete me
+            # print("For debug - observation", observation, np.shape(observation)) #delete me
             action, agent = agent.sample_actions(observation)
+            # print("For debug - sample action") #delete me
             
         next_observation, reward, done, info = env.step(action)
+        # print(next_observation, reward, done, info) #delete me
+        # print("For debug - env step") #delete me
 
         if not done or "TimeLimit.truncated" in info:
             mask = 1.0
@@ -192,7 +202,7 @@ def main(_):
                 next_observations=next_observation,
             )
         )
-        print("For debug - replay_buffer inserted") #delete me
+        # print("For debug - replay_buffer inserted") #delete me
         observation = next_observation
 
         if done:

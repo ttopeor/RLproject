@@ -1,0 +1,102 @@
+
+I0530 21:38:23.844332 139907798771456 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - action_dim = 3<class 'int'>
+For debug - observation_space = Box([-inf -inf -inf -inf -inf], [inf inf inf inf inf], (5,), float32)<class 'gym.spaces.box.Box'>
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0530 21:38:26.353506 139907940337216 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0530 21:38:26.368297 139907940337216 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0530 21:38:26.378873 139907940337216 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 251, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 123, in main
+    agent = globals()[model_cls].create(
+  File "/home/howard/RLproject/rlproject/agents/sac/sac_learner.py", line 83, in create
+    rng = jax.random.PRNGKey(seed)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/random.py", line 137, in PRNGKey
+    key = prng.seed_with_impl(impl, seed)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/prng.py", line 320, in seed_with_impl
+    return random_seed(seed, impl=impl)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/prng.py", line 734, in random_seed
+    return random_seed_p.bind(seeds_arr, impl=impl)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/prng.py", line 746, in random_seed_impl
+    base_arr = random_seed_impl_base(seeds, impl=impl)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/prng.py", line 751, in random_seed_impl_base
+    return seed(seeds)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/prng.py", line 980, in threefry_seed
+    return _threefry_seed(seed)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 208, in cache_miss
+    outs, out_flat, out_tree, args_flat = _python_pjit_helper(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 155, in _python_pjit_helper
+    out_flat = pjit_p.bind(*args_flat, **params)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/core.py", line 2633, in bind
+    return self.bind_with_trace(top_trace, args, params)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/core.py", line 790, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 1085, in _pjit_call_impl
+    compiled = _pjit_lower(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/interpreters/pxla.py", line 2313, in compile
+    executable = UnloadedMeshExecutable.from_hlo(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/interpreters/pxla.py", line 2633, in from_hlo
+    xla_executable, compile_options = _cached_compilation(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/interpreters/pxla.py", line 2551, in _cached_compilation
+    xla_executable = dispatch.compile_or_get_cached(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/dispatch.py", line 495, in compile_or_get_cached
+    return backend_compile(backend, computation, compile_options,
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/dispatch.py", line 463, in backend_compile
+    return backend.compile(built_c, compile_options=options)
+jax._src.traceback_util.UnfilteredStackTrace: jaxlib.xla_extension.XlaRuntimeError: FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+The stack trace below excludes JAX-internal frames.
+The preceding is the original exception that occurred, unmodified.
+--------------------
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 251, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 123, in main
+    agent = globals()[model_cls].create(
+  File "/home/howard/RLproject/rlproject/agents/sac/sac_learner.py", line 83, in create
+    rng = jax.random.PRNGKey(seed)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/random.py", line 137, in PRNGKey
+    key = prng.seed_with_impl(impl, seed)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/prng.py", line 320, in seed_with_impl
+    return random_seed(seed, impl=impl)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/prng.py", line 734, in random_seed
+    return random_seed_p.bind(seeds_arr, impl=impl)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/core.py", line 790, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/prng.py", line 746, in random_seed_impl
+    base_arr = random_seed_impl_base(seeds, impl=impl)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/prng.py", line 751, in random_seed_impl_base
+    return seed(seeds)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/prng.py", line 980, in threefry_seed
+    return _threefry_seed(seed)
+jaxlib.xla_extension.XlaRuntimeError: FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

@@ -1,0 +1,56 @@
+
+I0530 22:43:52.396787 140180535670528 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - action_dim = 3<class 'int'>
+For debug - observation_space = Box([-10. -10. -10. -10. -10.], [10. 10. 10. 10. 10.], (5,), float32)<class 'gym.spaces.box.Box'>
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0530 22:43:54.888877 140181992830528 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0530 22:43:54.901674 140181992830528 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0530 22:43:54.912719 140181992830528 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - x(after nn.Dense) =  (256,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x(after nn.Dense) =  (256,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.batching.BatchTracer'>
+0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 261, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 167, in main
+    observation = env.reset()
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/record_episode_statistics.py", line 20, in reset
+    observations = super(RecordEpisodeStatistics, self).reset(**kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 292, in reset
+    return self.env.reset(**kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 346, in reset
+    return self.env.reset(**kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 346, in reset
+    return self.env.reset(**kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 292, in reset
+    return self.env.reset(**kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 319, in reset
+    observation = self.env.reset(**kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/order_enforcing.py", line 16, in reset
+    return self.env.reset(**kwargs)
+  File "/home/howard/RLproject/rlproject/envs/rlproject_env.py", line 66, in reset
+    state = self.Env.get_state()
+  File "/home/howard/RLproject/rlproject/toolkits/communication.py", line 55, in get_state
+    return np.ndarray([x, y, yaw, xc, yc])
+TypeError: 'float' object cannot be interpreted as an integer
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - agent created
+For debug - replay_buffer created
+For debug - pretrain_steps 0
+For debug - first for loop ended
+For debug - env reset
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

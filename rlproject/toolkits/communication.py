@@ -51,7 +51,8 @@ class env:
         y = robot_pose['y']
         yaw = robot_pose['yaw']
 
-        return [x, y, yaw, xc, yc]
+        # return [x, y, yaw, xc, yc]
+        return np.array([x, y, yaw, xc, yc])
 
 
 class Cam:
@@ -169,7 +170,7 @@ class Robot:
         self.x_speed = max(-1, min(1, x_speed))*50
         self.y_speed = max(-1, min(1, y_speed))*50
         self.yaw_speed = max(-1, min(1, yaw_speed))*50
-        print("action: ", self.x_speed, self.y_speed, self.yaw_speed)
+        # print("action: ", self.x_speed, self.y_speed, self.yaw_speed)
 
     def start(self):
         self.ws_thread.start()

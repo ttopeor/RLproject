@@ -1,0 +1,40 @@
+
+I0530 22:55:40.416724 140029422728960 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0530 22:55:42.875715 140031218939456 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: CUDA Interpreter Host
+I0530 22:55:42.900704 140031218939456 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0530 22:55:42.908006 140031218939456 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - agent created
+For debug - replay_buffer created
+0it [00:00, ?it/s]
+ 50%|████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                            | 3/6 [00:03<00:03,  1.22s/it]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 261, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 186, in main
+    next_observation, reward, done, info = env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/record_episode_statistics.py", line 26, in step
+    observations, rewards, dones, infos = super(RecordEpisodeStatistics, self).step(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 289, in step
+    return self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/rescale_action.py", line 37, in action
+    assert np.all(np.greater_equal(action, self.min_action)), (
+AssertionError: (array([nan, nan, nan]), array([-1., -1., -1.]))
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:
