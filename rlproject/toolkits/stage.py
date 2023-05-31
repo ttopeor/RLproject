@@ -17,12 +17,12 @@ def dist_cube_to_goal(xc, yc, goal):
 
 
 def stage_update(state):
-    # print("state: ", state)
+    print("state: ", state)
 
     #check if the state is None
     if any(element is None for element in state):
-        # print("error from stage.py - No state yet")
-        # print("using fake random state ")
+        print("error from stage.py - No state yet")
+        print("using fake random state ")
         state = np.array([random.random() for _ in range(5)])
 
     #get the cube location from the state data

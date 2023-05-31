@@ -24,41 +24,27 @@ def pose_esitmation(frame, aruco_dict_type, matrix_coefficients, distortion_coef
     # If markers are detected
     if len(corners) > 0:
 
-        tvec_base = None
-        # Identify base vector with ID 100
+        T_base_inv = np.linalg.inv(T_base)
+        tvec_rels = []
+        # Compute relative positions for IDs 1-6
         for i, id in enumerate(ids):
-            if id == 100:
-                rvec_base, tvec_base, _ = cv2.aruco.estimatePoseSingleMarkers(
+            if id == 0:
+                rvec_target, tvec_target, _ = cv2.aruco.estimatePoseSingleMarkers(
                     corners[i], 0.02, matrix_coefficients, distortion_coefficients)
-                R_base, _ = cv2.Rodrigues(rvec_base)
-                tvec_base = tvec_base[0]
-                # make tvec_base a column vector before hstack
-                T_base = np.hstack((R_base, tvec_base.reshape(3, 1)))
-                T_base = np.vstack((T_base, [0, 0, 0, 1]))
-                break
+                R_target, _ = cv2.Rodrigues(rvec_target)
+                rvec_target = rvec_target[0]
+                T_target = np.hstack((R_target, rvec_target.reshape(3, 1)))
+                T_target = np.vstack((T_target, [0, 0, 0, 1]))
+                T_rel = np.dot(T_base_inv, T_target)
+                tvec_rels.append(T_rel[:3, 3])
 
-        # Only proceed if ID 100 was found
-        if tvec_base is not None:
-            T_base_inv = np.linalg.inv(T_base)
-            tvec_rels = []
-            # Compute relative positions for IDs 1-6
-            for i, id in enumerate(ids):
-                if 0 <= id <= 6:
-                    rvec_target, tvec_target, _ = cv2.aruco.estimatePoseSingleMarkers(
-                        corners[i], 0.02, matrix_coefficients, distortion_coefficients)
-                    R_target, _ = cv2.Rodrigues(rvec_target)
-                    rvec_target = rvec_target[0]
-                    T_target = np.hstack((R_target, rvec_target.reshape(3, 1)))
-                    T_target = np.vstack((T_target, [0, 0, 0, 1]))
-                    T_rel = np.dot(T_base_inv, T_target)
-                    tvec_rels.append(T_rel[:3, 3])
-
-            # Return relative position with maximum z value
-            if tvec_rels:
-                max_tvec_rel = max(tvec_rels, key=lambda tvec: tvec[2])
-                max_tvec_rel[1] = 0.29 - max_tvec_rel[1]
-                return max_tvec_rel
-
+        # Return relative position with maximum z value
+        if tvec_rels:
+            max_tvec_rel = max(tvec_rels, key=lambda tvec: tvec[2])
+            max_tvec_rel[1] = 0.29 - max_tvec_rel[1]
+            #print(np.array(max_tvec_rel))
+            return max_tvec_rel
+    #print(np.array([None, None, None]))
     return np.array([None, None, None])
 
 
@@ -78,7 +64,7 @@ if __name__ == '__main__':
     k = np.load('calibration_matrix.npy')
     d = np.load('distortion_coefficients.npy')
 
-    video = cv2.VideoCapture(0)
+    video = cv2.VideoCapture(8)
     time.sleep(2.0)
 
     while True:
@@ -89,7 +75,7 @@ if __name__ == '__main__':
 
         output = pose_esitmation(frame, aruco_dict_type, k, d)
 
-        # cv2.imshow('Estimated Pose', output)
+        #cv2.imshow('Estimated Pose', output)
 
         key = cv2.waitKey(1) & 0xFF
         if key == ord('q'):

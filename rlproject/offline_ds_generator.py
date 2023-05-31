@@ -1,4 +1,4 @@
-import json
+#import json
 import time
 import keyboard
 import math
@@ -8,7 +8,7 @@ from toolkits.communication import env
 def process_key_events(env):
     x_speed, y_speed, yaw_speed = 0, 0, 0
     state = env.get_state()
-    print(state)
+    print([round(x, 2) if isinstance(x, (int, float)) else x for x in state])
     if keyboard.is_pressed("w"):
         y_speed += math.sin(((-state[2])/180)*math.pi)
         x_speed += math.cos(((-state[2])/180)*math.pi)
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     robot_url = "ws://localhost:8080/api/ws"
     k = "toolkits/calibration_matrix.npy"
     d = "toolkits/distortion_coefficients.npy"
-    cam_port = 0
+    cam_port = 4
     Env = env(robot_url, cam_port, k, d)
     Env.start()
     # Main event loop

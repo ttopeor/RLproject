@@ -1,0 +1,1 @@
+{"training/actor_loss": -505.4005432128906, "_timestamp": 1685564295.2404742, "training/critic_loss": 156981.453125, "training/entropy": -3.503894329071045, "training/q": 486.8069763183594, "training/temperature": 1.2030997276306152, "training/temperature_loss": -2.4108846187591553, "_runtime": 78.71512722969055, "_step": 1000, "_wandb": {"runtime": 84}}

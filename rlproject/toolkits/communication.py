@@ -222,9 +222,13 @@ def robot_loop(robot):
 
 if __name__ == '__main__':
     robot_url = "ws://localhost:8080/api/ws"
-    cam_port = 0
+    cam_port = 4
     k = "calibration_matrix.npy"
     d = "distortion_coefficients.npy"
     Env = env(robot_url, cam_port, k, d)
     Env.start()
-    Env.robot.action(1, 0, 0)
+    # Env.robot.action(1, 0, 0)
+    while True:
+        state = Env.get_state()
+        print(state)
+        time.sleep(1)
