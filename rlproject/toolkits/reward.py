@@ -25,7 +25,7 @@ def cal_reward(state, goal):
     # Stage 1: Find the cube
     if loss_the_cube:
         reward = -1000
-        if xc > 0.14 or xc < -0.14 or yc > 0.27 or yc < 0.14: #if the cube is out of the frame
+        if xrob > 0.14 or xrob < -0.14 or yrob > 0.27 or yrob < 0.16: #if the cube is out of the frame
             reward -= 1000
     # Stage 2: Move to the cube
     else:
@@ -33,7 +33,7 @@ def cal_reward(state, goal):
             reward = 1/dist_robot2cube
         else:
             reward = 10000 # Big reward for reaching the cube 
-        print("reach the cube")
+            print("reach the cube")
     
     # # Check if the robot arm is 'touching' the cube
     # touching_cube = dist_robot2cube <= cube_threshold

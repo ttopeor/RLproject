@@ -70,8 +70,8 @@ if __name__ == "__main__":
 
         if conter % 10 == 0:
             print("reward: ", reward)
-            print("state: ", state)
-            print("stage: ", stage)
+            # print("state: ", state)
+            # print("stage: ", stage)
         time.sleep(0.1)
 
         #check if the action is all zero
