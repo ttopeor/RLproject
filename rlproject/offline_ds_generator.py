@@ -51,7 +51,7 @@ if __name__ == "__main__":
         observation = env.get_state()
         action = process_key_events(Env)
         next_observation = env.get_stage()
-        stage = get_stage(observations)
+        stage = get_stage(next_observation)
         reward = get_reward(next_observations)
         terminals = False
 
