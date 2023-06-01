@@ -37,7 +37,7 @@ if __name__ == "__main__":
     robot_url = "ws://localhost:8080/api/ws"
     k = "toolkits/calibration_matrix.npy"
     d = "toolkits/distortion_coefficients.npy"
-    cam_port = 4
+    cam_port = 0
     Env = env(robot_url, cam_port, k, d)
     Env.start()
     # Main event loop
