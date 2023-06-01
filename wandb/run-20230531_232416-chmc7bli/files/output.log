@@ -1,0 +1,129 @@
+
+I0531 23:24:20.892735 140015480358656 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 23:24:23.103024 140016937514560 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Host CUDA Interpreter
+I0531 23:24:23.120406 140016937514560 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 23:24:23.121216 140016937514560 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - x =  (5,) <class 'numpy.ndarray'>
+For debug - x(after nn.Dense) =  (256,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x(after nn.Dense) =  (256,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x =  (8,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.batching.BatchTracer'>
+0it [00:00, ?it/s]
+  9%|████████████▍                                                                                                                            | 1/11 [00:00<00:02,  4.96it/s]
+For debug - agent created
+For debug - replay_buffer created
+For debug - random action
+For debug - action [ 0.13302048  0.84282398 -0.55435471] <class 'numpy.ndarray'>
+[ 0.08085732  0.22789274  7.1165404  -0.25607383 -0.09754341] 6.5521971344249 False None
+For debug - env step
+For debug - random action
+For debug - action [-0.97284474 -0.82023049 -0.94359455] <class 'numpy.ndarray'>
+[ 0.08051299  0.22810219  6.0394297  -0.25279227 -0.10045482] 6.566153106231559 False None
+
+ 45%|██████████████████████████████████████████████████████████████▎                                                                          | 5/11 [00:01<00:01,  4.02it/s]
+For debug - random action
+For debug - action [-0.84134462  0.98122191  0.9992316 ] <class 'numpy.ndarray'>
+[ 0.0828982   0.23409647 -2.6704865  -0.25625104 -0.10249578] -0.1330125944724898 False None
+For debug - env step
+For debug - random action
+For debug - action [ 0.66836045  0.50074687 -0.11394418] <class 'numpy.ndarray'>
+[ 0.0725399   0.23016256 -7.3643355  -0.24369788 -0.09515873] 6.917251917156065 False None
+For debug - env step
+For debug - random action
+For debug - action [-0.47677488 -0.62227491  0.32285   ] <class 'numpy.ndarray'>
+[ 0.06758412  0.23912309 -3.2330806  -0.25390074 -0.1074124 ] -0.1487912678422138 False None
+For debug - env step
+For debug - observation [ 0.06758412  0.23912309 -3.2330806  -0.25390074 -0.1074124 ] (5,) <class 'numpy.ndarray'>
+For debug - x =  (5,) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - sample action
+For debug - action [-0.47526625  0.4262937  -0.06842953] <class 'numpy.ndarray'>
+[ 0.03659362  0.21016237 27.81241    -0.436513   -0.21700151] -2.1683508677384613 False None
+For debug - env step
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+
+ 55%|██████████████████████████████████████████████████████████████████████████▋                                                              | 6/11 [00:07<00:07,  1.47s/it]
+For debug - observation [ 0.03659362  0.21016237 27.81241    -0.436513   -0.21700151] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.14270028  0.5648215  -0.7780607 ] <class 'numpy.ndarray'>
+[ -0.14985168   0.279596   -98.283844    10.          10.        ] -140.75975586184126 False None
+For debug - env step
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+
+ 64%|███████████████████████████████████████████████████████████████████████████████████████▏                                                 | 7/11 [00:10<00:07,  1.88s/it]
+For debug - observation [ -0.14985168   0.279596   -98.283844    10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.70499945  0.9999998  -0.9939136 ] <class 'numpy.ndarray'>
+[ -0.14998767   0.27968737 140.3648      10.          10.        ] -140.5354298449472 False None
+For debug - env step
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 11/11 [00:15<00:00,  1.42s/it]
+For debug - observation [ -0.14998767   0.27968737 140.3648      10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.99999994 -0.99999994 -0.9955959 ] <class 'numpy.ndarray'>
+[ -0.14970993   0.2798193  140.63203     10.          10.        ] -140.71355122850716 False None
+For debug - env step
+For debug - observation [ -0.14970993   0.2798193  140.63203     10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.99999994 -0.9998591  -0.85713434] <class 'numpy.ndarray'>
+[ -0.1429452    0.27384695 140.9811      10.          10.        ] -154.33812269868537 False None
+For debug - env step
+For debug - observation [ -0.1429452    0.27384695 140.9811      10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.99999994 -0.99714226  0.24438944] <class 'numpy.ndarray'>
+[-1.2871021e-01  2.5991052e-01  1.4067722e+02  1.0000000e+01
+  1.0000000e+01] -196.08542684138806 False None
+For debug - env step
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

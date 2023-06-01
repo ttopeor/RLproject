@@ -1,0 +1,109 @@
+
+I0531 22:00:28.984619 140388015298304 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 22:00:31.397073 140389472470592 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0531 22:00:31.404424 140389472470592 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 22:00:31.404812 140389472470592 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - x =  (5,) <class 'numpy.ndarray'>
+For debug - x(after nn.Dense) =  (256,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x(after nn.Dense) =  (256,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x =  (8,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - agent created
+For debug - replay_buffer created
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+  0%|                                                                                                                                                                | 0/10 [00:00<?, ?it/s]
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+
+ 10%|███████████████▏                                                                                                                                        | 1/10 [00:04<00:44,  4.97s/it]
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+
+ 20%|██████████████████████████████▍                                                                                                                         | 2/10 [00:08<00:33,  4.19s/it]
+For debug - random action
+For debug - action [ 0.3136606   0.03763042 -0.43100227] <class 'numpy.ndarray'>
+For debug - random action
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:11<00:00,  1.17s/it]
+  9%|█████████████▊                                                                                                                                          | 1/11 [00:00<00:02,  4.50it/s]
+For debug - random action
+For debug - action [0.03871855 0.76689741 0.99276995] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [ 0.13092038 -0.88872939  0.97687563] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [ 0.24208586 -0.07871442 -0.91547966] <class 'numpy.ndarray'>
+For debug - observation [ -0.14488977   0.15855773 140.62825     10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - x =  (5,) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - sample action
+ 45%|█████████████████████████████████████████████████████████████████████                                                                                   | 5/11 [00:01<00:02,  2.67it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 274, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 194, in main
+    next_observation, reward, done, info = env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/record_episode_statistics.py", line 26, in step
+    observations, rewards, dones, infos = super(RecordEpisodeStatistics, self).step(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 289, in step
+    return self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/rescale_action.py", line 37, in action
+    assert np.all(np.greater_equal(action, self.min_action)), (
+AssertionError: (array([nan, nan, nan]), array([-1., -1., -1.]))
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

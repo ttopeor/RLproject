@@ -1,0 +1,3841 @@
+
+I0531 21:23:56.883100 140146430109440 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 21:23:59.410669 140147887281728 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0531 21:23:59.428575 140147887281728 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 21:23:59.434217 140147887281728 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+0it [00:00, ?it/s]
+  9%|█████████████▊                                                                                                                                          | 1/11 [00:00<00:02,  4.97it/s]
+For debug - agent created
+For debug - replay_buffer created
+For debug - random action
+For debug - action [-0.23433856 -0.84283405 -0.31918897] <class 'numpy.ndarray'>
+For debug - random action
+
+ 45%|█████████████████████████████████████████████████████████████████████                                                                                   | 5/11 [00:01<00:01,  4.31it/s]
+For debug - random action
+For debug - action [-0.90306089  0.26589198 -0.8412814 ] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [ 0.81713817 -0.22976157 -0.07163496] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [ 0.63864734  0.14327498 -0.16191898] <class 'numpy.ndarray'>
+For debug - observation [ -0.14731723   0.2768313  140.69916     10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.99999976  0.9999225  -0.99999994] <class 'numpy.ndarray'>
+For debug - observation [-1.0790285e-01  2.7866071e-01  1.4036765e+02  1.0000000e+01
+  1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+
+ 55%|██████████████████████████████████████████████████████████████████████████████████▉                                                                     | 6/11 [00:06<00:06,  1.32s/it]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+ 55%|██████████████████████████████████████████████████████████████████████████████████▉                                                                     | 6/11 [01:01<00:51, 10.32s/it]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 274, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 190, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+KeyboardInterrupt
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1080, in _wait_for_tstate_lock
+    KeyboardInterrupt

@@ -1,0 +1,190 @@
+
+I0531 21:16:35.447150 140544273540864 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 21:16:37.997125 140545939379776 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0531 21:16:38.000008 140545939379776 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 21:16:38.001182 140545939379776 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+0it [00:00, ?it/s]
+  0%|                                                                                                                                                                | 0/11 [00:00<?, ?it/s]
+For debug - agent created
+For debug - replay_buffer created
+For debug - random action
+<class 'numpy.float64'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+  0%|                                                                                                                                                                | 0/11 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 273, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 189, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 41, in sample_actions
+    return np.asarray(actions), self.replace(rng=new_rng)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/array.py", line 360, in __array__
+    return np.asarray(self._value, dtype=dtype)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/array.py", line 515, in _value
+    self._npy_value = self._single_device_array_to_np_array()  # type: ignore
+KeyboardInterrupt
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+For debug - re sample
+<class 'numpy.float32'>
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

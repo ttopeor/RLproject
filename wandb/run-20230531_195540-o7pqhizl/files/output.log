@@ -1,0 +1,28 @@
+
+I0531 19:55:44.564198 140321045694208 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 261, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 116, in main
+    ds = WingsDataset(path) #change to our own dataset
+  File "/home/howard/RLproject/rlproject/data/wings_datasets.py", line 13, in __init__
+    dataset_dict = self.transform_json_data(raw_data)
+  File "/home/howard/RLproject/rlproject/data/wings_datasets.py", line 51, in transform_json_data
+    transformed_data['next_observations'] = np.array([item['next_observations'] for item in json_data], dtype=np.float32)
+  File "/home/howard/RLproject/rlproject/data/wings_datasets.py", line 51, in <listcomp>
+    transformed_data['next_observations'] = np.array([item['next_observations'] for item in json_data], dtype=np.float32)
+KeyError: 'next_observations'
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

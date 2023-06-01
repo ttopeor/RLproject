@@ -1,0 +1,669 @@
+
+I0531 18:17:18.879519 140462637664000 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 18:17:21.432574 140462779229760 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0531 18:17:21.465012 140462779229760 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 18:17:21.477103 140462779229760 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - agent created
+For debug - replay_buffer created
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.000127489991167458 0.22162135262843757 -89.97802666939005 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+0it [00:00, ?it/s]
+
+ 14%|███████████████████▍                                                                                                                        | 139/1001 [00:01<00:10, 78.40it/s]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0001275013528145954 0.22164110306989282 -89.97802666575429 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-8.492495105012788e-05 0.22144307374278954 -90.27466658437505 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-8.492495105012788e-05 0.22144307374278954 -90.27466658437505 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [4.195789419083324e-17 0.2213975553414846 -90.57130649739068 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0007617484593170431 0.22069585043912393 -91.21951974864159 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0007617484593170431 0.22069585043912393 -91.21951974864159 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0007617484593170431 0.22069585043912393 -91.21951974864159 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0007617484593170431 0.22069585043912393 -91.21951974864159 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0007617484593170431 0.22069585043912393 -91.21951974864159 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0007617484593170431 0.22069585043912393 -91.21951974864159 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0008847461065244381 0.21971202699170916 -91.32938635866823 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0008407963003075287 0.2192378225143734 -91.31839965884927 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.000712875020755455 0.2186853803259786 -91.30741296741263 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0005425038551809232 0.21762831005409905 -90.87893378778566 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.00020795382199509523 0.21689701844794965 -90.06592074422713 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.317993573653018e-05 0.21689292034250612 -89.57152041064631 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.317993573653018e-05 0.21689292034250612 -89.57152041064631 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0006249357364846621 0.2172699759331616 -88.4838397213284 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.001417528039496377 0.21742195707527256 -87.36319987306797 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.001417528039496377 0.21742195707527256 -87.36319987306797 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.001417528039496377 0.21742195707527256 -87.36319987306797 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0017927484363482553 0.21741918695742654 -86.84682645234614 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.002501482603503903 0.21741218776547186 -85.83605296447469 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0030851264087118566 0.21740468900009197 -85.13290613229391 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0030851264087118566 0.21740468900009197 -85.13290613229391 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004168974156581181 0.21738660597807352 -83.69365253126523 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004627495491780088 0.21737732883090174 -82.9135991354598 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004627495491780088 0.21737732883090174 -82.9135991354598 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0047536561543952615 0.21742553226043357 -81.93578651820556 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0047536561543952615 0.21742553226043357 -81.93578651820556 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0047536561543952615 0.21742553226043357 -81.93578651820556 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004795348162747467 0.21742461673316818 -81.3315200083333 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004837732143805975 0.21745480513063706 -81.24362667879527 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004837732143805975 0.21745480513063706 -81.24362667879527 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004837732143805975 0.21745480513063706 -81.24362667879527 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004837732143805975 0.21745480513063706 -81.24362667879527 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004837732143805975 0.21745480513063706 -81.24362667879527 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005798689126178638 0.2175048662262616 -81.26559887666333 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.006091743512001897 0.21753647278232174 -81.2326399376525 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0063410100244693695 0.2174946906167661 -81.19968088149567 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0063410100244693695 0.2174946906167661 -81.19968088149567 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0063410100244693695 0.2174946906167661 -81.19968088149567 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0063410100244693695 0.2174946906167661 -81.19968088149567 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0063410100244693695 0.2174946906167661 -81.19968088149567 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0063410100244693695 0.2174946906167661 -81.19968088149567 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0063410100244693695 0.2174946906167661 -81.19968088149567 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0063410100244693695 0.2174946906167661 -81.19968088149567 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0063410100244693695 0.2174946906167661 -81.19968088149567 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0063410100244693695 0.2174946906167661 -81.19968088149567 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00644081740395113 0.21804735113939352 -81.16670240244578 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.006337998760807882 0.2173914052007372 -81.18868654695461 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0059561514681021705 0.21715890420381986 -81.41941205772778 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005707422090661389 0.21720824951228254 -81.5622394506272 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005466826570258658 0.2175852511449598 -82.16650707675448 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005466826570258658 0.2175852511449598 -82.16650707675448 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005537638774771725 0.21873321892322764 -82.79273408425648 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005537638774771725 0.21873321892322764 -82.79273408425648 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005537638774771725 0.21873321892322764 -82.79273408425648 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005537638774771725 0.21873321892322764 -82.79273408425648 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005537638774771725 0.21873321892322764 -82.79273408425648 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005537638774771725 0.21873321892322764 -82.79273408425648 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005537638774771725 0.21873321892322764 -82.79273408425648 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005537638774771725 0.21873321892322764 -82.79273408425648 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005537638774771725 0.21873321892322764 -82.79273408425648 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005552356289159491 0.2209894208452828 -84.02324049773365 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005552356289159491 0.2209894208452828 -84.02324049773365 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0055684098415266295 0.2233339167808592 -84.80326930145445 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005489620384447181 0.22361551548073058 -84.88020176686214 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005489620384447181 0.22361551548073058 -84.88020176686214 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004657200478519727 0.22485155638440013 -85.09993280368947 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00353941870705903 0.2250811415026408 -85.14388910447134 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00353941870705903 0.2250811415026408 -85.14388910447134 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0026821399415645998 0.22559324686542095 -85.22079758120638 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.002727114744058924 0.22573481604894882 -85.30869036859698 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.002727114744058924 0.22573481604894882 -85.30869036859698 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.002727114744058924 0.22573481604894882 -85.30869036859698 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.002727114744058924 0.22573481604894882 -85.30869036859698 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.002727114744058924 0.22573481604894882 -85.30869036859698 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.002641542642545388 0.22582124451293012 -86.0777585718563 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.002641542642545388 0.22582124451293012 -86.0777585718563 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025996536313218142 0.22594455888937257 -86.40735815311025 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025996536313218142 0.22594455888937257 -86.40735815311025 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025996536313218142 0.22594455888937257 -86.40735815311025 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025996536313218142 0.22594455888937257 -86.40735815311025 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025996536313218142 0.22594455888937257 -86.40735815311025 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025996536313218142 0.22594455888937257 -86.40735815311025 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025996536313218142 0.22594455888937257 -86.40735815311025 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025996536313218142 0.22594455888937257 -86.40735815311025 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025996536313218142 0.22594455888937257 -86.40735815311025 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025152728943879715 0.22614970372743504 -86.94570543672184 None None]
+stage.py - found no cube
+using previous state and goal
+ 20%|███████████████████████████▉                                                                                                                | 200/1001 [00:02<00:11, 68.05it/s]
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 208, in cache_miss
+    outs, out_flat, out_tree, args_flat = _python_pjit_helper(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 150, in _python_pjit_helper
+    args_flat, _, params, in_tree, out_tree, _ = infer_params_fn(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api.py", line 301, in infer_params
+    return pjit.common_infer_params(pjit_info_args, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 460, in common_infer_params
+    avals.append(shaped_abstractify(a))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api_util.py", line 563, in shaped_abstractify
+    return _shaped_abstractify_handlers[type(x)](x)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api_util.py", line 575, in _numpy_array_abstractify
+    dtypes.check_valid_dtype(dtype)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/dtypes.py", line 441, in check_valid_dtype
+    raise TypeError(f"Dtype {dtype} is not a valid JAX array "
+TypeError: Dtype object is not a valid JAX array type. Only arrays of numeric types are supported by JAX.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 261, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 183, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 178, in reraise_with_filtered_traceback
+    filtered_tb = filter_traceback(e.__traceback__)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 74, in filter_traceback
+    if include_frame(f):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 55, in include_frame
+    return not any(_path_starts_with(f.f_code.co_filename, path)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 55, in <genexpr>
+    return not any(_path_starts_with(f.f_code.co_filename, path)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 49, in _path_starts_with
+    return common == path_prefix or os.path.samefile(common, path_prefix)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/genericpath.py", line 101, in samefile
+    s2 = os.stat(f2)
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+KeyboardInterrupt:
+Exception ignored in sys.unraisablehook: <built-in function unraisablehook>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 643, in write
+    cb(data)
+state:  [-0.002553129020612125 0.22566231215978938 -87.25333390585759 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0025986819492448063 0.22586010676251042 -87.54997216581216 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0028566707871053557 0.22570952322581497 -87.59391455127607 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0037254231611308316 0.22588874941129025 -87.48404747474468 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004711965904646374 0.22749565370368605 -86.71498750370183 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005014504841597602 0.2293563835488603 -86.61610282953494 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005129709277898046 0.23057910157972536 -86.47325475892055 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0050491977109884375 0.23094318649546575 -86.09970036903374 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0050491977109884375 0.23094318649546575 -86.09970036903374 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0050491977109884375 0.23094318649546575 -86.09970036903374 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0050491977109884375 0.23094318649546575 -86.09970036903374 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0050491977109884375 0.23094318649546575 -86.09970036903374 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0050491977109884375 0.23094318649546575 -86.09970036903374 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0050491977109884375 0.23094318649546575 -86.09970036903374 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0050491977109884375 0.23094318649546575 -86.09970036903374 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0050491977109884375 0.23094318649546575 -86.09970036903374 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005047157479674622 0.23084986919086206 -85.97885687757721 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00509089767511462 0.23082504925051958 -85.4295291597372 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00509089767511462 0.23082504925051958 -85.4295291597372 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005130158201667133 0.23059928058671114 -84.66046864691612 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005130158201667133 0.23059928058671114 -84.24297543728447 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005347634537607505 0.23043859540633224 -82.86964615592758 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005258371199921769 0.23040171375654037 -82.75978058832546 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005258371199921769 0.23040171375654037 -82.75978058832546 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.005081648376167943 0.23040567922559532 -82.71583421092083 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0045063033844221665 0.23036775154680703 -82.58399588939648 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.004151306852286778 0.23028558767302068 -82.52906431970663 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0026393714971190262 0.2293965709418457 -82.85866877958709 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.0026393714971190262 0.2293965709418457 -82.85866877958709 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.001623565531436365 0.22883245724929205 -83.91338842339925 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00074083142439768 0.22726143725750983 -84.63850602246855 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.00034725454971960135 0.22636768511784094 -84.94613243563435 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [8.655811730107267e-05 0.22570157904719537 -85.70421544247807 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0004750001259405815 0.22519420388581693 -85.95691287762114 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0004750001259405815 0.22519420388581693 -85.95691287762114 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0004750001259405815 0.22519420388581693 -85.95691287762114 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0004750001259405815 0.22519420388581693 -85.95691287762114 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [0.0004750001259405815 0.22519420388581693 -85.95691287762114 None None]
+stage.py - found no cube
+using previous state and goal
+state:  [-0.002553129020612125 0.22566231215978938 -87.25333390585759 None None]

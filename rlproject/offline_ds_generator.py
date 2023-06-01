@@ -3,7 +3,9 @@ import time
 import keyboard
 import math
 from toolkits.communication import env
-
+from toolkits.reward import cal_reward
+from toolkits.stage import stage_update
+import numpy as np
 
 def process_key_events(env):
     x_speed, y_speed, yaw_speed = 0, 0, 0
@@ -32,7 +34,7 @@ def process_key_events(env):
     env.robot.action(x_speed, y_speed, yaw_speed)
     return [x_speed, y_speed, yaw_speed]
 
-
+conter = 0
 # main thread
 if __name__ == "__main__":
     robot_url = "ws://localhost:8080/api/ws"
@@ -48,24 +50,33 @@ if __name__ == "__main__":
         if keyboard.is_pressed('p'):
             break
 
-        observation = env.get_state()
+        observation = Env.get_state()
         action = process_key_events(Env)
-        next_observation = env.get_stage()
-        stage = get_stage(next_observation)
-        reward = get_reward(next_observations)
+        next_observation = Env.get_state()
+        #get stage
+        state, current_goal, stage = stage_update(next_observation)
+        # get reward
+        reward = cal_reward(state, current_goal)
         terminals = False
 
         data_point = {
-            "stage": stage,
-            "observations": observation,
+            "stage": int(stage),
+            "observations": observation.tolist(),
             "actions": action,
-            "rewards": reward,
-            "terminals": terminals,
-            "next_observation": next_observation
+            "rewards": float(reward),
+            "terminals": bool(terminals),
+            "next_observations": next_observation.tolist()
         }
         data.append(data_point)  # append data point to data list
+        if conter % 10 == 0:
+            print("reward: ", reward)
+            # print("state: ", state)
+            print("stage: ", stage)
         time.sleep(0.1)
 
+    print("data list: ", len(data))
+
     # Once out of the loop, write data to JSON
-    with open("data.json", "w") as file:
+    with open("data/data.json", "w") as file:
+        print("writing data to JSON")
         json.dump(data, file, indent=4)

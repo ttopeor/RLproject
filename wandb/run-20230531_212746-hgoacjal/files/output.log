@@ -1,0 +1,203 @@
+
+I0531 21:27:49.498907 140388379035392 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 21:27:51.972471 140390037567040 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: CUDA Interpreter Host
+I0531 21:27:51.974112 140390037567040 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 21:27:51.979617 140390037567040 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - agent created
+For debug - replay_buffer created
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:14<00:00,  7.04it/s]
+  0%|                                                                                                                                                                | 0/11 [00:00<?, ?it/s]
+For debug - random action
+For debug - action [-0.99842263  0.53279374 -0.20249574] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.68405487  0.33361698  0.62524912] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.86766588 -0.1023573   0.24829047] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [0.13319566 0.98544384 0.16038679] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.17655664 -0.67065037  0.19883659] <class 'numpy.ndarray'>
+For debug - observation [ -0.1488373    0.26963308 139.85283     10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - sample action
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+
+ 45%|█████████████████████████████████████████████████████████████████████                                                                                   | 5/11 [00:01<00:01,  3.97it/s]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - actions(in agent.py) = [nan nan nan]
+For debug - re sample
+ 45%|█████████████████████████████████████████████████████████████████████                                                                                   | 5/11 [00:03<00:04,  1.38it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 274, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 190, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

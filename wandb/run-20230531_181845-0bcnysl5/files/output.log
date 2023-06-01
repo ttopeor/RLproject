@@ -1,0 +1,871 @@
+
+I0531 18:18:49.171424 140627689858816 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 18:18:51.827251 140629356639808 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0531 18:18:51.845456 140629356639808 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 18:18:51.851210 140629356639808 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+0it [00:00, ?it/s]
+ 15%|████████████████████▉                                                                                                                       | 150/1001 [00:01<00:09, 86.87it/s]
+For debug - agent created
+For debug - replay_buffer created
+state:  [-8.43041782e-05  2.19824399e-01 -8.99450665e+01 -2.24487246e-01
+ -1.29183065e-01]
+current_stage:  2
+reward:  100
+state:  [-8.43041782e-05  2.19824399e-01 -8.99450665e+01 -2.24487246e-01
+ -1.29183065e-01]
+current_stage:  1
+reward:  100
+state:  [-8.43041782e-05  2.19824399e-01 -8.99450665e+01 -2.24487246e-01
+ -1.29183065e-01]
+current_stage:  2
+reward:  100
+state:  [-8.43041782e-05  2.19824399e-01 -8.99450665e+01 -2.24487246e-01
+ -1.29183065e-01]
+current_stage:  1
+reward:  100
+state:  [-1.26456263e-04  2.19824379e-01 -8.99560531e+01 -2.24466916e-01
+ -1.29320827e-01]
+current_stage:  2
+reward:  100
+state:  [-1.26415608e-04  2.19753706e-01 -8.99560530e+01 -2.22297732e-01
+ -1.27978116e-01]
+current_stage:  1
+reward:  100
+state:  [-1.68593094e-04  2.19804469e-01 -8.99560530e+01 -2.24466916e-01
+ -1.29320827e-01]
+current_stage:  2
+reward:  100
+state:  [-1.68593094e-04  2.19804469e-01 -8.99560530e+01 -2.24466916e-01
+ -1.29320827e-01]
+current_stage:  1
+reward:  100
+state:  [-1.68593094e-04  2.19804469e-01 -8.99560530e+01 -2.24466916e-01
+ -1.29320827e-01]
+current_stage:  2
+reward:  100
+state:  [-2.52970908e-04  2.19875050e-01 -8.99780262e+01 -2.24466916e-01
+ -1.29320827e-01]
+current_stage:  1
+reward:  100
+state:  [-3.79421956e-04  2.19854992e-01 -8.99999992e+01 -2.19619866e-01
+ -1.28270131e-01]
+current_stage:  2
+reward:  100
+state:  [-3.79421956e-04  2.19854992e-01 -8.99999992e+01 -2.19619866e-01
+ -1.28270131e-01]
+current_stage:  1
+reward:  100
+state:  [-3.79421956e-04  2.19854992e-01 -8.99999992e+01 -2.19619866e-01
+ -1.28270131e-01]
+current_stage:  2
+reward:  100
+state:  [-3.79421956e-04  2.19854992e-01 -8.99999992e+01 -2.19619866e-01
+ -1.28270131e-01]
+current_stage:  1
+reward:  100
+state:  [-3.79421956e-04  2.19854992e-01 -8.99999992e+01 -2.19964913e-01
+ -1.28395183e-01]
+current_stage:  2
+reward:  100
+state:  [-6.74468754e-04  2.19835235e-01 -8.99780253e+01 -2.19964913e-01
+ -1.28395183e-01]
+current_stage:  1
+reward:  100
+state:  [-6.74468754e-04  2.19835235e-01 -8.99780253e+01 -2.19964913e-01
+ -1.28395183e-01]
+current_stage:  2
+reward:  100
+state:  [-6.74468754e-04  2.19835235e-01 -8.99780253e+01 -2.19964913e-01
+ -1.28395183e-01]
+current_stage:  1
+reward:  100
+state:  [-6.74468754e-04  2.19835235e-01 -8.99780253e+01 -2.19964913e-01
+ -1.28395183e-01]
+current_stage:  2
+reward:  100
+state:  [-6.74468754e-04  2.19835235e-01 -8.99780253e+01 -2.19964913e-01
+ -1.28395183e-01]
+current_stage:  1
+reward:  100
+state:  [-6.74468754e-04  2.19835235e-01 -8.99780253e+01 -2.19964913e-01
+ -1.28395183e-01]
+current_stage:  2
+reward:  100
+state:  [-6.74468754e-04  2.19835235e-01 -8.99780253e+01 -2.19964913e-01
+ -1.28395183e-01]
+current_stage:  1
+reward:  100
+state:  [-2.02373914e-03  2.19865882e-01 -8.91540232e+01 -2.17032004e-01
+ -1.26820537e-01]
+current_stage:  2
+reward:  100
+state:  [-2.02373914e-03  2.19865882e-01 -8.91540232e+01 -2.17032004e-01
+ -1.26820537e-01]
+current_stage:  1
+reward:  100
+state:  [-2.61407654e-03  2.19868473e-01 -8.90002098e+01 -2.20950866e-01
+ -1.28922803e-01]
+current_stage:  2
+reward:  100
+state:  [-4.07675578e-03  2.19154144e-01 -8.93078349e+01 -2.18793104e-01
+ -1.28050804e-01]
+current_stage:  1
+reward:  100
+state:  [-4.07675578e-03  2.19154144e-01 -8.93078349e+01 -2.18793104e-01
+ -1.28050804e-01]
+current_stage:  2
+reward:  100
+state:  [-4.07675578e-03  2.19154144e-01 -8.93078349e+01 -2.18793104e-01
+ -1.28050804e-01]
+current_stage:  1
+reward:  100
+state:  [-4.07675578e-03  2.19154144e-01 -8.93078349e+01 -2.18793104e-01
+ -1.28050804e-01]
+current_stage:  2
+reward:  100
+state:  [-4.07675578e-03  2.19154144e-01 -8.93078349e+01 -2.18793104e-01
+ -1.28050804e-01]
+current_stage:  1
+reward:  100
+state:  [-4.60924217e-03  2.18488830e-01 -8.94616488e+01 -2.17936419e-01
+ -1.28216525e-01]
+current_stage:  2
+reward:  100
+state:  [-4.60924217e-03  2.18488830e-01 -8.94616488e+01 -2.17936419e-01
+ -1.28216525e-01]
+current_stage:  1
+reward:  100
+state:  [-4.60924217e-03  2.18488830e-01 -8.94616488e+01 -2.17936419e-01
+ -1.28216525e-01]
+current_stage:  2
+reward:  100
+state:  [-4.60924217e-03  2.18488830e-01 -8.94616488e+01 -2.17936419e-01
+ -1.28216525e-01]
+current_stage:  1
+reward:  100
+state:  [-4.60924217e-03  2.18488830e-01 -8.94616488e+01 -2.17936419e-01
+ -1.28216525e-01]
+current_stage:  2
+reward:  100
+state:  [-4.60924217e-03  2.18488830e-01 -8.94616488e+01 -2.17936419e-01
+ -1.28216525e-01]
+current_stage:  1
+reward:  100
+state:  [-4.60924217e-03  2.18488830e-01 -8.94616488e+01 -2.17936419e-01
+ -1.28216525e-01]
+current_stage:  2
+reward:  100
+state:  [-4.60924217e-03  2.18488830e-01 -8.94616488e+01 -2.17936419e-01
+ -1.28216525e-01]
+current_stage:  1
+reward:  100
+state:  [-4.79241432e-03  2.15417781e-01 -8.96813404e+01 -2.18347785e-01
+ -1.28761557e-01]
+current_stage:  2
+reward:  100
+state:  [-6.26376135e-03  2.12053298e-01 -9.02965065e+01 -2.15532996e-01
+ -1.29382461e-01]
+current_stage:  1
+reward:  100
+state:  [-6.26376135e-03  2.12053298e-01 -9.02965065e+01 -2.15532996e-01
+ -1.29382461e-01]
+current_stage:  2
+reward:  100
+state:  [-6.26376135e-03  2.12053298e-01 -9.02965065e+01 -2.15532996e-01
+ -1.29382461e-01]
+current_stage:  1
+reward:  100
+state:  [-6.85056673e-03  2.12580665e-01 -9.04943327e+01 -2.19932090e-01
+ -1.32445982e-01]
+current_stage:  2
+reward:  100
+state:  [-7.35109893e-03  2.12894315e-01 -9.06371927e+01 -2.19932090e-01
+ -1.32445982e-01]
+current_stage:  1
+reward:  100
+state:  [-7.35109893e-03  2.12894315e-01 -9.06371927e+01 -2.16114938e-01
+ -1.33151386e-01]
+current_stage:  2
+reward:  100
+state:  [-8.37622440e-03  2.12974437e-01 -9.09778066e+01 -2.09815293e-01
+ -1.33538207e-01]
+current_stage:  1
+reward:  100
+state:  [-8.37622440e-03  2.12974437e-01 -9.09778066e+01 -2.09815293e-01
+ -1.33538207e-01]
+current_stage:  2
+reward:  100
+state:  [-8.37622440e-03  2.12974437e-01 -9.09778066e+01 -2.09815293e-01
+ -1.33538207e-01]
+current_stage:  1
+reward:  100
+state:  [-8.37622440e-03  2.12974437e-01 -9.09778066e+01 -2.09815293e-01
+ -1.33538207e-01]
+current_stage:  2
+reward:  100
+state:  [-1.04494193e-02  2.12696315e-01 -9.19336459e+01 -2.09815293e-01
+ -1.33538207e-01]
+current_stage:  1
+reward:  100
+state:  [-1.04494193e-02  2.12696315e-01 -9.19336459e+01 -2.14143446e-01
+ -1.37038509e-01]
+current_stage:  2
+reward:  100
+state:  [-1.04494193e-02  2.12696315e-01 -9.19336459e+01 -2.14143446e-01
+ -1.37038509e-01]
+current_stage:  1
+reward:  100
+state:  [-1.04494193e-02  2.12696315e-01 -9.19336459e+01 -2.14143446e-01
+ -1.37038509e-01]
+current_stage:  2
+reward:  100
+state:  [-1.04494193e-02  2.12696315e-01 -9.19336459e+01 -2.14143446e-01
+ -1.37038509e-01]
+current_stage:  1
+reward:  100
+state:  [-1.04494193e-02  2.12696315e-01 -9.19336459e+01 -2.14143446e-01
+ -1.37038509e-01]
+current_stage:  2
+reward:  100
+state:  [-1.04494193e-02  2.12696315e-01 -9.19336459e+01 -2.14143446e-01
+ -1.37038509e-01]
+current_stage:  1
+reward:  100
+state:  [-1.04494193e-02  2.12696315e-01 -9.19336459e+01 -2.14143446e-01
+ -1.37038509e-01]
+current_stage:  2
+reward:  100
+state:  [-1.04494193e-02  2.12696315e-01 -9.19336459e+01 -2.14143446e-01
+ -1.37038509e-01]
+current_stage:  1
+reward:  100
+state:  [-1.04494193e-02  2.12696315e-01 -9.19336459e+01 -2.14143446e-01
+ -1.37038509e-01]
+current_stage:  2
+reward:  100
+state:  [-1.06950933e-02  2.12703431e-01 -9.20105524e+01 -2.14445019e-01
+ -1.36685161e-01]
+current_stage:  1
+reward:  100
+state:  [-1.06950933e-02  2.12703431e-01 -9.20105524e+01 -2.14445019e-01
+ -1.36685161e-01]
+current_stage:  2
+reward:  100
+state:  [-1.06950933e-02  2.12703431e-01 -9.20105524e+01 -2.14445019e-01
+ -1.36685161e-01]
+current_stage:  1
+reward:  100
+state:  [-1.19993503e-02  2.12621306e-01 -9.23621234e+01 -2.13793676e-01
+ -1.35966940e-01]
+current_stage:  2
+reward:  100
+state:  [-1.22457295e-02  2.12637956e-01 -9.24280399e+01 -2.14259018e-01
+ -1.36643482e-01]
+current_stage:  1
+reward:  100
+state:  [-1.22457295e-02  2.12637956e-01 -9.24280399e+01 -2.14259018e-01
+ -1.36643482e-01]
+current_stage:  2
+reward:  100
+state:  [-1.22457295e-02  2.12637956e-01 -9.24280399e+01 -2.14259018e-01
+ -1.36643482e-01]
+current_stage:  1
+reward:  100
+state:  [-1.22457295e-02  2.12637956e-01 -9.24280399e+01 -2.14259018e-01
+ -1.36643482e-01]
+current_stage:  2
+reward:  100
+state:  [-1.22457295e-02  2.12637956e-01 -9.24280399e+01 -2.14259018e-01
+ -1.36643482e-01]
+current_stage:  1
+reward:  100
+state:  [-1.22457295e-02  2.12637956e-01 -9.24280399e+01 -2.14259018e-01
+ -1.36643482e-01]
+current_stage:  2
+reward:  100
+state:  [-1.22457295e-02  2.12637956e-01 -9.24280399e+01 -2.14259018e-01
+ -1.36643482e-01]
+current_stage:  1
+reward:  100
+state:  [-1.24552694e-02  2.12723044e-01 -9.24829763e+01 -2.12776243e-01
+ -1.36344908e-01]
+current_stage:  2
+reward:  100
+state:  [-1.24552694e-02  2.12723044e-01 -9.24829763e+01 -2.12776243e-01
+ -1.36344908e-01]
+current_stage:  1
+reward:  100
+state:  [-1.24552694e-02  2.12723044e-01 -9.24829763e+01 -2.12776243e-01
+ -1.36344908e-01]
+current_stage:  2
+reward:  100
+state:  [-1.24552694e-02  2.12723044e-01 -9.24829763e+01 -2.12776243e-01
+ -1.36344908e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25771390e-02  2.12707397e-01 -9.25159310e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25771390e-02  2.12707397e-01 -9.25159310e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25784850e-02  2.12730160e-01 -9.25159247e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.09788044e-01
+ -1.35235270e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25621117e-02  2.12453253e-01 -9.25048937e+01 -2.07522272e-01
+ -1.34149038e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25242897e-02  2.12505149e-01 -9.24939032e+01 -2.06824678e-01
+ -1.34025720e-01]
+current_stage:  1
+reward:  100
+state:  [-1.25242897e-02  2.12505149e-01 -9.24939032e+01 -2.06824678e-01
+ -1.34025720e-01]
+current_stage:  2
+reward:  100
+state:  [-1.25242897e-02  2.12505149e-01 -9.24939032e+01 -2.05506723e-01
+ -1.33171952e-01]
+current_stage:  1
+reward:  100
+state:  [-1.24019375e-02  2.12510530e-01 -9.24609354e+01 -2.05506723e-01
+ -1.33171952e-01]
+current_stage:  2
+reward:  100
+state:  [-1.24019375e-02  2.12510530e-01 -9.24609354e+01 -2.05506723e-01
+ -1.33171952e-01]
+current_stage:  1
+reward:  100
+state:  [-1.24019375e-02  2.12510530e-01 -9.24609354e+01 -2.05506723e-01
+ -1.33171952e-01]
+current_stage:  2
+reward:  100
+state:  [-1.24019375e-02  2.12510530e-01 -9.24609354e+01 -2.05506723e-01
+ -1.33171952e-01]
+current_stage:  1
+reward:  100
+state:  [-1.24019375e-02  2.12510530e-01 -9.24609354e+01 -2.05506723e-01
+ -1.33171952e-01]
+current_stage:  2
+reward:  100
+state:  [-1.15142648e-02  2.12725879e-01 -9.22192383e+01 -2.05430904e-01
+ -1.33328421e-01]
+current_stage:  1
+reward:  100
+state:  [-1.08221072e-02  2.12788788e-01 -9.20324728e+01 -2.05430904e-01
+ -1.33328421e-01]
+current_stage:  2
+reward:  100
+state:  [-1.08221072e-02  2.12788788e-01 -9.20324728e+01 -2.05430904e-01
+ -1.33328421e-01]
+current_stage:  1
+reward:  100
+state:  [-1.08221072e-02  2.12788788e-01 -9.20324728e+01 -2.05430904e-01
+ -1.33328421e-01]
+current_stage:  2
+reward:  100
+state:  [-1.08221072e-02  2.12788788e-01 -9.20324728e+01 -2.06370107e-01
+ -1.34573806e-01]
+current_stage:  1
+reward:  100
+state:  [-9.80549357e-03  2.12915990e-01 -9.19775514e+01 -2.02320566e-01
+ -1.32437098e-01]
+current_stage:  2
+reward:  100
+state:  [-9.80549357e-03  2.12915990e-01 -9.19775514e+01 -2.02320566e-01
+ -1.32437098e-01]
+current_stage:  1
+reward:  100
+state:  [-9.39720204e-03  2.12934401e-01 -9.20764333e+01 -2.02320566e-01
+ -1.32437098e-01]
+current_stage:  2
+reward:  100
+state:  [-9.13330163e-03  2.13459228e-01 -9.26587517e+01 -2.01563862e-01
+ -1.31640009e-01]
+current_stage:  1
+reward:  100
+state:  [-9.15082488e-03  2.13868773e-01 -9.31311909e+01 -2.02637699e-01
+ -1.31763499e-01]
+current_stage:  2
+reward:  100
+state:  [-9.21516229e-03  2.14409777e-01 -9.34937584e+01 -2.06277138e-01
+ -1.33756598e-01]
+current_stage:  1
+reward:  100
+state:  [-9.21516229e-03  2.14409777e-01 -9.34937584e+01 -2.06277138e-01
+ -1.33756598e-01]
+current_stage:  2
+reward:  100
+state:  [-9.21516229e-03  2.14409777e-01 -9.34937584e+01 -2.06277138e-01
+ -1.33756598e-01]
+current_stage:  1
+reward:  100
+state:  [-9.21516229e-03  2.14409777e-01 -9.34937584e+01 -2.06277138e-01
+ -1.33756598e-01]
+current_stage:  2
+reward:  100
+state:  [-9.21516229e-03  2.14409777e-01 -9.34937584e+01 -2.06277138e-01
+ -1.33756598e-01]
+current_stage:  1
+reward:  100
+state:  [-9.29375928e-03  2.15276252e-01 -9.37684173e+01 -2.06277138e-01
+ -1.33756598e-01]
+current_stage:  2
+reward:  100
+state:  [-9.29375928e-03  2.15276252e-01 -9.37684173e+01 -2.06277138e-01
+ -1.33756598e-01]
+current_stage:  1
+reward:  100
+state:  [-9.29375928e-03  2.15276252e-01 -9.37684173e+01 -2.06277138e-01
+ -1.33756598e-01]
+current_stage:  2
+reward:  100
+state:  [-9.80764897e-03  2.15662310e-01 -9.40980034e+01 -2.05880090e-01
+ -1.32780212e-01]
+current_stage:  1
+reward:  100
+state:  [-9.80764897e-03  2.15662310e-01 -9.40980034e+01 -2.05880090e-01
+ -1.32780212e-01]
+current_stage:  2
+reward:  100
+state:  [-9.80764897e-03  2.15662310e-01 -9.40980034e+01 -2.05880090e-01
+ -1.32780212e-01]
+current_stage:  1
+reward:  100
+state:  [-1.06371685e-02  2.15674080e-01 -9.43726658e+01 -2.07338905e-01
+ -1.32748228e-01]
+current_stage:  2
+reward:  100
+state:  [-1.06371685e-02  2.15674080e-01 -9.43726658e+01 -2.07338905e-01
+ -1.32748228e-01]
+current_stage:  1
+reward:  100
+state:  [-1.06371685e-02  2.15674080e-01 -9.43726658e+01 -2.07338905e-01
+ -1.32748228e-01]
+current_stage:  2
+reward:  100
+state:  [-1.06371685e-02  2.15674080e-01 -9.43726658e+01 -2.07338905e-01
+ -1.32748228e-01]
+current_stage:  1
+reward:  100
+state:  [-1.06371685e-02  2.15674080e-01 -9.43726658e+01 -2.07338905e-01
+ -1.32748228e-01]
+current_stage:  2
+reward:  100
+state:  [-1.12161169e-02  2.15644747e-01 -9.45704243e+01 -2.06356376e-01
+ -1.31197766e-01]
+current_stage:  1
+reward:  100
+state:  [-1.12161169e-02  2.15644747e-01 -9.45704243e+01 -2.06356376e-01
+ -1.31197766e-01]
+current_stage:  2
+reward:  100
+state:  [-1.15441798e-02  2.15576330e-01 -9.55702123e+01 -2.09009576e-01
+ -1.29470756e-01]
+current_stage:  1
+reward:  100
+state:  [-1.16681904e-02  2.15569653e-01 -9.58009320e+01 -2.09009576e-01
+ -1.29470756e-01]
+current_stage:  2
+reward:  100
+state:  [-1.16681904e-02  2.15569653e-01 -9.58009320e+01 -2.09009576e-01
+ -1.29470756e-01]
+current_stage:  1
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  2
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  1
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  2
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  1
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  2
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  1
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  2
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  1
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  2
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  1
+reward:  100
+state:  [-1.17876976e-02  2.15480654e-01 -9.58888274e+01 -2.11255488e-01
+ -1.29800892e-01]
+current_stage:  2
+reward:  100
+state:  [-1.21107443e-02  2.15329099e-01 -9.60975780e+01 -2.07856069e-01
+ -1.28076856e-01]
+current_stage:  1
+reward:  100
+state:  [-1.29574434e-02  2.14941969e-01 -9.67457635e+01 -2.07868461e-01
+ -1.28227020e-01]
+current_stage:  2
+reward:  100
+state:  [-1.29574434e-02  2.14941969e-01 -9.67457635e+01 -2.07868461e-01
+ -1.28227020e-01]
+current_stage:  1
+reward:  100
+
+state:  [-1.31725503e-02  2.15076943e-01 -9.69214925e+01 -2.07868461e-01
+ -1.28227020e-01]
+current_stage:  2
+reward:  100
+state:  [-1.35771717e-02  2.14275233e-01 -9.75917006e+01 -2.07633429e-01
+ -1.27375519e-01]
+current_stage:  1
+reward:  100
+state:  [-1.35771717e-02  2.14275233e-01 -9.75917006e+01 -2.07633429e-01
+ -1.27375519e-01]
+current_stage:  2
+reward:  100
+state:  [-1.35771717e-02  2.14275233e-01 -9.75917006e+01 -2.07633429e-01
+ -1.27375519e-01]
+current_stage:  1
+reward:  100
+state:  [-1.35771717e-02  2.14275233e-01 -9.75917006e+01 -2.07633429e-01
+ -1.27375519e-01]
+current_stage:  2
+reward:  100
+state:  [-1.35771717e-02  2.14275233e-01 -9.75917006e+01 -2.07633429e-01
+ -1.27375519e-01]
+current_stage:  1
+reward:  100
+state:  [-1.35771717e-02  2.14275233e-01 -9.75917006e+01 -2.07633429e-01
+ -1.27375519e-01]
+current_stage:  2
+reward:  100
+state:  [-1.36257803e-02  2.12460087e-01 -9.89980632e+01 -2.07633429e-01
+ -1.27375519e-01]
+current_stage:  1
+reward:  100
+state:  [-1.36257803e-02  2.12460087e-01 -9.89980632e+01 -2.07633429e-01
+ -1.27375519e-01]
+current_stage:  2
+reward:  100
+state:  [-1.36257803e-02  2.12460087e-01 -9.89980632e+01 -2.07633429e-01
+ -1.27375519e-01]
+current_stage:  1
+reward:  100
+state:  [-1.36614118e-02  2.11114172e-01 -1.00129704e+02 -2.06479579e-01
+ -1.27017306e-01]
+current_stage:  2
+reward:  100
+state:  [-1.36614118e-02  2.11114172e-01 -1.00129704e+02 -2.06479579e-01
+ -1.27017306e-01]
+current_stage:  1
+reward:  100
+state:  [-1.36614118e-02  2.11114172e-01 -1.00129704e+02 -2.06479579e-01
+ -1.27017306e-01]
+current_stage:  2
+reward:  100
+state:  [-1.36614118e-02  2.11114172e-01 -1.00129704e+02 -2.06479579e-01
+ -1.27017306e-01]
+current_stage:  1
+reward:  100
+state:  [-1.36614118e-02  2.11114172e-01 -1.00129704e+02 -2.06479579e-01
+ -1.27017306e-01]
+current_stage:  2
+reward:  100
+state:  [-1.36614118e-02  2.11114172e-01 -1.00129704e+02 -2.06479579e-01
+ -1.27017306e-01]
+current_stage:  1
+reward:  100
+state:  [-1.36614118e-02  2.11114172e-01 -1.00129704e+02 -2.06479579e-01
+ -1.27017306e-01]
+current_stage:  2
+reward:  100
+state:  [-1.36614118e-02  2.11114172e-01 -1.00129704e+02 -2.04582406e-01
+ -1.25614203e-01]
+current_stage:  1
+reward:  100
+state:  [-1.38471850e-02  2.10847757e-01 -1.00525223e+02 -2.04582406e-01
+ -1.25614203e-01]
+current_stage:  2
+reward:  100
+state:  [-1.38471850e-02  2.10847757e-01 -1.00525223e+02 -2.04582406e-01
+ -1.25614203e-01]
+current_stage:  1
+reward:  100
+state:  [-1.38471850e-02  2.10847757e-01 -1.00525223e+02 -2.04582406e-01
+ -1.25614203e-01]
+current_stage:  2
+reward:  100
+state:  [-1.38471850e-02  2.10847757e-01 -1.00525223e+02 -2.04582406e-01
+ -1.25614203e-01]
+current_stage:  1
+reward:  100
+state:  [-1.38471850e-02  2.10847757e-01 -1.00525223e+02 -2.04582406e-01
+ -1.25614203e-01]
+current_stage:  2
+reward:  100
+state:  [-1.44793499e-02  2.10591041e-01 -1.00942717e+02 -2.08377198e-01
+ -1.27428973e-01]
+current_stage:  1
+reward:  100
+state:  [-1.44793499e-02  2.10591041e-01 -1.00942717e+02 -2.08377198e-01
+ -1.27428973e-01]
+current_stage:  2
+reward:  100
+state:  [-1.44793499e-02  2.10591041e-01 -1.00942717e+02 -2.08377198e-01
+ -1.27428973e-01]
+current_stage:  1
+reward:  100
+state:  [-1.44793499e-02  2.10591041e-01 -1.00942717e+02 -2.08377198e-01
+ -1.27428973e-01]
+current_stage:  2
+reward:  100
+state:  [-1.44793499e-02  2.10591041e-01 -1.00942717e+02 -2.08377198e-01
+ -1.27428973e-01]
+current_stage:  1
+reward:  100
+state:  [-1.44793499e-02  2.10591041e-01 -1.00942717e+02 -2.08377198e-01
+ -1.27428973e-01]
+current_stage:  2
+reward:  100
+state:  [-1.44793499e-02  2.10591041e-01 -1.00942717e+02 -2.08377198e-01
+ -1.27428973e-01]
+current_stage:  1
+reward:  100
+state:  [-1.44793499e-02  2.10591041e-01 -1.00942717e+02 -2.08377198e-01
+ -1.27428973e-01]
+current_stage:  2
+reward:  100
+state:  [-1.44793499e-02  2.10591041e-01 -1.00942717e+02 -2.08377198e-01
+ -1.27428973e-01]
+current_stage:  1
+reward:  100
+state:  [-1.44793499e-02  2.10591041e-01 -1.00942717e+02 -2.08377198e-01
+ -1.27428973e-01]
+current_stage:  2
+reward:  100
+state:  [-1.48588656e-02  2.10219482e-01 -1.01074554e+02 -2.06593437e-01
+ -1.27692533e-01]
+current_stage:  1
+reward:  100
+state:  [-1.48588656e-02  2.10219482e-01 -1.01074554e+02 -2.06593437e-01
+ -1.27692533e-01]
+current_stage:  2
+reward:  100
+state:  [-1.48588656e-02  2.10219482e-01 -1.01074554e+02 -2.06593437e-01
+ -1.27692533e-01]
+current_stage:  1
+reward:  100
+state:  [-1.48588656e-02  2.10219482e-01 -1.01074554e+02 -2.01997066e-01
+ -1.26175813e-01]
+current_stage:  2
+reward:  100
+state:  [-1.48588656e-02  2.10219482e-01 -1.01074554e+02 -2.01997066e-01
+ -1.26175813e-01]
+current_stage:  1
+reward:  100
+state:  [-1.48588656e-02  2.10219482e-01 -1.01074554e+02 -2.01997066e-01
+ -1.26175813e-01]
+current_stage:  2
+reward:  100
+state:  [-1.52611179e-02  2.09622751e-01 -1.01415135e+02 -2.01997066e-01
+ -1.26175813e-01]
+current_stage:  1
+reward:  100
+state:  [-1.52611179e-02  2.09622751e-01 -1.01415135e+02 -2.01997066e-01
+ -1.26175813e-01]
+current_stage:  2
+reward:  100
+state:  [-1.52611179e-02  2.09622751e-01 -1.01415135e+02 -2.01997066e-01
+ -1.26175813e-01]
+current_stage:  1
+reward:  100
+state:  [-1.52611179e-02  2.09622751e-01 -1.01415135e+02 -2.01997066e-01
+ -1.26175813e-01]
+current_stage:  2
+reward:  100
+state:  [-1.57996522e-02  2.09261137e-01 -1.01799669e+02 -2.00361981e-01
+ -1.25287258e-01]
+current_stage:  1
+reward:  100
+state:  [-1.57996522e-02  2.09261137e-01 -1.01799669e+02 -2.00361981e-01
+ -1.25287258e-01]
+current_stage:  2
+reward:  100
+state:  [-1.57996522e-02  2.09261137e-01 -1.01799669e+02 -2.00361981e-01
+ -1.25287258e-01]
+current_stage:  1
+reward:  100
+state:  [-1.57996522e-02  2.09261137e-01 -1.01799669e+02 -2.00361981e-01
+ -1.25287258e-01]
+current_stage:  2
+reward:  100
+state:  [-1.65720483e-02  2.08820772e-01 -1.02030395e+02 -2.00361981e-01
+ -1.25287258e-01]
+current_stage:  1
+reward:  100
+state:  [-1.03634900e-02  2.18645717e-01 -8.04855485e+01 -2.07299621e-01
+ -1.35804620e-01]
+current_stage:  2
+reward:  100
+state:  [-1.31725503e-02  2.15076943e-01 -9.69214925e+01 -2.07868461e-01
+ 20%|████████████████████████████▎                                                                                                               | 202/1001 [00:11<00:44, 17.96it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 261, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 183, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 208, in cache_miss
+    outs, out_flat, out_tree, args_flat = _python_pjit_helper(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 150, in _python_pjit_helper
+    args_flat, _, params, in_tree, out_tree, _ = infer_params_fn(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api.py", line 301, in infer_params
+    return pjit.common_infer_params(pjit_info_args, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 460, in common_infer_params
+    avals.append(shaped_abstractify(a))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api_util.py", line 563, in shaped_abstractify
+    return _shaped_abstractify_handlers[type(x)](x)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api_util.py", line 575, in _numpy_array_abstractify
+    dtypes.check_valid_dtype(dtype)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/dtypes.py", line 441, in check_valid_dtype
+    raise TypeError(f"Dtype {dtype} is not a valid JAX array "
+jax._src.traceback_util.UnfilteredStackTrace: TypeError: Dtype object is not a valid JAX array type. Only arrays of numeric types are supported by JAX.
+The stack trace below excludes JAX-internal frames.
+The preceding is the original exception that occurred, unmodified.
+--------------------
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 261, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 183, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+TypeError: Dtype object is not a valid JAX array type. Only arrays of numeric types are supported by JAX.
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

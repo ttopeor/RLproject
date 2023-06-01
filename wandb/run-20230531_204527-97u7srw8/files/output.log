@@ -1,0 +1,77 @@
+
+I0531 20:45:30.671258 139892967151360 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 20:45:33.265205 139894424331840 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0531 20:45:33.287025 139894424331840 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 20:45:33.305254 139894424331840 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - agent created
+For debug - replay_buffer created
+0it [00:00, ?it/s]
+  0%|                                                                                                                                                                | 0/11 [00:00<?, ?it/s]/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/rescale_action.py:44: RuntimeWarning: invalid value encountered in add
+  action = low + (high - low) * (
+ 45%|█████████████████████████████████████████████████████████████████████                                                                                   | 5/11 [00:00<00:00, 12.13it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 262, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 183, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 208, in cache_miss
+    outs, out_flat, out_tree, args_flat = _python_pjit_helper(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 150, in _python_pjit_helper
+    args_flat, _, params, in_tree, out_tree, _ = infer_params_fn(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api.py", line 301, in infer_params
+    return pjit.common_infer_params(pjit_info_args, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 460, in common_infer_params
+    avals.append(shaped_abstractify(a))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api_util.py", line 563, in shaped_abstractify
+    return _shaped_abstractify_handlers[type(x)](x)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api_util.py", line 575, in _numpy_array_abstractify
+    dtypes.check_valid_dtype(dtype)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/dtypes.py", line 441, in check_valid_dtype
+    raise TypeError(f"Dtype {dtype} is not a valid JAX array "
+jax._src.traceback_util.UnfilteredStackTrace: TypeError: Dtype object is not a valid JAX array type. Only arrays of numeric types are supported by JAX.
+The stack trace below excludes JAX-internal frames.
+The preceding is the original exception that occurred, unmodified.
+--------------------
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 262, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 183, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+TypeError: Dtype object is not a valid JAX array type. Only arrays of numeric types are supported by JAX.
+For debug - random action
+For debug - action [-0.57858941 -0.83618214  0.61494142] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.30295869  0.79726657  0.65184998] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [0.39100225 0.89122875 0.345078  ] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.01420387 -0.02438091  0.5927171 ] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.25368942 -0.97438933  0.66244361] <class 'numpy.ndarray'>
+For debug - observation [-0.14980867555081226 0.2800853043335262 140.15042783750647 10.0 10.0] (5,) <class 'numpy.ndarray'>
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

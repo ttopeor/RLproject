@@ -10,23 +10,31 @@ def cal_reward(state, goal):
     goal_x, goal_y = goal
     # print("goal: ", goal)
     
+    if xc == None or yc == None:
+        reward = -10000
+        return reward
+
     dist_robot2cube = np.sqrt((camera_center[0] - xc)**2 + (camera_center[1] - yc)**2)
     dist_rob2goal = np.sqrt((goal_x - xrob)**2 + (goal_y - yrob)**2)
     
-    reward = 100
+    weight = 0
+    reward = 0
     
-    if dist_robot2cube <= 0.1:
+    if dist_robot2cube <= 0.02:
+        weight = 1
+    else:
+        weight = -dist_robot2cube
+    
+    if dist_rob2goal <= 0.02:
         reward = 100
     else:
-        reward /= dist_robot2cube
-    
-    if dist_rob2goal <= 0.2:
-        reward *= 100
-    else:
-        reward /= dist_rob2goal
+        reward = 1/dist_rob2goal
         
-    if xc and yc == None:
-        reward = -10000
+    reward = reward * weight
+
     
+
+    #print("reward: ", reward)
+
     return reward
     

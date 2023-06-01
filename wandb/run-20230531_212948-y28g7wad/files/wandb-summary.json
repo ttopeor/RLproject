@@ -1,0 +1,1 @@
+{"offline-training/actor_loss": null, "_timestamp": 1685593807.4817495, "offline-training/critic_loss": null, "offline-training/entropy": null, "offline-training/q": null, "offline-training/temperature": 1.0, "offline-training/temperature_loss": null, "_runtime": 18.990398645401, "_step": 0, "_wandb": {"runtime": 56}}

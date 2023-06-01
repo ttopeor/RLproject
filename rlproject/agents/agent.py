@@ -6,13 +6,16 @@ import numpy as np
 from flax import struct
 from flax.training.train_state import TrainState
 
-from rlproject.types import PRNGKey
+from rlproject.data.types import PRNGKey
 
 
 @partial(jax.jit, static_argnames="apply_fn")
 def _sample_actions(rng, apply_fn, params, observations: np.ndarray) -> np.ndarray:
     key, rng = jax.random.split(rng)
+    # print(f"For debug - key = {key}")
+    # print(f"For debug - rng = {rng}")
     dist = apply_fn({"params": params}, observations)
+    # print(f"For debug - dist = {dist}")
     return dist.sample(seed=key), rng
 
 
@@ -38,4 +41,5 @@ class Agent(struct.PyTreeNode):
         actions, new_rng = _sample_actions(
             self.rng, self.actor.apply_fn, self.actor.params, observations
         )
+        # print(f"For debug - actions(in agent.py) = {actions}")
         return np.asarray(actions), self.replace(rng=new_rng)

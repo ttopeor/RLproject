@@ -1,0 +1,58 @@
+
+I0531 20:32:28.973019 140301067511552 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 20:32:31.565312 140302591870528 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Host CUDA Interpreter
+I0531 20:32:31.578736 140302591870528 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 20:32:31.582066 140302591870528 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - agent created
+For debug - replay_buffer created
+For debug - random action
+For debug - action [ 0.04716466 -0.48992056  0.36831303] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.09956876 -0.36934927  0.48148138] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.37903525  0.29512329  0.54359609] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.92011032  0.99979441  0.62811427] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.97954735 -0.47942706 -0.16782269] <class 'numpy.ndarray'>
+For debug - observation [-2.3464982e-04  2.2062080e-01 -8.9855446e+01 -2.2261973e-01
+ -8.8205710e-02] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.9999993   0.99999994 -0.99892354] <class 'numpy.ndarray'>
+0it [00:00, ?it/s]
+ 36%|███████████████████████████████████████████████████████▎                                                                                                | 4/11 [00:00<00:00, 18.81it/s]
+For debug - observation [-3.1033944e-02  2.0778494e-01 -9.0086540e+01 -2.5228909e-01
+ -1.2045147e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+ 55%|██████████████████████████████████████████████████████████████████████████████████▉                                                                     | 6/11 [00:06<00:05,  1.02s/it]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 262, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 187, in main
+    next_observation, reward, done, info = env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/record_episode_statistics.py", line 26, in step
+    observations, rewards, dones, infos = super(RecordEpisodeStatistics, self).step(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 289, in step
+    return self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/rescale_action.py", line 37, in action
+    assert np.all(np.greater_equal(action, self.min_action)), (
+AssertionError: (array([nan, nan, nan]), array([-1., -1., -1.]))
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

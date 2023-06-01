@@ -1,0 +1,69 @@
+
+I0531 21:17:40.024910 139786542003968 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 21:17:42.577526 139787999151680 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0531 21:17:42.588725 139787999151680 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 21:17:42.596144 139787999151680 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - agent created
+For debug - replay_buffer created
+For debug - random action
+[-0.23247336  0.12295005  0.94204936]
+0it [00:00, ?it/s]
+  0%|                                                                                                                                                                | 0/11 [00:00<?, ?it/s]
+For debug - re sample
+For debug - action [-0.9999993   0.99999994 -0.9989387 ] <class 'numpy.ndarray'>
+For debug - random action
+[-0.10837469  0.8286069  -0.68482337]
+For debug - re sample
+For debug - action [-0.99999994  0.99999994 -0.998939  ] <class 'numpy.ndarray'>
+For debug - random action
+[ 0.67156139  0.09428622 -0.68910975]
+For debug - re sample
+For debug - action [ 0.2194641   0.99999994 -0.99920297] <class 'numpy.ndarray'>
+For debug - random action
+[ 0.36279924 -0.51615087  0.72521919]
+For debug - re sample
+For debug - action [-0.99999183  0.99999994 -0.99972945] <class 'numpy.ndarray'>
+For debug - random action
+[ 0.65480327 -0.04977727 -0.88808187]
+For debug - re sample
+For debug - action [-0.99999493  0.99999994 -0.99990946] <class 'numpy.ndarray'>
+For debug - observation [-1.7966392e-02  2.5967222e-01 -1.3045575e+02  1.0000000e+01
+  1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+
+ 45%|█████████████████████████████████████████████████████████████████████                                                                                   | 5/11 [00:02<00:02,  2.57it/s]
+For debug - observation [-3.1936042e-02  2.7256024e-01 -1.4444104e+02  1.0000000e+01
+  1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+ 55%|██████████████████████████████████████████████████████████████████████████████████▉                                                                     | 6/11 [00:06<00:05,  1.09s/it]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 273, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 193, in main
+    next_observation, reward, done, info = env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/record_episode_statistics.py", line 26, in step
+    observations, rewards, dones, infos = super(RecordEpisodeStatistics, self).step(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 289, in step
+    return self.env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/core.py", line 349, in step
+    return self.env.step(self.action(action))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/rescale_action.py", line 37, in action
+    assert np.all(np.greater_equal(action, self.min_action)), (
+AssertionError: (array([nan, nan, nan]), array([-1., -1., -1.]))
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

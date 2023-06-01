@@ -1,0 +1,1073 @@
+
+I0531 18:27:27.813253 140018170279680 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 18:27:30.525730 140019627435584 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Host CUDA Interpreter
+I0531 18:27:30.562797 140019627435584 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 18:27:30.573678 140019627435584 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+0it [00:00, ?it/s]
+ 17%|████████████████████████▎                                                                                                                  | 175/1001 [00:01<00:07, 104.97it/s]
+For debug - agent created
+For debug - replay_buffer created
+state:  [-1.27162158e-04  2.21051467e-01 -8.99230933e+01 -2.22187008e-01
+ -9.04238709e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99230933e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99230933e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99230933e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99230933e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99230933e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99230933e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99230933e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99450667e+01 -2.22187008e-01
+ -9.04238709e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99450667e+01 -2.22187008e-01
+ -9.04238709e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99450667e+01 -2.22187008e-01
+ -9.04238709e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99450667e+01 -2.22187008e-01
+ -9.04238709e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99450667e+01 -2.22187008e-01
+ -9.04238709e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.27162158e-04  2.21051467e-01 -8.99450667e+01 -2.22187008e-01
+ -9.04238709e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-8.47444435e-05  2.20972398e-01 -9.01867733e+01 -2.22187008e-01
+ -9.04238709e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-8.47444435e-05  2.20972398e-01 -9.01867733e+01 -2.22187008e-01
+ -9.04238709e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-8.47444435e-05  2.20972398e-01 -9.01867733e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-8.47444435e-05  2.20972398e-01 -9.01867733e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-8.47444435e-05  2.20972398e-01 -9.01867733e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-8.47444435e-05  2.20972398e-01 -9.01867733e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-8.47444435e-05  2.20972398e-01 -9.01867733e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-8.47444435e-05  2.20972398e-01 -9.01867733e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-8.47444435e-05  2.20972398e-01 -9.01867733e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.27123032e-04  2.20983452e-01 -9.05822931e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-8.49219151e-05  2.21435158e-01 -9.11865596e+01 -2.22751103e-01
+ -9.06185041e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-8.51279212e-05  2.21972321e-01 -9.13293863e+01 -2.22358699e-01
+ -9.04115124e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-4.26221671e-05  2.22275878e-01 -9.13183996e+01 -2.21386781e-01
+ -8.98491781e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 2.55791132e-04  2.22326307e-01 -9.10766931e+01 -2.18972169e-01
+ -8.85628769e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 2.55791132e-04  2.22326307e-01 -9.10766931e+01 -2.18972169e-01
+ -8.85628769e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 2.55791132e-04  2.22326307e-01 -9.10766931e+01 -2.18972169e-01
+ -8.85628769e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 2.55791132e-04  2.22326307e-01 -9.10766931e+01 -2.18972169e-01
+ -8.85628769e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 2.55791132e-04  2.22326307e-01 -9.10766931e+01 -2.18972169e-01
+ -8.85628769e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 2.55791132e-04  2.22326307e-01 -9.10766931e+01 -2.18972169e-01
+ -8.85628769e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 2.55791132e-04  2.22326307e-01 -9.10766931e+01 -2.18972169e-01
+ -8.85628769e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 4.68968377e-04  2.22334595e-01 -9.04724268e+01 -2.19343101e-01
+ -8.79526626e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 5.54256600e-04  2.22342986e-01 -9.01428271e+01 -2.19343101e-01
+ -8.79526626e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 5.54256600e-04  2.22342986e-01 -9.01428271e+01 -2.19343101e-01
+ -8.79526626e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 5.54256600e-04  2.22342986e-01 -9.01428271e+01 -2.19343101e-01
+ -8.79526626e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 5.54256600e-04  2.22342986e-01 -9.01428271e+01 -2.19343101e-01
+ -8.79526626e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 5.54256600e-04  2.22342986e-01 -9.01428271e+01 -2.19343101e-01
+ -8.79526626e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 5.54256600e-04  2.22342986e-01 -9.01428271e+01 -2.19343101e-01
+ -8.79526626e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 5.54256600e-04  2.22342986e-01 -9.01428271e+01 -2.19343101e-01
+ -8.79526626e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 5.54345170e-04  2.22378516e-01 -8.85277914e+01 -2.21952154e-01
+ -8.75551553e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 5.88905119e-04  2.19367892e-01 -8.71984017e+01 -2.20499628e-01
+ -8.69625893e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.19093116e-04  2.15238686e-01 -8.65941379e+01 -2.19651577e-01
+ -8.69068752e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.19093116e-04  2.15238686e-01 -8.65941379e+01 -2.19651577e-01
+ -8.69068752e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.19093116e-04  2.15238686e-01 -8.65941379e+01 -2.19651577e-01
+ -8.69068752e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.19093116e-04  2.15238686e-01 -8.65941379e+01 -2.19651577e-01
+ -8.69068752e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.98092064e-04  2.14150481e-01 -8.65721661e+01 -2.24332167e-01
+ -8.95441685e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 7.38924156e-04  2.14083131e-01 -8.65941345e+01 -2.26018432e-01
+ -9.59403185e-02]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 7.38193476e-04  2.13871436e-01 -8.65831482e+01 -2.26018432e-01
+ -9.59403185e-02]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.97637178e-04  2.14010937e-01 -8.65721623e+01 -2.33162243e-01
+ -1.04201518e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.97637178e-04  2.14010937e-01 -8.65721623e+01 -2.33162243e-01
+ -1.04201518e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.97637178e-04  2.14010937e-01 -8.65721623e+01 -2.33162243e-01
+ -1.04201518e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.97637178e-04  2.14010937e-01 -8.65721623e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [ 6.15751503e-04  2.14076914e-01 -8.63744025e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.27802933e-01
+ -1.03083357e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-4.11233697e-05  2.14459605e-01 -8.56932278e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-7.00174220e-04  2.14789214e-01 -8.52098097e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-7.00174220e-04  2.14789214e-01 -8.52098097e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-7.00174220e-04  2.14789214e-01 -8.52098097e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-7.00174220e-04  2.14789214e-01 -8.52098097e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-7.00174220e-04  2.14789214e-01 -8.52098097e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-7.00174220e-04  2.14789214e-01 -8.52098097e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-7.00174220e-04  2.14789214e-01 -8.52098097e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-7.00174220e-04  2.14789214e-01 -8.52098097e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.56422449e-03  2.14666665e-01 -8.46165273e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.56422449e-03  2.14666665e-01 -8.46165273e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.56422449e-03  2.14666665e-01 -8.46165273e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.56422449e-03  2.14666665e-01 -8.46165273e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.56422449e-03  2.14666665e-01 -8.46165273e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.56422449e-03  2.14666665e-01 -8.46165273e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.56422449e-03  2.14666665e-01 -8.46165273e+01 -2.28005305e-01
+ -1.03168215e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.56422449e-03  2.14666665e-01 -8.46165273e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-1.56422449e-03  2.14666665e-01 -8.46165273e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.56422449e-03  2.14666665e-01 -8.46165273e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.01535017e-03  2.14485762e-01 -8.41441034e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.01535017e-03  2.14485762e-01 -8.41441034e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.01535017e-03  2.14485762e-01 -8.41441034e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.01535017e-03  2.14485762e-01 -8.41441034e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.01535017e-03  2.14485762e-01 -8.41441034e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.01535017e-03  2.14485762e-01 -8.41441034e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.01535017e-03  2.14485762e-01 -8.41441034e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.01535017e-03  2.14485762e-01 -8.41441034e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.01535017e-03  2.14485762e-01 -8.41441034e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.92090037e-03  2.14530168e-01 -8.38584491e+01 -2.35009355e-01
+ -1.05927876e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-3.78396985e-03  2.14472491e-01 -8.38804251e+01 -2.28391534e-01
+ -1.03346536e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.14606537e-03  2.14653966e-01 -8.36277342e+01 -2.28391534e-01
+ -1.03346536e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.14606537e-03  2.14653966e-01 -8.36277342e+01 -2.28391534e-01
+ -1.03346536e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.14606537e-03  2.14653966e-01 -8.36277342e+01 -2.28391534e-01
+ -1.03346536e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.14606537e-03  2.14653966e-01 -8.36277342e+01 -2.28391534e-01
+ -1.03346536e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.14606537e-03  2.14653966e-01 -8.36277342e+01 -2.28391534e-01
+ -1.03346536e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.14606537e-03  2.14653966e-01 -8.36277342e+01 -2.26726599e-01
+ -1.03527104e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.14606537e-03  2.14653966e-01 -8.36277342e+01 -2.26726599e-01
+ -1.03527104e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.26726599e-01
+ -1.03527104e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.74325829e-03  2.15425693e-01 -8.34849084e+01 -2.25202020e-01
+ -1.03874363e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.07991682e-03  2.15636399e-01 -8.34080016e+01 -2.23574673e-01
+ -1.04866332e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.07991682e-03  2.15636399e-01 -8.34080016e+01 -2.23574673e-01
+ -1.04866332e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.07991682e-03  2.15636399e-01 -8.34080016e+01 -2.23574673e-01
+ -1.04866332e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.07991682e-03  2.15636399e-01 -8.34080016e+01 -2.23574673e-01
+ -1.04866332e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.07991682e-03  2.15636399e-01 -8.34080016e+01 -2.23574673e-01
+ -1.04866332e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.07991682e-03  2.15636399e-01 -8.34080016e+01 -2.23574673e-01
+ -1.04866332e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.07991682e-03  2.15636399e-01 -8.34080016e+01 -2.23574673e-01
+ -1.04866332e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.54273211e-03  2.15886733e-01 -8.28147221e+01 -2.15994693e-01
+ -1.03244944e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.51125415e-03  2.16217367e-01 -8.22763747e+01 -2.15741661e-01
+ -1.02852244e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.46820498e-03  2.16165521e-01 -8.16171757e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.46820498e-03  2.16165521e-01 -8.16171757e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.46820498e-03  2.16165521e-01 -8.16171757e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.46820498e-03  2.16165521e-01 -8.16171757e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.46820498e-03  2.16165521e-01 -8.16171757e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.46820498e-03  2.16165521e-01 -8.16171757e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.46820498e-03  2.16165521e-01 -8.16171757e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.46820498e-03  2.16165521e-01 -8.16171757e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.46820498e-03  2.16165521e-01 -8.16171757e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.46820498e-03  2.16165521e-01 -8.16171757e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.39228862e-03  2.16404458e-01 -8.07382414e+01 -2.16284460e-01
+ -1.03325908e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.43457824e-03  2.17836130e-01 -7.98593022e+01 -2.13208916e-01
+ -1.02022939e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.23018407e-03  2.18162746e-01 -7.86178164e+01 -2.18764982e-01
+ -1.06106950e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-5.23018407e-03  2.18162746e-01 -7.86178164e+01 -2.18764982e-01
+ -1.06106950e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.23018407e-03  2.18162746e-01 -7.86178164e+01 -2.18764982e-01
+ -1.06106950e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-4.55614845e-03  2.17954045e-01 -7.84530158e+01 -2.20534959e-01
+ -1.06718039e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-4.01137593e-03  2.17886280e-01 -7.83651217e+01 -2.20534959e-01
+ -1.06718039e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.88325517e-03  2.17904128e-01 -7.83431489e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.88325517e-03  2.17904128e-01 -7.83431489e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.88325517e-03  2.17904128e-01 -7.83431489e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.88325517e-03  2.17904128e-01 -7.83431489e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.88325517e-03  2.17904128e-01 -7.83431489e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.88325517e-03  2.17904128e-01 -7.83431489e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.17311247e-03  2.17932138e-01 -7.94528024e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.17311247e-03  2.17932138e-01 -7.94528024e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.17311247e-03  2.17932138e-01 -7.94528024e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.17311247e-03  2.17932138e-01 -7.94528024e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.17311247e-03  2.17932138e-01 -7.94528024e+01 -2.19505177e-01
+ -1.05483375e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.17311247e-03  2.17932138e-01 -7.94528024e+01 -2.18304285e-01
+ -1.05000413e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.17311247e-03  2.17932138e-01 -7.94528024e+01 -2.18304285e-01
+ -1.05000413e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.17311247e-03  2.17932138e-01 -7.94528024e+01 -2.18304285e-01
+ -1.05000413e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-2.00566867e-03  2.17902644e-01 -7.96615490e+01 -2.18304285e-01
+ -1.05000413e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-2.00566867e-03  2.17902644e-01 -7.96615490e+01 -2.18304285e-01
+ -1.05000413e-01]
+
+ 19%|██████████████████████████▍                                                                                                                 | 189/1001 [00:02<00:09, 88.21it/s]
+current_stage:  2
+reward:  100
+state:  [-2.49945787e-03  2.17236211e-01 -7.98922697e+01 -2.21891492e-01
+ -1.06380479e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-5.42080774e-03  2.12507863e-01 -8.19576966e+01 -2.23230010e-01
+ -1.05307290e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.49249573e-03  2.12880932e-01 -8.33860257e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-6.49460557e-03  2.12950111e-01 -8.39024016e+01 -2.24940920e-01
+ -1.06129461e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-6.81508432e-03  2.10227379e-01 -8.46165127e+01 -2.23937525e-01
+ -1.07976321e-01]
+stage.py - goaled 2
+current_stage:  1
+reward:  100
+state:  [-1.88100573e-02  2.36446517e-01 -6.97735396e+01 -2.03118742e-01
+ -1.00622319e-01]
+stage.py - goaled 1
+current_stage:  2
+reward:  100
+state:  [-0.1502631423478793 0.2788876635023929 139.76060902056915 None None]
+stage.py - found no cube
+ 20%|████████████████████████████▎                                                                                                               | 202/1001 [00:11<00:43, 18.22it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 261, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 183, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 208, in cache_miss
+    outs, out_flat, out_tree, args_flat = _python_pjit_helper(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 150, in _python_pjit_helper
+    args_flat, _, params, in_tree, out_tree, _ = infer_params_fn(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api.py", line 301, in infer_params
+    return pjit.common_infer_params(pjit_info_args, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/pjit.py", line 460, in common_infer_params
+    avals.append(shaped_abstractify(a))
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api_util.py", line 563, in shaped_abstractify
+    return _shaped_abstractify_handlers[type(x)](x)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/api_util.py", line 575, in _numpy_array_abstractify
+    dtypes.check_valid_dtype(dtype)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/dtypes.py", line 441, in check_valid_dtype
+    raise TypeError(f"Dtype {dtype} is not a valid JAX array "
+jax._src.traceback_util.UnfilteredStackTrace: TypeError: Dtype object is not a valid JAX array type. Only arrays of numeric types are supported by JAX.
+The stack trace below excludes JAX-internal frames.
+The preceding is the original exception that occurred, unmodified.
+--------------------
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 261, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 183, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 38, in sample_actions
+    actions, new_rng = _sample_actions(
+TypeError: Dtype object is not a valid JAX array type. Only arrays of numeric types are supported by JAX.
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

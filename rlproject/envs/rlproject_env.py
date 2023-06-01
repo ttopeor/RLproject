@@ -13,7 +13,7 @@ class RLprojectEnv(gym.Env):
         
         # robot handling
         robot_url = "ws://localhost:8080/api/ws"
-        cam_port = 4
+        cam_port = 0
         # k = "calibration_matrix.npy"
         k = "/home/howard/RLproject/rlproject/toolkits/calibration_matrix.npy"
         # d = "distortion_coefficients.npy"
@@ -23,14 +23,15 @@ class RLprojectEnv(gym.Env):
 
         self.seed() # initialize the random number generator, if needed
         # define the action space
-        action_low = -1
-        action_high = 1
+        action_low = -10
+        action_high = 10
         action_dim = 3
         self.action_space = spaces.Box(low=action_low, high=action_high, shape=(action_dim,), dtype=float)
+        # self.action_space = spaces.Box(low=-float('inf'), high=float('inf'), shape=(action_dim,), dtype=float)
         
         # define the observation space
         # self.observation_space = spaces.Box(low=-float('inf'), high=float('inf'), shape=(5,), dtype=float) # TBD
-        self.observation_space = spaces.Box(low=-10.0, high=10.0, shape=(5,), dtype=float) # TBD
+        self.observation_space = spaces.Box(low=-1000.0, high=1000.0, shape=(5,), dtype=float) # TBD
         print('CustomEnv Environment initialized')
         
     def step(self, action) -> Tuple[np.array, float, bool, dict]:

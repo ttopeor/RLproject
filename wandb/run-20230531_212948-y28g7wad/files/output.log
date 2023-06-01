@@ -1,0 +1,203 @@
+
+I0531 21:29:51.651759 140654111848192 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 21:29:54.242199 140655569004096 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: CUDA Host Interpreter
+I0531 21:29:54.258930 140655569004096 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 21:29:54.265456 140655569004096 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - agent created
+For debug - replay_buffer created
+
+
+ 20%|██████████████████████████████▍                                                                                                                         | 2/10 [00:07<00:30,  3.81s/it]
+For debug - random action
+For debug - action [-0.30474829 -0.06475785 -0.01888629] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [ 0.16413717 -0.43601525 -0.73923092] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.24730068 -0.1148202  -0.54919776] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [-0.09057719 -0.77357244  0.79734022] <class 'numpy.ndarray'>
+For debug - random action
+For debug - action [ 0.6588127  -0.24336967  0.99025163] <class 'numpy.ndarray'>
+For debug - observation [ -0.14613819   0.14992823 139.99023     10.          10.        ] (5,) <class 'numpy.ndarray'>
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  1.08s/it]
+ 45%|█████████████████████████████████████████████████████████████████████                                                                                   | 5/11 [00:01<00:01,  4.38it/s]
+For debug - sample action
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+[nan nan nan]
+For debug - re sample
+
+ 45%|█████████████████████████████████████████████████████████████████████                                                                                   | 5/11 [00:03<00:03,  1.50it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 274, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 189, in main
+    print(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 643, in write
+    cb(data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2082, in <lambda>
+    lambda data: self._console_raw_callback("stdout", data),
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 345, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1428, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 657, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 79, in _publish_output_raw
+    self._publish(rec)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

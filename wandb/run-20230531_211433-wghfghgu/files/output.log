@@ -1,0 +1,204 @@
+
+I0531 21:14:37.371881 140291002844928 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 21:14:39.986599 140292661380672 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0531 21:14:39.988404 140292661380672 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 21:14:39.989137 140292661380672 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - agent created
+For debug - replay_buffer created
+For debug - random action
+[ 0.03421336 -0.38054997 -0.28391817]
+For debug - re sample
+[-0.9999994   0.99999994 -0.9989291 ]
+For debug - re sample
+[-1.          0.99999994 -0.998929  ]
+For debug - re sample
+[ 0.07844841  0.99999994 -0.9989289 ]
+For debug - re sample
+[-0.99995154  0.99999994 -0.9989289 ]
+For debug - re sample
+[-0.99990916  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.9999132   0.99999994 -0.99892914]
+For debug - re sample
+[-0.99999994  0.99999994 -0.9989291 ]
+For debug - re sample
+0it [00:00, ?it/s]
+  0%|                                                                                                                                                                | 0/11 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 273, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 188, in main
+    print(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 643, in write
+    cb(data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2082, in <lambda>
+    lambda data: self._console_raw_callback("stdout", data),
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 345, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1428, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 657, in publish_output_raw
+    self._publish_output_raw(o)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 79, in _publish_output_raw
+    self._publish(rec)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:
+[-0.9999997   0.99999994 -0.9989293 ]
+For debug - re sample
+[-0.9994047   0.99999994 -0.998929  ]
+For debug - re sample
+[ 0.51392287  0.99999994 -0.998929  ]
+For debug - re sample
+[ 0.5141074   0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.9989293 ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.9989289 ]
+For debug - re sample
+[-0.48187584  0.99999994 -0.99892914]
+For debug - re sample
+[-0.9917251   0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99925387  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.9999961   0.99999994 -0.9989289 ]
+For debug - re sample
+[-0.94595927  0.99999994 -0.9989289 ]
+For debug - re sample
+[-0.9999997   0.99999994 -0.9989289 ]
+For debug - re sample
+[-0.52951014  0.99999994 -0.99892914]
+For debug - re sample
+[-0.9999989   0.99999994 -0.998929  ]
+For debug - re sample
+[-0.98314834  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.9755262   0.99999994 -0.99892914]
+For debug - re sample
+[ 0.9991679   0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.99376696  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.9994431   0.99999994 -0.9989289 ]
+For debug - re sample
+[ 0.96545446  0.99999994 -0.9989289 ]
+For debug - re sample
+[-0.99999195  0.99999994 -0.99892914]
+For debug - re sample
+[-1.          0.99999994 -0.9989292 ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.9999996   0.99999994 -0.9989292 ]
+For debug - re sample
+[ 0.7791074   0.99999994 -0.99892914]
+For debug - re sample
+[-0.99999994  0.99999994 -0.99892914]
+For debug - re sample
+[-0.9996839   0.99999994 -0.9989293 ]
+For debug - re sample
+[-0.9873649   0.99999994 -0.998929  ]
+For debug - re sample
+[-0.9999999   0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.9989292 ]
+For debug - re sample
+[-0.99836993  0.99999994 -0.9989292 ]
+For debug - re sample
+[-0.99894416  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999887  0.99999994 -0.9989292 ]
+For debug - re sample
+[ 0.59517986  0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.99892914]
+For debug - re sample
+[-0.99999887  0.99999994 -0.9989289 ]
+For debug - re sample
+[-0.8778066   0.99999994 -0.99892914]
+For debug - re sample
+[-0.99999994  0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.99892914]
+For debug - re sample
+[-0.9999982   0.99999994 -0.998929  ]
+For debug - re sample
+[-0.9999983   0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.9999963   0.99999994 -0.99892914]
+For debug - re sample
+[-0.9992561   0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.9999991   0.99999994 -0.998929  ]
+For debug - re sample
+[-0.9999988   0.99999994 -0.998929  ]
+For debug - re sample
+[-0.983065    0.99999994 -0.9989292 ]
+For debug - re sample
+[-0.99999946  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.99892914]
+For debug - re sample
+[-0.9999946   0.99999994 -0.9989289 ]
+For debug - re sample
+[-0.9999902   0.99999994 -0.99892914]
+For debug - re sample
+[ 0.4666866   0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.9989291 ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.99892914]
+For debug - re sample
+[-0.99999994  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.9998708   0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999946  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99943507  0.99999994 -0.99892914]
+For debug - re sample
+[-0.99999994  0.99999994 -0.99892914]
+For debug - re sample
+[-0.99999994  0.99999994 -0.998929  ]
+For debug - re sample
+[-0.99999994  0.99999994 -0.99892914]

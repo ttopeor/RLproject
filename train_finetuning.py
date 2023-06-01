@@ -10,6 +10,8 @@ import gym
 import numpy as np
 import tqdm
 from absl import app, flags
+import time
+import math
 
 from ml_collections import config_flags
 
@@ -179,10 +181,16 @@ def main(_):
             action = env.action_space.sample()
             # print("For debug - random action ") #delete me
         else:
-            # print("For debug - observation", observation, np.shape(observation)) #delete me
+            # print("For debug - observation", observation, np.shape(observation),type(observation)) #delete me
             action, agent = agent.sample_actions(observation)
             # print("For debug - sample action") #delete me
-            
+
+        # while math.isnan(action[0]):
+        #     print(action)
+        #     action, agent = agent.sample_actions(observation)
+        #     print("For debug - re sample") #delete me
+
+        # print("For debug - action", action, type(action)) #delete me
         next_observation, reward, done, info = env.step(action)
         # print(next_observation, reward, done, info) #delete me
         # print("For debug - env step") #delete me
@@ -255,7 +263,12 @@ def main(_):
                         pickle.dump(replay_buffer, f, pickle.HIGHEST_PROTOCOL)
                 except:
                     print("Could not save agent buffer.")
+        precise_sleep(0.2)
 
+def precise_sleep(delay):
+    start = time.perf_counter()
+    while time.perf_counter() - start < delay:
+        pass
 
 if __name__ == "__main__":
     app.run(main)

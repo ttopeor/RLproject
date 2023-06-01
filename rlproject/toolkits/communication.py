@@ -52,6 +52,8 @@ class env:
         yaw = robot_pose['yaw']
 
         # return [x, y, yaw, xc, yc]
+        if xc is None:
+            return np.array([x, y, yaw, 10.0, 10.0])
         return np.array([x, y, yaw, xc, yc])
 
 

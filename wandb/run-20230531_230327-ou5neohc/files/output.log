@@ -1,0 +1,574 @@
+
+I0531 23:03:31.912869 140671220451072 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0531 23:03:34.459220 140672677598784 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Host Interpreter CUDA
+I0531 23:03:34.479365 140672677598784 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0531 23:03:34.486846 140672677598784 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - x =  (5,) <class 'numpy.ndarray'>
+For debug - x(after nn.Dense) =  (256,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x(after nn.Dense) =  (256,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x =  (8,) <class 'jaxlib.xla_extension.ArrayImpl'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.batching.BatchTracer'>
+0it [00:00, ?it/s]
+  0%|                                                                                                                                                               | 0/101 [00:00<?, ?it/s]
+For debug - agent created
+For debug - replay_buffer created
+For debug - random action
+For debug - action [0.24150124 0.91397722 0.46876115] <class 'numpy.ndarray'>
+[  0.14935495   0.2794134  140.0058      10.          10.        ] -62.539226713675184 False None
+For debug - env step
+For debug - random action
+For debug - action [ 0.04015061 -0.51013588 -0.68072694] <class 'numpy.ndarray'>
+[  0.14940852   0.27938473 140.01678     10.          10.        ] -62.52744845547757 False None
+For debug - env step
+For debug - random action
+For debug - action [ 0.36949047 -0.11134984 -0.48699298] <class 'numpy.ndarray'>
+[  0.1478402    0.27366954 140.18033     10.          10.        ] -63.37139721597318 False None
+
+  7%|██████████▍                                                                                                                                            | 7/101 [00:01<00:24,  3.78it/s]
+For debug - random action
+For debug - action [-0.26355482 -0.65424617  0.35127833] <class 'numpy.ndarray'>
+[  0.14976554   0.26535234 140.26036     10.          10.        ] -63.41367415041229 False None
+For debug - env step
+For debug - random action
+For debug - action [0.62120453 0.4063927  0.26744262] <class 'numpy.ndarray'>
+[  0.14646548   0.2504223  140.11404     10.          10.        ] -65.17713296700192 False None
+For debug - env step
+For debug - random action
+For debug - action [ 0.35943975 -0.88866515  0.84036364] <class 'numpy.ndarray'>
+[  0.14346577   0.24915425 139.7305      10.          10.        ] -66.125898477528 False None
+For debug - env step
+For debug - random action
+For debug - action [ 0.86992037 -0.47458895  0.86468266] <class 'numpy.ndarray'>
+[  0.14887156   0.25100923 140.3222      10.          10.        ] -64.45550650937734 False None
+For debug - env step
+For debug - random action
+For debug - action [ 0.63273541 -0.62014101  0.99864345] <class 'numpy.ndarray'>
+[  0.14865625   0.23585206 139.7965      10.          10.        ] -65.09500651602445 False None
+
+ 15%|██████████████████████▎                                                                                                                               | 15/101 [00:03<00:22,  3.83it/s]
+For debug - random action
+For debug - action [ 0.95791546 -0.77480781 -0.13268051] <class 'numpy.ndarray'>
+[  0.15010805   0.22860818 140.15959     10.          10.        ] -64.84094540743938 False None
+For debug - env step
+For debug - random action
+For debug - action [ 0.66709899 -0.8831529   0.04633939] <class 'numpy.ndarray'>
+[  0.15021847   0.21903418 140.21448     10.          10.        ] -64.92702177515878 False None
+For debug - env step
+For debug - random action
+For debug - action [ 0.36312179 -0.34507312 -0.1780013 ] <class 'numpy.ndarray'>
+[  0.14983548   0.2096367  140.          10.          10.        ] -65.03786912924963 False None
+For debug - env step
+For debug - random action
+For debug - action [-0.57915154 -0.55627744 -0.01984643] <class 'numpy.ndarray'>
+[  0.15018481   0.19975387 140.05795     10.          10.        ] -64.80776414938909 False None
+For debug - env step
+For debug - random action
+For debug - action [ 0.31873814  0.27374134 -0.19290667] <class 'numpy.ndarray'>
+[  0.14656767   0.1874618  139.95857     10.          10.        ] -65.52771748656833 False None
+For debug - env step
+For debug - random action
+For debug - action [ 0.88042884 -0.20028504  0.7241496 ] <class 'numpy.ndarray'>
+[  0.14568755   0.18582167 139.91597     10.          10.        ] -65.72683514224569 False None
+For debug - env step
+For debug - random action
+For debug - action [0.15046125 0.41951133 0.13514516] <class 'numpy.ndarray'>
+[  0.15024386   0.1910947  140.00095     10.          10.        ] -64.57469767150249 False None
+For debug - env step
+For debug - random action
+For debug - action [-0.17505274  0.44448377  0.42002905] <class 'numpy.ndarray'>
+[  0.15042713   0.18828203 139.96548     10.          10.        ] -64.43150930518625 False None
+
+ 20%|█████████████████████████████▋                                                                                                                        | 20/101 [00:05<00:21,  3.84it/s]
+For debug - random action
+For debug - action [-0.67425142  0.97714236  0.31391906] <class 'numpy.ndarray'>
+[  0.14584291   0.20128764 139.75558     10.          10.        ] -66.12842793369911 False None
+For debug - env step
+For debug - random action
+For debug - action [-0.92227468  0.3993921  -0.90610666] <class 'numpy.ndarray'>
+[1.3636076e-01 2.1163642e-01 1.4010681e+02 1.0000000e+01 1.0000000e+01] -69.27076006811414 False None
+For debug - env step
+For debug - random action
+For debug - action [-0.45906919  0.61786369  0.00069571] <class 'numpy.ndarray'>
+[1.2621556e-01 2.2074552e-01 1.3991624e+02 1.0000000e+01 1.0000000e+01] -72.80102778705019 False None
+For debug - env step
+For debug - random action
+For debug - action [-0.16086185  0.44928544 -0.17452109] <class 'numpy.ndarray'>
+[1.1693399e-01 2.3133364e-01 1.4020145e+02 1.0000000e+01 1.0000000e+01] -76.12638109337803 False None
+For debug - env step
+For debug - observation [1.1693399e-01 2.3133364e-01 1.4020145e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - x =  (5,) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256,) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - sample action
+For debug - action [ 0.9999998   0.9999194  -0.99999994] <class 'numpy.ndarray'>
+[6.3955024e-02 2.7913305e-01 1.4001973e+02 1.0000000e+01 1.0000000e+01] -95.97397672593593 False None
+For debug - env step
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+
+ 21%|███████████████████████████████▏                                                                                                                      | 21/101 [00:11<01:12,  1.10it/s]
+For debug - observation [6.3955024e-02 2.7913305e-01 1.4001973e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.9999376   0.9563013  -0.99999994] <class 'numpy.ndarray'>
+[  0.15062068   0.2790378  140.0319      10.          10.        ] -62.2389371875008 False None
+For debug - env step
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x =  (256, 5) <class 'jax._src.interpreters.partial_eval.DynamicJaxprTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x =  (256, 8) <class 'jax._src.interpreters.ad.JVPTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+
+For debug - x =  (256, 8) <class 'jax._src.interpreters.ad.JVPTracer'>ers.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+For debug - x(after nn.Dense) =  (256, 256) <class 'jax._src.interpreters.batching.BatchTracer'>
+
+For debug - sample action <class 'jax._src.interpreters.ad.JVPTracer'>ers.batching.BatchTracer'>
+For debug - action [ 0.92395663 -0.7254535   0.97777534] <class 'numpy.ndarray'>
+[  0.14574696   0.14959107 139.28047     10.          10.        ] -63.500498158378264 False None
+For debug - env step
+For debug - observation [  0.14574696   0.14959107 139.28047     10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-1.         -0.62551486  0.9991612 ] <class 'numpy.ndarray'>
+[  0.14235966   0.15053006 139.75418     10.          10.        ] -64.50168014349418 False None
+For debug - env step
+For debug - observation [  0.14235966   0.15053006 139.75418     10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.9661211  -0.10033613  0.99976915] <class 'numpy.ndarray'>
+[  0.14405803   0.15087506 139.86404     10.          10.        ] -64.06208135404756 False None
+For debug - env step
+
+For debug - action [ 0.9530881  0.8052059 -0.9985546] <class 'numpy.ndarray'>+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.9999966   0.62913924  0.9995492 ] <class 'numpy.ndarray'>
+[  0.1419375   0.1534665 139.9016     10.         10.       ] -64.85969480586049 False None
+For debug - env step
+For debug - observation [  0.1419375   0.1534665 139.9016     10.         10.       ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.62173986  0.59381056 -0.8823239 ] <class 'numpy.ndarray'>
+[1.2895495e-01 1.6773941e-01 1.4010432e+02 1.0000000e+01 1.0000000e+01] -69.95930541590245 False None
+For debug - env step
+For debug - observation [1.2895495e-01 1.6773941e-01 1.4010432e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.9999881   0.33597252  0.05538868] <class 'numpy.ndarray'>
+[ 1.1421558e-01  1.7962456e-01  1.4009351e+02 -1.6698837e-01
+ -2.1755077e-01] -0.7482244036163703 False None
+For debug - env step
+For debug - observation [ 1.1421558e-01  1.7962456e-01  1.4009351e+02 -1.6698837e-01
+ -2.1755077e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.9530881  0.8052059 -0.9985546] <class 'numpy.ndarray'>+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+[ 9.8544702e-02  1.9649866e-01  1.4021603e+02 -1.8314731e-01
+ -2.0496644e-01] -0.7174595339982268 False None
+For debug - env step
+For debug - observation [ 9.8544702e-02  1.9649866e-01  1.4021603e+02 -1.8314731e-01
+ -2.0496644e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.99999994  0.6228203  -0.93966126] <class 'numpy.ndarray'>
+[ 9.5048070e-02  2.1151344e-01  1.3983978e+02 -1.8858802e-01
+ -1.9003537e-01] -0.641554869509185 False None
+
+ 40%|███████████████████████████████████████████████████████████▍                                                                                          | 40/101 [00:24<00:31,  1.95it/s]
+For debug - observation [ 9.5048070e-02  2.1151344e-01  1.3983978e+02 -1.8858802e-01
+ -1.9003537e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.99999994  0.49935326 -0.6530078 ] <class 'numpy.ndarray'>
+[ 9.8277099e-02  2.2442615e-01  1.4003026e+02 -1.6248584e-01
+ -1.5917304e-01] -0.5793466858771127 False None
+For debug - env step
+For debug - observation [ 9.8277099e-02  2.2442615e-01  1.4003026e+02 -1.6248584e-01
+ -1.5917304e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.69207346  0.5588112  -0.98583776] <class 'numpy.ndarray'>
+[7.9546414e-02 2.4146143e-01 1.3999414e+02 1.0000000e+01 1.0000000e+01] -93.89741845858663 False None
+For debug - env step
+For debug - observation [7.9546414e-02 2.4146143e-01 1.3999414e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.99999994 -0.36273646 -0.6949059 ] <class 'numpy.ndarray'>
+[7.6042429e-02 2.5599262e-01 1.3993588e+02 1.0000000e+01 1.0000000e+01] -93.99411114078136 False None
+For debug - env step
+For debug - observation [7.6042429e-02 2.5599262e-01 1.3993588e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.93364066  0.20407239 -0.36796415] <class 'numpy.ndarray'>
+[9.0020791e-02 2.5993389e-01 1.4033737e+02 1.0000000e+01 1.0000000e+01] -85.8433370556668 False None
+For debug - env step
+For debug - observation [9.0020791e-02 2.5993389e-01 1.4033737e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.9999009  -0.06004014  0.0158137 ] <class 'numpy.ndarray'>
+[1.04509845e-01 2.55683243e-01 1.40064865e+02 1.00000000e+01
+ 1.00000000e+01] -79.67361537551697 False None
+For debug - env step
+For debug - observation [1.04509845e-01 2.55683243e-01 1.40064865e+02 1.00000000e+01
+ 1.00000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.99994487 -0.20647877  0.37986317] <class 'numpy.ndarray'>
+
+[1.2318416e-01 2.5984865e-01 1.3993169e+02 1.0000000e+01 1.0000000e+01] -72.03607253500024 False None
+For debug - env step
+For debug - observation [1.2318416e-01 2.5984865e-01 1.3993169e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.99082047 -0.95170116  0.5370228 ] <class 'numpy.ndarray'>
+[  0.14132921   0.24414085 140.119       10.          10.        ] -67.00718777574934 False None
+For debug - env step
+For debug - observation [  0.14132921   0.24414085 140.119       10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.97287333 -0.5435409  -0.5785368 ] <class 'numpy.ndarray'>
+[  0.14975636   0.22942194 140.08313     10.          10.        ] -64.92806186879628 False None
+For debug - env step
+For debug - observation [  0.14975636   0.22942194 140.08313     10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.8517574  -0.12790753 -0.9331496 ] <class 'numpy.ndarray'>
+[  0.15091182   0.21778838 139.98634     10.          10.        ] -64.73085487558768 False None
+For debug - env step
+For debug - observation [  0.15091182   0.21778838 139.98634     10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.35325205  0.21532746 -0.90088004] <class 'numpy.ndarray'>
+[  0.15080589   0.20035955 140.08011     10.          10.        ] -64.63862654714036 False None
+For debug - env step
+For debug - observation [  0.15080589   0.20035955 140.08011     10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.6278611 -0.5401136  0.0650991] <class 'numpy.ndarray'>
+[  0.15122339   0.19844644 139.54022     10.          10.        ] -64.48036143703645 False None
+For debug - env step
+
+For debug - action [-0.93110466 -0.1335285  -0.76166195] <class 'numpy.ndarray'>7253500024 False None
+[1.3181277e-01 1.9026533e-01 1.4010648e+02 1.0000000e+01 1.0000000e+01] -70.33134253519327 False None
+For debug - env step
+For debug - observation [1.3181277e-01 1.9026533e-01 1.4010648e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.8820971   0.4303597   0.32478896] <class 'numpy.ndarray'>
+[1.17469996e-01 1.76376060e-01 1.39913971e+02 1.00000000e+01
+ 1.00000000e+01] -74.70706894228623 False None
+For debug - env step
+For debug - observation [1.17469996e-01 1.76376060e-01 1.39913971e+02 1.00000000e+01
+ 1.00000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.6434292   0.02964985 -0.08869532] <class 'numpy.ndarray'>
+[ 1.0312437e-01  1.7387535e-01  1.3985641e+02 -1.8087815e-01
+ -2.1117793e-01] -0.7209625925792638 False None
+For debug - env step
+For debug - observation [ 1.0312437e-01  1.7387535e-01  1.3985641e+02 -1.8087815e-01
+ -2.1117793e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.39241314 0.7818656  0.61560345] <class 'numpy.ndarray'>
+[ 8.8085577e-02  1.8217397e-01  1.4008719e+02 -1.8488884e-01
+ -1.9912247e-01] -0.7165321600272041 False None
+For debug - env step
+For debug - observation [ 8.8085577e-02  1.8217397e-01  1.4008719e+02 -1.8488884e-01
+ -1.9912247e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.8641493 0.9466473 0.9209333] <class 'numpy.ndarray'>
+[ 8.3510108e-02  1.9166812e-01  1.3990526e+02 -1.8996933e-01
+ -1.8604554e-01] -0.6554121542122674 False None
+For debug - env step
+For debug - observation [ 8.3510108e-02  1.9166812e-01  1.3990526e+02 -1.8996933e-01
+ -1.8604554e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+
+[ 9.4676957e-02  2.0212454e-01  1.4047989e+02 -1.9894679e-01ass 'numpy.ndarray'>7253500024 False None
+ -1.8156940e-01] -0.5686103318711287 False None
+For debug - env step
+For debug - observation [ 9.4676957e-02  2.0212454e-01  1.4047989e+02 -1.9894679e-01
+ -1.8156940e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.983869   0.11801066 0.28502885] <class 'numpy.ndarray'>
+[ 1.1287009e-01  2.2017045e-01  1.4008949e+02 -1.7349480e-01
+ -1.7610273e-01] -0.5594288855318027 False None
+For debug - env step
+For debug - observation [ 1.1287009e-01  2.2017045e-01  1.4008949e+02 -1.7349480e-01
+ -1.7610273e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.9998319  -0.6189496  -0.48611346] <class 'numpy.ndarray'>
+[1.2759495e-01 2.3414917e-01 1.4019250e+02 1.0000000e+01 1.0000000e+01] -71.98029289941604 False None
+For debug - env step
+For debug - observation [1.2759495e-01 2.3414917e-01 1.4019250e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.7765923 -0.1594594  0.968478 ] <class 'numpy.ndarray'>
+[1.3146226e-01 2.3683150e-01 1.4006012e+02 1.0000000e+01 1.0000000e+01] -70.52360103753898 False None
+For debug - env step
+For debug - observation [1.3146226e-01 2.3683150e-01 1.4006012e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.91821194 -0.41169995 -0.15450509] <class 'numpy.ndarray'>
+[1.2959799e-01 2.2229618e-01 1.4023805e+02 1.0000000e+01 1.0000000e+01] -71.55633505515063 False None
+For debug - env step
+For debug - observation [1.2959799e-01 2.2229618e-01 1.4023805e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.94178337  0.32378954  0.06578117] <class 'numpy.ndarray'>
+[1.3420469e-01 2.0899719e-01 1.4009003e+02 1.0000000e+01 1.0000000e+01] -69.97968584104144 False None
+For debug - env step
+
+[1.2451835e-01 2.0584288e-01 1.3920691e+02 1.0000000e+01 1.0000000e+01] -73.39838485868775 False None
+For debug - env step
+For debug - observation [1.2451835e-01 2.0584288e-01 1.3920691e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.19534929  0.6759044  -0.08779151] <class 'numpy.ndarray'>
+[1.1805572e-01 2.0852076e-01 1.4017419e+02 1.0000000e+01 1.0000000e+01] -75.9413241043112 False None
+For debug - env step
+For debug - observation [1.1805572e-01 2.0852076e-01 1.4017419e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.6639595  -0.8050946   0.31948605] <class 'numpy.ndarray'>
+[1.3659076e-01 2.0914438e-01 1.4016560e+02 1.0000000e+01 1.0000000e+01] -69.17782405833367 False None
+For debug - env step
+For debug - observation [1.3659076e-01 2.0914438e-01 1.4016560e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.17885578 -0.17377159  0.47133547] <class 'numpy.ndarray'>
+[  0.14222606   0.21451738 140.02048     10.          10.        ] -67.3730881775774 False None
+For debug - env step
+For debug - observation [  0.14222606   0.21451738 140.02048     10.          10.        ] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.1205315  -0.090203   -0.40626162] <class 'numpy.ndarray'>
+[1.2773991e-01 1.9934258e-01 1.3952985e+02 1.0000000e+01 1.0000000e+01] -72.07169884835857 False None
+For debug - env step
+For debug - observation [1.2773991e-01 1.9934258e-01 1.3952985e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.5604408 -0.7079008 -0.8821636] <class 'numpy.ndarray'>
+[1.0893158e-01 1.8247716e-01 1.4004997e+02 1.0000000e+01 1.0000000e+01] -78.59787514351977 False None
+For debug - env step
+
+ -2.1581842e-01] (5,) <class 'numpy.ndarray'>0000000e+01 1.0000000e+01] -73.39838485868775 False None
+For debug - sample action
+For debug - action [-0.42492646  0.40618375  0.76268524] <class 'numpy.ndarray'>
+[ 1.1915539e-01  1.6710070e-01  1.4011206e+02 -1.8584514e-01
+ -1.9737728e-01] -0.5835168778030556 False None
+For debug - env step
+For debug - observation [ 1.1915539e-01  1.6710070e-01  1.4011206e+02 -1.8584514e-01
+ -1.9737728e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.23757717  0.8796374  -0.69864595] <class 'numpy.ndarray'>
+[ 1.2530197e-01  1.8006711e-01  1.3939229e+02 -1.7435940e-01
+ -2.0427246e-01] -0.6314675400584897 False None
+For debug - env step
+For debug - observation [ 1.2530197e-01  1.8006711e-01  1.3939229e+02 -1.7435940e-01
+ -2.0427246e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.6054284  0.98555773 0.648337  ] <class 'numpy.ndarray'>
+[ 1.09029606e-01  1.96271673e-01  1.39915253e+02 -1.77792758e-01
+ -2.19499663e-01] -0.7611707948989372 False None
+For debug - env step
+For debug - observation [ 1.09029606e-01  1.96271673e-01  1.39915253e+02 -1.77792758e-01
+ -2.19499663e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.86159265  0.9565207   0.9886674 ] <class 'numpy.ndarray'>
+[ 1.0595848e-01  2.1085958e-01  1.4028806e+02 -1.8300769e-01
+ -1.9919154e-01] -0.6623716733850904 False None
+For debug - env step
+For debug - observation [ 1.0595848e-01  2.1085958e-01  1.4028806e+02 -1.8300769e-01
+ -1.9919154e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.9479998   0.38181964 -0.29739496] <class 'numpy.ndarray'>
+[1.1155521e-01 2.2477584e-01 1.3999023e+02 1.0000000e+01 1.0000000e+01] -78.5567654617971 False None
+For debug - env step
+For debug - observation
+
+ -8.6845557e-04] -1.8897913234822958 False None00000e+01 1.0000000e+01] -73.39838485868775 False None
+For debug - action [-0.9001766  -0.7278612  -0.10585839] <class 'numpy.ndarray'>
+[9.7012378e-02 2.3852508e-01 1.3993489e+02 1.0000000e+01 1.0000000e+01] -84.62377211228561 False None
+For debug - env step
+For debug - observation [9.7012378e-02 2.3852508e-01 1.3993489e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.36992443 -0.27792618 -0.00802404] <class 'numpy.ndarray'>
+[7.8508981e-02 2.3681274e-01 1.3995509e+02 1.0000000e+01 1.0000000e+01] -94.999967294578 False None
+For debug - env step
+For debug - observation [7.8508981e-02 2.3681274e-01 1.3995509e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.47698206  0.08801484  0.19788048] <class 'numpy.ndarray'>
+[ 6.4478584e-02  2.2388180e-01  1.4010139e+02 -1.1720917e-02
+ -5.2853674e-03] -1.7832929956836214 False None
+For debug - env step
+For debug - observation [ 6.4478584e-02  2.2388180e-01  1.4010139e+02 -1.1720917e-02
+ -5.2853674e-03] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.151312  0.0513508 0.9077733] <class 'numpy.ndarray'>
+[ 5.2160442e-02  2.2167638e-01  1.4013045e+02 -1.5084876e-01
+ -1.1321680e-01] -0.7127601567004608 False None
+For debug - env step
+For debug - observation [ 5.2160442e-02  2.2167638e-01  1.4013045e+02 -1.5084876e-01
+ -1.1321680e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.58096784 0.14188173 0.17261027] <class 'numpy.ndarray'>
+[ 4.84628901e-02  2.33281463e-01  1.40448990e+02 -1.71305686e-01
+ -1.15686715e-01] -0.5687163896326431 False None
+For debug - env step
+For debug - observation [ 4.84628901e-02  2.33281463e-01  1.40448990e+02 -1.71305686e-01
+ -1.15686715e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.9186031  0.8537576  0.44870996] <class 'numpy.ndarray'>
+[ 6.1996482e-02  2.4176478e-01  1.4008028e+02  2.0259088e-03
+ -8.6845557e-04] -1.8897913234822958 False None00000e+01 1.0000000e+01] -73.39838485868775 False None
+
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                             | 81/101 [00:38<00:06,  2.93it/s]
+For debug - observation [ 6.1996482e-02  2.4176478e-01  1.4008028e+02  2.0259088e-03
+ -8.6845557e-04] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.72778064 0.84614456 0.04024871] <class 'numpy.ndarray'>
+[ 7.6376975e-02  2.5575170e-01  1.4015498e+02 -3.1168845e-01
+ -2.4179831e-01] -1.0749935765968135 False None
+For debug - env step
+For debug - observation [ 7.6376975e-02  2.5575170e-01  1.4015498e+02 -3.1168845e-01
+ -2.4179831e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.3504432   0.60159683 -0.23413686] <class 'numpy.ndarray'>
+[8.9386120e-02 2.6827487e-01 1.4010568e+02 1.0000000e+01 1.0000000e+01] -84.90433228133828 False None
+For debug - env step
+For debug - observation [8.9386120e-02 2.6827487e-01 1.4010568e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.6137037   0.12119891  0.6422463 ] <class 'numpy.ndarray'>
+[1.0307258e-01 2.7940068e-01 1.4017728e+02 1.0000000e+01 1.0000000e+01] -77.31756758865654 False None
+For debug - env step
+For debug - observation [1.0307258e-01 2.7940068e-01 1.4017728e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.5106626  -0.22360794 -0.30670843] <class 'numpy.ndarray'>
+[1.0015390e-01 2.7669755e-01 1.3932973e+02 1.0000000e+01 1.0000000e+01] -78.87539325566216 False None
+For debug - env step
+For debug - observation [1.0015390e-01 2.7669755e-01 1.3932973e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.32456583 -0.38531557  0.46430308] <class 'numpy.ndarray'>
+[8.4748879e-02 2.7346769e-01 1.3979893e+02 1.0000000e+01 1.0000000e+01] -86.24068954518067 False None
+For debug - env step
+For debug - observation [8.4748879e-02 2.7346769e-01 1.3979893e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.22244482 -0.24735329  0.53527397] <class 'numpy.ndarray'>
+[7.4059203e-02 2.6282403e-01 1.4010204e+02 1.0000000e+01 1.0000000e+01] -93.92574769893929 False None
+
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                    | 87/101 [00:40<00:04,  2.97it/s]
+For debug - observation [7.4059203e-02 2.6282403e-01 1.4010204e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.61152256 -0.7559721  -0.03250295] <class 'numpy.ndarray'>
+[5.8150768e-02 2.4822778e-01 1.4002608e+02 1.0000000e+01 1.0000000e+01] -107.5683499983408 False None
+For debug - env step
+For debug - observation [5.8150768e-02 2.4822778e-01 1.4002608e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.47646713 -0.8272222   0.12651253] <class 'numpy.ndarray'>
+[ 5.6258488e-02  2.3058297e-01  1.4052209e+02 -4.9737051e-01
+ -3.6067578e-01] -2.8960977112195403 False None
+For debug - env step
+For debug - observation [ 5.6258488e-02  2.3058297e-01  1.4052209e+02 -4.9737051e-01
+ -3.6067578e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.5981044  0.56602925 0.9805105 ] <class 'numpy.ndarray'>
+[6.1492253e-02 2.1390209e-01 1.4023219e+02 1.5563961e-03 1.5774536e-03] -1.939958311216879 False None
+For debug - env step
+For debug - observation [6.1492253e-02 2.1390209e-01 1.4023219e+02 1.5563961e-03 1.5774536e-03] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.45152718  0.5589988  -0.09609038] <class 'numpy.ndarray'>
+[ 5.6001145e-02  2.1098703e-01  1.3941245e+02 -1.7929840e-01
+ -1.3404705e-01] -0.5476470712391517 False None
+For debug - env step
+For debug - observation [ 5.6001145e-02  2.1098703e-01  1.3941245e+02 -1.7929840e-01
+ -1.3404705e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.71889   0.9445594 0.8996221] <class 'numpy.ndarray'>
+[ 6.8106823e-02  2.2312397e-01  1.4057669e+02 -1.9920978e-01
+ -1.4228383e-01] -0.43375911759959496 False None
+For debug - env step
+For debug - observation [ 6.8106823e-02  2.2312397e-01  1.4057669e+02 -1.9920978e-01
+ -1.4228383e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.4178235 0.5322367 0.8362431] <class 'numpy.ndarray'>
+[ 8.3549753e-02  2.3736531e-01  1.4004974e+02 -1.5728109e-01
+ -1.2574944e-01] -0.5462920840655028 False None
+
+ 92%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████            | 93/101 [00:42<00:02,  2.93it/s]
+For debug - observation [ 8.3549753e-02  2.3736531e-01  1.4004974e+02 -1.5728109e-01
+ -1.2574944e-01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.5039544   0.13173828 -0.4782941 ] <class 'numpy.ndarray'>
+[9.8059207e-02 2.5104138e-01 1.4006044e+02 1.0000000e+01 1.0000000e+01] -83.03913526401172 False None
+For debug - env step
+For debug - observation [9.8059207e-02 2.5104138e-01 1.4006044e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.34801066 -0.83114815  0.8947614 ] <class 'numpy.ndarray'>
+[1.1124784e-01 2.6482487e-01 1.3992885e+02 1.0000000e+01 1.0000000e+01] -75.97241875520902 False None
+For debug - env step
+For debug - observation [1.1124784e-01 2.6482487e-01 1.3992885e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.8493274   0.5647554   0.40110096] <class 'numpy.ndarray'>
+[1.1576811e-01 2.6778561e-01 1.3993947e+02 1.0000000e+01 1.0000000e+01] -73.95886999162353 False None
+For debug - env step
+For debug - observation [1.1576811e-01 2.6778561e-01 1.3993947e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.30970648 0.30947214 0.10343057] <class 'numpy.ndarray'>
+[1.0169171e-01 2.6742792e-01 1.3973001e+02 1.0000000e+01 1.0000000e+01] -79.5224879598966 False None
+For debug - env step
+For debug - observation [1.0169171e-01 2.6742792e-01 1.3973001e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.99881846 -0.36958456  0.8904318 ] <class 'numpy.ndarray'>
+[1.0059932e-01 2.7979311e-01 1.4046716e+02 1.0000000e+01 1.0000000e+01] -78.2332207029758 False None
+For debug - env step
+For debug - observation [1.0059932e-01 2.7979311e-01 1.4046716e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.42997926 -0.66320103  0.78059506] <class 'numpy.ndarray'>
+[1.07169494e-01 2.74054438e-01 1.40300949e+02 1.00000000e+01
+ 1.00000000e+01] -76.46131963362548 False None
+
+ 98%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████   | 99/101 [00:44<00:00,  2.95it/s]
+For debug - observation [1.07169494e-01 2.74054438e-01 1.40300949e+02 1.00000000e+01
+ 1.00000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.28147015 -0.3695215  -0.08227151] <class 'numpy.ndarray'>
+[9.2528261e-02 2.6095444e-01 1.3975310e+02 1.0000000e+01 1.0000000e+01] -84.48605387248031 False None
+For debug - env step
+For debug - observation [9.2528261e-02 2.6095444e-01 1.3975310e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.3793296   0.7638308  -0.54024297] <class 'numpy.ndarray'>
+[8.1126451e-02 2.5039202e-01 1.3996155e+02 1.0000000e+01 1.0000000e+01] -91.88025787631294 False None
+For debug - env step
+For debug - observation [8.1126451e-02 2.5039202e-01 1.3996155e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.17767383  0.8769467   0.6747071 ] <class 'numpy.ndarray'>
+[7.4916378e-02 2.4492797e-01 1.3984077e+02 1.0000000e+01 1.0000000e+01] -96.34277745977195 False None
+For debug - env step
+For debug - observation [7.4916378e-02 2.4492797e-01 1.3984077e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.15761748 -0.9231762   0.95333225] <class 'numpy.ndarray'>
+[7.6392904e-02 2.6043063e-01 1.3970915e+02 1.0000000e+01 1.0000000e+01] -93.02189926431923 False None
+For debug - env step
+For debug - observation [7.6392904e-02 2.6043063e-01 1.3970915e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [ 0.11167317  0.9268202  -0.51578003] <class 'numpy.ndarray'>
+[7.1260571e-02 2.6539668e-01 1.4006073e+02 1.0000000e+01 1.0000000e+01] -95.0471446608674 False None
+For debug - env step
+For debug - observation [7.1260571e-02 2.6539668e-01 1.4006073e+02 1.0000000e+01 1.0000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [-0.00387704  0.10869996  0.56176156] <class 'numpy.ndarray'>
+[9.069103e-02 2.671023e-01 1.401375e+02 1.000000e+01 1.000000e+01] -84.4695974233329 False None
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 101/101 [00:44<00:00,  2.25it/s]
+For debug - observation [9.069103e-02 2.671023e-01 1.401375e+02 1.000000e+01 1.000000e+01] (5,) <class 'numpy.ndarray'>
+For debug - sample action
+For debug - action [0.8443938  0.82993186 0.10279837] <class 'numpy.ndarray'>
+[1.0047726e-01 2.7945367e-01 1.3997267e+02 1.0000000e+01 1.0000000e+01] -78.33319414191095 False None
+For debug - env step
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

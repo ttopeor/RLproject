@@ -15,5 +15,5 @@ for _ in range(10000):
     }
     data.append(data_point)
 
-with open("data.json", "w") as file:
+with open("sample_data.json", "w") as file:
     json.dump(data, file, indent=4)
