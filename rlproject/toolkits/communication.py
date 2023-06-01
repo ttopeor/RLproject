@@ -7,6 +7,7 @@ import numpy as np
 import time
 from .utils import ARUCO_DICT
 import json
+import random
 
 
 class env:
@@ -53,7 +54,7 @@ class env:
 
         # return [x, y, yaw, xc, yc]
         if xc is None:
-            return np.array([x, y, yaw, 10.0, 10.0])
+            return np.array([x, y, yaw, random.uniform(-1000, -100) if random.randint(0, 1) else random.uniform(100, 1000), random.uniform(-1000, -100) if random.randint(0, 1) else random.uniform(100, 1000)])
         return np.array([x, y, yaw, xc, yc])
 
 

@@ -34,4 +34,3 @@ def cal_reward(state, goal):
         
     #print("reward: ", reward)
     return reward
-    

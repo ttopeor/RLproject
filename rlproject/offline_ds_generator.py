@@ -67,12 +67,20 @@ if __name__ == "__main__":
             "terminals": bool(terminals),
             "next_observations": next_observation.tolist()
         }
-        data.append(data_point)  # append data point to data list
+
         if conter % 10 == 0:
             print("reward: ", reward)
-            # print("state: ", state)
+            print("state: ", state)
             print("stage: ", stage)
         time.sleep(0.1)
+
+        #check if the action is all zero
+        if action == [0, 0, 0]:
+            #skip the data point
+            print("skip the data point")
+            continue
+        data.append(data_point)  # append data point to data list
+        
 
     print("data list: ", len(data))
 
