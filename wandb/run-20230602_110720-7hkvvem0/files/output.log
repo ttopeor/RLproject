@@ -1,0 +1,5063 @@
+
+I0602 11:07:25.132814 140202674476800 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0602 11:07:27.546117 140204131649088 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: CUDA Interpreter Host
+I0602 11:07:27.556922 140204131649088 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0602 11:07:27.562631 140204131649088 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - agent created
+For debug - replay_buffer created
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌| 19925/20000 [10:09<00:02, 33.60it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20000/20000 [10:10<00:00, 32.74it/s]
+  0%|                                                                                                                                     | 2/10001 [00:00<34:56,  4.77it/s]
+For debug - reward:  20.52190517034863
+For debug - reward:  20.52190517034863
+For debug - reward:  25.614372812619745
+For debug - reward:  15.313505181406002
+For debug - reward:  3.917237109467647
+For debug - reward:  25.808750794675966
+For debug - reward:  3.8832364543114952
+For debug - reward:  3.9272924055201215
+
+  0%|▏                                                                                                                                   | 11/10001 [00:02<36:56,  4.51it/s]
+For debug - reward:  3.92719401798456
+For debug - reward:  3.9163991839547934
+For debug - reward:  3.9164483855543826
+For debug - reward:  3.8949021282059255
+For debug - reward:  3.8855326034413724
+For debug - reward:  3.916445566170443
+For debug - reward:  3.9164288139063808
+For debug - reward:  41.362889689248014
+
+  0%|▎                                                                                                                                   | 20/10001 [00:04<38:16,  4.35it/s]
+For debug - reward:  46.76583929584231
+For debug - reward:  3.916525949373793
+For debug - reward:  3.9334565707176443
+For debug - reward:  3.9156989947844507
+For debug - reward:  12.892739568180984
+For debug - reward:  11.51074232865345
+For debug - reward:  9.500504039426385
+
+  0%|▎                                                                                                                                   | 28/10001 [00:06<39:24,  4.22it/s]
+For debug - reward:  38.42872598402304
+reach the cube
+For debug - reward:  1000
+For debug - reward:  21.812681205362843
+For debug - reward:  15.437348408961098
+For debug - reward:  6.762104873113402
+For debug - reward:  19.378797151126637
+For debug - reward:  7.635664589558269
+For debug - reward:  16.024714818314823
+
+  0%|▍                                                                                                                                   | 37/10001 [00:08<38:25,  4.32it/s]
+For debug - reward:  33.18672625888353
+For debug - reward:  22.160025871659386
+For debug - reward:  22.302728695011076
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+For debug - reward:  27.386049440638438
+For debug - reward:  10.972573774171183
+For debug - reward:  25.60740423473538
+
+  0%|▌                                                                                                                                   | 46/10001 [00:10<37:29,  4.42it/s]
+reach the cube
+For debug - reward:  1000
+For debug - reward:  20.074980031171567
+For debug - reward:  29.670578917241475
+For debug - reward:  42.542145026634564
+For debug - reward:  27.39045532192456
+For debug - reward:  26.198195692531044
+For debug - reward:  15.714730092181643
+
+  1%|▋                                                                                                                                   | 55/10001 [00:12<38:06,  4.35it/s]
+For debug - reward:  0.11447082879070708
+For debug - reward:  16.30771697510874
+For debug - reward:  23.640722647831613
+For debug - reward:  6.4130725448737955
+For debug - reward:  11.038643966740336
+For debug - reward:  20.24018372691158
+For debug - reward:  27.666897189150344
+For debug - reward:  13.34771527857365
+
+  1%|▊                                                                                                                                   | 63/10001 [00:14<38:21,  4.32it/s]
+For debug - reward:  20.508077534033024
+For debug - reward:  6.6805924990265915
+For debug - reward:  13.143687116821038
+For debug - reward:  18.61585486802853
+For debug - reward:  14.84356756959779
+For debug - reward:  14.455878105245754
+For debug - reward:  13.20581263298201
+
+  1%|▉                                                                                                                                   | 72/10001 [00:16<38:52,  4.26it/s]
+For debug - reward:  -20
+For debug - reward:  14.732018507755889
+For debug - reward:  13.170187438508915
+For debug - reward:  10.039224891374861
+For debug - reward:  12.170614308680875
+For debug - reward:  11.119139188069218
+For debug - reward:  -10
+For debug - reward:  -20
+
+  1%|█                                                                                                                                   | 80/10001 [00:18<38:36,  4.28it/s]
+For debug - reward:  -60
+For debug - reward:  -80
+For debug - reward:  0.5852654513697102
+For debug - reward:  47.04971299505526
+For debug - reward:  42.502339664576816
+For debug - reward:  44.78490445085031
+For debug - reward:  27.698594874181648
+For debug - reward:  31.35600110446377
+
+  1%|█▏                                                                                                                                  | 89/10001 [00:20<37:43,  4.38it/s]
+For debug - reward:  37.108733885580875
+For debug - reward:  22.73388449558061
+For debug - reward:  15.814497704747255
+For debug - reward:  14.129728331558836
+For debug - reward:  14.814746419220846
+For debug - reward:  24.384116214568383
+For debug - reward:  7.737475618248443
+For debug - reward:  22.917970680591537
+
+  1%|█▎                                                                                                                                  | 98/10001 [00:22<36:12,  4.56it/s]
+For debug - reward:  42.44270374046963
+For debug - reward:  8.238243038414131
+For debug - reward:  8.627139921970667
+For debug - reward:  30.707681216070178
+For debug - reward:  14.500897695075272
+For debug - reward:  18.47047443396122
+For debug - reward:  3.0652054213543902
+For debug - reward:  29.181919899757798
+
+  1%|█▍                                                                                                                                 | 107/10001 [00:24<37:01,  4.45it/s]
+For debug - reward:  29.059283063720716
+For debug - reward:  16.250592718151935
+reach the cube
+For debug - reward:  1000
+For debug - reward:  7.637245734916301
+For debug - reward:  8.004904496589807
+For debug - reward:  8.582575839176249
+For debug - reward:  7.945734163777958
+For debug - reward:  8.712783317406519
+
+  1%|█▌                                                                                                                                 | 116/10001 [00:26<37:14,  4.42it/s]
+For debug - reward:  22.40205706328932
+For debug - reward:  19.913636519806445
+For debug - reward:  16.760245802077293
+reach the cube
+For debug - reward:  1000
+For debug - reward:  22.23423454926826
+For debug - reward:  9.42022525536636
+For debug - reward:  21.575332625196133
+reach the cube
+
+  1%|█▋                                                                                                                                 | 125/10001 [00:28<37:33,  4.38it/s]
+For debug - reward:  38.24104223824041
+For debug - reward:  12.043707400737965
+For debug - reward:  17.537252754067556
+For debug - reward:  23.402437642143152
+For debug - reward:  19.732349274559496
+For debug - reward:  10.00179075936923
+For debug - reward:  4.141156951833199
+For debug - reward:  10.50047029101793
+
+  1%|█▊                                                                                                                                 | 134/10001 [00:30<37:10,  4.42it/s]
+For debug - reward:  25.38973130743703
+For debug - reward:  17.834379280902162
+For debug - reward:  15.838798616560831
+For debug - reward:  23.516979885668064
+For debug - reward:  15.363362388230488
+For debug - reward:  17.916719818902905
+For debug - reward:  14.93374174080588
+For debug - reward:  13.863126885476998
+
+  1%|█▊                                                                                                                                 | 143/10001 [00:32<37:27,  4.39it/s]
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  14.74765604945655
+For debug - reward:  0.48224838155753835
+For debug - reward:  42.87780764681905
+
+  2%|█▉                                                                                                                                 | 151/10001 [00:34<38:21,  4.28it/s]
+For debug - reward:  12.02259686666127
+For debug - reward:  47.40513744688466
+For debug - reward:  18.83152223976908
+For debug - reward:  13.52584582070564
+For debug - reward:  29.302139231527335
+For debug - reward:  24.93851009130866
+For debug - reward:  7.97212722060519
+For debug - reward:  16.063958473642977
+
+  2%|██                                                                                                                                 | 160/10001 [00:36<38:08,  4.30it/s]
+For debug - reward:  3.916538625149715
+For debug - reward:  13.133051080698158
+For debug - reward:  13.097472379771396
+For debug - reward:  13.310840467459387
+For debug - reward:  12.799154601987158
+For debug - reward:  13.756136223964091
+For debug - reward:  13.418156690938424
+For debug - reward:  13.593241503852424
+
+  2%|██▏                                                                                                                                | 168/10001 [00:38<37:38,  4.35it/s]
+For debug - reward:  3.900198048108156
+For debug - reward:  10.228049610720596
+For debug - reward:  7.180460662938833
+For debug - reward:  8.43275967694489
+For debug - reward:  3.2173226521304175
+For debug - reward:  10.586654435751878
+For debug - reward:  14.33817042050307
+For debug - reward:  9.628042590877856
+
+  2%|██▎                                                                                                                                | 178/10001 [00:40<36:12,  4.52it/s]
+For debug - reward:  33.05273381485117
+For debug - reward:  14.041402165204598
+For debug - reward:  16.389804323812477
+For debug - reward:  16.661907418770216
+For debug - reward:  8.711740339402573
+For debug - reward:  15.384266890111926
+For debug - reward:  20.568902036548252
+For debug - reward:  19.721566462764553
+
+  2%|██▍                                                                                                                                | 186/10001 [00:42<36:15,  4.51it/s]
+For debug - reward:  21.105665350215308
+For debug - reward:  11.835443444061037
+For debug - reward:  20.478055088979822
+For debug - reward:  26.359233333515423
+For debug - reward:  25.03118985265054
+For debug - reward:  24.01047897300986
+For debug - reward:  24.443091884547563
+
+  2%|██▌                                                                                                                                | 195/10001 [00:44<38:21,  4.26it/s]
+For debug - reward:  32.0367893061365
+For debug - reward:  5.440887014016612
+For debug - reward:  3.9813147901830708
+For debug - reward:  3.952459297156441
+For debug - reward:  3.903920150364444
+For debug - reward:  3.917299045046009
+For debug - reward:  3.9283853932149864
+For debug - reward:  3.88872069019744
+
+  2%|██▋                                                                                                                                | 204/10001 [00:46<37:50,  4.31it/s]
+For debug - reward:  18.000223709673076
+For debug - reward:  23.28870834975181
+For debug - reward:  9.53032161628267
+For debug - reward:  8.477720421494604
+For debug - reward:  27.419189836362957
+For debug - reward:  39.26202500136859
+For debug - reward:  25.382007812170723
+For debug - reward:  15.940818198321056
+
+  2%|██▊                                                                                                                                | 212/10001 [00:48<38:17,  4.26it/s]
+For debug - reward:  11.268409406321496
+For debug - reward:  15.468599710397799
+For debug - reward:  21.527574120992405
+For debug - reward:  12.365431706421937
+For debug - reward:  17.93107170449133
+For debug - reward:  14.082652440883136
+For debug - reward:  -10
+
+  2%|██▉                                                                                                                                | 220/10001 [00:50<37:47,  4.31it/s]
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -60
+For debug - reward:  -70
+For debug - reward:  -80
+For debug - reward:  -90
+For debug - reward:  -100
+
+For debug - reward:  -110
+For debug - reward:  -120
+For debug - reward:  -130
+For debug - reward:  -140
+For debug - reward:  -150
+For debug - reward:  -160
+For debug - reward:  -170
+For debug - reward:  -180
+
+  2%|███                                                                                                                                | 238/10001 [00:54<38:08,  4.27it/s]
+For debug - reward:  10.25518975783575
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -60
+For debug - reward:  -70
+
+  2%|███▏                                                                                                                               | 247/10001 [00:56<37:28,  4.34it/s]
+For debug - reward:  -90
+For debug - reward:  -100
+For debug - reward:  -110
+For debug - reward:  -120
+For debug - reward:  -130
+For debug - reward:  -140
+For debug - reward:  -150
+For debug - reward:  -160
+
+  3%|███▎                                                                                                                               | 255/10001 [00:58<37:09,  4.37it/s]
+For debug - reward:  19.512886895099093
+For debug - reward:  24.166817574783707
+For debug - reward:  15.000380166521516
+For debug - reward:  20.76460956511015
+For debug - reward:  15.397222062987549
+For debug - reward:  22.804021816970668
+For debug - reward:  -10
+
+  3%|███▍                                                                                                                               | 264/10001 [01:00<37:41,  4.31it/s]
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  11.637211375965542
+For debug - reward:  8.979096537162954
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  11.120348696193028
+
+  3%|███▌                                                                                                                               | 272/10001 [01:02<37:59,  4.27it/s]
+For debug - reward:  11.318242480133605
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -60
+
+  3%|███▋                                                                                                                               | 281/10001 [01:04<37:45,  4.29it/s]
+For debug - reward:  9.928910677929558
+For debug - reward:  10.336697055132289
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -60
+
+  3%|███▊                                                                                                                               | 289/10001 [01:06<37:50,  4.28it/s]
+For debug - reward:  -80
+For debug - reward:  -90
+For debug - reward:  -100
+For debug - reward:  -110
+For debug - reward:  -130
+For debug - reward:  -150
+For debug - reward:  -170
+
+  3%|███▉                                                                                                                               | 298/10001 [01:08<39:25,  4.10it/s]
+For debug - reward:  -210
+For debug - reward:  -230
+For debug - reward:  -250
+For debug - reward:  -270
+For debug - reward:  -290
+For debug - reward:  -310
+For debug - reward:  -330
+
+  3%|████                                                                                                                               | 307/10001 [01:10<37:20,  4.33it/s]
+For debug - reward:  -360
+For debug - reward:  7.7638640491495154
+For debug - reward:  14.775283638535072
+For debug - reward:  18.37732132487087
+For debug - reward:  17.07774550828796
+For debug - reward:  13.68289934799006
+For debug - reward:  13.186759610000818
+For debug - reward:  7.714173302550437
+
+  3%|████                                                                                                                               | 313/10001 [01:12<38:00,  4.25it/s]
+For debug - reward:  17.772934125512965
+For debug - reward:  3.9056906808888168
+For debug - reward:  3.8834058077438334
+For debug - reward:  -10
+For debug - reward:  1.1994927442965817
+For debug - reward:  8.601403526047275
+For debug - reward:  8.603453468085876
+For debug - reward:  9.82121061169675
+
+  3%|████▏                                                                                                                              | 322/10001 [01:14<36:52,  4.37it/s]
+For debug - reward:  8.591627724815499
+For debug - reward:  11.210232856014704
+For debug - reward:  24.17638583141929
+For debug - reward:  8.947448675076682
+For debug - reward:  3.8823813590740106
+For debug - reward:  3.9164380276333435
+For debug - reward:  33.84529279465883
+For debug - reward:  14.071477500846903
+
+  3%|████▎                                                                                                                              | 331/10001 [01:16<36:32,  4.41it/s]
+For debug - reward:  3.974459334645949
+For debug - reward:  3.9302612999358577
+For debug - reward:  7.953334610594956
+For debug - reward:  3.9164549428773205
+For debug - reward:  3.908112665137266
+For debug - reward:  3.969098035225178
+For debug - reward:  3.95523613180887
+For debug - reward:  14.43870759056192
+
+  3%|████▍                                                                                                                              | 340/10001 [01:18<35:51,  4.49it/s]
+For debug - reward:  24.651225669060096
+reach the cube
+For debug - reward:  1000
+For debug - reward:  28.273210725257147
+For debug - reward:  8.194037295799133
+For debug - reward:  4.490406564479321
+For debug - reward:  13.939080982834652
+reach the cube
+For debug - reward:  1000
+
+  3%|████▌                                                                                                                              | 348/10001 [01:20<36:46,  4.38it/s]
+For debug - reward:  3.5872144272151183
+For debug - reward:  23.75751364848903
+For debug - reward:  15.975804512145379
+For debug - reward:  41.41166891540428
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+For debug - reward:  13.728359423187056
+
+  4%|████▋                                                                                                                              | 357/10001 [01:22<37:18,  4.31it/s]
+For debug - reward:  14.942477708749182
+For debug - reward:  20.60080591982963
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -60
+
+  4%|████▊                                                                                                                              | 366/10001 [01:24<36:57,  4.35it/s]
+For debug - reward:  -80
+For debug - reward:  -90
+For debug - reward:  15.787012960174335
+For debug - reward:  17.742998088464635
+For debug - reward:  18.142910493503276
+For debug - reward:  -10
+For debug - reward:  15.579318704624793
+For debug - reward:  3.9048828160370954
+
+  4%|████▉                                                                                                                              | 375/10001 [01:26<36:24,  4.41it/s]
+For debug - reward:  28.175341489046662
+For debug - reward:  9.397812234304093
+For debug - reward:  27.352221862480427
+For debug - reward:  21.91497204423602
+For debug - reward:  26.54201119136853
+reach the cube
+For debug - reward:  1000
+For debug - reward:  49.68065832851764
+reach the cube
+
+  4%|█████                                                                                                                              | 383/10001 [01:28<37:29,  4.28it/s]
+reach the cube
+For debug - reward:  1000
+For debug - reward:  22.45474592052478
+For debug - reward:  29.779691004462773
+For debug - reward:  23.660252534834246
+For debug - reward:  21.0020213561216
+For debug - reward:  15.076970770871762
+For debug - reward:  16.414694376157332
+For debug - reward:  12.584142375173677
+
+  4%|█████▏                                                                                                                             | 392/10001 [01:30<36:40,  4.37it/s]
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  -80
+For debug - reward:  -90
+For debug - reward:  -100
+For debug - reward:  -110
+For debug - reward:  -120
+
+  4%|█████▏                                                                                                                             | 400/10001 [01:32<37:56,  4.22it/s]
+For debug - reward:  -150
+For debug - reward:  -170
+For debug - reward:  -190
+For debug - reward:  -210
+For debug - reward:  -230
+For debug - reward:  -250
+For debug - reward:  -270
+For debug - reward:  -290
+
+  4%|█████▎                                                                                                                             | 409/10001 [01:34<37:18,  4.28it/s]
+For debug - reward:  -330
+For debug - reward:  -350
+For debug - reward:  -370
+For debug - reward:  -390
+For debug - reward:  -400
+For debug - reward:  -410
+For debug - reward:  -420
+
+  4%|█████▍                                                                                                                             | 417/10001 [01:36<37:22,  4.27it/s]
+For debug - reward:  -440
+For debug - reward:  -450
+For debug - reward:  -460
+For debug - reward:  -470
+For debug - reward:  -480
+For debug - reward:  -490
+For debug - reward:  -500
+
+  4%|█████▌                                                                                                                             | 425/10001 [01:38<38:20,  4.16it/s]
+For debug - reward:  -520
+For debug - reward:  -530
+For debug - reward:  -540
+For debug - reward:  -550
+For debug - reward:  -560
+For debug - reward:  -570
+For debug - reward:  -580
+For debug - reward:  -590
+
+  4%|█████▋                                                                                                                             | 434/10001 [01:40<37:24,  4.26it/s]
+For debug - reward:  -610
+For debug - reward:  14.518146972563477
+For debug - reward:  18.490485702986597
+For debug - reward:  15.832410044815134
+For debug - reward:  27.69831769586801
+For debug - reward:  16.342545209195716
+For debug - reward:  23.922996953116073
+
+  4%|█████▊                                                                                                                             | 442/10001 [01:42<38:00,  4.19it/s]
+For debug - reward:  19.89631666002103
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -60
+For debug - reward:  -70
+
+  5%|█████▉                                                                                                                             | 451/10001 [01:44<36:41,  4.34it/s]
+For debug - reward:  -90
+For debug - reward:  -100
+For debug - reward:  -110
+For debug - reward:  -120
+For debug - reward:  -130
+For debug - reward:  -140
+For debug - reward:  3.9218266925890877
+For debug - reward:  3.9164461020963817
+
+  5%|██████                                                                                                                             | 460/10001 [01:46<37:02,  4.29it/s]
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  3.916437884019884
+For debug - reward:  4.009563133842412
+For debug - reward:  29.436653442763088
+For debug - reward:  1.2865829693160447
+For debug - reward:  13.852084689665695
+For debug - reward:  21.21776545830634
+
+  5%|██████▏                                                                                                                            | 469/10001 [01:48<36:07,  4.40it/s]
+For debug - reward:  24.390315277074205
+For debug - reward:  24.248444647819298
+For debug - reward:  11.298498257208509
+For debug - reward:  24.112881904819847
+For debug - reward:  27.751909934837485
+For debug - reward:  26.777373755022648
+For debug - reward:  25.154778549712454
+For debug - reward:  17.573460713450483
+
+For debug - reward:  13.425547603175817
+For debug - reward:  12.833704755401511
+For debug - reward:  27.01976481457579
+For debug - reward:  25.571448874524023
+For debug - reward:  19.08915260240085
+For debug - reward:  19.557478248427483
+For debug - reward:  26.791650295577885
+For debug - reward:  20.2495887272877
+
+  5%|██████▎                                                                                                                            | 486/10001 [01:52<37:28,  4.23it/s]
+For debug - reward:  18.096213831077794
+For debug - reward:  23.908282077215045
+For debug - reward:  25.575377086477783
+For debug - reward:  8.572867307863
+reach the cube
+For debug - reward:  1000
+For debug - reward:  6.819502071946705
+For debug - reward:  31.07234705343398
+
+  5%|██████▍                                                                                                                            | 495/10001 [01:54<37:08,  4.27it/s]
+For debug - reward:  35.82850149285256
+For debug - reward:  21.54490922686037
+For debug - reward:  16.27412892836958
+For debug - reward:  23.674390237189957
+reach the cube
+For debug - reward:  1000
+For debug - reward:  31.975493020774366
+For debug - reward:  25.364187317528014
+For debug - reward:  22.560868281899314
+
+  5%|██████▌                                                                                                                            | 503/10001 [01:56<36:58,  4.28it/s]
+For debug - reward:  16.49697881677513
+For debug - reward:  32.73924489016285
+For debug - reward:  36.5749836512565
+For debug - reward:  12.376287470110197
+reach the cube
+For debug - reward:  1000
+For debug - reward:  16.02234337687059
+reach the cube
+For debug - reward:  1000
+For debug - reward:  9.163079531397102
+
+  5%|██████▋                                                                                                                            | 512/10001 [01:58<35:50,  4.41it/s]
+For debug - reward:  11.508270948877978
+For debug - reward:  15.178884004445123
+For debug - reward:  47.375025031325144
+For debug - reward:  8.85447601706138
+For debug - reward:  7.602216285440573
+For debug - reward:  8.187238927821367
+For debug - reward:  2.020425544259945
+
+  5%|██████▊                                                                                                                            | 520/10001 [02:00<37:05,  4.26it/s]
+For debug - reward:  1.3012587094083035
+For debug - reward:  3.897065099534716
+For debug - reward:  3.979905278379684
+For debug - reward:  15.274928354339425
+For debug - reward:  15.94467514457942
+For debug - reward:  18.008798344417897
+For debug - reward:  17.857375323018918
+For debug - reward:  16.376769188603287
+
+  5%|██████▉                                                                                                                            | 529/10001 [02:02<36:06,  4.37it/s]
+For debug - reward:  21.551511967362956
+For debug - reward:  42.37482810539386
+reach the cube
+For debug - reward:  1000
+For debug - reward:  33.53665976503915
+For debug - reward:  34.25748856650857
+For debug - reward:  30.527358886260338
+For debug - reward:  27.574308364723397
+For debug - reward:  28.58738116593907
+
+  5%|███████                                                                                                                            | 538/10001 [02:04<36:53,  4.28it/s]
+For debug - reward:  20.38622666975248
+For debug - reward:  19.431244549895965
+For debug - reward:  21.16529705894267
+For debug - reward:  23.829729277854078
+For debug - reward:  19.072690794970498
+For debug - reward:  17.625697759452134
+For debug - reward:  16.467005969306463
+
+  5%|███████▏                                                                                                                           | 547/10001 [02:06<36:19,  4.34it/s]
+For debug - reward:  13.431074818949714
+For debug - reward:  13.45120848289898
+For debug - reward:  14.440707965137186
+For debug - reward:  13.377572694149322
+For debug - reward:  14.241248725421286
+For debug - reward:  13.442167987325046
+For debug - reward:  13.23932692915068
+For debug - reward:  13.866063310545806
+
+  6%|███████▎                                                                                                                           | 555/10001 [02:08<36:05,  4.36it/s]
+For debug - reward:  16.94313303212335
+For debug - reward:  17.078285541872123
+For debug - reward:  18.970582544132686
+For debug - reward:  18.16143027989407
+For debug - reward:  18.303412054027255
+For debug - reward:  14.171459142268798
+For debug - reward:  13.769253506397558
+For debug - reward:  14.068524495649747
+
+  6%|███████▍                                                                                                                           | 564/10001 [02:10<36:28,  4.31it/s]
+For debug - reward:  18.39747029503264
+For debug - reward:  26.406415162148996
+For debug - reward:  24.391599480104354
+For debug - reward:  22.327955178437715
+For debug - reward:  18.053105874419455
+For debug - reward:  17.77113852881939
+For debug - reward:  21.160818809388115
+
+  6%|███████▍                                                                                                                           | 572/10001 [02:12<36:35,  4.30it/s]
+For debug - reward:  15.601332376485708
+For debug - reward:  12.915116428847007
+For debug - reward:  12.724501489966515
+For debug - reward:  14.100547756315574
+For debug - reward:  16.042477038673855
+For debug - reward:  15.872275281191348
+For debug - reward:  16.81463134139595
+For debug - reward:  14.824998420010044
+
+  6%|███████▌                                                                                                                           | 581/10001 [02:14<36:20,  4.32it/s]
+For debug - reward:  14.556817435551398
+For debug - reward:  15.801496921858456
+For debug - reward:  16.405791655065556
+For debug - reward:  18.448201087165593
+For debug - reward:  18.153615737144303
+For debug - reward:  13.675505915802542
+For debug - reward:  13.362934324749464
+
+  6%|███████▋                                                                                                                           | 590/10001 [02:16<36:48,  4.26it/s]
+For debug - reward:  16.439917685316836
+For debug - reward:  18.611781201779625
+For debug - reward:  22.795401165400914
+For debug - reward:  24.724830197736487
+For debug - reward:  20.723683978396835
+For debug - reward:  19.129889957929887
+For debug - reward:  17.84571144065339
+For debug - reward:  17.815930016913374
+
+  6%|███████▊                                                                                                                           | 599/10001 [02:18<36:07,  4.34it/s]
+For debug - reward:  14.639206241622501
+For debug - reward:  15.156021908305279
+For debug - reward:  16.068359195352247
+For debug - reward:  15.0809123924499
+For debug - reward:  13.544218873247592
+For debug - reward:  12.4617001243126
+For debug - reward:  -10
+For debug - reward:  -20
+
+  6%|███████▉                                                                                                                           | 607/10001 [02:20<35:54,  4.36it/s]
+For debug - reward:  -50
+For debug - reward:  7.768424797984811
+For debug - reward:  7.4610910632595395
+For debug - reward:  -20
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  -80
+For debug - reward:  -100
+
+  6%|████████                                                                                                                           | 616/10001 [02:22<36:02,  4.34it/s]
+For debug - reward:  6.014934505520315
+For debug - reward:  7.063999064816434
+For debug - reward:  7.009312935430841
+For debug - reward:  7.327915830582135
+For debug - reward:  6.960643290160168
+For debug - reward:  7.088398465284675
+For debug - reward:  -20
+
+  6%|████████▏                                                                                                                          | 625/10001 [02:24<36:19,  4.30it/s]
+For debug - reward:  -60
+For debug - reward:  -80
+For debug - reward:  -100
+For debug - reward:  -120
+For debug - reward:  8.812301348207802
+For debug - reward:  10.240040406526257
+For debug - reward:  10.351258217264467
+For debug - reward:  8.182746701696264
+
+  6%|████████▎                                                                                                                          | 634/10001 [02:26<34:38,  4.51it/s]
+For debug - reward:  3.895270083979442
+For debug - reward:  10.345607019711942
+For debug - reward:  12.77069265396623
+For debug - reward:  13.427885482371561
+For debug - reward:  15.280586639731123
+For debug - reward:  16.702230017530336
+For debug - reward:  15.191092043060502
+For debug - reward:  13.912583832834699
+
+  6%|████████▍                                                                                                                          | 643/10001 [02:28<34:26,  4.53it/s]
+For debug - reward:  11.622984859041596
+For debug - reward:  11.27607013614079
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  -70
+
+  7%|████████▌                                                                                                                          | 651/10001 [02:30<35:40,  4.37it/s]
+For debug - reward:  -100
+For debug - reward:  -110
+For debug - reward:  8.403257143453809
+For debug - reward:  8.55528482918347
+For debug - reward:  8.35397805799009
+For debug - reward:  7.875949987345393
+For debug - reward:  7.18494643083706
+For debug - reward:  -20
+
+  7%|████████▋                                                                                                                          | 660/10001 [02:32<35:22,  4.40it/s]
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  9.213534230645244
+For debug - reward:  -20
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -60
+For debug - reward:  -70
+
+  7%|████████▊                                                                                                                          | 669/10001 [02:34<34:53,  4.46it/s]
+For debug - reward:  9.978336451915732
+For debug - reward:  11.393705788761674
+For debug - reward:  12.075724394675278
+For debug - reward:  10.086796506750176
+For debug - reward:  13.111849517065512
+For debug - reward:  13.607982290988756
+For debug - reward:  14.235038447292407
+For debug - reward:  14.523273090194074
+
+  7%|████████▉                                                                                                                          | 678/10001 [02:36<34:49,  4.46it/s]
+For debug - reward:  13.609678969792803
+For debug - reward:  13.582718435786449
+For debug - reward:  14.289138224671241
+For debug - reward:  15.82598594971529
+For debug - reward:  16.743500737747265
+For debug - reward:  16.50109630416682
+For debug - reward:  17.36389232428049
+
+  7%|████████▉                                                                                                                          | 687/10001 [02:38<34:58,  4.44it/s]
+For debug - reward:  12.88415342383206
+For debug - reward:  16.412302167836117
+For debug - reward:  15.375253969021536
+For debug - reward:  14.08884357932966
+For debug - reward:  13.054952071986643
+For debug - reward:  13.436309993466846
+For debug - reward:  13.949697178357647
+For debug - reward:  14.172978002027952
+
+  7%|█████████                                                                                                                          | 696/10001 [02:40<35:22,  4.38it/s]
+For debug - reward:  14.200269818490055
+For debug - reward:  14.359231604719643
+For debug - reward:  16.769525058262175
+For debug - reward:  14.557971007829398
+For debug - reward:  12.794107686918807
+For debug - reward:  5.159159872193114
+For debug - reward:  15.254605677620154
+For debug - reward:  18.0139454472669
+
+  7%|█████████▏                                                                                                                         | 705/10001 [02:42<35:30,  4.36it/s]
+For debug - reward:  16.78251271202037
+For debug - reward:  18.307848834708768
+For debug - reward:  16.395598159159622
+For debug - reward:  15.222641975967758
+For debug - reward:  16.046825662824688
+For debug - reward:  18.224598703368187
+For debug - reward:  16.560945283023553
+For debug - reward:  13.303497907743507
+
+  7%|█████████▎                                                                                                                         | 714/10001 [02:44<34:50,  4.44it/s]
+For debug - reward:  15.694212797653464
+For debug - reward:  14.444205091326912
+For debug - reward:  14.64284670962155
+For debug - reward:  16.788631904028517
+For debug - reward:  14.025214714540219
+For debug - reward:  14.43362957463859
+For debug - reward:  20.0107306633265
+For debug - reward:  12.451210011985951
+
+  7%|█████████▍                                                                                                                         | 722/10001 [02:46<35:36,  4.34it/s]
+For debug - reward:  11.750495104625124
+For debug - reward:  11.31233969014982
+For debug - reward:  14.947034451308271
+For debug - reward:  14.753694803417226
+For debug - reward:  17.76568949166322
+For debug - reward:  20.67952912967792
+For debug - reward:  24.23204577018299
+
+  7%|█████████▌                                                                                                                         | 731/10001 [02:48<34:42,  4.45it/s]
+For debug - reward:  26.32057747616659
+For debug - reward:  19.396849569265335
+For debug - reward:  17.4864947353599
+For debug - reward:  17.442451609549455
+For debug - reward:  16.193629556310295
+For debug - reward:  13.706133278781687
+For debug - reward:  13.93979432207341
+For debug - reward:  15.453036564758891
+
+  7%|█████████▋                                                                                                                         | 740/10001 [02:50<35:36,  4.33it/s]
+For debug - reward:  15.724105976343312
+For debug - reward:  16.7938014119361
+For debug - reward:  17.59000064935933
+For debug - reward:  18.63896368524717
+For debug - reward:  27.213558473525584
+For debug - reward:  34.876374033488226
+For debug - reward:  26.57145705587708
+For debug - reward:  21.02057987922348
+
+  7%|█████████▊                                                                                                                         | 749/10001 [02:52<34:36,  4.45it/s]
+For debug - reward:  19.843925287606904
+For debug - reward:  18.531714950873592
+For debug - reward:  23.097708054228704
+For debug - reward:  24.28814273511533
+For debug - reward:  27.36554140825644
+For debug - reward:  18.08168193824638
+For debug - reward:  -10
+For debug - reward:  -20
+
+For debug - reward:  -40
+For debug - reward:  16.19987276138159
+For debug - reward:  16.37405953619436
+For debug - reward:  14.364377919622216
+For debug - reward:  14.81894898872636
+For debug - reward:  18.291909173262425
+For debug - reward:  17.590021384991335
+For debug - reward:  17.359366867504885
+
+  8%|██████████                                                                                                                         | 766/10001 [02:56<35:15,  4.37it/s]
+For debug - reward:  14.690739075704892
+For debug - reward:  13.604853985236677
+For debug - reward:  13.955757381209265
+For debug - reward:  14.88883555751023
+For debug - reward:  11.329885861661337
+For debug - reward:  10.228143050156238
+For debug - reward:  10.340113777216468
+For debug - reward:  10.494733990180434
+
+  8%|██████████▏                                                                                                                        | 775/10001 [02:58<35:17,  4.36it/s]
+For debug - reward:  12.188565585203097
+For debug - reward:  11.56581250927006
+For debug - reward:  11.004889765710226
+For debug - reward:  12.331094991416768
+For debug - reward:  12.437305815025283
+For debug - reward:  12.19358999400847
+For debug - reward:  3.9655106619375986
+For debug - reward:  10.815271986618951
+
+  8%|██████████▎                                                                                                                        | 784/10001 [03:00<34:27,  4.46it/s]
+For debug - reward:  3.9015726754882856
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  0.15647254399412686
+For debug - reward:  11.730533975332214
+For debug - reward:  4.073073033848609
+For debug - reward:  4.764301953474939
+For debug - reward:  7.8892422466630725
+
+  8%|██████████▍                                                                                                                        | 793/10001 [03:02<34:43,  4.42it/s]
+For debug - reward:  17.887816290205617
+For debug - reward:  1.7077951551098158
+For debug - reward:  2.070385408644723
+For debug - reward:  2.410862423556967
+For debug - reward:  4.59616121550181
+For debug - reward:  9.9264104063898
+For debug - reward:  18.227164158873382
+For debug - reward:  10.128784679052105
+
+  8%|██████████▌                                                                                                                        | 802/10001 [03:04<34:30,  4.44it/s]
+For debug - reward:  13.726792206368142
+For debug - reward:  8.36057427439214
+For debug - reward:  0.14652795517978676
+For debug - reward:  -10
+For debug - reward:  14.939157026370168
+For debug - reward:  16.373193682116685
+For debug - reward:  13.689883990310687
+
+  8%|██████████▌                                                                                                                        | 810/10001 [03:06<36:02,  4.25it/s]
+For debug - reward:  11.514062838943351
+For debug - reward:  13.01434937655291
+For debug - reward:  8.823404451137122
+For debug - reward:  38.153183425617854
+For debug - reward:  7.48303862443782
+For debug - reward:  14.537807324539738
+For debug - reward:  6.723354513995452
+For debug - reward:  12.302491062466004
+
+  8%|██████████▋                                                                                                                        | 819/10001 [03:08<35:36,  4.30it/s]
+For debug - reward:  13.67122314974213
+For debug - reward:  10.840357828505262
+For debug - reward:  14.929499509894324
+For debug - reward:  14.394463075569487
+For debug - reward:  13.591131880732854
+For debug - reward:  12.235397013754513
+For debug - reward:  12.55981762675948
+For debug - reward:  12.466236914344378
+
+  8%|██████████▊                                                                                                                        | 828/10001 [03:10<34:33,  4.42it/s]
+For debug - reward:  11.22261382914867
+For debug - reward:  12.313892718108795
+For debug - reward:  10.84695417132436
+For debug - reward:  10.422474571765958
+For debug - reward:  12.055956906665626
+For debug - reward:  11.683681116249735
+For debug - reward:  11.699397699678556
+
+  8%|██████████▉                                                                                                                        | 836/10001 [03:12<34:46,  4.39it/s]
+For debug - reward:  14.61966742786884
+For debug - reward:  15.195384442588736
+For debug - reward:  14.152369650291407
+For debug - reward:  13.319164992181996
+For debug - reward:  15.54381290039781
+For debug - reward:  15.370992877751453
+For debug - reward:  15.641507872323183
+For debug - reward:  16.198257428446226
+
+  8%|███████████                                                                                                                        | 845/10001 [03:14<34:49,  4.38it/s]
+For debug - reward:  23.873827341187674
+For debug - reward:  29.29873712720715
+For debug - reward:  38.452857221807946
+For debug - reward:  46.30736046819524
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+For debug - reward:  -10
+
+  9%|███████████▏                                                                                                                       | 854/10001 [03:16<35:27,  4.30it/s]
+For debug - reward:  29.452326335754208
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  19.378281874422967
+For debug - reward:  19.293426648115638
+For debug - reward:  15.126357334474884
+For debug - reward:  17.527689746079645
+For debug - reward:  20.647554968099964
+
+  9%|███████████▎                                                                                                                       | 863/10001 [03:18<34:41,  4.39it/s]
+For debug - reward:  22.4647943132221
+For debug - reward:  27.69699740284803
+For debug - reward:  24.627092590316398
+For debug - reward:  20.154084306595358
+For debug - reward:  21.542051670579653
+For debug - reward:  26.4110513203778
+For debug - reward:  26.299358833804796
+For debug - reward:  26.006211126727955
+
+  9%|███████████▍                                                                                                                       | 871/10001 [03:20<33:34,  4.53it/s]
+For debug - reward:  38.573186276007064
+For debug - reward:  29.72528970484955
+For debug - reward:  20.930836129344367
+For debug - reward:  19.5885091492454
+For debug - reward:  22.26395581794784
+For debug - reward:  29.08701232588349
+For debug - reward:  31.84290240023094
+For debug - reward:  34.75610859952944
+
+  9%|███████████▌                                                                                                                       | 881/10001 [03:22<33:57,  4.48it/s]
+For debug - reward:  23.358463925152925
+For debug - reward:  21.5043312847138
+For debug - reward:  18.294781179621776
+For debug - reward:  17.98051533239087
+For debug - reward:  17.07213902850693
+For debug - reward:  13.558118055362351
+For debug - reward:  13.550097194041863
+
+  9%|███████████▋                                                                                                                       | 889/10001 [03:24<36:16,  4.19it/s]
+For debug - reward:  13.941850570682853
+For debug - reward:  13.193411237367316
+For debug - reward:  13.380637948851291
+For debug - reward:  14.36775722192094
+For debug - reward:  18.93215622711882
+For debug - reward:  23.961977640576304
+For debug - reward:  26.427085828553846
+For debug - reward:  22.1240245019385
+
+  9%|███████████▊                                                                                                                       | 898/10001 [03:26<35:03,  4.33it/s]
+For debug - reward:  13.22909788586068
+For debug - reward:  12.913434585851968
+For debug - reward:  13.784976255508576
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  12.825593582228276
+For debug - reward:  14.515476333904566
+
+  9%|███████████▉                                                                                                                       | 907/10001 [03:28<34:52,  4.35it/s]
+For debug - reward:  11.473721893032787
+For debug - reward:  12.46111749248701
+For debug - reward:  12.287197029007634
+For debug - reward:  -10
+For debug - reward:  15.514513407615992
+For debug - reward:  16.194413109049858
+For debug - reward:  13.909184802022054
+
+  9%|███████████▉                                                                                                                       | 915/10001 [03:30<34:49,  4.35it/s]
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -60
+For debug - reward:  -70
+For debug - reward:  -80
+For debug - reward:  17.00677117576695
+
+  9%|████████████                                                                                                                       | 924/10001 [03:32<34:14,  4.42it/s]
+For debug - reward:  17.122805274940536
+For debug - reward:  14.133366080939053
+For debug - reward:  14.009260503989855
+For debug - reward:  14.655128618926792
+For debug - reward:  12.557527523776756
+For debug - reward:  16.587400602781518
+For debug - reward:  15.20010550499971
+For debug - reward:  -10
+
+  9%|████████████▏                                                                                                                      | 933/10001 [03:34<34:16,  4.41it/s]
+For debug - reward:  17.3447798434715
+For debug - reward:  16.502036335171876
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  -80
+For debug - reward:  -100
+
+For debug - reward:  -110
+For debug - reward:  -120
+For debug - reward:  -130
+For debug - reward:  -140
+For debug - reward:  -150
+For debug - reward:  -170
+For debug - reward:  -190
+For debug - reward:  -200
+
+  9%|████████████▍                                                                                                                      | 950/10001 [03:38<35:30,  4.25it/s]
+For debug - reward:  -220
+For debug - reward:  -230
+For debug - reward:  -240
+For debug - reward:  -250
+For debug - reward:  -260
+For debug - reward:  -270
+For debug - reward:  -280
+
+ 10%|████████████▌                                                                                                                      | 959/10001 [03:40<35:37,  4.23it/s]
+For debug - reward:  -300
+For debug - reward:  -320
+For debug - reward:  -340
+For debug - reward:  -360
+For debug - reward:  -380
+For debug - reward:  -390
+For debug - reward:  -400
+For debug - reward:  -410
+
+ 10%|████████████▋                                                                                                                      | 967/10001 [03:42<34:39,  4.34it/s]
+For debug - reward:  -440
+For debug - reward:  -450
+For debug - reward:  -460
+For debug - reward:  -470
+For debug - reward:  -480
+For debug - reward:  -490
+For debug - reward:  -500
+For debug - reward:  -520
+
+ 10%|████████████▊                                                                                                                      | 976/10001 [03:44<34:58,  4.30it/s]
+For debug - reward:  -560
+For debug - reward:  -580
+For debug - reward:  -600
+For debug - reward:  -620
+For debug - reward:  -640
+For debug - reward:  -650
+For debug - reward:  -660
+
+ 10%|████████████▉                                                                                                                      | 985/10001 [03:46<35:07,  4.28it/s]
+For debug - reward:  -680
+For debug - reward:  -700
+For debug - reward:  -720
+For debug - reward:  -740
+For debug - reward:  -760
+For debug - reward:  -780
+For debug - reward:  -800
+For debug - reward:  -820
+
+ 10%|█████████████                                                                                                                      | 994/10001 [03:49<34:12,  4.39it/s]
+For debug - reward:  -850
+For debug - reward:  -860
+For debug - reward:  -870
+For debug - reward:  -880
+For debug - reward:  -890
+For debug - reward:  -900
+For debug - reward:  -910
+
+ 10%|████████████▉                                                                                                                     | 1000/10001 [03:50<34:11,  4.39it/s]
+For debug - reward:  -930
+For debug - reward:  -940
+For debug - reward:  -950
+For debug - reward:  -970
+
+ 10%|█████████████                                                                                                                     | 1006/10001 [03:52<44:51,  3.34it/s]
+For debug - reward:  -1010
+For debug - reward:  -1030
+For debug - reward:  -1050
+For debug - reward:  -1060
+For debug - reward:  -1070
+For debug - reward:  -1080
+
+ 10%|█████████████▏                                                                                                                    | 1014/10001 [03:55<42:38,  3.51it/s]
+For debug - reward:  -1100
+For debug - reward:  -1120
+For debug - reward:  -1140
+For debug - reward:  -1160
+For debug - reward:  -1180
+For debug - reward:  -1200
+For debug - reward:  -1220
+
+ 10%|█████████████▎                                                                                                                    | 1021/10001 [03:56<40:50,  3.66it/s]
+For debug - reward:  -1260
+For debug - reward:  -1280
+For debug - reward:  -1300
+For debug - reward:  -1320
+For debug - reward:  -1340
+For debug - reward:  -1360
+For debug - reward:  -1380
+
+ 10%|█████████████▍                                                                                                                    | 1029/10001 [03:59<40:14,  3.72it/s]
+For debug - reward:  -1420
+For debug - reward:  -1440
+For debug - reward:  -1460
+For debug - reward:  -1480
+For debug - reward:  -1500
+For debug - reward:  -1520
+
+ 10%|█████████████▍                                                                                                                    | 1036/10001 [04:00<41:01,  3.64it/s]
+For debug - reward:  -1560
+For debug - reward:  -1580
+For debug - reward:  -1600
+For debug - reward:  -1620
+For debug - reward:  -1640
+For debug - reward:  -1660
+For debug - reward:  -1680
+
+For debug - reward:  -1700
+For debug - reward:  -1720
+For debug - reward:  -1740
+For debug - reward:  -1760
+For debug - reward:  -1780
+For debug - reward:  -1800
+
+ 11%|█████████████▋                                                                                                                    | 1051/10001 [04:05<41:05,  3.63it/s]
+For debug - reward:  -1840
+For debug - reward:  -1860
+For debug - reward:  -1880
+For debug - reward:  -1900
+For debug - reward:  -1920
+For debug - reward:  -1940
+For debug - reward:  -1960
+
+For debug - reward:  -1980
+For debug - reward:  -2000
+For debug - reward:  -2020
+For debug - reward:  -2040
+For debug - reward:  -2060
+For debug - reward:  -2080
+For debug - reward:  -2100
+
+ 11%|█████████████▊                                                                                                                    | 1065/10001 [04:08<39:34,  3.76it/s]
+For debug - reward:  -2140
+For debug - reward:  -2160
+For debug - reward:  -2180
+For debug - reward:  -2200
+For debug - reward:  -2220
+For debug - reward:  -2240
+For debug - reward:  -2260
+
+ 11%|█████████████▉                                                                                                                    | 1073/10001 [04:10<40:09,  3.71it/s]
+For debug - reward:  -2300
+For debug - reward:  -2320
+For debug - reward:  -2340
+For debug - reward:  -2360
+For debug - reward:  -2380
+For debug - reward:  -2400
+
+ 11%|██████████████                                                                                                                    | 1080/10001 [04:12<41:02,  3.62it/s]
+For debug - reward:  -2440
+For debug - reward:  -2460
+For debug - reward:  -2480
+For debug - reward:  -2500
+For debug - reward:  -2520
+For debug - reward:  -2540
+
+ 11%|██████████████▏                                                                                                                   | 1087/10001 [04:14<41:50,  3.55it/s]
+For debug - reward:  -2580
+For debug - reward:  -2600
+For debug - reward:  -2620
+For debug - reward:  -2640
+For debug - reward:  -2660
+For debug - reward:  -2680
+
+ 11%|██████████████▏                                                                                                                   | 1094/10001 [04:16<41:53,  3.54it/s]
+For debug - reward:  -2720
+For debug - reward:  -2740
+For debug - reward:  -2760
+For debug - reward:  -2780
+For debug - reward:  -2800
+For debug - reward:  -2820
+
+ 11%|██████████████▎                                                                                                                   | 1101/10001 [04:18<42:15,  3.51it/s]
+For debug - reward:  -2860
+For debug - reward:  -2880
+For debug - reward:  -2900
+For debug - reward:  -2920
+For debug - reward:  -2940
+For debug - reward:  -2960
+
+ 11%|██████████████▍                                                                                                                   | 1108/10001 [04:21<43:54,  3.38it/s]
+For debug - reward:  -3000
+For debug - reward:  -3020
+For debug - reward:  -3040
+For debug - reward:  -3060
+For debug - reward:  -3080
+For debug - reward:  -3100
+
+ 11%|██████████████▍                                                                                                                   | 1115/10001 [04:23<43:12,  3.43it/s]
+For debug - reward:  -3140
+For debug - reward:  -3160
+For debug - reward:  -3180
+For debug - reward:  -3200
+For debug - reward:  -3220
+For debug - reward:  -3240
+
+ 11%|██████████████▌                                                                                                                   | 1122/10001 [04:24<42:33,  3.48it/s]
+For debug - reward:  -3280
+For debug - reward:  -3300
+For debug - reward:  -3320
+For debug - reward:  -3340
+For debug - reward:  -3360
+For debug - reward:  -3380
+For debug - reward:  -3400
+
+ 11%|██████████████▋                                                                                                                   | 1128/10001 [04:26<40:20,  3.67it/s]
+For debug - reward:  -3440
+For debug - reward:  -3460
+For debug - reward:  -3480
+For debug - reward:  -3500
+For debug - reward:  -3520
+For debug - reward:  -3540
+
+ 11%|██████████████▊                                                                                                                   | 1135/10001 [04:28<39:45,  3.72it/s]
+For debug - reward:  -3580
+For debug - reward:  -3600
+For debug - reward:  -3620
+For debug - reward:  -3640
+For debug - reward:  -3660
+For debug - reward:  -3680
+
+ 11%|██████████████▊                                                                                                                   | 1143/10001 [04:30<40:33,  3.64it/s]
+For debug - reward:  -3720
+For debug - reward:  -3740
+For debug - reward:  -3760
+For debug - reward:  -3780
+For debug - reward:  -3800
+For debug - reward:  -3820
+For debug - reward:  -3840
+
+ 11%|██████████████▉                                                                                                                   | 1150/10001 [04:32<40:06,  3.68it/s]
+For debug - reward:  -3880
+For debug - reward:  -3900
+For debug - reward:  -3920
+For debug - reward:  -3940
+For debug - reward:  -3960
+For debug - reward:  -3980
+
+ 12%|███████████████                                                                                                                   | 1157/10001 [04:34<41:09,  3.58it/s]
+For debug - reward:  -4020
+For debug - reward:  -4040
+For debug - reward:  -4060
+For debug - reward:  -4080
+For debug - reward:  -4100
+For debug - reward:  -4120
+
+ 12%|███████████████▏                                                                                                                  | 1164/10001 [04:36<40:48,  3.61it/s]
+For debug - reward:  -4160
+For debug - reward:  -4180
+For debug - reward:  -4200
+For debug - reward:  -4220
+For debug - reward:  -4240
+For debug - reward:  -4260
+
+ 12%|███████████████▏                                                                                                                  | 1172/10001 [04:38<40:12,  3.66it/s]
+For debug - reward:  -4300
+For debug - reward:  -4320
+For debug - reward:  -4340
+For debug - reward:  -4360
+For debug - reward:  -4380
+For debug - reward:  -4400
+
+ 12%|███████████████▎                                                                                                                  | 1179/10001 [04:40<41:38,  3.53it/s]
+For debug - reward:  -4440
+For debug - reward:  -4460
+For debug - reward:  -4480
+For debug - reward:  -4500
+For debug - reward:  -4520
+For debug - reward:  -4540
+For debug - reward:  -4560
+
+ 12%|███████████████▍                                                                                                                  | 1187/10001 [04:42<39:40,  3.70it/s]
+For debug - reward:  -4600
+For debug - reward:  -4620
+For debug - reward:  -4640
+For debug - reward:  -4660
+For debug - reward:  -4680
+For debug - reward:  -4700
+
+ 12%|███████████████▌                                                                                                                  | 1194/10001 [04:44<40:11,  3.65it/s]
+For debug - reward:  -4740
+For debug - reward:  -4760
+For debug - reward:  -4780
+For debug - reward:  -4800
+For debug - reward:  -4820
+For debug - reward:  -4840
+
+ 12%|███████████████▌                                                                                                                  | 1201/10001 [04:46<40:58,  3.58it/s]
+For debug - reward:  -4880
+For debug - reward:  -4900
+For debug - reward:  -4920
+For debug - reward:  -4940
+For debug - reward:  -4960
+For debug - reward:  -4980
+
+ 12%|███████████████▋                                                                                                                  | 1208/10001 [04:48<41:50,  3.50it/s]
+For debug - reward:  -5020
+For debug - reward:  -5040
+For debug - reward:  -5060
+For debug - reward:  -5080
+For debug - reward:  -5100
+For debug - reward:  -5120
+
+ 12%|███████████████▊                                                                                                                  | 1215/10001 [04:50<41:09,  3.56it/s]
+For debug - reward:  -5160
+For debug - reward:  -5180
+For debug - reward:  -5200
+For debug - reward:  -5220
+For debug - reward:  -5240
+For debug - reward:  -5260
+
+ 12%|███████████████▉                                                                                                                  | 1222/10001 [04:52<41:45,  3.50it/s]
+For debug - reward:  -5300
+For debug - reward:  -5320
+For debug - reward:  -5340
+For debug - reward:  -5360
+For debug - reward:  -5380
+For debug - reward:  -5400
+For debug - reward:  -5420
+
+ 12%|███████████████▉                                                                                                                  | 1230/10001 [04:54<38:59,  3.75it/s]
+For debug - reward:  -5460
+For debug - reward:  -5480
+For debug - reward:  -5500
+For debug - reward:  -5520
+For debug - reward:  -5540
+For debug - reward:  -5560
+
+ 12%|████████████████                                                                                                                  | 1237/10001 [04:56<39:54,  3.66it/s]
+For debug - reward:  -5600
+For debug - reward:  -5620
+For debug - reward:  -5640
+For debug - reward:  -5660
+For debug - reward:  -5680
+For debug - reward:  -5700
+For debug - reward:  -5720
+
+For debug - reward:  -5740
+For debug - reward:  -5760
+For debug - reward:  -5780
+For debug - reward:  -5800
+For debug - reward:  -5820
+For debug - reward:  -5840
+For debug - reward:  -5860
+
+ 13%|████████████████▎                                                                                                                 | 1251/10001 [05:00<40:35,  3.59it/s]
+For debug - reward:  -5900
+For debug - reward:  -5920
+For debug - reward:  -5940
+For debug - reward:  -5960
+For debug - reward:  -5970
+
+ 13%|████████████████▎                                                                                                                 | 1258/10001 [05:02<41:38,  3.50it/s]
+For debug - reward:  -6000
+For debug - reward:  -6020
+For debug - reward:  -6040
+For debug - reward:  -6060
+For debug - reward:  -6080
+For debug - reward:  -6100
+For debug - reward:  -6120
+
+ 13%|████████████████▍                                                                                                                 | 1266/10001 [05:04<39:54,  3.65it/s]
+For debug - reward:  -6160
+For debug - reward:  -6180
+For debug - reward:  -6200
+For debug - reward:  -6210
+For debug - reward:  -6220
+For debug - reward:  -6240
+For debug - reward:  -6260
+
+ 13%|████████████████▌                                                                                                                 | 1273/10001 [05:06<38:53,  3.74it/s]
+For debug - reward:  -6300
+For debug - reward:  -6320
+For debug - reward:  -6340
+For debug - reward:  -6360
+For debug - reward:  -6380
+For debug - reward:  -6400
+
+ 13%|████████████████▋                                                                                                                 | 1281/10001 [05:08<39:02,  3.72it/s]
+For debug - reward:  -6440
+For debug - reward:  -6460
+For debug - reward:  -6480
+For debug - reward:  -6500
+For debug - reward:  -6520
+For debug - reward:  -6540
+For debug - reward:  -6560
+
+ 13%|████████████████▊                                                                                                                 | 1289/10001 [05:10<37:52,  3.83it/s]
+For debug - reward:  -6600
+For debug - reward:  -6620
+For debug - reward:  -6640
+For debug - reward:  -6660
+For debug - reward:  -6680
+For debug - reward:  -6700
+For debug - reward:  -6720
+
+ 13%|████████████████▊                                                                                                                 | 1296/10001 [05:12<38:07,  3.80it/s]
+For debug - reward:  -6760
+For debug - reward:  -6780
+For debug - reward:  -6800
+For debug - reward:  -6820
+For debug - reward:  -6840
+
+ 13%|████████████████▉                                                                                                                 | 1303/10001 [05:14<40:38,  3.57it/s]
+For debug - reward:  -6880
+For debug - reward:  -6900
+For debug - reward:  -6920
+For debug - reward:  -6940
+For debug - reward:  -6960
+For debug - reward:  -6980
+For debug - reward:  -7000
+
+ 13%|█████████████████                                                                                                                 | 1310/10001 [05:16<40:14,  3.60it/s]
+For debug - reward:  -7040
+For debug - reward:  -7060
+For debug - reward:  -7080
+For debug - reward:  -7100
+For debug - reward:  -7120
+
+ 13%|█████████████████                                                                                                                 | 1317/10001 [05:18<41:39,  3.47it/s]
+For debug - reward:  -7160
+For debug - reward:  -7180
+For debug - reward:  -7200
+For debug - reward:  -7220
+For debug - reward:  -7240
+For debug - reward:  -7260
+For debug - reward:  -7280
+
+For debug - reward:  -7300
+For debug - reward:  -7320
+For debug - reward:  -7340
+For debug - reward:  -7360
+For debug - reward:  -7380
+For debug - reward:  -7400
+For debug - reward:  -7420
+
+ 13%|█████████████████▎                                                                                                                | 1332/10001 [05:22<40:35,  3.56it/s]
+For debug - reward:  -7460
+For debug - reward:  -7480
+For debug - reward:  -7500
+For debug - reward:  -7520
+For debug - reward:  -7540
+For debug - reward:  -7560
+
+ 13%|█████████████████▍                                                                                                                | 1339/10001 [05:24<39:51,  3.62it/s]
+For debug - reward:  -7600
+For debug - reward:  -7620
+For debug - reward:  -7640
+For debug - reward:  -7660
+For debug - reward:  -7680
+For debug - reward:  -7700
+
+ 13%|█████████████████▍                                                                                                                | 1346/10001 [05:26<40:30,  3.56it/s]
+For debug - reward:  -7740
+For debug - reward:  -7760
+For debug - reward:  -7770
+For debug - reward:  -7780
+For debug - reward:  -7800
+For debug - reward:  -7820
+
+ 14%|█████████████████▌                                                                                                                | 1353/10001 [05:28<41:05,  3.51it/s]
+For debug - reward:  -7860
+For debug - reward:  -7880
+For debug - reward:  -7900
+For debug - reward:  -7920
+For debug - reward:  -7940
+For debug - reward:  -7960
+For debug - reward:  -7980
+
+ 14%|█████████████████▋                                                                                                                | 1361/10001 [05:30<39:13,  3.67it/s]
+For debug - reward:  -8020
+For debug - reward:  -8040
+For debug - reward:  -8060
+For debug - reward:  -8080
+For debug - reward:  -8100
+For debug - reward:  -8120
+
+ 14%|█████████████████▊                                                                                                                | 1368/10001 [05:32<39:38,  3.63it/s]
+For debug - reward:  -8160
+For debug - reward:  -8180
+For debug - reward:  -8200
+For debug - reward:  -8220
+For debug - reward:  -8240
+For debug - reward:  -8260
+For debug - reward:  -8280
+
+ 14%|█████████████████▊                                                                                                                | 1375/10001 [05:34<38:52,  3.70it/s]
+For debug - reward:  -8320
+For debug - reward:  -8340
+For debug - reward:  -8360
+For debug - reward:  -8380
+For debug - reward:  -8400
+For debug - reward:  -8420
+
+ 14%|█████████████████▉                                                                                                                | 1383/10001 [05:36<39:38,  3.62it/s]
+For debug - reward:  -8460
+For debug - reward:  -8480
+For debug - reward:  -8500
+For debug - reward:  -8520
+For debug - reward:  -8540
+For debug - reward:  -8560
+
+ 14%|██████████████████                                                                                                                | 1390/10001 [05:38<39:53,  3.60it/s]
+For debug - reward:  -8600
+For debug - reward:  -8620
+For debug - reward:  -8640
+For debug - reward:  -8660
+For debug - reward:  -8680
+For debug - reward:  -8700
+
+ 14%|██████████████████▏                                                                                                               | 1397/10001 [05:40<39:03,  3.67it/s]
+For debug - reward:  -8740
+For debug - reward:  -8760
+For debug - reward:  -8780
+For debug - reward:  -8800
+For debug - reward:  -8820
+For debug - reward:  -8840
+For debug - reward:  -8860
+
+ 14%|██████████████████▎                                                                                                               | 1405/10001 [05:42<38:18,  3.74it/s]
+For debug - reward:  -8900
+For debug - reward:  -8920
+For debug - reward:  -8940
+For debug - reward:  -8960
+For debug - reward:  -8980
+For debug - reward:  -9000
+
+ 14%|██████████████████▎                                                                                                               | 1412/10001 [05:44<39:54,  3.59it/s]
+For debug - reward:  -9040
+For debug - reward:  -9060
+For debug - reward:  -9080
+For debug - reward:  -9100
+For debug - reward:  -9120
+For debug - reward:  -9140
+
+ 14%|██████████████████▍                                                                                                               | 1420/10001 [05:46<38:07,  3.75it/s]
+For debug - reward:  -9180
+For debug - reward:  -9200
+For debug - reward:  -9220
+For debug - reward:  -9240
+For debug - reward:  -9260
+For debug - reward:  -9280
+
+ 14%|██████████████████▌                                                                                                               | 1426/10001 [05:48<40:53,  3.49it/s]
+For debug - reward:  -9320
+For debug - reward:  -9340
+For debug - reward:  -9360
+For debug - reward:  -9380
+For debug - reward:  -9400
+For debug - reward:  -9420
+For debug - reward:  -9440
+
+ 14%|██████████████████▋                                                                                                               | 1434/10001 [05:50<39:03,  3.66it/s]
+For debug - reward:  -9480
+For debug - reward:  -9500
+For debug - reward:  -9520
+For debug - reward:  -9540
+For debug - reward:  -9560
+For debug - reward:  -9570
+
+ 14%|██████████████████▋                                                                                                               | 1441/10001 [05:52<39:06,  3.65it/s]
+For debug - reward:  -9610
+For debug - reward:  -9630
+For debug - reward:  -9650
+For debug - reward:  -9670
+For debug - reward:  -9690
+For debug - reward:  -9710
+
+ 14%|██████████████████▊                                                                                                               | 1448/10001 [05:54<40:17,  3.54it/s]
+For debug - reward:  -9750
+For debug - reward:  -9770
+For debug - reward:  -9790
+For debug - reward:  -9810
+For debug - reward:  -9830
+For debug - reward:  -9850
+
+ 15%|██████████████████▉                                                                                                               | 1455/10001 [05:56<39:49,  3.58it/s]
+For debug - reward:  -9890
+For debug - reward:  -9910
+For debug - reward:  -9930
+For debug - reward:  -9950
+For debug - reward:  -9970
+For debug - reward:  -9990
+
+ 15%|███████████████████                                                                                                               | 1463/10001 [05:58<38:55,  3.66it/s]
+For debug - reward:  -10030
+For debug - reward:  -10050
+For debug - reward:  -10070
+For debug - reward:  -10090
+For debug - reward:  -10110
+For debug - reward:  -10130
+For debug - reward:  -10150
+
+ 15%|███████████████████                                                                                                               | 1470/10001 [06:00<39:19,  3.62it/s]
+For debug - reward:  -10190
+For debug - reward:  -10210
+For debug - reward:  -10230
+For debug - reward:  -10250
+For debug - reward:  -10270
+For debug - reward:  -10290
+
+ 15%|███████████████████▏                                                                                                              | 1477/10001 [06:02<40:21,  3.52it/s]
+For debug - reward:  -10330
+For debug - reward:  -10350
+For debug - reward:  -10370
+For debug - reward:  -10390
+For debug - reward:  -10410
+For debug - reward:  -10430
+
+ 15%|███████████████████▎                                                                                                              | 1484/10001 [06:04<39:24,  3.60it/s]
+For debug - reward:  -10470
+For debug - reward:  -10490
+For debug - reward:  -10510
+For debug - reward:  -10530
+For debug - reward:  -10550
+For debug - reward:  -10570
+For debug - reward:  -10590
+
+ 15%|███████████████████▍                                                                                                              | 1492/10001 [06:06<38:19,  3.70it/s]
+For debug - reward:  -10630
+For debug - reward:  -10650
+For debug - reward:  -10670
+For debug - reward:  -10690
+For debug - reward:  -10710
+For debug - reward:  -10730
+
+ 15%|███████████████████▍                                                                                                              | 1499/10001 [06:08<38:35,  3.67it/s]
+For debug - reward:  -10770
+For debug - reward:  -10790
+For debug - reward:  -10810
+For debug - reward:  -10830
+For debug - reward:  -10850
+For debug - reward:  -10870
+
+For debug - reward:  -10890
+For debug - reward:  -10910
+For debug - reward:  -10930
+For debug - reward:  -10950
+For debug - reward:  -10970
+For debug - reward:  -10990
+For debug - reward:  -11010
+
+ 15%|███████████████████▋                                                                                                              | 1513/10001 [06:12<39:42,  3.56it/s]
+For debug - reward:  -11050
+For debug - reward:  -11070
+For debug - reward:  -11090
+For debug - reward:  -11110
+For debug - reward:  -11130
+For debug - reward:  -11150
+
+ 15%|███████████████████▊                                                                                                              | 1521/10001 [06:14<37:42,  3.75it/s]
+For debug - reward:  -11190
+For debug - reward:  -11210
+For debug - reward:  -11230
+For debug - reward:  -11250
+For debug - reward:  -11270
+For debug - reward:  -11290
+For debug - reward:  -11310
+
+ 15%|███████████████████▊                                                                                                              | 1528/10001 [06:16<37:34,  3.76it/s]
+For debug - reward:  -11350
+For debug - reward:  -11370
+For debug - reward:  -11390
+For debug - reward:  -11410
+For debug - reward:  -11430
+For debug - reward:  -11450
+
+ 15%|███████████████████▉                                                                                                              | 1535/10001 [06:18<37:56,  3.72it/s]
+For debug - reward:  -11490
+For debug - reward:  -11510
+For debug - reward:  -11530
+For debug - reward:  -11550
+For debug - reward:  -11570
+For debug - reward:  -11590
+
+ 15%|████████████████████                                                                                                              | 1542/10001 [06:20<39:19,  3.59it/s]
+For debug - reward:  -11630
+For debug - reward:  -11650
+For debug - reward:  -11670
+For debug - reward:  -11690
+For debug - reward:  -11710
+For debug - reward:  -11730
+For debug - reward:  -11750
+
+ 15%|████████████████████▏                                                                                                             | 1550/10001 [06:22<38:01,  3.70it/s]
+For debug - reward:  -11790
+For debug - reward:  -11810
+For debug - reward:  -11830
+For debug - reward:  -11850
+For debug - reward:  -11870
+For debug - reward:  -11890
+
+For debug - reward:  -11910
+For debug - reward:  -11930
+For debug - reward:  -11950
+For debug - reward:  -11970
+For debug - reward:  -11990
+For debug - reward:  -12010
+For debug - reward:  -12030
+
+ 16%|████████████████████▎                                                                                                             | 1564/10001 [06:26<38:17,  3.67it/s]
+For debug - reward:  -12070
+For debug - reward:  -12090
+For debug - reward:  -12110
+For debug - reward:  -12130
+For debug - reward:  -12150
+For debug - reward:  -12170
+
+ 16%|████████████████████▍                                                                                                             | 1572/10001 [06:29<38:06,  3.69it/s]
+For debug - reward:  -12210
+For debug - reward:  -12230
+For debug - reward:  -12250
+For debug - reward:  -12270
+For debug - reward:  -12290
+For debug - reward:  -12310
+For debug - reward:  -12330
+
+ 16%|████████████████████▌                                                                                                             | 1579/10001 [06:30<37:52,  3.71it/s]
+For debug - reward:  -12370
+For debug - reward:  -12390
+For debug - reward:  -12410
+For debug - reward:  -12430
+For debug - reward:  -12450
+For debug - reward:  -12470
+
+ 16%|████████████████████▌                                                                                                             | 1586/10001 [06:33<39:43,  3.53it/s]
+For debug - reward:  -12510
+For debug - reward:  -12530
+For debug - reward:  -12550
+For debug - reward:  -12570
+For debug - reward:  -12590
+For debug - reward:  -12610
+
+ 16%|████████████████████▋                                                                                                             | 1593/10001 [06:34<39:05,  3.59it/s]
+For debug - reward:  -12650
+For debug - reward:  -12670
+For debug - reward:  -12690
+For debug - reward:  -12710
+For debug - reward:  -12730
+For debug - reward:  -12750
+
+ 16%|████████████████████▊                                                                                                             | 1600/10001 [06:36<39:07,  3.58it/s]
+For debug - reward:  -12790
+For debug - reward:  -12810
+For debug - reward:  -12830
+For debug - reward:  -12850
+For debug - reward:  -12870
+For debug - reward:  -12890
+
+ 16%|████████████████████▉                                                                                                             | 1608/10001 [06:39<39:00,  3.59it/s]
+For debug - reward:  -12930
+For debug - reward:  -12950
+For debug - reward:  -12970
+For debug - reward:  -12990
+For debug - reward:  -13010
+For debug - reward:  -13030
+For debug - reward:  -13050
+
+ 16%|████████████████████▉                                                                                                             | 1615/10001 [06:40<37:48,  3.70it/s]
+For debug - reward:  -13090
+For debug - reward:  -13110
+For debug - reward:  -13130
+For debug - reward:  -13150
+For debug - reward:  -13170
+For debug - reward:  -13190
+
+ 16%|█████████████████████                                                                                                             | 1622/10001 [06:42<38:54,  3.59it/s]
+For debug - reward:  -13230
+For debug - reward:  -13250
+For debug - reward:  -13270
+For debug - reward:  -13290
+For debug - reward:  -13310
+For debug - reward:  -13330
+
+ 16%|█████████████████████▏                                                                                                            | 1629/10001 [06:44<39:32,  3.53it/s]
+For debug - reward:  -13370
+For debug - reward:  -13390
+For debug - reward:  -13410
+For debug - reward:  -13430
+For debug - reward:  -13450
+For debug - reward:  -13470
+
+ 16%|█████████████████████▎                                                                                                            | 1636/10001 [06:46<39:24,  3.54it/s]
+For debug - reward:  -13510
+For debug - reward:  -13530
+For debug - reward:  -13550
+For debug - reward:  -13570
+For debug - reward:  -13590
+For debug - reward:  -13610
+
+ 16%|█████████████████████▎                                                                                                            | 1643/10001 [06:48<39:24,  3.53it/s]
+For debug - reward:  -13650
+For debug - reward:  -13670
+For debug - reward:  -13690
+For debug - reward:  -13710
+For debug - reward:  -13730
+For debug - reward:  -13750
+
+ 17%|█████████████████████▍                                                                                                            | 1651/10001 [06:51<38:41,  3.60it/s]
+For debug - reward:  -13790
+For debug - reward:  -13810
+For debug - reward:  -13830
+For debug - reward:  -13850
+For debug - reward:  -13870
+For debug - reward:  -13890
+
+ 17%|█████████████████████▌                                                                                                            | 1658/10001 [06:53<39:11,  3.55it/s]
+For debug - reward:  -13930
+For debug - reward:  -13950
+For debug - reward:  -13970
+For debug - reward:  -13990
+For debug - reward:  -14010
+For debug - reward:  -14030
+
+ 17%|█████████████████████▋                                                                                                            | 1665/10001 [06:55<37:58,  3.66it/s]
+For debug - reward:  -14070
+For debug - reward:  -14090
+For debug - reward:  -14110
+For debug - reward:  -14130
+For debug - reward:  -14150
+For debug - reward:  -14170
+For debug - reward:  -14190
+
+ 17%|█████████████████████▋                                                                                                            | 1673/10001 [06:57<37:24,  3.71it/s]
+For debug - reward:  -14230
+For debug - reward:  -14250
+For debug - reward:  -14270
+For debug - reward:  -14290
+For debug - reward:  -14310
+For debug - reward:  -14330
+For debug - reward:  -14350
+
+ 17%|█████████████████████▊                                                                                                            | 1680/10001 [06:59<37:04,  3.74it/s]
+For debug - reward:  -14390
+For debug - reward:  -14410
+For debug - reward:  -14430
+For debug - reward:  -14450
+For debug - reward:  -14470
+For debug - reward:  -14490
+
+ 17%|█████████████████████▉                                                                                                            | 1687/10001 [07:00<37:17,  3.72it/s]
+For debug - reward:  -14530
+For debug - reward:  -14550
+For debug - reward:  -14570
+For debug - reward:  -14590
+For debug - reward:  -14610
+For debug - reward:  -14630
+
+ 17%|██████████████████████                                                                                                            | 1695/10001 [07:03<38:38,  3.58it/s]
+For debug - reward:  -14670
+For debug - reward:  -14690
+For debug - reward:  -14700
+For debug - reward:  -14720
+For debug - reward:  -14740
+For debug - reward:  -14760
+
+ 17%|██████████████████████                                                                                                            | 1701/10001 [07:04<39:14,  3.53it/s]
+For debug - reward:  -14800
+For debug - reward:  -14820
+For debug - reward:  -14840
+For debug - reward:  -14860
+For debug - reward:  -14880
+For debug - reward:  -14900
+For debug - reward:  -14920
+
+ 17%|██████████████████████▏                                                                                                           | 1709/10001 [07:07<37:01,  3.73it/s]
+For debug - reward:  -14960
+For debug - reward:  -14980
+For debug - reward:  -15000
+For debug - reward:  -15020
+For debug - reward:  -15040
+For debug - reward:  -15060
+
+ 17%|██████████████████████▎                                                                                                           | 1717/10001 [07:09<37:37,  3.67it/s]
+For debug - reward:  -15100
+For debug - reward:  -15120
+For debug - reward:  -15140
+For debug - reward:  -15160
+For debug - reward:  -15180
+For debug - reward:  -15200
+
+ 17%|██████████████████████▍                                                                                                           | 1724/10001 [07:11<37:39,  3.66it/s]
+For debug - reward:  -15240
+For debug - reward:  -15260
+For debug - reward:  -15280
+For debug - reward:  -15300
+For debug - reward:  -15320
+For debug - reward:  -15340
+
+ 17%|██████████████████████▌                                                                                                           | 1731/10001 [07:13<39:09,  3.52it/s]
+For debug - reward:  -15380
+For debug - reward:  -15400
+For debug - reward:  -15420
+For debug - reward:  -15440
+For debug - reward:  -15460
+For debug - reward:  -15480
+For debug - reward:  -15500
+
+ 17%|██████████████████████▌                                                                                                           | 1738/10001 [07:15<37:49,  3.64it/s]
+For debug - reward:  -15540
+For debug - reward:  -15560
+For debug - reward:  -15580
+For debug - reward:  -15600
+For debug - reward:  -15620
+For debug - reward:  -15640
+
+ 17%|██████████████████████▋                                                                                                           | 1746/10001 [07:17<37:43,  3.65it/s]
+For debug - reward:  -15680
+For debug - reward:  -15700
+For debug - reward:  -15720
+For debug - reward:  -15740
+For debug - reward:  -15760
+For debug - reward:  -15780
+For debug - reward:  -15800
+
+ 18%|██████████████████████▊                                                                                                           | 1753/10001 [07:19<36:39,  3.75it/s]
+For debug - reward:  -15840
+For debug - reward:  -15860
+For debug - reward:  -15880
+For debug - reward:  -15900
+For debug - reward:  -15920
+
+ 18%|██████████████████████▉                                                                                                           | 1761/10001 [07:21<37:14,  3.69it/s]
+For debug - reward:  -15960
+For debug - reward:  -15980
+For debug - reward:  -16000
+For debug - reward:  -16020
+For debug - reward:  -16040
+For debug - reward:  -16060
+For debug - reward:  -16080
+
+ 18%|██████████████████████▉                                                                                                           | 1768/10001 [07:23<37:59,  3.61it/s]
+For debug - reward:  -16120
+For debug - reward:  -16140
+For debug - reward:  -16160
+For debug - reward:  -16180
+For debug - reward:  -16200
+For debug - reward:  -16220
+
+ 18%|███████████████████████                                                                                                           | 1775/10001 [07:25<38:30,  3.56it/s]
+For debug - reward:  -16260
+For debug - reward:  -16280
+For debug - reward:  -16300
+For debug - reward:  -16320
+For debug - reward:  -16340
+For debug - reward:  -16360
+For debug - reward:  -16380
+
+ 18%|███████████████████████▏                                                                                                          | 1782/10001 [07:27<37:00,  3.70it/s]
+For debug - reward:  -16420
+For debug - reward:  -16440
+For debug - reward:  -16460
+For debug - reward:  -16480
+For debug - reward:  -16500
+For debug - reward:  -16520
+
+ 18%|███████████████████████▎                                                                                                          | 1790/10001 [07:29<36:43,  3.73it/s]
+For debug - reward:  -16560
+For debug - reward:  -16580
+For debug - reward:  -16600
+For debug - reward:  -16620
+For debug - reward:  -16640
+For debug - reward:  -16660
+
+ 18%|███████████████████████▎                                                                                                          | 1797/10001 [07:31<37:39,  3.63it/s]
+For debug - reward:  -16700
+For debug - reward:  -16720
+For debug - reward:  -16740
+For debug - reward:  -16760
+For debug - reward:  -16780
+For debug - reward:  -16800
+
+ 18%|███████████████████████▍                                                                                                          | 1804/10001 [07:33<38:12,  3.57it/s]
+For debug - reward:  -16840
+For debug - reward:  -16860
+For debug - reward:  -16880
+For debug - reward:  -16900
+For debug - reward:  -16920
+For debug - reward:  -16940
+
+ 18%|███████████████████████▌                                                                                                          | 1811/10001 [07:35<38:27,  3.55it/s]
+For debug - reward:  -16980
+For debug - reward:  -17000
+For debug - reward:  -17020
+For debug - reward:  -17040
+For debug - reward:  -17060
+For debug - reward:  -17080
+
+ 18%|███████████████████████▋                                                                                                          | 1818/10001 [07:37<38:43,  3.52it/s]
+For debug - reward:  -17120
+For debug - reward:  -17140
+For debug - reward:  -17160
+For debug - reward:  -17180
+For debug - reward:  -17200
+For debug - reward:  -17220
+
+ 18%|███████████████████████▋                                                                                                          | 1825/10001 [07:39<37:31,  3.63it/s]
+For debug - reward:  -17260
+For debug - reward:  -17280
+For debug - reward:  -17300
+For debug - reward:  -17320
+For debug - reward:  -17340
+For debug - reward:  -17360
+For debug - reward:  17.186704283757877
+
+ 18%|███████████████████████▊                                                                                                          | 1833/10001 [07:41<36:25,  3.74it/s]
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  -80
+For debug - reward:  -100
+For debug - reward:  -120
+For debug - reward:  -140
+
+ 18%|███████████████████████▉                                                                                                          | 1840/10001 [07:43<36:43,  3.70it/s]
+For debug - reward:  -180
+For debug - reward:  -200
+For debug - reward:  -220
+For debug - reward:  -240
+For debug - reward:  -260
+For debug - reward:  -280
+For debug - reward:  7.503540935671718
+
+ 18%|████████████████████████                                                                                                          | 1848/10001 [07:45<36:15,  3.75it/s]
+For debug - reward:  16.679956126611884
+For debug - reward:  28.1862008676168
+For debug - reward:  10.21837187331398
+For debug - reward:  3.91654694674909
+For debug - reward:  3.9147338083460914
+For debug - reward:  22.534767798681358
+stage.py - goaled 1
+reach the cube
+For debug - reward:  1000
+
+ 19%|████████████████████████▏                                                                                                         | 1856/10001 [07:47<35:46,  3.79it/s]
+For debug - reward:  37.974182414214106
+For debug - reward:  39.5413324206815
+For debug - reward:  29.049357448559704
+For debug - reward:  18.677044512238226
+For debug - reward:  14.337766098170874
+For debug - reward:  -20
+
+ 19%|████████████████████████▏                                                                                                         | 1863/10001 [07:49<36:26,  3.72it/s]
+For debug - reward:  -60
+For debug - reward:  -70
+For debug - reward:  8.9785292859207
+For debug - reward:  9.244027319295306
+For debug - reward:  10.44330169579534
+For debug - reward:  12.169107610401523
+
+ 19%|████████████████████████▎                                                                                                         | 1870/10001 [07:51<38:28,  3.52it/s]
+For debug - reward:  7.854277869049849
+For debug - reward:  7.15443261119102
+For debug - reward:  -20
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  -70
+
+ 19%|████████████████████████▍                                                                                                         | 1877/10001 [07:53<37:14,  3.64it/s]
+For debug - reward:  -90
+For debug - reward:  -100
+For debug - reward:  -110
+For debug - reward:  -120
+For debug - reward:  -130
+For debug - reward:  -140
+For debug - reward:  -150
+
+For debug - reward:  -160
+For debug - reward:  -180
+For debug - reward:  15.730757801044248
+For debug - reward:  14.886769639477327
+For debug - reward:  21.006716726052368
+For debug - reward:  37.77024638221056
+For debug - reward:  38.45902809357922
+
+ 19%|████████████████████████▌                                                                                                         | 1891/10001 [07:57<38:24,  3.52it/s]
+For debug - reward:  9.478126082838342
+For debug - reward:  1.8400859334177775
+For debug - reward:  3.351254325582934
+For debug - reward:  16.377621188834357
+For debug - reward:  -20
+For debug - reward:  -40
+
+ 19%|████████████████████████▋                                                                                                         | 1899/10001 [07:59<37:22,  3.61it/s]
+For debug - reward:  -80
+For debug - reward:  -100
+For debug - reward:  -120
+For debug - reward:  -140
+For debug - reward:  7.96863719247099
+
+ 19%|████████████████████████▊                                                                                                         | 1905/10001 [08:01<39:08,  3.45it/s]
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -70
+For debug - reward:  -90
+For debug - reward:  -110
+For debug - reward:  -130
+For debug - reward:  -150
+
+ 19%|████████████████████████▊                                                                                                         | 1913/10001 [08:03<38:43,  3.48it/s]
+For debug - reward:  -190
+For debug - reward:  -210
+For debug - reward:  -220
+For debug - reward:  9.826649901374635
+For debug - reward:  23.307992187963656
+For debug - reward:  19.994346847041076
+
+For debug - reward:  11.540067865835953
+For debug - reward:  4.7070345690639135
+For debug - reward:  3.9788801634963273
+For debug - reward:  3.8819771640508196
+For debug - reward:  32.991976663707725
+For debug - reward:  14.58389738738373
+reach the cube
+For debug - reward:  1000
+
+ 19%|█████████████████████████                                                                                                         | 1927/10001 [08:07<37:07,  3.62it/s]
+For debug - reward:  32.125266485922445
+For debug - reward:  25.973982697652634
+For debug - reward:  19.16212109000984
+For debug - reward:  15.837616435466083
+For debug - reward:  11.601190328524847
+For debug - reward:  9.490191634316236
+For debug - reward:  9.03162166951586
+
+ 19%|█████████████████████████▏                                                                                                        | 1935/10001 [08:09<35:19,  3.81it/s]
+For debug - reward:  7.769562579511212
+For debug - reward:  6.88453806671319
+For debug - reward:  -20
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  -70
+For debug - reward:  -80
+
+ 19%|█████████████████████████▎                                                                                                        | 1943/10001 [08:11<34:52,  3.85it/s]
+For debug - reward:  -100
+For debug - reward:  -110
+For debug - reward:  -120
+For debug - reward:  -130
+For debug - reward:  -140
+For debug - reward:  -150
+
+ 19%|█████████████████████████▎                                                                                                        | 1950/10001 [08:13<36:12,  3.71it/s]
+reach the cube
+For debug - reward:  1000
+For debug - reward:  0.178913138937904
+For debug - reward:  27.843134832760782
+For debug - reward:  21.981981122487426
+For debug - reward:  15.300434181925128
+For debug - reward:  7.1590843333081855
+
+ 20%|█████████████████████████▍                                                                                                        | 1957/10001 [08:15<37:03,  3.62it/s]
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  -80
+For debug - reward:  -90
+For debug - reward:  -110
+For debug - reward:  -130
+
+ 20%|█████████████████████████▌                                                                                                        | 1962/10001 [08:16<38:20,  3.49it/s]
+For debug - reward:  -170
+For debug - reward:  -190
+For debug - reward:  -210
+For debug - reward:  -230
+For debug - reward:  -250
+For debug - reward:  -270
+For debug - reward:  -290
+
+ 20%|█████████████████████████▌                                                                                                        | 1970/10001 [08:18<36:16,  3.69it/s]
+For debug - reward:  -330
+For debug - reward:  -350
+For debug - reward:  -370
+For debug - reward:  -390
+For debug - reward:  -410
+For debug - reward:  -430
+
+ 20%|█████████████████████████▋                                                                                                        | 1977/10001 [08:20<36:21,  3.68it/s]
+For debug - reward:  -470
+For debug - reward:  -490
+For debug - reward:  -510
+For debug - reward:  -530
+For debug - reward:  -550
+For debug - reward:  13.103085485629151
+
+ 20%|█████████████████████████▊                                                                                                        | 1985/10001 [08:22<35:39,  3.75it/s]
+For debug - reward:  8.282733350380138
+For debug - reward:  11.517806598829111
+For debug - reward:  12.706448180976155
+For debug - reward:  3.865171669957906
+For debug - reward:  6.615093494378693
+For debug - reward:  -10
+For debug - reward:  -20
+
+ 20%|█████████████████████████▉                                                                                                        | 1992/10001 [08:24<35:40,  3.74it/s]
+For debug - reward:  -50
+For debug - reward:  -70
+For debug - reward:  -90
+For debug - reward:  -110
+For debug - reward:  -130
+For debug - reward:  -150
+For debug - reward:  -170
+
+ 20%|█████████████████████████▉                                                                                                        | 2000/10001 [08:26<35:00,  3.81it/s]
+For debug - reward:  -210
+For debug - reward:  -230
+For debug - reward:  -250
+For debug - reward:  -270
+For debug - reward:  -290
+For debug - reward:  -310
+
+ 20%|██████████████████████████                                                                                                        | 2007/10001 [08:28<36:10,  3.68it/s]
+For debug - reward:  -350
+For debug - reward:  -370
+For debug - reward:  -390
+For debug - reward:  -410
+For debug - reward:  -430
+For debug - reward:  -450
+
+ 20%|██████████████████████████▏                                                                                                       | 2015/10001 [08:31<36:18,  3.67it/s]
+For debug - reward:  -490
+For debug - reward:  -510
+For debug - reward:  -530
+For debug - reward:  -550
+For debug - reward:  -570
+For debug - reward:  -590
+For debug - reward:  -610
+
+ 20%|██████████████████████████▎                                                                                                       | 2022/10001 [08:32<36:10,  3.68it/s]
+For debug - reward:  -650
+For debug - reward:  -670
+For debug - reward:  -690
+For debug - reward:  -710
+For debug - reward:  -730
+For debug - reward:  -750
+
+ 20%|██████████████████████████▎                                                                                                       | 2029/10001 [08:34<36:57,  3.60it/s]
+For debug - reward:  -790
+For debug - reward:  -810
+For debug - reward:  -830
+For debug - reward:  -850
+For debug - reward:  -870
+For debug - reward:  -890
+
+ 20%|██████████████████████████▍                                                                                                       | 2036/10001 [08:36<37:11,  3.57it/s]
+For debug - reward:  -930
+For debug - reward:  -950
+For debug - reward:  -970
+For debug - reward:  -990
+For debug - reward:  -1010
+For debug - reward:  -1030
+
+ 20%|██████████████████████████▌                                                                                                       | 2043/10001 [08:38<37:03,  3.58it/s]
+For debug - reward:  -1070
+For debug - reward:  -1090
+For debug - reward:  -1110
+For debug - reward:  -1130
+For debug - reward:  -1150
+For debug - reward:  -1170
+
+ 20%|██████████████████████████▋                                                                                                       | 2050/10001 [08:40<37:58,  3.49it/s]
+For debug - reward:  -1210
+For debug - reward:  -1230
+For debug - reward:  -1250
+For debug - reward:  -1270
+For debug - reward:  -1290
+For debug - reward:  -1310
+
+ 21%|██████████████████████████▊                                                                                                       | 2058/10001 [08:43<37:09,  3.56it/s]
+For debug - reward:  -1350
+For debug - reward:  -1370
+For debug - reward:  -1390
+For debug - reward:  -1410
+For debug - reward:  -1430
+For debug - reward:  -1450
+For debug - reward:  -1470
+
+ 21%|██████████████████████████▊                                                                                                       | 2065/10001 [08:44<35:42,  3.70it/s]
+For debug - reward:  -1510
+For debug - reward:  -1530
+For debug - reward:  -1550
+For debug - reward:  -1570
+For debug - reward:  -1590
+For debug - reward:  -1610
+
+ 21%|██████████████████████████▉                                                                                                       | 2073/10001 [08:47<35:33,  3.72it/s]
+For debug - reward:  -1650
+For debug - reward:  -1670
+For debug - reward:  -1690
+For debug - reward:  -1710
+For debug - reward:  -1730
+For debug - reward:  -1750
+For debug - reward:  -1770
+
+ 21%|███████████████████████████                                                                                                       | 2081/10001 [08:49<34:36,  3.81it/s]
+For debug - reward:  -1810
+For debug - reward:  -1830
+For debug - reward:  -1850
+For debug - reward:  -1870
+For debug - reward:  -1890
+For debug - reward:  -1910
+
+ 21%|███████████████████████████▏                                                                                                      | 2087/10001 [08:50<36:48,  3.58it/s]
+For debug - reward:  -1950
+For debug - reward:  -1970
+For debug - reward:  -1990
+For debug - reward:  -2010
+For debug - reward:  -2030
+For debug - reward:  -2050
+
+ 21%|███████████████████████████▏                                                                                                      | 2095/10001 [08:53<36:13,  3.64it/s]
+For debug - reward:  -2090
+For debug - reward:  -2110
+For debug - reward:  -2130
+For debug - reward:  -2150
+For debug - reward:  -2170
+For debug - reward:  -2190
+
+ 21%|███████████████████████████▎                                                                                                      | 2102/10001 [08:55<36:59,  3.56it/s]
+For debug - reward:  8.357111336151021
+For debug - reward:  17.123215490965666
+For debug - reward:  20.985326967178736
+For debug - reward:  10.645915988651788
+For debug - reward:  6.898657331869761
+For debug - reward:  5.313151342031654
+
+ 21%|███████████████████████████▍                                                                                                      | 2109/10001 [08:57<37:03,  3.55it/s]
+For debug - reward:  13.04577300201312
+For debug - reward:  18.11757887057164
+For debug - reward:  21.628787458624675
+For debug - reward:  25.409906393928747
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+
+ 21%|███████████████████████████▍                                                                                                      | 2115/10001 [08:58<38:03,  3.45it/s]
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+For debug - reward:  45.50174602891041
+For debug - reward:  37.432890612302636
+For debug - reward:  38.22635360770576
+
+ 21%|███████████████████████████▌                                                                                                      | 2123/10001 [09:01<37:04,  3.54it/s]
+For debug - reward:  28.221057311319097
+For debug - reward:  26.20768475058988
+For debug - reward:  24.065764718689902
+For debug - reward:  23.615967762290243
+For debug - reward:  24.29019643310345
+For debug - reward:  38.3202347307541
+reach the cube
+For debug - reward:  1000
+reach the cube
+
+ 21%|███████████████████████████▋                                                                                                      | 2130/10001 [09:02<36:13,  3.62it/s]
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+
+ 21%|███████████████████████████▊                                                                                                      | 2137/10001 [09:04<36:11,  3.62it/s]
+For debug - reward:  -20
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  -70
+For debug - reward:  -80
+For debug - reward:  -90
+
+ 21%|███████████████████████████▊                                                                                                      | 2144/10001 [09:06<37:52,  3.46it/s]
+For debug - reward:  -110
+For debug - reward:  -120
+For debug - reward:  -130
+For debug - reward:  -140
+For debug - reward:  -150
+For debug - reward:  -160
+
+ 22%|███████████████████████████▉                                                                                                      | 2152/10001 [09:09<35:44,  3.66it/s]
+For debug - reward:  4.494507287734509
+For debug - reward:  16.345015405247555
+For debug - reward:  -10
+For debug - reward:  20.071260824775006
+For debug - reward:  9.398420227917505
+For debug - reward:  9.245992157287187
+
+ 22%|████████████████████████████                                                                                                      | 2159/10001 [09:11<36:57,  3.54it/s]
+For debug - reward:  10.011769414972436
+For debug - reward:  3.8903123713129224
+For debug - reward:  3.9029435472681175
+For debug - reward:  3.8827538710513227
+For debug - reward:  -10
+For debug - reward:  4.8408205319141215
+
+ 22%|████████████████████████████▏                                                                                                     | 2166/10001 [09:13<37:26,  3.49it/s]
+For debug - reward:  7.778424242472803
+For debug - reward:  16.114851493193928
+For debug - reward:  -20
+For debug - reward:  -40
+For debug - reward:  -60
+For debug - reward:  -70
+
+ 22%|████████████████████████████▏                                                                                                     | 2173/10001 [09:15<36:37,  3.56it/s]
+For debug - reward:  -90
+For debug - reward:  -100
+For debug - reward:  3.9041878406305783
+For debug - reward:  3.9103145415324962
+For debug - reward:  3.882595889125808
+For debug - reward:  3.900237671596162
+
+ 22%|████████████████████████████▎                                                                                                     | 2180/10001 [09:17<37:07,  3.51it/s]
+For debug - reward:  3.919152113736212
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -60
+
+ 22%|████████████████████████████▍                                                                                                     | 2188/10001 [09:19<34:26,  3.78it/s]
+For debug - reward:  3.884039988056135
+For debug - reward:  3.9353373582845097
+For debug - reward:  3.9278274997348457
+For debug - reward:  3.907383866420025
+For debug - reward:  3.9146478994091782
+For debug - reward:  -10
+For debug - reward:  -20
+
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -50
+For debug - reward:  -60
+For debug - reward:  -70
+For debug - reward:  -80
+For debug - reward:  -90
+
+For debug - reward:  -100
+For debug - reward:  -110
+reach the cube
+For debug - reward:  1000
+For debug - reward:  39.37189642168161
+reach the cube
+For debug - reward:  1000
+For debug - reward:  37.901545294467994
+For debug - reward:  26.58163722547865
+reach the cube
+
+ 22%|████████████████████████████▋                                                                                                     | 2210/10001 [09:25<34:52,  3.72it/s]
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+For debug - reward:  -10
+For debug - reward:  -20
+For debug - reward:  -30
+For debug - reward:  -40
+For debug - reward:  -50
+
+ 22%|████████████████████████████▊                                                                                                     | 2218/10001 [09:27<34:23,  3.77it/s]
+For debug - reward:  -70
+For debug - reward:  -80
+For debug - reward:  -90
+For debug - reward:  42.761258901071926
+For debug - reward:  38.88580021424299
+For debug - reward:  23.56011673568492
+
+ 22%|████████████████████████████▉                                                                                                     | 2225/10001 [09:29<35:06,  3.69it/s]
+For debug - reward:  21.502899192204328
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+reach the cube
+For debug - reward:  1000
+
+ 22%|█████████████████████████████                                                                                                     | 2232/10001 [09:31<35:13,  3.68it/s]
+For debug - reward:  1000
+For debug - reward:  16.4582040559122
+For debug - reward:  16.045255517351233
+For debug - reward:  3.921659843195358
+For debug - reward:  3.9163164695726755
+For debug - reward:  -20
+For debug - reward:  -40
+For debug - reward:  -60
+
+For debug - reward:  -120
+For debug - reward:  -130
+
+ 22%|█████████████████████████████▏                                                                                                    | 2247/10001 [09:35<34:51,  3.71it/s]
+
+For debug - reward:  -370
+
+ 23%|█████████████████████████████▍                                                                                                    | 2262/10001 [09:39<33:35,  3.84it/s]
+
+For debug - reward:  -650
+
+ 23%|█████████████████████████████▌                                                                                                    | 2277/10001 [09:43<35:07,  3.66it/s]
+
+For debug - reward:  -930
+
+ 23%|█████████████████████████████▊                                                                                                    | 2292/10001 [09:47<34:22,  3.74it/s]
+
+For debug - reward:  -1210
+
+ 23%|█████████████████████████████▉                                                                                                    | 2306/10001 [09:51<35:34,  3.60it/s]
+
+For debug - reward:  -1490
+
+ 23%|██████████████████████████████▏                                                                                                   | 2321/10001 [09:55<34:57,  3.66it/s]
+
+For debug - reward:  -1770
+
+ 23%|██████████████████████████████▎                                                                                                   | 2335/10001 [09:59<35:18,  3.62it/s]
+
+For debug - reward:  -2030
+
+For debug - reward:  -2190
+
+For debug - reward:  -2330
+
+For debug - reward:  -2490
+
+For debug - reward:  -2610
+
+For debug - reward:  -2750
+
+For debug - reward:  -2910
+
+For debug - reward:  -3050
+
+For debug - reward:  -3190
+
+For debug - reward:  -3350
+
+For debug - reward:  -3510
+
+For debug - reward:  -3650
+
+For debug - reward:  -3790
+
+For debug - reward:  -3930
+
+For debug - reward:  -4070
+
+For debug - reward:  -4210
+
+For debug - reward:  -4350
+
+For debug - reward:  -4490
+
+For debug - reward:  -4630
+
+For debug - reward:  -4790
+
+For debug - reward:  -4930
+
+For debug - reward:  -5090
+
+For debug - reward:  -5230
+
+For debug - reward:  -1000
+
+For debug - reward:  -2600
+
+For debug - reward:  8.389588445872917
+
+For debug - reward:  8.478420304662817
+
+For debug - reward:  8.807906672927269
+
+For debug - reward:  8.347543681442199
+
+For debug - reward:  -1407543681442199
+
+For debug - reward:  -2807543681442199
+
+For debug - reward:  -4407543681442199
+
+For debug - reward:  -5807543681442199
+
+For debug - reward:  -7207543681442199
+
+For debug - reward:  -4007543681442199
+
+ 26%|█████████████████████████████████▊                                                                                                | 2598/10001 [11:11<33:03,  3.73it/s]
+
+ 26%|█████████████████████████████████▊                                                                                                | 2606/10001 [11:13<32:20,  3.81it/s]
+
+For debug - reward:  -1807543681442199
+
+For debug - reward:  -3207543681442199
+
+For debug - reward:  -4607543681442199
+
+For debug - reward:  -6007543681442199
+
+For debug - reward:  -7607543681442199
+
+For debug - reward:  10.251937402414361
+
+For debug - reward:  -20251937402414361
+
+For debug - reward:  16.790866737273955
+
+For debug - reward:  -10090866737273955
+
+For debug - reward:  18.511962022768877
+
+For debug - reward:  0.25869285699507605
+
+For debug - reward:  -405869285699507605
+
+For debug - reward:  6.92931464394590205
+
+For debug - reward:  -100931464394590205
+
+For debug - reward:  -200931464394590205
+
+For debug - reward:  14.9143407802435455
+
+For debug - reward:  0.24893829117879007
+
+For debug - reward:  -204893829117879007
+
+For debug - reward:  40.5096637055877207
+
+For debug - reward:  0.43690376988885804
+
+For debug - reward:  -603690376988885804
+
+For debug - reward:  13.7901306693587564
+
+For debug - reward:  34.9802068572749364
+
+For debug - reward:  15.6113382864600494
+
+For debug - reward:  -100113382864600494
+
+For debug - reward:  -240113382864600494
+
+For debug - reward:  -380113382864600494
+
+For debug - reward:  -520113382864600494
+
+For debug - reward:  -660113382864600494
+
+For debug - reward:  -800113382864600494
+
+For debug - reward:  -940113382864600494
+
+For debug - reward:  -108013382864600494
+
+For debug - reward:  -124013382864600494
+
+For debug - reward:  -138013382864600494
+
+For debug - reward:  -152013382864600494
+
+For debug - reward:  -166013382864600494
+
+For debug - reward:  -182013382864600494
+
+For debug - reward:  -196013382864600494
+
+For debug - reward:  -210013382864600494
+
+For debug - reward:  -224013382864600494
+
+For debug - reward:  -240013382864600494
+
+For debug - reward:  -254013382864600494
+
+For debug - reward:  -268013382864600494
+
+For debug - reward:  -280013382864600494
+
+For debug - reward:  -296013382864600494
+
+For debug - reward:  -312013382864600494
+
+For debug - reward:  -326013382864600494
+
+For debug - reward:  8.04843957566700494
+
+For debug - reward:  -404843957566700494
+
+For debug - reward:  -120843957566700494
+
+For debug - reward:  8.03169568106379394
+
+For debug - reward:  7.80762404072526694
+
+For debug - reward:  8.10180110406471494
+
+For debug - reward:  -120180110406471494
+
+For debug - reward:  -200180110406471494
+
+ 30%|███████████████████████████████████████                                                                                           | 3006/10001 [13:05<33:34,  3.47it/s]
+
+For debug - reward:  8.17602517087981694
+
+For debug - reward:  -407602517087981694
+
+For debug - reward:  7.98643087634482994
+
+For debug - reward:  7.95634044377500994
+
+For debug - reward:  -140634044377500994
+
+For debug - reward:  -280634044377500994
+
+For debug - reward:  -600634044377500994
+
+For debug - reward:  7.96009004182989194
+
+For debug - reward:  8.13934816528150294
+
+For debug - reward:  -140934816528150294
+
+For debug - reward:  -280934816528150294
+
+For debug - reward:  -420934816528150294
+
+For debug - reward:  -600934816528150294
+
+For debug - reward:  7.89199353231078694
+
+For debug - reward:  7.84081611254396694
+
+For debug - reward:  -204081611254396694
+
+For debug - reward:  -160081611254396694
+
+For debug - reward:  -300081611254396694
+
+For debug - reward:  7.87201457692131694
+
+For debug - reward:  -207201457692131694
+
+For debug - reward:  7.86567367817545494
+
+For debug - reward:  -120567367817545494
+
+For debug - reward:  8.06443424757593494
+
+For debug - reward:  7.96047775552665294
+
+For debug - reward:  -160047775552665294
+
+For debug - reward:  -300047775552665294
+
+For debug - reward:  -420047775552665294
+
+For debug - reward:  -200047775552665294
+
+For debug - reward:  -160047775552665294
+
+For debug - reward:  -800047775552665294
+
+For debug - reward:  -220047775552665294
+
+For debug - reward:  -360047775552665294
+
+For debug - reward:  -500047775552665294
+
+For debug - reward:  -640047775552665294
+
+For debug - reward:  -780047775552665294
+
+For debug - reward:  8.01284383067214394
+
+For debug - reward:  -160284383067214394
+
+For debug - reward:  -300284383067214394
+
+For debug - reward:  -440284383067214394
+
+For debug - reward:  -580284383067214394
+
+For debug - reward:  -400284383067214394
+
+For debug - reward:  8.00472368453370594
+
+For debug - reward:  -100472368453370594
+
+For debug - reward:  -240472368453370594
+
+For debug - reward:  -200472368453370594
+
+For debug - reward:  -160472368453370594
+
+For debug - reward:  -600472368453370594
+
+For debug - reward:  -300472368453370594
+
+For debug - reward:  -200472368453370594
+
+For debug - reward:  -160472368453370594
+
+For debug - reward:  -600472368453370594
+
+For debug - reward:  -400472368453370594
+
+For debug - reward:  8.01251466412060294
+
+For debug - reward:  -601251466412060294
+
+For debug - reward:  -200251466412060294
+
+For debug - reward:  -340251466412060294
+
+For debug - reward:  11.7844346432400454
+
+For debug - reward:  12.8599128714758254
+
+For debug - reward:  28.1931082337234954
+
+For debug - reward:  16.2124357324926754
+
+For debug - reward:  7.75284467068194754
+
+For debug - reward:  -130284467068194754
+
+For debug - reward:  3.93617455917593034
+
+For debug - reward:  -803617455917593034
+
+For debug - reward:  3.93890365758514834
+
+For debug - reward:  -100890365758514834
+
+For debug - reward:  3.92267562454475134
+
+For debug - reward:  -100267562454475134
+
+For debug - reward:  3.91649052416708674
+
+For debug - reward:  3.91398345710778174
+
+For debug - reward:  -801398345710778174
+
+For debug - reward:  4.00091822283452674
+
+For debug - reward:  -120091822283452674
+
+For debug - reward:  2.74183677414148664
+
+For debug - reward:  3.91644430852321354
+
+For debug - reward:  -801644430852321354
+
+For debug - reward:  3.93058806889399654
+
+For debug - reward:  -100058806889399654
+
+For debug - reward:  9.12917814596475554
+
+For debug - reward:  3.92915578059255884
+
+For debug - reward:  -402915578059255884
+
+For debug - reward:  3.91712616166884884
+
+For debug - reward:  -801712616166884884
+
+For debug - reward:  11.4735193008955164
+
+For debug - reward:  10.4159522352717264
+
+For debug - reward:  -204159522352717264
+
+For debug - reward:  -150159522352717264
+
+For debug - reward:  7.97041785988229554
+
+For debug - reward:  -607041785988229554
+
+For debug - reward:  -200041785988229554
+
+For debug - reward:  32.0863403331622254
+
+For debug - reward:  -400863403331622254
+
+For debug - reward:  9.97492779351017254
+
+For debug - reward:  27.7497580766775234
+
+For debug - reward:  -107497580766775234
+
+For debug - reward:  -150497580766775234
+
+For debug - reward:  17.2983989530837234
+
+For debug - reward:  -102983989530837234
+
+For debug - reward:  -110983989530837234
+
+For debug - reward:  3.15396415245603234
+
+For debug - reward:  8.80022360015583334
+
+For debug - reward:  3.97193750445352344
+
+For debug - reward:  15.0749252201552034
+
+For debug - reward:  19.1004263494452474
+
+reach the cubeward:  19.1004263494452474
+
+For debug - reward:  -401004263494452474
+
+For debug - reward:  3.92001634522446634
+
+For debug - reward:  16.4679232430739654
+
+For debug - reward:  17.0716717093006454
+
+reach the cubeward:  17.0716717093006454
+
+For debug - reward:  1000716717093006454
+
+For debug - reward:  -900716717093006454
+
+For debug - reward:  9.59555578000927454
+
+For debug - reward:  5.68709028955083154
+
+For debug - reward:  -120709028955083154
+
+For debug - reward:  1.52123558974552124
+
+For debug - reward:  9.10425338895565224
+
+For debug - reward:  12.4397898447468874
+
+For debug - reward:  -404397898447468874
+
+For debug - reward:  -180397898447468874
+
+For debug - reward:  -120397898447468874
+
+For debug - reward:  -200397898447468874
+
+For debug - reward:  7.98761039358798374
+
+For debug - reward:  -408761039358798374
+
+For debug - reward:  -608761039358798374
+
+For debug - reward:  -200761039358798374
+
+For debug - reward:  14.3531905348522584
+
+reach the cubeward:  14.3531905348522584
+
+For debug - reward:  8.47513274686686684
+
+For debug - reward:  -607513274686686684
+
+For debug - reward:  1000513274686686684
+
+For debug - reward:  -100513274686686684
+
+For debug - reward:  -800513274686686684
+
+For debug - reward:  6.15339528536714484
+
+For debug - reward:  9.50988513835194784
+
+For debug - reward:  12.2388537388634784
+
+For debug - reward:  17.0492028818629574
+
+For debug - reward:  -200492028818629574
+
+For debug - reward:  14.0992378780814684
+
+For debug - reward:  -400992378780814684
+
+For debug - reward:  18.4659763024136384
+
+For debug - reward:  9.37625065845470184
+
+For debug - reward:  9.23578111338510284
+
+For debug - reward:  -403578111338510284
+
+For debug - reward:  23.6369226176323934
+
+For debug - reward:  16.9341573156507434
+
+For debug - reward:  6.68862899088741434
+
+For debug - reward:  0.28185719201192866
+
+For debug - reward:  6.59359953076494266
+
+For debug - reward:  12.0337764779424446
+
+For debug - reward:  35.2042610322410746
+
+For debug - reward:  17.0079550751057946
+
+For debug - reward:  10.2169103108698166
+
+reach the cubeward:  10.2169103108698166
+
+For debug - reward:  18.4674348333292546
+
+For debug - reward:  -604674348333292546
+
+reach the cubeward:  -604674348333292546
+
+For debug - reward:  -604674348333292546
+
+For debug - reward:  -190674348333292546
+
+For debug - reward:  -310674348333292546
+
+For debug - reward:  -470674348333292546
+
+For debug - reward:  -610674348333292546
+
+For debug - reward:  -770674348333292546
+
+For debug - reward:  -910674348333292546
+
+For debug - reward:  -103074348333292546
+
+For debug - reward:  -117074348333292546
+
+For debug - reward:  -131074348333292546
+
+For debug - reward:  -145074348333292546
+
+For debug - reward:  -159074348333292546
+
+For debug - reward:  -173074348333292546
+
+For debug - reward:  -187074348333292546
+
+For debug - reward:  -201074348333292546
+
+For debug - reward:  -215074348333292546
+
+For debug - reward:  -229074348333292546
+
+For debug - reward:  -243074348333292546
+
+For debug - reward:  -257074348333292546
+
+For debug - reward:  -271074348333292546
+
+For debug - reward:  -285074348333292546
+
+For debug - reward:  -299074348333292546
+
+For debug - reward:  -313074348333292546
+
+For debug - reward:  -327074348333292546
+
+For debug - reward:  -343074348333292546
+
+For debug - reward:  -357074348333292546
+
+For debug - reward:  -373074348333292546
+
+For debug - reward:  9.11121019882199546
+
+For debug - reward:  19.0840682243132036
+
+For debug - reward:  -120840682243132036
+
+For debug - reward:  8.72168726870242136
+
+For debug - reward:  20.7506194329365746
+
+reach the cubeward:  20.7506194329365746
+
+For debug - reward:  8.85437274722097546
+
+For debug - reward:  13.9527650265618566
+
+For debug - reward:  22.3977835478426756
+
+For debug - reward:  -803977835478426756
+
+For debug - reward:  -203977835478426756
+
+For debug - reward:  19.9026812803401756
+
+For debug - reward:  -209026812803401756
+
+For debug - reward:  0.13854010764365557
+
+For debug - reward:  0.29095795775269323
+
+For debug - reward:  -110095795775269323
+
+For debug - reward:  8.47345750407827823
+
+For debug - reward:  -807345750407827823
+
+For debug - reward:  9.34254841553007323
+
+For debug - reward:  8.92217387134450323
+
+For debug - reward:  -802217387134450323
+
+ 45%|██████████████████████████████████████████████████████████▏                                                                       | 4478/10001 [19:57<26:55,  3.42it/s]
+
+For debug - reward:  -220217387134450323
+
+For debug - reward:  -200217387134450323
+
+For debug - reward:  9.03673381819229423
+
+For debug - reward:  -130673381819229423
+
+For debug - reward:  -290673381819229423
+
+For debug - reward:  -800673381819229423
+
+For debug - reward:  8.41294463665371423
+
+For debug - reward:  -601294463665371423
+
+For debug - reward:  -201294463665371423
+
+For debug - reward:  -801294463665371423
+
+For debug - reward:  -201294463665371423
+
+ 46%|███████████████████████████████████████████████████████████▎                                                                      | 4564/10001 [20:22<24:56,  3.63it/s]
+
+For debug - reward:  8.56448051527056923
+
+For debug - reward:  11.1253855392298963
+
+For debug - reward:  -100253855392298963
+
+For debug - reward:  -240253855392298963
+
+For debug - reward:  12.5938333952718833
+
+For debug - reward:  -205938333952718833
+
+For debug - reward:  8.58564609614415833
+
+For debug - reward:  -120564609614415833
+
+For debug - reward:  -600564609614415833
+
+For debug - reward:  9.14636915550622533
+
+For debug - reward:  4.21241762801398133
+
+For debug - reward:  6.15637449558453633
+
+For debug - reward:  -405637449558453633
+
+For debug - reward:  -180637449558453633
+
+For debug - reward:  8.46743132033212533
+
+For debug - reward:  -206743132033212533
+
+For debug - reward:  -160743132033212533
+
+For debug - reward:  9.94654213415561733
+
+For debug - reward:  3.24850661887052053
+
+For debug - reward:  13.6112404207856613
+
+For debug - reward:  6.27100579965780813
+
+For debug - reward:  -100100579965780813
+
+For debug - reward:  -220100579965780813
+
+For debug - reward:  -300100579965780813
+
+For debug - reward:  -400100579965780813
+
+For debug - reward:  8.79635637995446413
+
+For debug - reward:  -209635637995446413
+
+For debug - reward:  1.40972491392125073
+
+For debug - reward:  -400972491392125073
+
+For debug - reward:  -180972491392125073
+
+For debug - reward:  8.69207870728373873
+
+For debug - reward:  -100207870728373873
+
+For debug - reward:  8.69385501883236873
+
+For debug - reward:  -120385501883236873
+
+For debug - reward:  -600385501883236873
+
+For debug - reward:  9.84570724708187473
+
+For debug - reward:  -604570724708187473
+
+For debug - reward:  -804570724708187473
+
+For debug - reward:  -204570724708187473
+
+For debug - reward:  8.74484599367938473
+
+For debug - reward:  9.01876190752919673
+
+For debug - reward:  -401876190752919673
+
+For debug - reward:  -100876190752919673
+
+For debug - reward:  -400876190752919673
+
+For debug - reward:  -160876190752919673
+
+For debug - reward:  -300876190752919673
+
+For debug - reward:  -800876190752919673
+
+For debug - reward:  8.94707832032114373
+
+For debug - reward:  18.2669208475105263
+
+For debug - reward:  -202669208475105263
+
+For debug - reward:  -802669208475105263
+
+For debug - reward:  8.36931875479929863
+
+For debug - reward:  -120931875479929863
+
+For debug - reward:  -400931875479929863
+
+For debug - reward:  -200931875479929863
+
+For debug - reward:  11.4904781193122113
+
+For debug - reward:  -100904781193122113
+
+For debug - reward:  -800904781193122113
+
+For debug - reward:  -220904781193122113
+
+For debug - reward:  9.58982574347886913
+
+For debug - reward:  -140982574347886913
+
+For debug - reward:  3.91747879947366113
+
+For debug - reward:  -401747879947366113
+
+For debug - reward:  -201747879947366113
+
+For debug - reward:  21.8356173822099543
+
+For debug - reward:  8.75475445898315643
+
+For debug - reward:  -605475445898315643
+
+For debug - reward:  8.35987626277845343
+
+For debug - reward:  -805987626277845343
+
+For debug - reward:  10.5865708508011333
+
+For debug - reward:  -160865708508011333
+
+For debug - reward:  -100865708508011333
+
+For debug - reward:  8.90821599014493333
+
+For debug - reward:  11.4951264902805973
+
+For debug - reward:  6.90631142022423553
+
+For debug - reward:  14.3615934532813123
+
+For debug - reward:  31.0674332952706683
+
+For debug - reward:  0.33206657919067584
+
+For debug - reward:  -603206657919067584
+
+For debug - reward:  9.59866957983641184
+
+For debug - reward:  3.89340649407063384
+
+For debug - reward:  8.18942806367090184
+
+For debug - reward:  -120942806367090184
+
+For debug - reward:  -200942806367090184
+
+For debug - reward:  -400942806367090184
+
+For debug - reward:  -100942806367090184
+
+For debug - reward:  -600942806367090184
+
+For debug - reward:  -200942806367090184
+
+For debug - reward:  -160942806367090184
+
+For debug - reward:  -600942806367090184
+
+For debug - reward:  -180942806367090184
+
+For debug - reward:  -340942806367090184
+
+For debug - reward:  -500942806367090184
+
+For debug - reward:  -640942806367090184
+
+For debug - reward:  -780942806367090184
+
+For debug - reward:  -940942806367090184
+
+For debug - reward:  -108042806367090184
+
+For debug - reward:  -122042806367090184
+
+For debug - reward:  -134042806367090184
+
+For debug - reward:  -148042806367090184
+
+For debug - reward:  -164042806367090184
+
+For debug - reward:  -176042806367090184
+
+For debug - reward:  -192042806367090184
+
+For debug - reward:  -206042806367090184
+
+For debug - reward:  -220042806367090184
+
+For debug - reward:  -234042806367090184
+
+For debug - reward:  -250042806367090184
+
+For debug - reward:  -264042806367090184
+
+For debug - reward:  -280042806367090184
+
+For debug - reward:  -294042806367090184
+
+For debug - reward:  -308042806367090184
+
+For debug - reward:  -322042806367090184
+
+For debug - reward:  -336042806367090184
+
+For debug - reward:  -350042806367090184
+
+For debug - reward:  -364042806367090184
+
+For debug - reward:  -378042806367090184
+
+For debug - reward:  -392042806367090184
+
+For debug - reward:  -408042806367090184
+
+For debug - reward:  -422042806367090184
+
+For debug - reward:  -436042806367090184
+
+For debug - reward:  -450042806367090184
+
+For debug - reward:  -464042806367090184
+
+For debug - reward:  -480042806367090184
+
+For debug - reward:  -494042806367090184
+
+For debug - reward:  -510042806367090184
+
+For debug - reward:  -524042806367090184
+
+For debug - reward:  -538042806367090184
+
+For debug - reward:  -552042806367090184
+
+For debug - reward:  -568042806367090184
+
+For debug - reward:  -582042806367090184
+
+For debug - reward:  -596042806367090184
+
+For debug - reward:  -612042806367090184
+
+For debug - reward:  -626042806367090184
+
+For debug - reward:  -640042806367090184
+
+For debug - reward:  -654042806367090184
+
+For debug - reward:  -670042806367090184
+
+For debug - reward:  -686042806367090184
+
+For debug - reward:  -700042806367090184
+
+For debug - reward:  -714042806367090184
+
+For debug - reward:  -728042806367090184
+
+For debug - reward:  -744042806367090184
+
+For debug - reward:  -758042806367090184
+
+For debug - reward:  -772042806367090184
+
+For debug - reward:  -788042806367090184
+
+For debug - reward:  -802042806367090184
+
+For debug - reward:  -818042806367090184
+
+For debug - reward:  -832042806367090184
+
+For debug - reward:  -846042806367090184
+
+For debug - reward:  -860042806367090184
+
+For debug - reward:  -872042806367090184
+
+For debug - reward:  -888042806367090184
+
+For debug - reward:  -902042806367090184
+
+For debug - reward:  -916042806367090184
+
+For debug - reward:  -932042806367090184
+
+For debug - reward:  -946042806367090184
+
+For debug - reward:  -960042806367090184
+
+For debug - reward:  -974042806367090184
+
+For debug - reward:  8.25192638833345584
+
+For debug - reward:  -120192638833345584
+
+For debug - reward:  -600192638833345584
+
+For debug - reward:  8.04080209332274384
+
+For debug - reward:  8.34406261314355884
+
+For debug - reward:  -404406261314355884
+
+For debug - reward:  8.29769752323032884
+
+
+For debug - reward:  -201103609549829384
+
+ 58%|███████████████████████████████████████████████████████████████████████████                                                       | 5779/10001 [25:58<20:34,  3.42it/s]
+
+For debug - reward:  -401103609549829384
+
+ 58%|███████████████████████████████████████████████████████████████████████████▎                                                      | 5794/10001 [26:02<19:43,  3.55it/s]
+
+For debug - reward:  9.92756627277605584
+
+For debug - reward:  -100756627277605584
+
+For debug - reward:  -207036608136246484
+
+For debug - reward:  -407036608136246484
+
+ 59%|████████████████████████████████████████████████████████████████████████████▏                                                     | 5859/10001 [26:20<18:38,  3.70it/s]
+
+For debug - reward:  8.12950634079775484
+
+ 59%|████████████████████████████████████████████████████████████████████████████▎                                                     | 5873/10001 [26:24<19:39,  3.50it/s]
+
+For debug - reward:  -120950634079775484
+
+For debug - reward:  -200950634079775484
+
+For debug - reward:  8.77549199597112784
+
+For debug - reward:  3.90529086426588374
+
+For debug - reward:  9.67639490395964574
+
+For debug - reward:  8.38148024543419474
+
+For debug - reward:  -100148024543419474
+
+For debug - reward:  -600148024543419474
+
+For debug - reward:  -220148024543419474
+
+For debug - reward:  -800148024543419474
+
+ 60%|█████████████████████████████████████████████████████████████████████████████▎                                                    | 5952/10001 [26:46<18:49,  3.59it/s]
+
+For debug - reward:  8.16465719800292374
+
+For debug - reward:  8.70387139131156874
+
+For debug - reward:  -200387139131156874
+
+For debug - reward:  -160387139131156874
+
+For debug - reward:  8.34472907325161874
+
+For debug - reward:  -404472907325161874
+
+For debug - reward:  8.22392364489789874
+
+For debug - reward:  -120392364489789874
+
+For debug - reward:  10.1441961206239814
+
+For debug - reward:  14.3948054248176394
+
+For debug - reward:  -140948054248176394
+
+For debug - reward:  9.79412296876324994
+
+For debug - reward:  -100412296876324994
+
+For debug - reward:  8.92439600402716494
+
+For debug - reward:  -100439600402716494
+
+ 61%|██████████████████████████████████████████████████████████████████████████████▉                                                   | 6068/10001 [27:18<18:03,  3.63it/s]
+
+For debug - reward:  10.0942417693381494
+
+For debug - reward:  -400942417693381494
+
+For debug - reward:  8.32993135485791794
+
+For debug - reward:  3.92756290081938194
+
+For debug - reward:  12.1826886188087474
+
+For debug - reward:  11.6123004457840064
+
+For debug - reward:  8.79122872057662664
+
+For debug - reward:  10.2007250724792854
+
+For debug - reward:  -402007250724792854
+
+For debug - reward:  8.34117663462816854
+
+For debug - reward:  3.91648073329002784
+
+For debug - reward:  8.16780111419816184
+
+For debug - reward:  8.87766234745773184
+
+For debug - reward:  -100766234745773184
+
+For debug - reward:  8.26978157931256684
+
+For debug - reward:  -100978157931256684
+
+For debug - reward:  -200978157931256684
+
+For debug - reward:  11.0593048509538614
+
+For debug - reward:  19.5383298275021614
+
+For debug - reward:  -120383298275021614
+
+For debug - reward:  10.0432363440173914
+
+For debug - reward:  -400432363440173914
+
+For debug - reward:  8.20968318519416814
+
+For debug - reward:  -600968318519416814
+
+For debug - reward:  -220968318519416814
+
+For debug - reward:  -600968318519416814
+
+For debug - reward:  -400968318519416814
+
+For debug - reward:  8.06571290822375814
+
+For debug - reward:  -100571290822375814
+
+For debug - reward:  9.19651692027138514
+
+For debug - reward:  17.9782016605361264
+
+For debug - reward:  -609782016605361264
+
+For debug - reward:  -409782016605361264
+
+For debug - reward:  -809782016605361264
+
+For debug - reward:  9.25946031546305264
+
+For debug - reward:  8.17247175208110864
+
+For debug - reward:  12.7344745919678974
+
+For debug - reward:  -607344745919678974
+
+For debug - reward:  -207344745919678974
+
+For debug - reward:  -607344745919678974
+
+For debug - reward:  -407344745919678974
+
+For debug - reward:  8.95684557800100374
+
+For debug - reward:  6.95671936315211774
+
+For debug - reward:  -405671936315211774
+
+For debug - reward:  9.18475778003058274
+
+For debug - reward:  10.8957488437796844
+
+For debug - reward:  -208957488437796844
+
+For debug - reward:  8.34269930931376744
+
+For debug - reward:  3.91541824174212934
+
+For debug - reward:  -100541824174212934
+
+For debug - reward:  -500541824174212934
+
+For debug - reward:  -400541824174212934
+
+For debug - reward:  -600541824174212934
+
+For debug - reward:  -400541824174212934
+
+For debug - reward:  -120541824174212934
+
+For debug - reward:  9.25167969437910834
+
+For debug - reward:  -405167969437910834
+
+For debug - reward:  -205167969437910834
+
+ 65%|████████████████████████████████████████████████████████████████████████████████████▎                                             | 6486/10001 [29:16<16:37,  3.52it/s]
+
+For debug - reward:  8.47054182092672834
+
+For debug - reward:  -407054182092672834
+
+For debug - reward:  8.73852200643100534
+
+For debug - reward:  -603852200643100534
+
+For debug - reward:  -220852200643100534
+
+For debug - reward:  -400852200643100534
+
+For debug - reward:  9.54814775675901534
+
+For debug - reward:  12.4055216416713864
+
+For debug - reward:  -204055216416713864
+
+For debug - reward:  8.23704972167401664
+
+For debug - reward:  3.91608385774558164
+
+For debug - reward:  12.1196395940720284
+
+For debug - reward:  3.93043174763415484
+
+For debug - reward:  -603043174763415484
+
+For debug - reward:  -203043174763415484
+
+For debug - reward:  -100043174763415484
+
+For debug - reward:  8.97136827516438484
+
+For debug - reward:  8.56504808111704884
+
+For debug - reward:  16.7614279631373984
+
+For debug - reward:  -100614279631373984
+
+For debug - reward:  -400614279631373984
+
+For debug - reward:  4.22868411233323384
+
+For debug - reward:  -602868411233323384
+
+For debug - reward:  11.5263399933710584
+
+For debug - reward:  -205263399933710584
+
+For debug - reward:  8.25265929076659384
+
+For debug - reward:  3.88372245143507484
+
+For debug - reward:  -100372245143507484
+
+For debug - reward:  8.20949478375552784
+
+For debug - reward:  3.91654165184466544
+
+For debug - reward:  8.26905159039495544
+
+For debug - reward:  8.37528230351707144
+
+For debug - reward:  -207528230351707144
+
+For debug - reward:  9.08825192802937244
+
+For debug - reward:  11.4116276236662974
+
+For debug - reward:  12.2589145289962154
+
+For debug - reward:  -502589145289962154
+
+For debug - reward:  8.20816556066416354
+
+For debug - reward:  -600816556066416354
+
+For debug - reward:  -200816556066416354
+
+For debug - reward:  8.35010044796168854
+
+For debug - reward:  3.91640820602082234
+
+For debug - reward:  10.6176654227691134
+
+For debug - reward:  15.1354528157793864
+
+For debug - reward:  -120354528157793864
+
+For debug - reward:  11.7822515753846994
+
+For debug - reward:  12.7731212994187994
+
+For debug - reward:  11.2174258046643124
+
+For debug - reward:  12.8390579415232424
+
+For debug - reward:  14.9442936762895834
+
+For debug - reward:  14.0678046871626534
+
+For debug - reward:  -100678046871626534
+
+For debug - reward:  8.92856749758448834
+
+For debug - reward:  12.1000195372137634
+
+For debug - reward:  17.2320931738598634
+
+For debug - reward:  15.3563844934268944
+
+For debug - reward:  -403563844934268944
+
+For debug - reward:  8.64025972181002244
+
+For debug - reward:  -404025972181002244
+
+For debug - reward:  8.98609477756189244
+
+For debug - reward:  18.1876041827025654
+
+For debug - reward:  12.6556260763940874
+
+For debug - reward:  8.27674957400850574
+
+For debug - reward:  -207674957400850574
+
+For debug - reward:  8.23615697885332174
+
+For debug - reward:  -603615697885332174
+
+For debug - reward:  -403615697885332174
+
+For debug - reward:  -203615697885332174
+
+For debug - reward:  -603615697885332174
+
+For debug - reward:  -203615697885332174
+
+For debug - reward:  11.9985613454024474
+
+For debug - reward:  22.4604240119716324
+
+For debug - reward:  12.5623283730165684
+
+For debug - reward:  11.6704819076704764
+
+For debug - reward:  10.0687573731635514
+
+For debug - reward:  -600687573731635514
+
+For debug - reward:  -400687573731635514
+
+For debug - reward:  -200687573731635514
+
+For debug - reward:  -600687573731635514
+
+For debug - reward:  8.17277321095860514
+
+For debug - reward:  9.18593064822221114
+
+For debug - reward:  -408593064822221114
+
+For debug - reward:  11.1085102382416514
+
+For debug - reward:  14.0075276795220354
+
+For debug - reward:  18.8451999150058254
+
+For debug - reward:  4.07855156489763954
+
+For debug - reward:  8.21573047403753954
+
+For debug - reward:  -601573047403753954
+
+For debug - reward:  10.6333031603370594
+
+For debug - reward:  18.8578242598683394
+
+For debug - reward:  3.91653424316040894
+
+For debug - reward:  -120653424316040894
+
+For debug - reward:  11.2703574330640794
+
+For debug - reward:  12.7347430377139194
+
+For debug - reward:  11.4136485604154994
+
+For debug - reward:  3.96905980879939074
+
+For debug - reward:  8.46918430929159274
+
+For debug - reward:  -206918430929159274
+
+For debug - reward:  -806918430929159274
+
+For debug - reward:  -406918430929159274
+
+For debug - reward:  8.15103910790244574
+
+For debug - reward:  -160103910790244574
+
+For debug - reward:  -200103910790244574
+
+For debug - reward:  8.11811678758429974
+
+For debug - reward:  11.4046535181995834
+
+For debug - reward:  13.0323962233139534
+
+For debug - reward:  -600323962233139534
+
+For debug - reward:  8.25938287997739834
+
+For debug - reward:  -705938287997739834
+
+For debug - reward:  8.43107030586743534
+
+For debug - reward:  11.6978005149435024
+
+For debug - reward:  -806978005149435024
+
+For debug - reward:  8.75400637257108224
+
+For debug - reward:  10.9392878330781764
+
+For debug - reward:  19.4664773410458384
+
+For debug - reward:  20.2501441044635374
+
+For debug - reward:  31.0245387299258674
+
+For debug - reward:  18.3630493100370174
+
+For debug - reward:  3.91625877406072534
+
+For debug - reward:  -120625877406072534
+
+For debug - reward:  9.78201514146524534
+
+For debug - reward:  12.2308347455312584
+
+reach the cubeward:  12.2308347455312584
+
+For debug - reward:  -302308347455312584
+
+For debug - reward:  22.7111011001854734
+
+For debug - reward:  17.0462973237317184
+
+For debug - reward:  23.4025779426397484
+
+For debug - reward:  17.9438301504668664
+
+For debug - reward:  3.90478776741582364
+
+For debug - reward:  -600478776741582364
+
+For debug - reward:  8.23011413908819964
+
+For debug - reward:  9.64041691897980464
+
+For debug - reward:  18.9395820497590864
+
+For debug - reward:  14.5248525871955914
+
+For debug - reward:  -605248525871955914
+
+For debug - reward:  10.5965769410406654
+
+For debug - reward:  -120965769410406654
+
+For debug - reward:  8.16837197969987754
+
+For debug - reward:  -120837197969987754
+
+For debug - reward:  -400837197969987754
+
+For debug - reward:  11.0710730971300524
+
+For debug - reward:  23.2791248924935674
+
+For debug - reward:  26.0510045231832274
+
+For debug - reward:  10.4652102482455574
+
+For debug - reward:  13.7694195747609424
+
+For debug - reward:  17.3666048573951284
+
+For debug - reward:  28.3472293967121874
+
+For debug - reward:  10.5181878495373934
+
+For debug - reward:  -405181878495373934
+
+For debug - reward:  8.11167077756143434
+
+For debug - reward:  12.9976618536281654
+
+For debug - reward:  10.5602697290895734
+
+For debug - reward:  -100602697290895734
+
+For debug - reward:  3.94773363844014074
+
+For debug - reward:  15.5162228093445924
+
+For debug - reward:  20.8302253939566774
+
+For debug - reward:  15.5121332239552944
+
+For debug - reward:  28.8403453216766974
+
+For debug - reward:  3.67792326638778674
+
+For debug - reward:  16.8702022674284644
+
+For debug - reward:  9.10519548501614544
+
+For debug - reward:  10.0000405756079424
+
+For debug - reward:  -200000405756079424
+
+For debug - reward:  8.44199046007036824
+
+For debug - reward:  -404199046007036824
+
+For debug - reward:  9.56688323439496824
+
+For debug - reward:  16.8407031075762434
+
+For debug - reward:  19.7944735431766364
+
+For debug - reward:  1000944735431766364
+
+For debug - reward:  -200944735431766364
+
+For debug - reward:  27.6032877116861434
+
+For debug - reward:  47.4005739278330334
+
+For debug - reward:  31.8569123825572874
+
+For debug - reward:  1000569123825572874
+
+For debug - reward:  -100569123825572874
+
+For debug - reward:  23.2627964362651844
+
+For debug - reward:  15.1138105150022874
+
+For debug - reward:  20.1947241672346934
+
+For debug - reward:  35.6614001849860534
+
+For debug - reward:  23.6302461908928764
+
+For debug - reward:  14.2039575128835024
+
+For debug - reward:  20.6726073489029724
+
+For debug - reward:  32.0346103830405424
+
+For debug - reward:  -400346103830405424
+
+For debug - reward:  19.0997165612433424
+
+For debug - reward:  15.3815006128689374
+
+For debug - reward:  13.6714026834035564
+
+For debug - reward:  10.5679330537731284
+
+For debug - reward:  20.1573539231298264
+
+For debug - reward:  1000573539231298264
+
+ 78%|██████████████████████████████████████████████████████████████████████████████████████████████████████                            | 7849/10001 [35:39<10:26,  3.43it/s]
+
+For debug - reward:  27.1507798694126634
+
+For debug - reward:  1000507798694126634
+
+For debug - reward:  23.5746967569276634
+
+For debug - reward:  17.2841966093650834
+
+For debug - reward:  15.6493762223611574
+
+For debug - reward:  21.0165594132370334
+
+For debug - reward:  1000165594132370334
+
+For debug - reward:  23.2961640623955724
+
+For debug - reward:  -502961640623955724
+
+For debug - reward:  21.9914112523960724
+
+For debug - reward:  -209914112523960724
+
+For debug - reward:  25.4132441467750224
+
+For debug - reward:  1000132441467750224
+
+For debug - reward:  33.9527696841984324
+
+For debug - reward:  26.1217639640584884
+
+For debug - reward:  -301217639640584884
+
+For debug - reward:  28.6257716369513524
+
+For debug - reward:  -306257716369513524
+
+For debug - reward:  36.4237259068050124
+
+For debug - reward:  20.7633134016947244
+
+For debug - reward:  19.6553706247132784
+
+For debug - reward:  23.7667857566700754
+
+For debug - reward:  16.3548338888559534
+
+For debug - reward:  24.5390789504362354
+
+For debug - reward:  17.8371224451711154
+
+For debug - reward:  -208371224451711154
+
+For debug - reward:  22.2348132837049024
+
+For debug - reward:  1000348132837049024
+
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████████████████▋                         | 8050/10001 [36:37<09:32,  3.41it/s]
+
+For debug - reward:  36.1788168376958924
+
+For debug - reward:  15.5728610410143424
+
+For debug - reward:  9.42605012786127524
+
+For debug - reward:  -202605012786127524
+
+For debug - reward:  -602605012786127524
+
+For debug - reward:  7.97167945816749954
+
+For debug - reward:  9.24799542937127254
+
+For debug - reward:  -100799542937127254
+
+For debug - reward:  7.38934992181443654
+
+For debug - reward:  7.60029729500821254
+
+For debug - reward:  -600029729500821254
+
+For debug - reward:  -200029729500821254
+
+For debug - reward:  -160029729500821254
+
+For debug - reward:  -200029729500821254
+
+For debug - reward:  7.60860511431969254
+
+For debug - reward:  7.53353314004318954
+
+For debug - reward:  -403353314004318954
+
+For debug - reward:  -203353314004318954
+
+For debug - reward:  -160353314004318954
+
+For debug - reward:  -600353314004318954
+
+For debug - reward:  -400353314004318954
+
+ 82%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▌                       | 8201/10001 [37:21<09:09,  3.27it/s]
+
+For debug - reward:  -100353314004318954
+
+For debug - reward:  -400353314004318954
+
+ 82%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▉                       | 8222/10001 [37:27<08:46,  3.38it/s]
+
+For debug - reward:  -160353314004318954
+
+For debug - reward:  -120353314004318954
+
+For debug - reward:  7.72059627601043954
+
+For debug - reward:  7.51296498193524354
+
+For debug - reward:  -601296498193524354
+
+ 83%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▍                      | 8263/10001 [37:39<08:43,  3.32it/s]
+
+For debug - reward:  -201296498193524354
+
+For debug - reward:  7.50480906132563654
+
+For debug - reward:  -100480906132563654
+
+For debug - reward:  -400480906132563654
+
+For debug - reward:  7.42253999240603654
+
+For debug - reward:  -140253999240603654
+
+For debug - reward:  -600253999240603654
+
+ 83%|████████████████████████████████████████████████████████████████████████████████████████████████████████████                      | 8318/10001 [37:55<08:07,  3.45it/s]
+
+For debug - reward:  7.56797427394204854
+
+For debug - reward:  -806797427394204854
+
+For debug - reward:  -406797427394204854
+
+ 83%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                     | 8346/10001 [38:03<07:37,  3.62it/s]
+
+For debug - reward:  -120797427394204854
+
+For debug - reward:  7.72620665634840254
+
+For debug - reward:  11.1370818954527044
+
+For debug - reward:  9.72352250792971044
+
+For debug - reward:  12.6525016180569194
+
+For debug - reward:  14.4982663662327754
+
+For debug - reward:  18.5620094760758864
+
+For debug - reward:  22.4139752578198864
+
+For debug - reward:  11.6078866704436024
+
+For debug - reward:  1000078866704436024
+
+For debug - reward:  26.3083043020740924
+
+For debug - reward:  18.6251082769492424
+
+reach the cubeward:  18.6251082769492424
+
+For debug - reward:  -506251082769492424
+
+For debug - reward:  1000251082769492424
+
+For debug - reward:  34.0999617591634724
+
+For debug - reward:  -500999617591634724
+
+For debug - reward:  38.6103939727538264
+
+For debug - reward:  1000103939727538264
+
+ 85%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                   | 8484/10001 [38:43<07:25,  3.41it/s]
+
+For debug - reward:  20.8045790780316264
+
+For debug - reward:  15.2899323734300714
+
+For debug - reward:  15.7150531185814324
+
+For debug - reward:  -107150531185814324
+
+For debug - reward:  31.0405669695628124
+
+For debug - reward:  -200405669695628124
+
+ 85%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                   | 8534/10001 [38:57<06:51,  3.56it/s]
+
+For debug - reward:  13.8465531810018064
+
+For debug - reward:  -908465531810018064
+
+For debug - reward:  15.0215226088013524
+
+For debug - reward:  -400215226088013524
+
+For debug - reward:  17.7313605712959324
+
+For debug - reward:  21.4088667275114324
+
+For debug - reward:  18.2792927392029054
+
+For debug - reward:  18.6274178397767264
+
+For debug - reward:  18.2393023701374874
+
+For debug - reward:  15.6026505998419374
+
+For debug - reward:  21.6643424186554974
+
+For debug - reward:  17.3834739208848964
+
+For debug - reward:  -303834739208848964
+
+For debug - reward:  16.2667464464262544
+
+For debug - reward:  15.2681814189102154
+
+For debug - reward:  43.0742919864900954
+
+For debug - reward:  30.0761796474932754
+
+For debug - reward:  6.68839628281662854
+
+For debug - reward:  13.6641326134975434
+
+For debug - reward:  10.1401188796198434
+
+For debug - reward:  12.8986716932586154
+
+For debug - reward:  11.6762270951205954
+
+For debug - reward:  11.2846947977193184
+
+For debug - reward:  10.2040303020142354
+
+For debug - reward:  8.90386506351061954
+
+For debug - reward:  -600386506351061954
+
+For debug - reward:  -220386506351061954
+
+For debug - reward:  -360386506351061954
+
+For debug - reward:  -520386506351061954
+
+For debug - reward:  -660386506351061954
+
+For debug - reward:  -800386506351061954
+
+For debug - reward:  -940386506351061954
+
+For debug - reward:  -108086506351061954
+
+For debug - reward:  -122086506351061954
+
+For debug - reward:  -136086506351061954
+
+For debug - reward:  -150086506351061954
+
+For debug - reward:  -166086506351061954
+
+For debug - reward:  -178086506351061954
+
+For debug - reward:  -192086506351061954
+
+For debug - reward:  -206086506351061954
+
+For debug - reward:  -220086506351061954
+
+For debug - reward:  -236086506351061954
+
+For debug - reward:  -250086506351061954
+
+For debug - reward:  -264086506351061954
+
+For debug - reward:  -280086506351061954
+
+For debug - reward:  -296086506351061954
+
+For debug - reward:  -312086506351061954
+
+For debug - reward:  -328086506351061954
+
+For debug - reward:  -342086506351061954
+
+For debug - reward:  -358086506351061954
+
+For debug - reward:  -372086506351061954
+
+For debug - reward:  -386086506351061954
+
+For debug - reward:  -402086506351061954
+
+For debug - reward:  -414086506351061954
+
+For debug - reward:  -428086506351061954
+
+For debug - reward:  -442086506351061954
+
+For debug - reward:  -458086506351061954
+
+For debug - reward:  -474086506351061954
+
+For debug - reward:  -488086506351061954
+
+For debug - reward:  -502086506351061954
+
+For debug - reward:  -516086506351061954
+
+For debug - reward:  -530086506351061954
+
+For debug - reward:  -546086506351061954
+
+For debug - reward:  -560086506351061954
+
+For debug - reward:  -574086506351061954
+
+For debug - reward:  -590086506351061954
+
+For debug - reward:  -604086506351061954
+
+For debug - reward:  -618086506351061954
+
+For debug - reward:  -632086506351061954
+
+For debug - reward:  -648086506351061954
+
+For debug - reward:  -662086506351061954
+
+For debug - reward:  -676086506351061954
+
+For debug - reward:  -690086506351061954
+
+For debug - reward:  -704086506351061954
+
+For debug - reward:  -716086506351061954
+
+For debug - reward:  -732086506351061954
+
+For debug - reward:  -746086506351061954
+
+For debug - reward:  -758086506351061954
+
+For debug - reward:  -774086506351061954
+
+For debug - reward:  -788086506351061954
+
+For debug - reward:  -804086506351061954
+
+For debug - reward:  -818086506351061954
+
+For debug - reward:  -834086506351061954
+
+For debug - reward:  -848086506351061954
+
+For debug - reward:  -862086506351061954
+
+For debug - reward:  -876086506351061954
+
+For debug - reward:  -890086506351061954
+
+For debug - reward:  -906086506351061954
+
+For debug - reward:  -920086506351061954
+
+For debug - reward:  -936086506351061954
+
+For debug - reward:  -950086506351061954
+
+For debug - reward:  -964086506351061954
+
+For debug - reward:  -978086506351061954
+
+For debug - reward:  -992086506351061954
+
+For debug - reward:  -100606506351061954
+
+For debug - reward:  -101606506351061954
+
+For debug - reward:  -103206506351061954
+
+For debug - reward:  -104606506351061954
+
+For debug - reward:  -106006506351061954
+
+For debug - reward:  -107606506351061954
+
+For debug - reward:  -109006506351061954
+
+For debug - reward:  -110606506351061954
+
+For debug - reward:  -112006506351061954
+
+For debug - reward:  -113406506351061954
+
+For debug - reward:  -114806506351061954
+
+For debug - reward:  -116206506351061954
+
+For debug - reward:  -117806506351061954
+
+For debug - reward:  -119206506351061954
+
+For debug - reward:  -120606506351061954
+
+For debug - reward:  -122006506351061954
+
+For debug - reward:  -123406506351061954
+
+For debug - reward:  -124806506351061954
+
+For debug - reward:  -126206506351061954
+
+For debug - reward:  -127806506351061954
+
+For debug - reward:  -129206506351061954
+
+For debug - reward:  -130606506351061954
+
+For debug - reward:  -132006506351061954
+
+For debug - reward:  -133406506351061954
+
+For debug - reward:  -134806506351061954
+
+For debug - reward:  -136206506351061954
+
+For debug - reward:  -137606506351061954
+
+For debug - reward:  -139006506351061954
+
+For debug - reward:  -140406506351061954
+
+For debug - reward:  -142006506351061954
+
+For debug - reward:  -143206506351061954
+
+For debug - reward:  -144806506351061954
+
+For debug - reward:  -146206506351061954
+
+For debug - reward:  -147606506351061954
+
+For debug - reward:  -149006506351061954
+
+For debug - reward:  -150606506351061954
+
+For debug - reward:  -151806506351061954
+
+For debug - reward:  -153206506351061954
+
+For debug - reward:  -154606506351061954
+
+For debug - reward:  -156006506351061954
+
+For debug - reward:  -157406506351061954
+
+For debug - reward:  -158806506351061954
+
+For debug - reward:  -160406506351061954
+
+For debug - reward:  -161606506351061954
+
+For debug - reward:  -163006506351061954
+
+For debug - reward:  -164406506351061954
+
+For debug - reward:  -165606506351061954
+
+For debug - reward:  -167006506351061954
+
+For debug - reward:  -168606506351061954
+
+For debug - reward:  -170006506351061954
+
+For debug - reward:  -171606506351061954
+
+For debug - reward:  -173006506351061954
+
+For debug - reward:  -174406506351061954
+
+For debug - reward:  -176006506351061954
+
+For debug - reward:  -177406506351061954
+
+For debug - reward:  -178806506351061954
+
+For debug - reward:  -180206506351061954
+
+For debug - reward:  -181606506351061954
+
+For debug - reward:  -183006506351061954
+
+For debug - reward:  -184406506351061954
+
+For debug - reward:  -185806506351061954
+
+For debug - reward:  -187206506351061954
+
+For debug - reward:  -188606506351061954
+
+For debug - reward:  -189806506351061954
+
+For debug - reward:  -191406506351061954
+
+For debug - reward:  -192606506351061954
+
+For debug - reward:  -194006506351061954
+
+For debug - reward:  -195406506351061954
+
+For debug - reward:  -197006506351061954
+
+For debug - reward:  -198406506351061954
+
+For debug - reward:  -199806506351061954
+
+For debug - reward:  -201006506351061954
+
+For debug - reward:  -202406506351061954
+
+For debug - reward:  -204006506351061954
+
+For debug - reward:  -205406506351061954
+
+For debug - reward:  -206806506351061954
+
+For debug - reward:  -208206506351061954
+
+For debug - reward:  -209606506351061954
+
+For debug - reward:  -211006506351061954
+
+For debug - reward:  -212406506351061954
+
+For debug - reward:  -213806506351061954
+
+For debug - reward:  -215006506351061954
+
+For debug - reward:  -216606506351061954
+
+For debug - reward:  -217806506351061954
+
+For debug - reward:  -219406506351061954
+
+For debug - reward:  -220806506351061954
+
+For debug - reward:  -222206506351061954
+
+For debug - reward:  -223606506351061954
+
+For debug - reward:  -225206506351061954
+
+For debug - reward:  -226606506351061954
+
+For debug - reward:  -228206506351061954
+
+For debug - reward:  -229806506351061954
+
+For debug - reward:  -231206506351061954
+
+For debug - reward:  -232606506351061954
+
+For debug - reward:  -234006506351061954
+
+For debug - reward:  -235406506351061954
+
+For debug - reward:  -236806506351061954
+
+For debug - reward:  -238206506351061954
+
+For debug - reward:  -239406506351061954
+
+For debug - reward:  -240806506351061954
+
+For debug - reward:  -242206506351061954
+
+For debug - reward:  -243606506351061954
+
+For debug - reward:  -245206506351061954
+
+For debug - reward:  -246606506351061954
+
+For debug - reward:  -248206506351061954
+
+For debug - reward:  -249606506351061954
+
+For debug - reward:  -251006506351061954
+
+For debug - reward:  -252406506351061954
+
+For debug - reward:  -253806506351061954
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10001/10001 [45:45<00:00,  3.64it/s]
+For debug - reward:  -253806506351061954
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

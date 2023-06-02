@@ -1,5 +1,8 @@
 import numpy as np
 
+lost_cube_prev = 1
+total_reward = 0
+
 def cal_reward(state, goal):
     
     corner_pos = [[0.15, 0.28], [0.15, 0.15], [-0.15, 0.15], [-0.15, 0.28]]
@@ -23,18 +26,48 @@ def cal_reward(state, goal):
     touching_cube = dist_robot2cube <= cube_threshold
     loss_the_cube = np.abs(xc) >= 100 or np.abs(yc) >= 100 #if the cube is out of the camera view
     
+    #initial value
+    global lost_cube_prev
+    global total_reward
+    # reward = 1/dist_robot2center * 0.01
+    reward = 0
+
     # Stage 1: Find the cube
-    if loss_the_cube:
-        reward = 1/dist_robot2center * 0.1
+    #Use cumulative reward to encourage the robot to find the cube
+    if loss_the_cube:  
+
+        #if the previous state is not lost the cube, then reset the total reward for cumulative reward
+        if lost_cube_prev == 0:
+            total_reward = 0
+
+        lost_cube_prev = 1    
+        reward -= 10
+
         if xrob > 0.14 or xrob < -0.14 or yrob > 0.27 or yrob < 0.16: #if the cube is out of the frame
-            reward -= 1000
+            reward -= 10
+
+        #prevent saving too many trevial data
+        # if action
+        total_reward += reward
+        return total_reward
+        
+
     # Stage 2: Move to the cube
+    #use immediate reward to encourage the robot to move to the cube
     else:
+        # #reset the total reward
+        # total_reward = 0
+        lost_cube_prev = 0
         if not touching_cube:
             reward = 1/dist_robot2cube
         else:
-            reward = 10000 # Big reward for reaching the cube 
+            reward = 1000 # Big reward for reaching the cube 
             print("reach the cube")
+
+        #make total reward equal to the immediate reward
+        total_reward = reward
+        
+        return total_reward
     
     # # Check if the robot arm is 'touching' the cube
     # touching_cube = dist_robot2cube <= cube_threshold
@@ -51,4 +84,3 @@ def cal_reward(state, goal):
     #         reward = 1/dist_robot2goal
         
     #print("reward: ", reward)
-    return reward

@@ -52,7 +52,15 @@ if __name__ == "__main__":
 
         observation = Env.get_state()
         action = process_key_events(Env)
-        next_observation = Env.get_state()
+        #slightly delay
+        time.sleep(0.1)
+        next_observation = Env.get_state() #currently observation and next_one are the same
+        #check if the action is all zero
+        if action == [0, 0, 0]:
+            #skip the data point
+            # print("skip the data point")
+            continue
+
         #get stage
         state, current_goal, stage = stage_update(next_observation)
         # get reward
@@ -72,13 +80,9 @@ if __name__ == "__main__":
             print("reward: ", reward)
             # print("state: ", state)
             # print("stage: ", stage)
-        time.sleep(0.1)
+        # time.sleep(0.1)
 
-        #check if the action is all zero
-        if action == [0, 0, 0]:
-            #skip the data point
-            print("skip the data point")
-            continue
+        
         data.append(data_point)  # append data point to data list
         
 

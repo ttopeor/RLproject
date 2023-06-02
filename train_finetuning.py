@@ -192,6 +192,7 @@ def main(_):
 
         # print("For debug - action", action, type(action)) #delete me
         next_observation, reward, done, info = env.step(action)
+        print("For debug - reward: ", reward) #delete me
         # print(next_observation, reward, done, info) #delete me
         # print("For debug - env step") #delete me
 

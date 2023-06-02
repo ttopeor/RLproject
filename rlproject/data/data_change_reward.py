@@ -1,6 +1,6 @@
 import json
-from toolkits.stage import stage_update
-from toolkits.reward import cal_reward
+from rlproject.toolkits.stage import stage_update
+from rlproject.toolkits.reward import cal_reward
 
 # Load data from JSON file
 with open("data.json", "r") as file:
