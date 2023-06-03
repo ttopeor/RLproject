@@ -55,6 +55,7 @@ class env:
         # return [x, y, yaw, xc, yc]
         if xc is None:
             return np.array([x, y, yaw, random.uniform(-1000, -100) if random.randint(0, 1) else random.uniform(100, 1000), random.uniform(-1000, -100) if random.randint(0, 1) else random.uniform(100, 1000)])
+            # return np.array([x, y, yaw, 0, 0])
         return np.array([x, y, yaw, xc, yc])
 
 
@@ -126,6 +127,21 @@ class Robot:
             'action': 'ExternalPositionControl',
             'payload': des
         }))
+
+    def preset_pos_2(self):
+        self.ws_open = True
+        msg = {
+            'action': 'SetTask',
+            'payload': {
+                'type': 'CartesianControlWithAccel',
+            }
+        }
+        self.ws.send(json.dumps(msg))
+
+        self.ws.send(json.dumps({
+            'action': 'CartesianControlWithAccel',
+            'payload': {"x":0,"y":0.22,"z":0.068,"roll":180,"pitch":0,"yaw":-90}}
+        ))
 
     def run_websocket(self, ws):
         self.ws.run_forever()
@@ -230,8 +246,7 @@ if __name__ == '__main__':
     d = "distortion_coefficients.npy"
     Env = env(robot_url, cam_port, k, d)
     Env.start()
-    # Env.robot.action(1, 0, 0)
-    while True:
-        state = Env.get_state()
-        print(state)
-        time.sleep(1)
+    Env.robot.action(1, 0, 0)
+    time.sleep(1)
+    Env.robot.preset_pos_2()
+    

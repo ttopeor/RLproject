@@ -45,7 +45,7 @@ class RLprojectEnv(gym.Env):
 
 
         #get stage
-        state, current_goal, current_stage = stage_update(state)
+        state, current_goal, current_stage, done = stage_update(state)
 
         # get reward
         reward = cal_reward(state, current_goal)
@@ -58,8 +58,8 @@ class RLprojectEnv(gym.Env):
 
         observation = state
         # print("For debug - observation(in step)", observation, np.shape(observation), type(observation)) #delete me
-        done = False
-        info = None #not sure about this one. Assign None temporaly
+        # done = False
+        info = {} #not sure about this one. Assign None temporaly
         
         return observation, reward, done, info
     

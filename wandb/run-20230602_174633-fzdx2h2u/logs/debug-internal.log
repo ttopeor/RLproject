@@ -1,0 +1,654 @@
+2023-06-02 17:46:33,221 INFO    StreamThr :193957 [internal.py:wandb_internal():86] W&B internal server running at pid: 193957, started at: 2023-06-02 17:46:33.220791
+2023-06-02 17:46:33,222 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status
+2023-06-02 17:46:33,226 INFO    WriterThread:193957 [datastore.py:open_for_write():85] open: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/run-fzdx2h2u.wandb
+2023-06-02 17:46:33,226 DEBUG   SenderThread:193957 [sender.py:send():375] send: header
+2023-06-02 17:46:33,246 DEBUG   SenderThread:193957 [sender.py:send():375] send: run
+2023-06-02 17:46:33,518 INFO    SenderThread:193957 [dir_watcher.py:__init__():219] watching files in: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files
+2023-06-02 17:46:33,519 INFO    SenderThread:193957 [sender.py:_start_run_threads():1124] run started: fzdx2h2u with start time 1685753193.220552
+2023-06-02 17:46:33,633 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:46:33,634 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:46:33,640 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: check_version
+2023-06-02 17:46:33,641 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: check_version
+2023-06-02 17:46:33,897 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: run_start
+2023-06-02 17:46:34,520 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_created():278] file/dir created: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:46:34,945 DEBUG   HandlerThread:193957 [system_info.py:__init__():31] System info init
+2023-06-02 17:46:34,945 DEBUG   HandlerThread:193957 [system_info.py:__init__():46] System info init done
+2023-06-02 17:46:34,945 INFO    HandlerThread:193957 [system_monitor.py:start():181] Starting system monitor
+2023-06-02 17:46:34,945 INFO    SystemMonitor:193957 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-02 17:46:34,945 INFO    HandlerThread:193957 [system_monitor.py:probe():201] Collecting system info
+2023-06-02 17:46:34,946 INFO    SystemMonitor:193957 [interfaces.py:start():190] Started cpu monitoring
+2023-06-02 17:46:34,946 INFO    SystemMonitor:193957 [interfaces.py:start():190] Started disk monitoring
+2023-06-02 17:46:34,947 INFO    SystemMonitor:193957 [interfaces.py:start():190] Started gpu monitoring
+2023-06-02 17:46:34,948 INFO    SystemMonitor:193957 [interfaces.py:start():190] Started memory monitoring
+2023-06-02 17:46:34,948 INFO    SystemMonitor:193957 [interfaces.py:start():190] Started network monitoring
+2023-06-02 17:46:35,009 DEBUG   HandlerThread:193957 [system_info.py:probe():195] Probing system
+2023-06-02 17:46:35,019 DEBUG   HandlerThread:193957 [system_info.py:_probe_git():180] Probing git
+2023-06-02 17:46:35,042 DEBUG   HandlerThread:193957 [system_info.py:_probe_git():188] Probing git done
+2023-06-02 17:46:35,042 DEBUG   HandlerThread:193957 [system_info.py:probe():240] Probing system done
+2023-06-02 17:46:35,042 DEBUG   HandlerThread:193957 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-73-generic-x86_64-with-glibc2.31', 'python': '3.9.16', 'heartbeatAt': '2023-06-03T00:46:35.010058', 'startedAt': '2023-06-03T00:46:33.213187', 'docker': None, 'cuda': None, 'args': ('--pretrain_steps', '1000', '--max_steps', '1000', '--start_training', '100', '--log_interval', '100'), 'state': 'running', 'program': '/home/howard/RLproject/train_finetuning.py', 'codePath': 'train_finetuning.py', 'git': {'remote': 'https://github.com/ttopeor/RLproject.git', 'commit': 'b3f3b95e9b45ea9c3e7290f0024580c91beb0ee4'}, 'email': 'chehao27@uw.edu', 'root': '/home/howard/RLproject', 'host': 'howard-Stealth-15M-A11SEK', 'username': 'howard', 'executable': '/home/howard/anaconda3/envs/rlpd/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2963.93475, 'min': 400.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 2971.674, 'min': 400.0, 'max': 3000.0}, {'current': 2928.073, 'min': 400.0, 'max': 3000.0}, {'current': 2974.692, 'min': 400.0, 'max': 3000.0}, {'current': 3000.0, 'min': 400.0, 'max': 3000.0}, {'current': 2849.221, 'min': 400.0, 'max': 3000.0}, {'current': 3000.0, 'min': 400.0, 'max': 3000.0}, {'current': 2928.928, 'min': 400.0, 'max': 3000.0}, {'current': 2956.591, 'min': 400.0, 'max': 3000.0}], 'disk': {'total': 365.1813850402832, 'used': 50.44550323486328}, 'gpu': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'memory_total': 6442450944}], 'memory': {'total': 15.335800170898438}}
+2023-06-02 17:46:35,042 INFO    HandlerThread:193957 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-02 17:46:35,042 INFO    HandlerThread:193957 [system_monitor.py:probe():214] Publishing system info
+2023-06-02 17:46:35,042 DEBUG   HandlerThread:193957 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-02 17:46:35,043 DEBUG   HandlerThread:193957 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-02 17:46:35,043 DEBUG   HandlerThread:193957 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-02 17:46:35,051 ERROR   HandlerThread:193957 [system_info.py:_save_conda():85] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/wandb/sdk/internal/system/system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2023-06-02 17:46:35,052 DEBUG   HandlerThread:193957 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-02 17:46:35,053 INFO    HandlerThread:193957 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-02 17:46:35,057 DEBUG   SenderThread:193957 [sender.py:send():375] send: files
+2023-06-02 17:46:35,057 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-06-02 17:46:35,064 DEBUG   SenderThread:193957 [sender.py:send():375] send: telemetry
+2023-06-02 17:46:35,064 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:46:35,065 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:46:35,177 DEBUG   SenderThread:193957 [sender.py:send():375] send: config
+2023-06-02 17:46:35,395 INFO    wandb-upload_0:193957 [upload_job.py:push():137] Uploaded file /tmp/tmp880vs4d7wandb/xzart00h-wandb-metadata.json
+2023-06-02 17:46:35,519 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_created():278] file/dir created: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/conda-environment.yaml
+2023-06-02 17:46:35,520 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_created():278] file/dir created: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/requirements.txt
+2023-06-02 17:46:35,520 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_created():278] file/dir created: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-metadata.json
+2023-06-02 17:46:38,520 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_created():278] file/dir created: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:46:38,538 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:46:40,521 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:46:42,522 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:46:44,177 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:46:49,898 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:46:50,100 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:46:50,100 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:46:50,525 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:46:53,582 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:46:53,588 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:46:53,599 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:46:53,607 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:46:53,619 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:46:53,637 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:46:55,655 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:46:56,527 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:46:58,528 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:00,699 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:02,529 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:03,001 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:03,003 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:47:03,003 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:47:03,003 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:47:03,007 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:03,019 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:03,031 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:03,033 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:03,040 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:03,530 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:47:04,530 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:05,072 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:47:05,073 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:47:05,765 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:06,531 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/config.yaml
+2023-06-02 17:47:06,531 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:06,994 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:06,995 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:47:06,995 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:47:06,996 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:47:07,006 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:07,019 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:07,030 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:07,037 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:07,050 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:07,531 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:47:08,531 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:10,532 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:10,613 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:10,617 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:47:10,617 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:47:10,618 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:47:10,621 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:10,627 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:10,628 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:10,634 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:10,656 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:10,947 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:11,532 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:47:12,533 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:14,360 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:14,361 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:47:14,361 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:47:14,362 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:47:14,372 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:14,386 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:14,397 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:14,410 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:14,421 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:14,533 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:47:14,534 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:16,035 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:16,534 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:17,796 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:17,797 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:47:17,797 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:47:17,797 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:47:17,802 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:17,815 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:17,823 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:17,829 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:17,834 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:18,535 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:47:18,535 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:20,086 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:47:20,087 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:47:20,536 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:21,143 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:21,247 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:21,248 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:47:21,248 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:47:21,249 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:47:21,265 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:21,277 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:21,285 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:21,292 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:21,319 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:21,536 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:47:22,537 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:24,537 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:25,278 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:25,279 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:25,279 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:47:25,280 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:47:25,280 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:47:25,291 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:25,297 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:25,310 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:25,316 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:25,538 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:47:26,184 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:26,538 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:28,539 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:29,025 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:29,026 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:47:29,026 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:47:29,026 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:29,029 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:47:29,038 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:29,057 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:29,063 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:29,069 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:29,539 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:47:30,540 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:31,291 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:32,541 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:32,881 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:32,882 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:47:32,882 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:47:32,882 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:47:32,887 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:32,894 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:32,900 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:32,906 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:32,917 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:47:33,541 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:47:34,542 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:34,949 DEBUG   SystemMonitor:193957 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-02 17:47:34,950 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:47:35,078 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:47:35,079 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:47:36,306 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:36,542 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:38,543 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:40,543 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:41,399 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:42,544 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:44,545 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:46,539 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:46,545 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:48,546 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:50,093 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:47:50,093 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:47:50,547 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:51,674 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:52,547 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:54,548 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:56,549 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:47:56,821 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:47:58,550 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:00,550 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:00,638 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:00,639 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:48:00,640 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:48:00,640 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:48:00,652 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:00,664 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:00,684 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:00,715 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:00,722 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:01,551 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:48:01,831 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:02,551 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:04,552 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:04,950 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:48:05,082 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:48:05,082 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:48:06,552 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:06,954 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:08,553 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:10,554 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:12,033 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:12,554 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:14,555 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:16,556 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:17,116 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:18,557 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:20,134 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:48:20,134 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:48:20,557 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:22,205 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:22,558 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:24,559 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:26,559 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:27,226 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:28,560 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:29,371 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:29,372 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:48:29,372 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:48:29,372 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:48:29,389 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:29,396 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:29,409 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:29,415 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:29,421 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:29,560 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:48:30,561 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:32,279 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:32,562 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:34,562 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:34,951 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:48:35,139 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:48:35,140 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:48:36,563 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:37,293 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:38,563 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:40,564 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:42,402 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:42,565 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:44,566 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:46,566 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:47,404 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:48,567 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:50,137 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:48:50,138 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:48:50,568 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:52,452 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:52,569 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:54,569 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:56,570 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:48:57,454 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:48:58,352 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:58,353 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:48:58,354 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:48:58,354 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:48:58,371 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:58,383 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:58,394 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:58,414 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:58,425 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:48:58,571 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:48:58,571 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:00,572 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:02,572 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:02,580 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:04,573 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:04,951 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:49:05,131 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:49:05,131 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:49:06,574 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:07,691 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:08,574 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:10,575 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:12,576 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:12,692 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:14,577 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:16,577 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:17,749 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:18,578 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:20,142 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:49:20,143 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:49:20,579 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:22,580 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:22,919 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:24,581 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:26,581 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:27,130 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:27,131 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:27,131 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:49:27,132 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:49:27,132 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:49:27,133 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:27,146 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:27,158 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:27,165 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:27,583 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:49:27,952 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:28,582 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:30,584 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:32,585 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:33,062 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:34,585 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:34,952 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:49:35,163 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:49:35,163 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:49:36,586 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:38,069 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:38,587 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:40,588 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:42,589 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:43,339 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:44,589 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:46,590 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:48,343 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:48,591 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:50,169 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:49:50,170 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:49:50,591 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:52,592 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:53,379 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:54,593 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:55,200 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:55,201 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:49:55,201 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:49:55,202 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:49:55,220 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:55,227 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:55,234 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:55,240 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:55,258 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:49:55,593 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:49:56,594 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:49:58,466 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:49:58,594 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:00,595 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:02,596 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:03,582 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:04,596 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:04,952 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:50:05,174 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:50:05,174 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:50:06,597 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:08,593 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:08,598 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:10,599 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:12,600 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:13,707 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:14,600 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:16,601 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:18,602 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:18,815 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:20,168 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:50:20,168 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:50:20,603 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:22,603 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:24,045 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:24,090 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:24,091 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:50:24,091 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:50:24,092 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:50:24,113 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:24,124 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:24,131 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:24,149 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:24,160 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:24,604 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:50:24,604 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:26,605 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:28,606 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:29,148 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:30,607 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:32,608 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:34,384 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:34,609 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:34,953 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:50:35,191 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:50:35,192 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:50:36,610 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:38,610 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:39,581 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:40,611 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:42,612 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:44,586 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:44,613 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:46,614 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:48,614 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:49,688 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:50,252 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:50:50,252 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:50:50,615 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:52,092 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:52,093 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:50:52,093 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:50:52,094 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:50:52,103 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:52,115 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:52,128 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:52,140 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:52,147 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:50:52,616 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:50:52,617 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:54,617 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:54,935 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:50:56,618 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:50:58,619 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:00,053 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:00,619 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:02,620 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:04,621 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:04,954 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:51:05,149 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:05,273 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:51:05,273 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:51:06,621 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:08,622 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:10,176 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:10,623 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:12,623 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:14,624 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:15,333 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:16,625 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:18,626 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:20,253 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:51:20,253 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:51:20,404 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:20,626 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:20,746 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:20,747 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:51:20,747 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:51:20,748 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:51:20,758 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:20,770 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:20,796 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:20,809 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:20,813 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:21,627 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:51:22,627 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:24,628 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:25,641 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:26,629 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:28,630 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:30,630 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:30,653 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:32,631 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:34,632 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:34,954 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:51:35,269 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:51:35,270 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:51:35,676 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:36,633 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:38,634 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:40,635 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:40,928 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:42,635 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:44,636 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:46,047 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:46,637 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:48,638 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:49,099 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:49,100 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:51:49,100 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:51:49,101 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:51:49,107 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:49,123 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:49,135 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:49,149 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:49,165 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:51:49,638 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:51:50,293 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:51:50,294 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:51:50,638 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:51,124 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:52,639 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:54,640 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:56,261 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:51:56,641 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:51:58,641 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:52:00,642 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:52:01,291 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:52:02,643 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:52:04,644 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:52:04,955 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:52:05,265 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:52:05,266 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:52:05,406 DEBUG   SenderThread:193957 [sender.py:send():375] send: exit
+2023-06-02 17:52:05,406 INFO    SenderThread:193957 [sender.py:send_exit():598] handling exit code: 255
+2023-06-02 17:52:05,406 INFO    SenderThread:193957 [sender.py:send_exit():600] handling runtime: 331
+2023-06-02 17:52:05,407 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:52:05,407 INFO    SenderThread:193957 [sender.py:send_exit():606] send defer
+2023-06-02 17:52:05,407 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:05,407 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-02 17:52:05,407 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:05,407 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-06-02 17:52:05,407 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 1
+2023-06-02 17:52:05,408 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:05,408 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-02 17:52:05,408 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:05,408 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-06-02 17:52:05,408 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 2
+2023-06-02 17:52:05,408 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:05,408 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-02 17:52:05,408 INFO    HandlerThread:193957 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-02 17:52:05,409 INFO    HandlerThread:193957 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-02 17:52:05,409 DEBUG   SystemMonitor:193957 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-02 17:52:05,409 DEBUG   SystemMonitor:193957 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-02 17:52:05,409 INFO    HandlerThread:193957 [interfaces.py:finish():202] Joined disk monitor
+2023-06-02 17:52:05,472 INFO    HandlerThread:193957 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-02 17:52:05,472 INFO    HandlerThread:193957 [interfaces.py:finish():202] Joined memory monitor
+2023-06-02 17:52:05,472 INFO    HandlerThread:193957 [interfaces.py:finish():202] Joined network monitor
+2023-06-02 17:52:05,473 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:05,473 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-06-02 17:52:05,473 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 3
+2023-06-02 17:52:05,473 DEBUG   SenderThread:193957 [sender.py:send():375] send: stats
+2023-06-02 17:52:05,473 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:05,473 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-02 17:52:05,474 DEBUG   SenderThread:193957 [sender.py:send():375] send: history
+2023-06-02 17:52:05,474 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:52:05,475 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:52:05,475 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:05,475 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-06-02 17:52:05,475 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 4
+2023-06-02 17:52:05,475 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:05,475 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-02 17:52:05,476 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:05,476 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-06-02 17:52:05,476 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 5
+2023-06-02 17:52:05,476 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:05,476 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-02 17:52:05,477 DEBUG   SenderThread:193957 [sender.py:send():375] send: summary
+2023-06-02 17:52:05,477 INFO    SenderThread:193957 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:52:05,477 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:05,477 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-06-02 17:52:05,477 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 6
+2023-06-02 17:52:05,478 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:05,478 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-02 17:52:05,478 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:05,478 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-06-02 17:52:05,478 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 7
+2023-06-02 17:52:05,478 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:52:05,478 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:05,478 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-02 17:52:05,478 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:05,478 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-06-02 17:52:05,644 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:52:06,406 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-02 17:52:06,644 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:52:07,897 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 8
+2023-06-02 17:52:07,897 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: poll_exit
+2023-06-02 17:52:07,897 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:07,898 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-02 17:52:07,898 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:07,898 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-06-02 17:52:07,904 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 9
+2023-06-02 17:52:07,904 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:07,904 DEBUG   SenderThread:193957 [sender.py:send():375] send: artifact
+2023-06-02 17:52:07,904 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-02 17:52:08,370 INFO    SenderThread:193957 [sender.py:send_artifact():1474] sent artifact job-https___github.com_ttopeor_RLproject.git_train_finetuning.py - {'id': 'QXJ0aWZhY3Q6NDc1ODk2OTA2', 'digest': '63eb190986e77796d708e8a6d89c0b10', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_ttopeor_RLproject.git_train_finetuning.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_ttopeor_RLproject.git_train_finetuning.py', 'alias': 'v22'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMjM4NzI4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDc1ODk2OTA2', 'versionIndex': 22}}, 'version': 'v22'}
+2023-06-02 17:52:08,370 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:08,370 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-06-02 17:52:08,370 INFO    SenderThread:193957 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-06-02 17:52:08,645 INFO    Thread-12 :193957 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:52:08,646 INFO    SenderThread:193957 [dir_watcher.py:finish():395] scan: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files
+2023-06-02 17:52:08,646 INFO    SenderThread:193957 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/conda-environment.yaml conda-environment.yaml
+2023-06-02 17:52:08,646 INFO    SenderThread:193957 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json wandb-summary.json
+2023-06-02 17:52:08,646 INFO    SenderThread:193957 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-metadata.json wandb-metadata.json
+2023-06-02 17:52:08,646 INFO    SenderThread:193957 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/config.yaml config.yaml
+2023-06-02 17:52:08,646 INFO    SenderThread:193957 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/requirements.txt requirements.txt
+2023-06-02 17:52:08,646 INFO    SenderThread:193957 [dir_watcher.py:finish():409] scan save: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log output.log
+2023-06-02 17:52:08,651 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 10
+2023-06-02 17:52:08,654 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:08,655 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-02 17:52:08,658 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:08,658 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-06-02 17:52:08,658 INFO    SenderThread:193957 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-02 17:52:08,953 INFO    wandb-upload_1:193957 [upload_job.py:push():137] Uploaded file /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/wandb-summary.json
+2023-06-02 17:52:09,036 INFO    wandb-upload_3:193957 [upload_job.py:push():137] Uploaded file /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/output.log
+2023-06-02 17:52:09,083 INFO    wandb-upload_0:193957 [upload_job.py:push():137] Uploaded file /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/config.yaml
+2023-06-02 17:52:09,162 INFO    wandb-upload_2:193957 [upload_job.py:push():137] Uploaded file /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/files/requirements.txt
+2023-06-02 17:52:09,362 INFO    Thread-11 :193957 [sender.py:transition_state():626] send defer: 11
+2023-06-02 17:52:09,362 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:09,363 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-02 17:52:09,363 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:09,363 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-06-02 17:52:09,363 INFO    SenderThread:193957 [file_pusher.py:join():172] waiting for file pusher
+2023-06-02 17:52:09,363 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 12
+2023-06-02 17:52:09,363 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:09,363 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-02 17:52:09,363 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:09,364 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-06-02 17:52:09,770 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 13
+2023-06-02 17:52:09,770 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:09,770 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-02 17:52:09,770 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:09,770 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-06-02 17:52:09,771 INFO    SenderThread:193957 [sender.py:transition_state():626] send defer: 14
+2023-06-02 17:52:09,771 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:52:09,771 INFO    HandlerThread:193957 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-02 17:52:09,771 DEBUG   SenderThread:193957 [sender.py:send():375] send: final
+2023-06-02 17:52:09,771 DEBUG   SenderThread:193957 [sender.py:send():375] send: footer
+2023-06-02 17:52:09,771 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:52:09,771 INFO    SenderThread:193957 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-06-02 17:52:09,772 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-02 17:52:09,772 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: poll_exit
+2023-06-02 17:52:09,772 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: server_info
+2023-06-02 17:52:09,773 DEBUG   SenderThread:193957 [sender.py:send_request():402] send_request: server_info
+2023-06-02 17:52:09,774 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-02 17:52:09,775 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-02 17:52:09,844 INFO    MainThread:193957 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-06-02 17:52:09,844 INFO    MainThread:193957 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-06-02 17:52:09,844 INFO    MainThread:193957 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-06-02 17:52:09,845 DEBUG   HandlerThread:193957 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-02 17:52:09,845 INFO    HandlerThread:193957 [handler.py:finish():842] shutting down handler
+2023-06-02 17:52:10,549 WARNING StreamThr :193957 [internal.py:is_dead():414] Internal process exiting, parent pid 193907 disappeared
+2023-06-02 17:52:10,549 ERROR   StreamThr :193957 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-06-02 17:52:10,773 INFO    WriterThread:193957 [datastore.py:close():298] close: /home/howard/RLproject/wandb/run-20230602_174633-fzdx2h2u/run-fzdx2h2u.wandb
+2023-06-02 17:52:10,844 INFO    SenderThread:193957 [sender.py:finish():1550] shutting down sender
+2023-06-02 17:52:10,844 INFO    SenderThread:193957 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-02 17:52:10,844 INFO    SenderThread:193957 [file_pusher.py:join():172] waiting for file pusher

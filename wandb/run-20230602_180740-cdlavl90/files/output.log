@@ -1,0 +1,59 @@
+
+I0602 18:07:44.440987 140423186609920 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0602 18:07:46.819499 140424643782208 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter CUDA Host
+I0602 18:07:46.840353 140424643782208 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0602 18:07:46.853266 140424643782208 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - agent created
+For debug - replay_buffer created
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:49<00:00, 20.09it/s]
+  0%|                                                                                                                                              | 0/1001 [00:00<?, ?it/s]
+For debug - reward:  13.995355874143442 done: False
+For debug - reward:  15.499498960326171 done: False
+For debug - reward:  17.718837101664178 done: False
+For debug - reward:  20.468034564728427 done: False
+For debug - reward:  34.837214883399874 done: False
+  0%|▋                                                                                                                                     | 5/1001 [00:02<07:11,  2.31it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 275, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 194, in main
+    next_observation, reward, done, info = env.step(action)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/wrappers/record_episode_statistics.py", line 36, in step
+    infos[i] = infos[i].copy()
+AttributeError: 'NoneType' object has no attribute 'copy'
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

@@ -62,7 +62,7 @@ if __name__ == "__main__":
             continue
 
         #get stage
-        state, current_goal, stage = stage_update(next_observation)
+        state, current_goal, stage, done = stage_update(next_observation)
         # get reward
         reward = cal_reward(state, current_goal)
         terminals = False
@@ -78,6 +78,7 @@ if __name__ == "__main__":
 
         if conter % 10 == 0:
             print("reward: ", reward)
+            print("done: ", done)
             # print("state: ", state)
             # print("stage: ", stage)
         # time.sleep(0.1)
@@ -92,3 +93,4 @@ if __name__ == "__main__":
     with open("data/data.json", "w") as file:
         print("writing data to JSON")
         json.dump(data, file, indent=4)
+        # Env.robot.preset_pos_2

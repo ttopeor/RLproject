@@ -1,0 +1,96 @@
+{
+    "os": "Linux-5.15.0-73-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-06-03T00:41:50.334929",
+    "startedAt": "2023-06-03T00:41:48.721231",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--pretrain_steps",
+        "1000",
+        "--max_steps",
+        "1000",
+        "--start_training",
+        "100",
+        "--checkpoint_model",
+        "True",
+        "--log_interval",
+        "100"
+    ],
+    "state": "running",
+    "program": "/home/howard/RLproject/train_finetuning.py",
+    "codePath": "train_finetuning.py",
+    "git": {
+        "remote": "https://github.com/ttopeor/RLproject.git",
+        "commit": "b3f3b95e9b45ea9c3e7290f0024580c91beb0ee4"
+    },
+    "email": "chehao27@uw.edu",
+    "root": "/home/howard/RLproject",
+    "host": "howard-Stealth-15M-A11SEK",
+    "username": "howard",
+    "executable": "/home/howard/anaconda3/envs/rlpd/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2650.62925,
+        "min": 400.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2933.939,
+            "min": 400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 76.138,
+            "min": 400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 400.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "total": 365.1813850402832,
+        "used": 50.38833236694336
+    },
+    "gpu": "NVIDIA GeForce RTX 2060 with Max-Q Design",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060 with Max-Q Design",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.335800170898438
+    }
+}

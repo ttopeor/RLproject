@@ -1,0 +1,2540 @@
+
+I0602 18:36:06.981323 140003510314752 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0602 18:36:09.395439 140005176477248 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I0602 18:36:09.419328 140005176477248 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0602 18:36:09.438224 140005176477248 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+  0%|                                                                                                                                             | 0/10000 [00:00<?, ?it/s]
+For debug - agent created
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [06:59<00:00, 23.83it/s]
+  0%|                                                                                                                                             | 0/10001 [00:00<?, ?it/s]
+For debug - reward:  13.988971291502313 done: False
+For debug - reward:  14.229065788007093 done: False
+For debug - reward:  14.769276171533946 done: False
+For debug - reward:  13.14831607107989 done: False
+For debug - reward:  14.429042228518417 done: False
+For debug - reward:  18.74490204612619 done: False
+
+  0%|                                                                                                                                     | 8/10001 [00:02<43:14,  3.85it/s]
+For debug - reward:  20.554514257255754 done: False
+For debug - reward:  22.17646981159222 done: False
+For debug - reward:  21.67516252837066 done: False
+For debug - reward:  23.657687056337927 done: False
+For debug - reward:  21.46819178981103 done: False
+For debug - reward:  25.81482603672845 done: False
+For debug - reward:  29.479503840161183 done: False
+For debug - reward:  25.507718932846487 done: False
+
+  0%|▏                                                                                                                                   | 16/10001 [00:04<41:33,  4.00it/s]
+For debug - reward:  16.730533849539654 done: False
+For debug - reward:  18.530993758424184 done: False
+For debug - reward:  21.62216385383818 done: False
+For debug - reward:  18.27519273993381 done: False
+For debug - reward:  17.85537271555282 done: False
+For debug - reward:  16.93976602436741 done: False
+For debug - reward:  14.320663994019231 done: False
+
+For debug - reward:  14.245397210180709 done: False
+For debug - reward:  17.25502042969524 done: False
+For debug - reward:  21.55521249881943 done: False
+For debug - reward:  26.44406566716426 done: False
+For debug - reward:  25.24453304038865 done: False
+For debug - reward:  23.877888713099487 done: False
+For debug - reward:  20.396473495373147 done: False
+For debug - reward:  19.536168283382747 done: False
+
+For debug - reward:  15.56063648437032 done: False
+For debug - reward:  13.08918908774921 done: False
+For debug - reward:  11.929813084631762 done: False
+For debug - reward:  10.485727707263086 done: False
+For debug - reward:  9.827698942076868 done: False
+For debug - reward:  10.366614789940446 done: False
+For debug - reward:  12.146625648968504 done: False
+For debug - reward:  13.252502204139955 done: False
+
+  0%|▌                                                                                                                                   | 41/10001 [00:10<41:16,  4.02it/s]
+For debug - reward:  11.423786189835324 done: False
+For debug - reward:  12.257170009354864 done: False
+For debug - reward:  13.164316621110133 done: False
+For debug - reward:  13.992325410254223 done: False
+For debug - reward:  11.610492909991438 done: False
+For debug - reward:  10.065140811797296 done: False
+For debug - reward:  9.468218952614718 done: False
+
+  0%|▋                                                                                                                                   | 48/10001 [00:12<41:09,  4.03it/s]
+For debug - reward:  10.36294822629973 done: False
+For debug - reward:  10.489291602748878 done: False
+For debug - reward:  10.957091134511355 done: False
+For debug - reward:  11.898868868189929 done: False
+For debug - reward:  11.818921735292909 done: False
+For debug - reward:  11.959526458300619 done: False
+For debug - reward:  12.416653059740774 done: False
+
+  1%|▊                                                                                                                                   | 57/10001 [00:14<41:20,  4.01it/s]
+For debug - reward:  14.438914081673241 done: False
+For debug - reward:  14.718291366260809 done: False
+For debug - reward:  14.772627641337575 done: False
+For debug - reward:  13.475135835735909 done: False
+For debug - reward:  14.985070698315624 done: False
+For debug - reward:  14.003221221153058 done: False
+For debug - reward:  15.194578174065084 done: False
+
+  1%|▊                                                                                                                                   | 65/10001 [00:16<41:04,  4.03it/s]
+For debug - reward:  16.78649202421209 done: False
+For debug - reward:  15.798744702430076 done: False
+For debug - reward:  17.440410832643373 done: False
+For debug - reward:  18.997300852912147 done: False
+For debug - reward:  16.990628659743773 done: False
+For debug - reward:  13.831272271701371 done: False
+For debug - reward:  14.639970231506195 done: False
+
+  1%|▉                                                                                                                                   | 73/10001 [00:18<40:26,  4.09it/s]
+For debug - reward:  13.723253504732977 done: False
+For debug - reward:  13.454806023765471 done: False
+For debug - reward:  14.2963998901463 done: False
+For debug - reward:  16.072826402038395 done: False
+For debug - reward:  13.460696976225968 done: False
+For debug - reward:  14.248907897706824 done: False
+For debug - reward:  15.176267647856037 done: False
+For debug - reward:  13.466995922155103 done: False
+
+  1%|█                                                                                                                                   | 82/10001 [00:20<40:02,  4.13it/s]
+For debug - reward:  13.023467852314898 done: False
+For debug - reward:  12.739977021296465 done: False
+For debug - reward:  13.609335085689485 done: False
+For debug - reward:  14.188729896886889 done: False
+For debug - reward:  15.323124869791881 done: False
+For debug - reward:  17.897552729306913 done: False
+For debug - reward:  16.382523103908664 done: False
+
+For debug - reward:  20.92817518307495 done: False
+For debug - reward:  25.053135019880582 done: False
+For debug - reward:  29.981919360869743 done: False
+For debug - reward:  37.62699371870296 done: False
+For debug - reward:  31.86567770358151 done: False
+For debug - reward:  24.775550517081623 done: False
+For debug - reward:  27.89485435936883 done: False
+For debug - reward:  23.216316680206912 done: False
+
+For debug - reward:  18.41252775584928 done: Falsee
+For debug - reward:  20.822086060205677 done: False
+For debug - reward:  17.834868803205453 done: False
+For debug - reward:  18.41252775584928 done: Falsee
+For debug - reward:  12.754279539264077 done: False
+
+  1%|█▎                                                                                                                                 | 103/10001 [00:26<51:05,  3.23it/s]
+For debug - reward:  12.81124187002559 done: False
+For debug - reward:  12.474535857013828 done: False
+For debug - reward:  14.226107100431692 done: False
+For debug - reward:  15.227309389693898 done: False
+For debug - reward:  14.342438216150612 done: False
+
+  1%|█▍                                                                                                                                 | 109/10001 [00:28<51:37,  3.19it/s]
+For debug - reward:  14.657497295280614 done: False
+For debug - reward:  13.67110234052812 done: False
+For debug - reward:  12.444818014833123 done: False
+For debug - reward:  13.996454773007034 done: False
+For debug - reward:  15.109699083106802 done: False
+For debug - reward:  15.332582426223091 done: False
+
+  1%|█▌                                                                                                                                 | 115/10001 [00:30<51:58,  3.17it/s]
+For debug - reward:  13.198495993341965 done: False
+For debug - reward:  13.322957378005315 done: False
+For debug - reward:  11.551400212832185 done: False
+For debug - reward:  10.224299354190993 done: False
+For debug - reward:  9.647542908464732 done: False
+
+For debug - reward:  9.7918529331167 done: False
+For debug - reward:  10.612468993695012 done: False
+For debug - reward:  11.30756717733528 done: False
+For debug - reward:  9.884705456813954 done: False
+For debug - reward:  10.398252647209643 done: False
+For debug - reward:  10.30770983196511 done: False
+
+  1%|█▋                                                                                                                                 | 127/10001 [00:34<53:08,  3.10it/s]
+For debug - reward:  9.751428360411866 done: False
+For debug - reward:  10.739439498413104 done: False
+For debug - reward:  11.959081170170014 done: False
+For debug - reward:  11.805497064345037 done: False
+For debug - reward:  12.248489309099007 done: False
+
+  1%|█▊                                                                                                                                 | 134/10001 [00:36<51:52,  3.17it/s]
+For debug - reward:  14.076712055284258 done: False
+For debug - reward:  13.176516895276096 done: False
+For debug - reward:  16.0477151421015 done: False
+For debug - reward:  17.99902902613239 done: False
+For debug - reward:  21.47969977605793 done: False
+For debug - reward:  24.367455768712503 done: False
+
+  1%|█▊                                                                                                                                 | 141/10001 [00:38<49:22,  3.33it/s]
+For debug - reward:  31.32725223934399 done: False
+For debug - reward:  29.64843800897134 done: False
+For debug - reward:  23.24826510014802 done: False
+For debug - reward:  28.037369715773597 done: False
+stage.py - goaled 1
+For debug - reward:  6.24198538132166 done: True
+For debug - reward:  6.436281558134232 done: False
+
+  1%|█▉                                                                                                                                 | 147/10001 [00:40<50:31,  3.25it/s]
+For debug - reward:  6.289783470838062 done: False
+For debug - reward:  6.132567871835084 done: False
+For debug - reward:  6.474950259453978 done: False
+For debug - reward:  6.856956697550215 done: False
+For debug - reward:  7.233120020707716 done: False
+For debug - reward:  7.381292994247397 done: False
+
+For debug - reward:  7.224684558465954 done: False
+For debug - reward:  7.5008904739202364 done: False
+For debug - reward:  7.682409737937588 done: False
+For debug - reward:  7.487934886323414 done: False
+For debug - reward:  7.104558204082599 done: False
+For debug - reward:  6.659453778048084 done: False
+For debug - reward:  6.297988074615112 done: False
+
+  2%|██                                                                                                                                 | 161/10001 [00:44<48:05,  3.41it/s]
+For debug - reward:  5.473533633392522 done: False
+For debug - reward:  5.116120725947525 done: False
+For debug - reward:  4.981976021071959 done: False
+For debug - reward:  5.3307766891081805 done: False
+For debug - reward:  5.476105799552498 done: False
+
+  2%|██▏                                                                                                                                | 168/10001 [00:46<48:07,  3.41it/s]
+For debug - reward:  4.787039544664089 done: False
+For debug - reward:  4.578943799685329 done: False
+For debug - reward:  4.712043649561455 done: False
+For debug - reward:  4.950235979157514 done: False
+For debug - reward:  5.17983943076705 done: False
+For debug - reward:  5.652421226932755 done: False
+
+  2%|██▎                                                                                                                                | 175/10001 [00:48<47:47,  3.43it/s]
+For debug - reward:  6.137304434765249 done: False
+For debug - reward:  6.03530419485306 done: False
+For debug - reward:  6.305076627060772 done: False
+For debug - reward:  6.3821856559063015 done: False
+For debug - reward:  5.989972778397853 done: False
+For debug - reward:  5.960605034715804 done: False
+
+  2%|██▍                                                                                                                                | 182/10001 [00:50<48:16,  3.39it/s]
+For debug - reward:  6.5912477875838915 done: False
+For debug - reward:  6.357442346887308 done: False
+For debug - reward:  7.008591142209519 done: False
+For debug - reward:  7.3252746481329085 done: False
+For debug - reward:  6.852820432237791 done: False
+For debug - reward:  6.548231285675461 done: False
+
+  2%|██▍                                                                                                                                | 189/10001 [00:52<46:42,  3.50it/s]
+For debug - reward:  6.616531001641003 done: False
+For debug - reward:  6.853268984076259 done: False
+For debug - reward:  6.733494103422936 done: False
+For debug - reward:  7.368449833695724 done: False
+For debug - reward:  7.65540549985088 done: False
+For debug - reward:  6.916510039270841 done: False
+
+  2%|██▌                                                                                                                                | 196/10001 [00:54<47:28,  3.44it/s]
+For debug - reward:  6.94133987135479 done: False
+For debug - reward:  6.62848199643128 done: False
+For debug - reward:  6.629212521546114 done: False
+For debug - reward:  6.8661830431095 done: False
+For debug - reward:  7.507281871920528 done: False
+For debug - reward:  8.344211390167048 done: False
+
+For debug - reward:  8.601269725654637 done: False
+For debug - reward:  7.443290777721836 done: False
+For debug - reward:  6.919600316736957 done: False
+For debug - reward:  6.345498672482623 done: False
+For debug - reward:  6.253484754970746 done: False
+For debug - reward:  6.632287672230322 done: False
+
+  2%|██▋                                                                                                                                | 208/10001 [00:58<50:07,  3.26it/s]
+For debug - reward:  7.858429974705129 done: False
+For debug - reward:  7.874900257118132 done: False
+For debug - reward:  7.18441445323611 done: False
+For debug - reward:  7.076616080873867 done: False
+For debug - reward:  6.759960799654268 done: False
+
+  2%|██▊                                                                                                                                | 215/10001 [01:00<50:40,  3.22it/s]
+For debug - reward:  6.828570208352443 done: False
+For debug - reward:  7.2137721446618 done: False
+For debug - reward:  7.273981706579861 done: False
+For debug - reward:  7.6871764811119485 done: False
+For debug - reward:  7.405943056143633 done: False
+For debug - reward:  6.740660368176097 done: False
+
+  2%|██▉                                                                                                                                | 222/10001 [01:02<49:55,  3.26it/s]
+For debug - reward:  5.727310291842695 done: False
+For debug - reward:  5.512781844957122 done: False
+For debug - reward:  5.641825266120449 done: False
+For debug - reward:  5.192784517534459 done: False
+For debug - reward:  4.869450273257162 done: False
+
+  2%|██▉                                                                                                                                | 228/10001 [01:04<49:36,  3.28it/s]
+For debug - reward:  5.0132127448216295 done: False
+For debug - reward:  5.345241203253368 done: False
+For debug - reward:  5.474632318849134 done: False
+For debug - reward:  5.01839117979709 done: False
+For debug - reward:  4.688943746404378 done: False
+For debug - reward:  4.406053733584799 done: False
+
+For debug - reward:  4.454885483937681 done: False
+For debug - reward:  4.7464496369824785 done: False
+For debug - reward:  4.8506520632155326 done: False
+For debug - reward:  4.587496503788188 done: False
+For debug - reward:  4.484595156520063 done: False
+For debug - reward:  4.56393762115803 done: False
+
+  2%|███▏                                                                                                                               | 240/10001 [01:08<51:46,  3.14it/s]
+For debug - reward:  4.551333443800548 done: False
+For debug - reward:  4.544856855405202 done: False
+For debug - reward:  4.35218681766796 done: False
+For debug - reward:  4.422327833342901 done: False
+For debug - reward:  4.386901395845465 done: False
+
+  2%|███▏                                                                                                                               | 247/10001 [01:10<52:19,  3.11it/s]
+For debug - reward:  5.0214149660206395 done: False
+For debug - reward:  5.483395030805194 done: False
+For debug - reward:  5.870595895331664 done: False
+For debug - reward:  6.200791195172857 done: False
+For debug - reward:  6.3992833162211 done: False
+For debug - reward:  6.210737658377589 done: False
+
+  3%|███▎                                                                                                                               | 253/10001 [01:12<49:39,  3.27it/s]
+For debug - reward:  5.4712470849835535 done: False
+For debug - reward:  5.182276292399188 done: False
+For debug - reward:  5.045395238254316 done: False
+For debug - reward:  5.135850497153696 done: False
+For debug - reward:  5.002965897193007 done: False
+
+  3%|███▍                                                                                                                               | 260/10001 [01:14<49:22,  3.29it/s]
+For debug - reward:  4.793978123289752 done: False
+For debug - reward:  4.6145157891212145 done: False
+For debug - reward:  4.43358917994297 done: False
+For debug - reward:  4.8003461438132415 done: False
+For debug - reward:  5.050433389768104 done: False
+For debug - reward:  5.365386448399764 done: False
+
+  3%|███▍                                                                                                                               | 267/10001 [01:16<48:59,  3.31it/s]
+For debug - reward:  5.080191587040927 done: False
+For debug - reward:  4.836439679110023 done: False
+For debug - reward:  5.064463875175827 done: False
+For debug - reward:  5.347009317532031 done: False
+For debug - reward:  5.5213870921041925 done: False
+For debug - reward:  5.171191090681702 done: False
+
+  3%|███▌                                                                                                                               | 275/10001 [01:18<45:36,  3.55it/s]
+For debug - reward:  5.342900362106992 done: False
+For debug - reward:  5.559448742895083 done: False
+For debug - reward:  5.328187633311093 done: False
+For debug - reward:  5.015600434973491 done: False
+For debug - reward:  4.825019173935124 done: False
+For debug - reward:  4.522423294854603 done: False
+For debug - reward:  4.4066424061205 done: False
+
+  3%|███▋                                                                                                                               | 282/10001 [01:20<45:47,  3.54it/s]
+For debug - reward:  4.4336466714161755 done: False
+For debug - reward:  4.460897241090974 done: False
+For debug - reward:  4.674777684888743 done: False
+For debug - reward:  4.849730184992533 done: False
+For debug - reward:  4.763485829594197 done: False
+For debug - reward:  4.913935485091636 done: False
+
+  3%|███▊                                                                                                                               | 289/10001 [01:22<46:41,  3.47it/s]
+For debug - reward:  5.220129795337726 done: False
+For debug - reward:  5.067762684877877 done: False
+For debug - reward:  5.199084595071181 done: False
+For debug - reward:  5.471371202058649 done: False
+For debug - reward:  5.629544184502619 done: False
+For debug - reward:  5.530287540388483 done: False
+
+  3%|███▉                                                                                                                               | 296/10001 [01:24<46:15,  3.50it/s]
+For debug - reward:  5.931032869883961 done: False
+For debug - reward:  5.570373052304662 done: False
+For debug - reward:  5.433494237582055 done: False
+For debug - reward:  5.605266830784451 done: False
+For debug - reward:  5.222127106421362 done: False
+
+  3%|███▉                                                                                                                               | 302/10001 [01:26<48:20,  3.34it/s]
+For debug - reward:  5.323530414615159 done: False
+For debug - reward:  5.147609364450511 done: False
+For debug - reward:  5.180331272086685 done: False
+For debug - reward:  4.886866877472596 done: False
+For debug - reward:  4.805497992113869 done: False
+
+  3%|████                                                                                                                               | 308/10001 [01:28<50:36,  3.19it/s]
+For debug - reward:  5.34065227378976 done: False
+For debug - reward:  5.381674613504621 done: False
+For debug - reward:  5.281452316118664 done: False
+For debug - reward:  5.587819821713612 done: False
+For debug - reward:  5.716262250106313 done: False
+For debug - reward:  5.563433155331731 done: False
+
+  3%|████                                                                                                                               | 314/10001 [01:30<50:58,  3.17it/s]
+For debug - reward:  5.411888540987295 done: False
+For debug - reward:  5.394659922891654 done: False
+For debug - reward:  5.391178845155375 done: False
+For debug - reward:  5.3785260011641505 done: False
+For debug - reward:  5.873014901314452 done: False
+
+  3%|████▏                                                                                                                              | 321/10001 [01:32<51:03,  3.16it/s]
+For debug - reward:  6.748067673951533 done: False
+For debug - reward:  7.104757634273978 done: False
+For debug - reward:  7.257374126794912 done: False
+For debug - reward:  6.680731877237705 done: False
+For debug - reward:  6.453981560888983 done: False
+For debug - reward:  6.652283433916069 done: False
+
+For debug - reward:  6.664978055673174 done: False
+For debug - reward:  7.200187180926666 done: False
+For debug - reward:  7.447500687477101 done: False
+For debug - reward:  7.504299825738074 done: False
+For debug - reward:  7.9669656765455 done: False
+For debug - reward:  8.464725791988368 done: False
+For debug - reward:  8.521089698555912 done: False
+
+  3%|████▍                                                                                                                              | 335/10001 [01:36<46:35,  3.46it/s]
+For debug - reward:  7.752233113445487 done: False
+For debug - reward:  8.202190500129335 done: False
+For debug - reward:  8.49308413699309 done: False
+For debug - reward:  8.215642364867739 done: False
+For debug - reward:  8.42836126895032 done: False
+For debug - reward:  8.128946052354479 done: False
+
+  3%|████▍                                                                                                                              | 342/10001 [01:38<44:08,  3.65it/s]
+For debug - reward:  9.826117051732778 done: False
+For debug - reward:  9.946520867974375 done: False
+For debug - reward:  9.241063338225056 done: False
+For debug - reward:  8.260643195651994 done: False
+For debug - reward:  7.902691797943476 done: False
+For debug - reward:  8.366433574235412 done: False
+
+  3%|████▌                                                                                                                              | 349/10001 [01:40<48:12,  3.34it/s]
+For debug - reward:  9.157350065322056 done: False
+For debug - reward:  8.216184287803934 done: False
+For debug - reward:  7.773306591148638 done: False
+For debug - reward:  7.518463652155017 done: False
+For debug - reward:  8.068734608125467 done: False
+
+  4%|████▋                                                                                                                              | 355/10001 [01:42<47:48,  3.36it/s]
+For debug - reward:  7.856323233381903 done: False
+For debug - reward:  8.045722367549724 done: False
+For debug - reward:  7.31504539521496 done: False
+For debug - reward:  6.662961391534867 done: False
+For debug - reward:  6.5252682931001935 done: False
+For debug - reward:  6.563463511032068 done: False
+
+  4%|████▋                                                                                                                              | 362/10001 [01:44<47:39,  3.37it/s]
+For debug - reward:  5.709188024939981 done: False
+For debug - reward:  5.6773192388819185 done: False
+For debug - reward:  5.846944716153545 done: False
+For debug - reward:  6.285448217705619 done: False
+For debug - reward:  6.590058514689826 done: False
+For debug - reward:  6.755974510361171 done: False
+
+  4%|████▊                                                                                                                              | 369/10001 [01:46<46:51,  3.43it/s]
+For debug - reward:  6.244353829247922 done: False
+For debug - reward:  5.93687817074179 done: False
+For debug - reward:  5.392041374031945 done: False
+For debug - reward:  5.0688731099146365 done: False
+For debug - reward:  4.794694816330386 done: False
+For debug - reward:  4.606363813760979 done: False
+
+  4%|████▉                                                                                                                              | 376/10001 [01:48<46:19,  3.46it/s]
+For debug - reward:  4.588026926242339 done: False
+For debug - reward:  4.523566985711656 done: False
+For debug - reward:  4.831618650729024 done: False
+For debug - reward:  5.128520344367316 done: False
+For debug - reward:  5.2848883352946 done: False
+
+  4%|█████                                                                                                                              | 382/10001 [01:50<48:53,  3.28it/s]
+For debug - reward:  5.403709233872141 done: False
+For debug - reward:  5.027241113958544 done: False
+For debug - reward:  4.645775004366801 done: False
+For debug - reward:  4.388964047312925 done: False
+For debug - reward:  4.4205392934623315 done: False
+For debug - reward:  4.544341859827402 done: False
+
+  4%|█████                                                                                                                              | 387/10001 [01:51<49:45,  3.22it/s]
+For debug - reward:  4.838959268261615 done: False
+For debug - reward:  5.0972775176939535 done: False
+For debug - reward:  5.469350644728152 done: False
+For debug - reward:  5.879488393655472 done: False
+For debug - reward:  6.358606746236898 done: False
+For debug - reward:  6.455860432233628 done: False
+
+  4%|█████▏                                                                                                                             | 394/10001 [01:53<47:43,  3.35it/s]
+For debug - reward:  6.360429885352816 done: False
+For debug - reward:  5.8370525997181115 done: False
+For debug - reward:  5.338407802948584 done: False
+For debug - reward:  5.125698635134779 done: False
+For debug - reward:  5.33892058141014 done: False
+
+  4%|█████▏                                                                                                                             | 400/10001 [01:55<49:11,  3.25it/s]
+For debug - reward:  4.907328799706857 done: False
+For debug - reward:  5.21855963376752 done: False
+For debug - reward:  5.4395705422443665 done: False
+For debug - reward:  5.199127435990226 done: False
+For debug - reward:  4.845389756420533 done: False
+For debug - reward:  4.59234845602966 done: False
+
+  4%|█████▎                                                                                                                             | 407/10001 [01:57<48:02,  3.33it/s]
+For debug - reward:  4.373032133385218 done: False
+For debug - reward:  4.51747573820981 done: False
+For debug - reward:  4.842828820048549 done: False
+For debug - reward:  5.09270565943535 done: False
+For debug - reward:  5.220091502079835 done: False
+For debug - reward:  5.036719761152239 done: False
+
+For debug - reward:  5.300317785629 done: False
+For debug - reward:  5.659887870483645 done: False
+For debug - reward:  5.843717791319323 done: False
+For debug - reward:  5.703238262743104 done: False
+For debug - reward:  5.894211265386232 done: False
+For debug - reward:  5.762604051040209 done: False
+
+  4%|█████▌                                                                                                                             | 420/10001 [02:02<50:01,  3.19it/s]
+For debug - reward:  6.579088900649846 done: False
+For debug - reward:  6.9923744199016165 done: False
+For debug - reward:  7.795123613289096 done: False
+For debug - reward:  8.947571328000176 done: False
+For debug - reward:  9.45489812226411 done: False
+
+  4%|█████▌                                                                                                                             | 427/10001 [02:04<49:01,  3.25it/s]
+For debug - reward:  9.730836639936413 done: False
+For debug - reward:  8.686618008376158 done: False
+For debug - reward:  8.890146449209562 done: False
+For debug - reward:  8.903497741204424 done: False
+For debug - reward:  9.662802283912052 done: False
+For debug - reward:  8.31179109911025 done: False
+
+  4%|█████▋                                                                                                                             | 434/10001 [02:06<47:33,  3.35it/s]
+For debug - reward:  9.233097255016952 done: False
+For debug - reward:  9.888058441956286 done: False
+For debug - reward:  9.54121940332574 done: False
+For debug - reward:  10.21278421941994 done: False
+For debug - reward:  11.292839935392061 done: False
+For debug - reward:  11.508443406345535 done: False
+
+  4%|█████▊                                                                                                                             | 441/10001 [02:08<46:56,  3.39it/s]
+For debug - reward:  11.324623269902004 done: False
+For debug - reward:  11.826936975158874 done: False
+For debug - reward:  11.234554463962409 done: False
+For debug - reward:  12.896452179233739 done: False
+For debug - reward:  14.760646332858864 done: False
+For debug - reward:  17.965359236206403 done: False
+
+  4%|█████▊                                                                                                                             | 448/10001 [02:10<46:10,  3.45it/s]
+For debug - reward:  14.154502870487809 done: False
+For debug - reward:  12.192134950294104 done: False
+For debug - reward:  11.823144930889308 done: False
+For debug - reward:  12.440554185352312 done: False
+For debug - reward:  10.748560472530546 done: False
+For debug - reward:  11.735279253118787 done: False
+
+  5%|█████▉                                                                                                                             | 455/10001 [02:12<45:49,  3.47it/s]
+For debug - reward:  11.70077474533295 done: False
+For debug - reward:  11.309034399380641 done: False
+For debug - reward:  10.886483264518963 done: False
+For debug - reward:  12.993775013731565 done: False
+For debug - reward:  15.903712702673564 done: False
+
+  5%|██████                                                                                                                             | 461/10001 [02:14<48:51,  3.25it/s]
+For debug - reward:  17.52331409477369 done: False
+For debug - reward:  20.798660745311505 done: False
+For debug - reward:  23.714950446667974 done: False
+For debug - reward:  19.671496993858714 done: False
+For debug - reward:  17.993192388307083 done: False
+For debug - reward:  13.836846488365026 done: False
+For debug - reward:  11.714799318006676 done: False
+
+  5%|██████▏                                                                                                                            | 468/10001 [02:16<45:59,  3.45it/s]
+For debug - reward:  11.798914189092663 done: False
+For debug - reward:  12.206695713419432 done: False
+For debug - reward:  11.652085457194005 done: False
+For debug - reward:  13.214630313453098 done: False
+For debug - reward:  13.151169882691393 done: False
+For debug - reward:  14.079193453734604 done: False
+
+For debug - reward:  11.81250548895826 done: False
+For debug - reward:  9.72214818082938 done: False
+For debug - reward:  9.060150354887721 done: False
+For debug - reward:  8.727877573639667 done: False
+For debug - reward:  9.495985129347398 done: False
+For debug - reward:  10.926283739931494 done: False
+
+  5%|██████▎                                                                                                                            | 482/10001 [02:20<46:57,  3.38it/s]
+For debug - reward:  12.791277988475468 done: False
+For debug - reward:  13.168950175020115 done: False
+For debug - reward:  12.644001396937375 done: False
+For debug - reward:  13.309069841111468 done: False
+For debug - reward:  12.088013227718893 done: False
+For debug - reward:  11.551384585232693 done: False
+
+  5%|██████▍                                                                                                                            | 489/10001 [02:22<46:02,  3.44it/s]
+For debug - reward:  12.806222344176074 done: False
+For debug - reward:  13.202992368498254 done: False
+For debug - reward:  11.098118450885428 done: False
+For debug - reward:  9.978695426768102 done: False
+For debug - reward:  9.287126290395568 done: False
+For debug - reward:  8.532636576639801 done: False
+
+  5%|██████▍                                                                                                                            | 496/10001 [02:24<46:12,  3.43it/s]
+For debug - reward:  8.569886590442898 done: False
+For debug - reward:  8.684780075179955 done: False
+For debug - reward:  8.365043413559299 done: False
+For debug - reward:  8.656043524901955 done: False
+For debug - reward:  8.386795682415757 done: False
+
+  5%|██████▌                                                                                                                            | 502/10001 [02:26<49:31,  3.20it/s]
+For debug - reward:  8.252358240437403 done: False
+For debug - reward:  8.616566985524134 done: False
+For debug - reward:  8.221764436474578 done: False
+For debug - reward:  8.477042426985241 done: False
+For debug - reward:  8.116787412058247 done: False
+For debug - reward:  8.800053532636023 done: False
+
+  5%|██████▋                                                                                                                            | 509/10001 [02:28<47:33,  3.33it/s]
+For debug - reward:  8.476619875412144 done: False
+For debug - reward:  7.559352944299104 done: False
+For debug - reward:  6.991479731703873 done: False
+For debug - reward:  6.607679193991012 done: False
+For debug - reward:  6.200671057577824 done: False
+For debug - reward:  5.799941446157067 done: False
+
+  5%|██████▋                                                                                                                            | 515/10001 [02:30<47:25,  3.33it/s]
+For debug - reward:  5.193570615176233 done: False
+For debug - reward:  5.0346363932569815 done: False
+For debug - reward:  4.996262535521838 done: False
+For debug - reward:  4.878652462527015 done: False
+For debug - reward:  5.093988384195152 done: False
+For debug - reward:  5.360563531935852 done: False
+
+  5%|██████▊                                                                                                                            | 522/10001 [02:32<46:35,  3.39it/s]
+For debug - reward:  4.7395352715312 done: False
+For debug - reward:  4.608200102190756 done: False
+For debug - reward:  4.90579732636133 done: False
+For debug - reward:  5.106829318873103 done: False
+For debug - reward:  5.463413457634205 done: False
+
+  5%|██████▉                                                                                                                            | 529/10001 [02:34<47:29,  3.32it/s]
+For debug - reward:  5.9238581068440865 done: False
+For debug - reward:  5.787058418122493 done: False
+For debug - reward:  6.038197178925536 done: False
+For debug - reward:  6.089795933010617 done: False
+For debug - reward:  5.668971060912329 done: False
+For debug - reward:  5.568459750140698 done: False
+
+  5%|███████                                                                                                                            | 536/10001 [02:36<45:45,  3.45it/s]
+For debug - reward:  6.177566742983603 done: False
+For debug - reward:  6.238093480363208 done: False
+For debug - reward:  6.525514496669991 done: False
+For debug - reward:  6.391515992095523 done: False
+For debug - reward:  6.56097952840581 done: False
+For debug - reward:  6.125073045675226 done: False
+
+  5%|███████                                                                                                                            | 542/10001 [02:38<47:03,  3.35it/s]
+For debug - reward:  6.316136466753024 done: False
+For debug - reward:  6.759519603236628 done: False
+For debug - reward:  7.065705481513694 done: False
+For debug - reward:  7.43314135978558 done: False
+For debug - reward:  8.368297090322377 done: False
+
+  5%|███████▏                                                                                                                           | 549/10001 [02:40<47:12,  3.34it/s]
+For debug - reward:  8.065822064664882 done: False
+For debug - reward:  8.030771718970477 done: False
+For debug - reward:  8.692374578708305 done: False
+For debug - reward:  9.148019893750604 done: False
+For debug - reward:  9.67970944065118 done: False
+For debug - reward:  10.132474939244117 done: False
+
+  6%|███████▎                                                                                                                           | 556/10001 [02:42<46:22,  3.39it/s]
+For debug - reward:  8.083652995305105 done: False
+For debug - reward:  7.622747939465813 done: False
+For debug - reward:  7.543759459778675 done: False
+For debug - reward:  7.402648180197204 done: False
+For debug - reward:  7.393810895790887 done: False
+
+  6%|███████▎                                                                                                                           | 562/10001 [02:44<48:39,  3.23it/s]
+For debug - reward:  7.488800433150096 done: False
+For debug - reward:  7.367041338868611 done: False
+For debug - reward:  7.776555813122146 done: False
+For debug - reward:  7.264329411996687 done: False
+For debug - reward:  6.497552626588918 done: False
+For debug - reward:  6.008082538647204 done: False
+
+  6%|███████▍                                                                                                                           | 569/10001 [02:46<48:51,  3.22it/s]
+For debug - reward:  5.544500413617098 done: False
+For debug - reward:  5.125582592094918 done: False
+For debug - reward:  4.927964053852571 done: False
+For debug - reward:  5.23533691333106 done: False
+For debug - reward:  5.297192000144107 done: False
+For debug - reward:  4.992975839922729 done: False
+
+  6%|███████▌                                                                                                                           | 576/10001 [02:48<46:37,  3.37it/s]
+For debug - reward:  4.679220927733007 done: False
+For debug - reward:  4.576553051032538 done: False
+For debug - reward:  4.541408950751319 done: False
+For debug - reward:  4.478529303013661 done: False
+For debug - reward:  4.637798858141893 done: False
+For debug - reward:  4.514847612937931 done: False
+
+  6%|███████▌                                                                                                                           | 582/10001 [02:50<46:17,  3.39it/s]
+For debug - reward:  4.483915440242343 done: False
+For debug - reward:  4.439209482540415 done: False
+For debug - reward:  4.64750565185601 done: False
+For debug - reward:  4.983012041326528 done: False
+For debug - reward:  5.040113849284202 done: False
+
+  6%|███████▋                                                                                                                           | 589/10001 [02:52<46:40,  3.36it/s]
+For debug - reward:  5.192931857805391 done: False
+For debug - reward:  5.22736560785227 done: False
+For debug - reward:  5.000309533116153 done: False
+For debug - reward:  4.958591445489486 done: False
+For debug - reward:  4.976302967339426 done: False
+For debug - reward:  4.683848923839862 done: False
+
+  6%|███████▊                                                                                                                           | 596/10001 [02:54<46:45,  3.35it/s]
+For debug - reward:  4.582443368175304 done: False
+For debug - reward:  4.625385862361826 done: False
+For debug - reward:  4.6547697550171145 done: False
+For debug - reward:  4.763542102264218 done: False
+For debug - reward:  4.635735070978613 done: False
+
+  6%|███████▉                                                                                                                           | 602/10001 [02:56<47:47,  3.28it/s]
+For debug - reward:  5.0822511059010225 done: False
+For debug - reward:  4.8919576414441375 done: False
+For debug - reward:  4.777127302370659 done: False
+For debug - reward:  5.187936877611929 done: False
+For debug - reward:  5.452800102877279 done: False
+For debug - reward:  5.55357805373735 done: False
+For debug - reward:  5.212264460349895 done: False
+
+For debug - reward:  5.041690184291247 done: False
+For debug - reward:  5.324316480788056 done: False
+For debug - reward:  5.701563119304936 done: False
+For debug - reward:  6.1443317911372795 done: False
+For debug - reward:  6.424250617242093 done: False
+For debug - reward:  6.296704007571197 done: False
+
+  6%|████████                                                                                                                           | 616/10001 [03:00<47:04,  3.32it/s]
+For debug - reward:  6.287311098783001 done: False
+For debug - reward:  5.7885005492378845 done: False
+For debug - reward:  5.686555539724586 done: False
+For debug - reward:  6.322518252185511 done: False
+For debug - reward:  7.0086123341777276 done: False
+For debug - reward:  7.405308461867078 done: False
+
+  6%|████████▏                                                                                                                          | 623/10001 [03:02<46:21,  3.37it/s]
+For debug - reward:  7.526354254597874 done: False
+For debug - reward:  7.927432868672369 done: False
+For debug - reward:  7.774157693379962 done: False
+For debug - reward:  8.357789893814445 done: False
+For debug - reward:  9.013559601938802 done: False
+For debug - reward:  9.45005343718737 done: False
+
+For debug - reward:  10.000774700929796 done: False
+For debug - reward:  9.343987634063737 done: False
+For debug - reward:  9.049697564009897 done: False
+For debug - reward:  9.923851506793987 done: False
+For debug - reward:  9.96471240515967 done: False
+For debug - reward:  8.658508314447207 done: False
+
+  6%|████████▎                                                                                                                          | 636/10001 [03:06<45:40,  3.42it/s]
+For debug - reward:  7.5644111626425365 done: False
+For debug - reward:  8.194593850158371 done: False
+For debug - reward:  8.541972951352134 done: False
+For debug - reward:  8.313195153959878 done: False
+For debug - reward:  8.802410819421725 done: False
+For debug - reward:  8.519780771501889 done: False
+For debug - reward:  9.789467675351519 done: False
+
+For debug - reward:  10.29573584439393 done: False
+For debug - reward:  11.456713664724779 done: False
+For debug - reward:  11.79682121358653 done: False
+For debug - reward:  10.79953526258573 done: False
+For debug - reward:  9.937182253804512 done: False
+For debug - reward:  9.591211683364364 done: False
+
+  6%|████████▌                                                                                                                          | 650/10001 [03:10<46:52,  3.32it/s]
+For debug - reward:  9.381468654264282 done: False
+For debug - reward:  10.598262310085035 done: False
+For debug - reward:  12.678608815529381 done: False
+For debug - reward:  14.564483150875823 done: False
+For debug - reward:  13.903716820500987 done: False
+
+  7%|████████▌                                                                                                                          | 656/10001 [03:12<47:38,  3.27it/s]
+For debug - reward:  16.04013082021618 done: False
+For debug - reward:  18.075866002227826 done: False
+For debug - reward:  17.303500766916375 done: False
+For debug - reward:  19.44376194354327 done: False
+For debug - reward:  20.977220434082305 done: False
+For debug - reward:  22.667888470915862 done: False
+
+  7%|████████▋                                                                                                                          | 663/10001 [03:14<46:54,  3.32it/s]
+For debug - reward:  34.26667227665803 done: False
+For debug - reward:  38.83348677963454 done: False
+For debug - reward:  28.41926443549951 done: False
+For debug - reward:  19.737660297016493 done: False
+For debug - reward:  14.923477957412532 done: False
+For debug - reward:  13.474338604937287 done: False
+
+  7%|████████▊                                                                                                                          | 669/10001 [03:16<47:42,  3.26it/s]
+For debug - reward:  13.88424746909639 done: False
+For debug - reward:  12.6547106828534 done: False
+For debug - reward:  11.421053389909122 done: False
+For debug - reward:  11.911737079725931 done: False
+For debug - reward:  12.215917936899634 done: False
+
+  7%|████████▊                                                                                                                          | 676/10001 [03:18<47:16,  3.29it/s]
+For debug - reward:  10.669752000291465 done: False
+For debug - reward:  10.777910570794544 done: False
+For debug - reward:  10.014941964179988 done: False
+For debug - reward:  9.970374105804188 done: False
+For debug - reward:  10.047188210502627 done: False
+For debug - reward:  10.874935568523107 done: False
+
+  7%|████████▉                                                                                                                          | 683/10001 [03:20<45:31,  3.41it/s]
+For debug - reward:  13.533750659635933 done: False
+For debug - reward:  12.952817469407163 done: False
+For debug - reward:  13.228372226314352 done: False
+For debug - reward:  14.965999673325555 done: False
+For debug - reward:  17.396737462427968 done: False
+For debug - reward:  16.738276076090543 done: False
+
+  7%|█████████                                                                                                                          | 690/10001 [03:22<46:28,  3.34it/s]
+For debug - reward:  10.4482460159873 done: False
+For debug - reward:  10.28085169601512 done: False
+For debug - reward:  11.824401837558915 done: False
+For debug - reward:  13.94098016279782 done: False
+For debug - reward:  18.19717450078334 done: False
+For debug - reward:  22.198449204203992 done: False
+
+  7%|█████████▏                                                                                                                         | 697/10001 [03:24<44:44,  3.47it/s]
+For debug - reward:  24.65944536594174 done: False
+For debug - reward:  19.62132085350026 done: False
+For debug - reward:  18.135326851336085 done: False
+For debug - reward:  20.124638219855047 done: False
+For debug - reward:  28.426022457515497 done: False
+
+  7%|█████████▏                                                                                                                         | 703/10001 [03:26<46:54,  3.30it/s]
+stage.py - goaled 2
+For debug - reward:  6.56874451100304 done: True
+For debug - reward:  6.071492424645138 done: False
+For debug - reward:  5.828229538313663 done: False
+For debug - reward:  6.497867775090296 done: False
+For debug - reward:  6.666808235495916 done: False
+For debug - reward:  6.154600374668793 done: False
+
+  7%|█████████▎                                                                                                                         | 710/10001 [03:28<47:03,  3.29it/s]
+For debug - reward:  5.37576696486217 done: False
+For debug - reward:  5.532366622496343 done: False
+For debug - reward:  5.310829741449646 done: False
+For debug - reward:  4.834448046212919 done: False
+For debug - reward:  4.595916978879431 done: False
+For debug - reward:  4.934929729071162 done: False
+
+  7%|█████████▍                                                                                                                         | 717/10001 [03:30<44:19,  3.49it/s]
+For debug - reward:  5.3975744345665095 done: False
+For debug - reward:  5.1730148690253905 done: False
+For debug - reward:  5.073254547777643 done: False
+For debug - reward:  5.610097641145263 done: False
+For debug - reward:  5.761178672198441 done: False
+For debug - reward:  5.609694619384296 done: False
+
+  7%|█████████▍                                                                                                                         | 723/10001 [03:32<45:05,  3.43it/s]
+For debug - reward:  5.76525992633823 done: False
+For debug - reward:  5.946793833700173 done: False
+For debug - reward:  5.880294912644557 done: False
+For debug - reward:  6.27900735822 done: False
+For debug - reward:  6.526029959334621 done: False
+
+  7%|█████████▌                                                                                                                         | 730/10001 [03:34<46:30,  3.32it/s]
+For debug - reward:  5.475620706258717 done: False
+For debug - reward:  5.159923574297157 done: False
+For debug - reward:  5.31741823441609 done: False
+For debug - reward:  4.973394536066771 done: False
+For debug - reward:  4.937945439154275 done: False
+For debug - reward:  5.313693591054289 done: False
+
+  7%|█████████▋                                                                                                                         | 737/10001 [03:36<47:34,  3.25it/s]
+For debug - reward:  6.046779449252758 done: False
+For debug - reward:  6.279929191386947 done: False
+For debug - reward:  6.056848184399591 done: False
+For debug - reward:  6.300353205582651 done: False
+For debug - reward:  5.928073334314827 done: False
+
+  7%|█████████▋                                                                                                                         | 743/10001 [03:38<48:41,  3.17it/s]
+For debug - reward:  5.058268540806235 done: False
+For debug - reward:  4.876300559120742 done: False
+For debug - reward:  4.908707076253427 done: False
+For debug - reward:  4.64835203205106 done: False
+For debug - reward:  4.390833346081247 done: False
+For debug - reward:  4.3135823168920435 done: False
+
+  7%|█████████▊                                                                                                                         | 749/10001 [03:40<46:55,  3.29it/s]
+For debug - reward:  4.341899812293666 done: False
+For debug - reward:  4.406888445363067 done: False
+For debug - reward:  4.451641473610818 done: False
+For debug - reward:  4.332484556980792 done: False
+For debug - reward:  4.425985032306356 done: False
+
+  8%|█████████▉                                                                                                                         | 756/10001 [03:42<46:33,  3.31it/s]
+For debug - reward:  4.371916008872358 done: False
+For debug - reward:  4.445128696213502 done: False
+For debug - reward:  4.39357586627015 done: False
+For debug - reward:  4.421075048827606 done: False
+For debug - reward:  4.731384257262755 done: False
+For debug - reward:  4.580847441575574 done: False
+
+  8%|█████████▉                                                                                                                         | 762/10001 [03:44<48:01,  3.21it/s]
+For debug - reward:  4.439219681771536 done: False
+For debug - reward:  4.397262574476071 done: False
+For debug - reward:  4.415852329950677 done: False
+For debug - reward:  4.421073654386052 done: False
+For debug - reward:  4.570632414737804 done: False
+For debug - reward:  4.375047103343136 done: False
+
+  8%|██████████                                                                                                                         | 770/10001 [03:46<44:45,  3.44it/s]
+For debug - reward:  4.325811291822435 done: False
+For debug - reward:  4.439599685595664 done: False
+For debug - reward:  4.818880522407719 done: False
+For debug - reward:  5.125933748936838 done: False
+For debug - reward:  5.26045833950255 done: False
+
+  8%|██████████▏                                                                                                                        | 776/10001 [03:48<46:31,  3.31it/s]
+For debug - reward:  4.521529664658301 done: False
+For debug - reward:  4.446806293289663 done: False
+For debug - reward:  4.845331819369187 done: False
+For debug - reward:  4.960778380376897 done: False
+For debug - reward:  4.803849274863236 done: False
+For debug - reward:  4.56638665913013 done: False
+
+  8%|██████████▎                                                                                                                        | 783/10001 [03:50<44:17,  3.47it/s]
+For debug - reward:  4.582069866400181 done: False
+For debug - reward:  4.499833474157835 done: False
+For debug - reward:  4.480218416278337 done: False
+For debug - reward:  4.517168448278371 done: False
+For debug - reward:  4.723608414732394 done: False
+For debug - reward:  4.851788312237133 done: False
+
+  8%|██████████▎                                                                                                                        | 790/10001 [03:52<46:08,  3.33it/s]
+For debug - reward:  4.318734067300191 done: False
+For debug - reward:  4.3343963313255 done: False
+For debug - reward:  4.41650044312032 done: False
+For debug - reward:  4.481987420556053 done: False
+For debug - reward:  4.41028478317348 done: False
+For debug - reward:  4.558303606361448 done: False
+
+  8%|██████████▍                                                                                                                        | 797/10001 [03:54<44:22,  3.46it/s]
+For debug - reward:  4.688651073171606 done: False
+For debug - reward:  4.457864052733631 done: False
+For debug - reward:  4.397712623605784 done: False
+For debug - reward:  4.35571027626662 done: False
+For debug - reward:  4.486211895966133 done: False
+For debug - reward:  4.755070331868064 done: False
+
+  8%|██████████▌                                                                                                                        | 804/10001 [03:56<45:15,  3.39it/s]
+For debug - reward:  5.191383048199897 done: False
+For debug - reward:  5.651826400535802 done: False
+For debug - reward:  6.048411962289658 done: False
+For debug - reward:  6.246972130106108 done: False
+For debug - reward:  5.681980944089047 done: False
+For debug - reward:  5.674692718792838 done: False
+
+  8%|██████████▌                                                                                                                        | 811/10001 [03:58<45:02,  3.40it/s]
+For debug - reward:  5.311195858469558 done: False
+For debug - reward:  5.318845534904627 done: False
+For debug - reward:  5.689112373568035 done: False
+For debug - reward:  5.8451741601863425 done: False
+For debug - reward:  5.800280021544669 done: False
+For debug - reward:  5.806633035458108 done: False
+
+  8%|██████████▋                                                                                                                        | 818/10001 [04:00<44:51,  3.41it/s]
+For debug - reward:  5.751316365835469 done: False
+For debug - reward:  5.998955432949123 done: False
+For debug - reward:  5.7305101577081246 done: False
+For debug - reward:  6.200506179307178 done: False
+For debug - reward:  6.3604499976701545 done: False
+
+  8%|██████████▊                                                                                                                        | 824/10001 [04:02<45:10,  3.39it/s]
+For debug - reward:  5.58069332645045 done: False
+For debug - reward:  5.686159802703226 done: False
+For debug - reward:  6.18582153669913 done: False
+For debug - reward:  6.389521660913183 done: False
+For debug - reward:  6.121402138147449 done: False
+For debug - reward:  6.482007868284015 done: False
+
+  8%|██████████▉                                                                                                                        | 831/10001 [04:04<46:22,  3.30it/s]
+For debug - reward:  6.565348882357545 done: False
+For debug - reward:  6.831913360505482 done: False
+For debug - reward:  6.654967423876701 done: False
+For debug - reward:  6.977363091241642 done: False
+For debug - reward:  7.136160325459634 done: False
+
+  8%|██████████▉                                                                                                                        | 837/10001 [04:06<46:12,  3.31it/s]
+For debug - reward:  7.340930414105072 done: False
+For debug - reward:  6.635987753038854 done: False
+For debug - reward:  6.450970578779712 done: False
+For debug - reward:  7.016050861517168 done: False
+For debug - reward:  7.729718561385497 done: False
+For debug - reward:  8.037477111848146 done: False
+
+  8%|███████████                                                                                                                        | 844/10001 [04:08<47:48,  3.19it/s]
+For debug - reward:  8.096620977039171 done: False
+For debug - reward:  7.380828841480585 done: False
+For debug - reward:  7.110331212447067 done: False
+For debug - reward:  7.4571320787990745 done: False
+For debug - reward:  6.88507373502936 done: False
+
+  8%|███████████▏                                                                                                                       | 850/10001 [04:10<46:29,  3.28it/s]
+For debug - reward:  6.079736055231337 done: False
+For debug - reward:  6.553223795291427 done: False
+For debug - reward:  6.936651252423708 done: False
+For debug - reward:  7.137354404925647 done: False
+For debug - reward:  6.715909346508013 done: False
+For debug - reward:  6.721322218482348 done: False
+
+  9%|███████████▏                                                                                                                       | 858/10001 [04:12<44:14,  3.44it/s]
+For debug - reward:  7.9718691606323695 done: False
+For debug - reward:  7.756305919538229 done: False
+For debug - reward:  7.9194827741694445 done: False
+For debug - reward:  7.54176042711734 done: False
+For debug - reward:  8.184240849430028 done: False
+For debug - reward:  8.968098397412087 done: False
+
+  9%|███████████▎                                                                                                                       | 864/10001 [04:14<45:20,  3.36it/s]
+For debug - reward:  11.893810840028278 done: False
+For debug - reward:  10.319572823391429 done: False
+For debug - reward:  9.672026366969018 done: False
+For debug - reward:  10.027764167211123 done: False
+For debug - reward:  9.48583259139306 done: False
+For debug - reward:  10.892645417106467 done: False
+
+  9%|███████████▍                                                                                                                       | 871/10001 [04:16<45:48,  3.32it/s]
+For debug - reward:  14.218969362993688 done: False
+For debug - reward:  12.366426708404296 done: False
+For debug - reward:  12.067767732950298 done: False
+For debug - reward:  12.345484055530829 done: False
+For debug - reward:  11.570390670628585 done: False
+
+  9%|███████████▍                                                                                                                       | 877/10001 [04:18<45:51,  3.32it/s]
+For debug - reward:  13.772783862979606 done: False
+For debug - reward:  14.621952311099477 done: False
+For debug - reward:  13.327061440247986 done: False
+For debug - reward:  13.547732144007549 done: False
+For debug - reward:  14.105395487764635 done: False
+For debug - reward:  12.576054822575614 done: False
+
+  9%|███████████▌                                                                                                                       | 884/10001 [04:20<44:15,  3.43it/s]
+For debug - reward:  12.297314045282032 done: False
+For debug - reward:  12.193193937716948 done: False
+For debug - reward:  12.092336855396333 done: False
+For debug - reward:  11.925492325706795 done: False
+For debug - reward:  13.131109330348961 done: False
+For debug - reward:  14.39460675118559 done: False
+
+  9%|███████████▋                                                                                                                       | 891/10001 [04:22<44:33,  3.41it/s]
+For debug - reward:  14.913899070891198 done: False
+For debug - reward:  14.190443055691269 done: False
+For debug - reward:  13.925853471292342 done: False
+For debug - reward:  15.718404370516978 done: False
+For debug - reward:  14.213880171822833 done: False
+For debug - reward:  11.969013385011886 done: False
+
+  9%|███████████▊                                                                                                                       | 899/10001 [04:24<43:13,  3.51it/s]
+For debug - reward:  12.318364069387538 done: False
+For debug - reward:  13.190200927772622 done: False
+For debug - reward:  15.575501473953457 done: False
+For debug - reward:  14.99729036016492 done: False
+For debug - reward:  17.14601022050652 done: False
+For debug - reward:  20.225425525884848 done: False
+
+  9%|███████████▊                                                                                                                       | 905/10001 [04:26<44:08,  3.43it/s]
+For debug - reward:  22.826924270034954 done: False
+For debug - reward:  21.404153683925504 done: False
+For debug - reward:  21.04772769783539 done: False
+For debug - reward:  16.345471953356988 done: False
+For debug - reward:  14.165228421848939 done: False
+For debug - reward:  14.415250975139871 done: False
+
+  9%|███████████▉                                                                                                                       | 912/10001 [04:28<45:22,  3.34it/s]
+For debug - reward:  10.239981810372306 done: False
+For debug - reward:  9.82014685765095 done: False
+For debug - reward:  10.61404446649835 done: False
+For debug - reward:  9.794480084491283 done: False
+For debug - reward:  8.717268480865933 done: False
+
+  9%|████████████                                                                                                                       | 919/10001 [04:30<44:24,  3.41it/s]
+For debug - reward:  7.604330030591445 done: False
+For debug - reward:  7.358421354395869 done: False
+For debug - reward:  7.85270201320654 done: False
+For debug - reward:  9.100633669816451 done: False
+For debug - reward:  9.094656420698502 done: False
+For debug - reward:  8.608724777040381 done: False
+
+  9%|████████████                                                                                                                       | 925/10001 [04:32<45:17,  3.34it/s]
+For debug - reward:  9.831260922558272 done: False
+For debug - reward:  9.482142810029659 done: False
+For debug - reward:  9.64568352121215 done: False
+For debug - reward:  10.04278295144384 done: False
+For debug - reward:  12.939726866468062 done: False
+
+  9%|████████████▏                                                                                                                      | 931/10001 [04:34<46:43,  3.23it/s]
+For debug - reward:  13.38111283910921 done: False
+For debug - reward:  15.359823773598663 done: False
+For debug - reward:  16.199030515905463 done: False
+For debug - reward:  18.361995481533096 done: False
+For debug - reward:  23.55225356996761 done: False
+For debug - reward:  19.181669757435856 done: False
+
+  9%|████████████▎                                                                                                                      | 938/10001 [04:36<46:27,  3.25it/s]
+For debug - reward:  15.772793194448797 done: False
+For debug - reward:  15.434335989141434 done: False
+For debug - reward:  14.520113496819802 done: False
+For debug - reward:  14.317049713186279 done: False
+For debug - reward:  15.437927744709906 done: False
+For debug - reward:  15.245779289294614 done: False
+
+  9%|████████████▍                                                                                                                      | 945/10001 [04:38<46:03,  3.28it/s]
+For debug - reward:  14.275575441004268 done: False
+For debug - reward:  15.084186206499503 done: False
+For debug - reward:  16.15961251302613 done: False
+For debug - reward:  15.537594895729352 done: False
+For debug - reward:  13.949555277497064 done: False
+
+ 10%|████████████▍                                                                                                                      | 951/10001 [04:40<46:41,  3.23it/s]
+For debug - reward:  15.439211930018677 done: False
+For debug - reward:  16.41702299135929 done: False
+For debug - reward:  14.753177826800556 done: False
+For debug - reward:  16.127210728887174 done: False
+For debug - reward:  14.131488594156918 done: False
+For debug - reward:  13.721719203024069 done: False
+
+ 10%|████████████▌                                                                                                                      | 958/10001 [04:42<45:44,  3.29it/s]
+For debug - reward:  15.730953557699461 done: False
+For debug - reward:  14.151791123196286 done: False
+For debug - reward:  13.234368214664588 done: False
+For debug - reward:  12.56974803433686 done: False
+For debug - reward:  13.56992126568477 done: False
+
+ 10%|████████████▋                                                                                                                      | 965/10001 [04:44<46:02,  3.27it/s]
+For debug - reward:  13.982186244802483 done: False
+For debug - reward:  15.846214376859848 done: False
+For debug - reward:  16.023115165335437 done: False
+For debug - reward:  16.019705877034525 done: False
+For debug - reward:  18.372372889630135 done: False
+For debug - reward:  14.608116336096117 done: False
+
+ 10%|████████████▋                                                                                                                      | 971/10001 [04:46<46:09,  3.26it/s]
+For debug - reward:  16.677797689467436 done: False
+For debug - reward:  19.85263256497278 done: False
+For debug - reward:  29.04379033879259 done: False
+For debug - reward:  37.33783195871571 done: False
+For debug - reward:  39.22964139033205 done: False
+For debug - reward:  32.23304011896421 done: False
+
+ 10%|████████████▊                                                                                                                      | 979/10001 [04:48<43:15,  3.48it/s]
+For debug - reward:  19.85602485413392 done: False
+For debug - reward:  21.534649537777252 done: False
+For debug - reward:  18.07263366338194 done: False
+For debug - reward:  21.161729349397362 done: False
+For debug - reward:  18.09718146068828 done: False
+For debug - reward:  14.40435481787713 done: False
+
+ 10%|████████████▉                                                                                                                      | 985/10001 [04:50<44:15,  3.40it/s]
+For debug - reward:  14.599405689629041 done: False
+For debug - reward:  12.843789188658528 done: False
+For debug - reward:  12.333294241129316 done: False
+For debug - reward:  12.84337852612677 done: False
+For debug - reward:  12.370161191796043 done: False
+For debug - reward:  11.138249121019456 done: False
+
+ 10%|████████████▉                                                                                                                      | 992/10001 [04:52<43:52,  3.42it/s]
+For debug - reward:  13.482954540637536 done: False
+For debug - reward:  15.00424821044931 done: False
+For debug - reward:  14.990369262412992 done: False
+For debug - reward:  15.939505628260353 done: False
+For debug - reward:  13.49971420394456 done: False
+For debug - reward:  11.557384704700521 done: False
+
+ 10%|████████████▉                                                                                                                     | 1000/10001 [04:54<41:47,  3.59it/s]
+For debug - reward:  10.37036861550935 done: False
+For debug - reward:  9.931046990020844 done: False
+For debug - reward:  10.843154089193346 done: False
+For debug - reward:  10.494893196192592 done: False
+For debug - reward:  10.669972789829357 done: False
+For debug - reward:  10.552113024770298 done: False
+For debug - reward:  9.615666459004853 done: False
+
+ 10%|█████████████                                                                                                                     | 1007/10001 [04:56<39:59,  3.75it/s]
+For debug - reward:  10.39664790801765 done: False
+For debug - reward:  10.036460764756942 done: False
+For debug - reward:  10.11569778529032 done: False
+For debug - reward:  11.094095830875178 done: False
+For debug - reward:  12.336859286043088 done: False
+For debug - reward:  12.189851640536189 done: False
+
+ 10%|█████████████▏                                                                                                                    | 1014/10001 [04:58<41:08,  3.64it/s]
+For debug - reward:  11.488688904735985 done: False
+For debug - reward:  11.904162262361277 done: False
+For debug - reward:  14.551814642935733 done: False
+For debug - reward:  17.620433699179422 done: False
+For debug - reward:  17.484439819045978 done: False
+For debug - reward:  15.633788971780573 done: False
+
+ 10%|█████████████▎                                                                                                                    | 1021/10001 [05:00<42:30,  3.52it/s]
+For debug - reward:  16.143209937985016 done: False
+For debug - reward:  14.215990790377557 done: False
+For debug - reward:  13.628674964485244 done: False
+For debug - reward:  12.323233840963288 done: False
+For debug - reward:  12.337417285168709 done: False
+For debug - reward:  14.20374981991757 done: False
+
+ 10%|█████████████▎                                                                                                                    | 1028/10001 [05:02<42:38,  3.51it/s]
+For debug - reward:  13.336339195329234 done: False
+For debug - reward:  12.183500306171902 done: False
+For debug - reward:  12.780841709615622 done: False
+For debug - reward:  12.222832847845575 done: False
+For debug - reward:  14.830949419846789 done: False
+For debug - reward:  14.741550928307241 done: False
+
+For debug - reward:  12.641238030807267 done: False
+For debug - reward:  11.488945415462258 done: False
+For debug - reward:  10.426081013852988 done: False
+For debug - reward:  11.08420434073557 done: False
+For debug - reward:  11.674086050313745 done: False
+For debug - reward:  12.686555634178678 done: False
+
+ 10%|█████████████▌                                                                                                                    | 1042/10001 [05:06<44:11,  3.38it/s]
+For debug - reward:  15.552603160026214 done: False
+For debug - reward:  13.444484129421618 done: False
+For debug - reward:  12.91988041185051 done: False
+For debug - reward:  16.620944286555492 done: False
+For debug - reward:  17.473988156693448 done: False
+For debug - reward:  17.402104107562845 done: False
+
+For debug - reward:  17.525972820544613 done: False
+For debug - reward:  15.049760717569622 done: False
+For debug - reward:  15.551917428827798 done: False
+For debug - reward:  16.21099466724 done: False
+For debug - reward:  14.0671938694337 done: False
+For debug - reward:  13.776021615562552 done: False
+
+ 11%|█████████████▋                                                                                                                    | 1055/10001 [05:10<44:47,  3.33it/s]
+For debug - reward:  11.322360832270018 done: False
+For debug - reward:  12.77887098403492 done: False
+For debug - reward:  15.015706060706668 done: False
+For debug - reward:  18.76313488838855 done: False
+For debug - reward:  18.968805293443253 done: False
+For debug - reward:  20.122555793329198 done: False
+For debug - reward:  24.19240174434118 done: False
+
+For debug - reward:  18.953008865618468 done: False
+For debug - reward:  18.753371877158646 done: False
+For debug - reward:  17.24572551752741 done: False
+For debug - reward:  14.745668046282177 done: False
+For debug - reward:  14.142205749490735 done: False
+For debug - reward:  15.550764081222328 done: False
+
+ 11%|█████████████▉                                                                                                                    | 1068/10001 [05:14<45:17,  3.29it/s]
+For debug - reward:  12.752268787034147 done: False
+For debug - reward:  14.596424748821713 done: False
+For debug - reward:  14.509889796528974 done: False
+For debug - reward:  16.274339170823975 done: False
+For debug - reward:  18.943071240370955 done: False
+
+ 11%|█████████████▉                                                                                                                    | 1075/10001 [05:16<45:33,  3.27it/s]
+For debug - reward:  15.787493719214027 done: False
+For debug - reward:  14.93460281447164 done: False
+For debug - reward:  14.851410029952438 done: False
+For debug - reward:  16.89234562216786 done: False
+For debug - reward:  16.48054871686972 done: False
+For debug - reward:  15.000377422309658 done: False
+
+ 11%|██████████████                                                                                                                    | 1081/10001 [05:18<45:06,  3.30it/s]
+For debug - reward:  14.53746169529972 done: False
+For debug - reward:  14.212542077011397 done: False
+For debug - reward:  14.665204836225413 done: False
+For debug - reward:  14.897642751945606 done: False
+For debug - reward:  14.662248169277547 done: False
+For debug - reward:  14.636505870188369 done: False
+
+ 11%|██████████████▏                                                                                                                   | 1089/10001 [05:20<43:19,  3.43it/s]
+For debug - reward:  16.47693374314252 done: False
+For debug - reward:  16.554933689570404 done: False
+For debug - reward:  14.327353311704472 done: False
+For debug - reward:  13.151595002373346 done: False
+For debug - reward:  12.354972349428401 done: False
+For debug - reward:  11.138047973539638 done: False
+
+ 11%|██████████████▏                                                                                                                   | 1095/10001 [05:22<43:03,  3.45it/s]
+For debug - reward:  11.961496810155849 done: False
+For debug - reward:  12.714847829503665 done: False
+For debug - reward:  10.437370267273383 done: False
+For debug - reward:  10.269354765376324 done: False
+For debug - reward:  10.45811944576489 done: False
+
+ 11%|██████████████▎                                                                                                                   | 1102/10001 [05:24<45:21,  3.27it/s]
+For debug - reward:  8.642667786939462 done: False
+For debug - reward:  7.9493045250326455 done: False
+For debug - reward:  6.842656736788661 done: False
+For debug - reward:  6.241995363979939 done: False
+For debug - reward:  6.062979936632842 done: False
+
+ 11%|██████████████▍                                                                                                                   | 1108/10001 [05:26<47:13,  3.14it/s]
+For debug - reward:  5.509627530157465 done: False
+For debug - reward:  4.978628486836046 done: False
+For debug - reward:  4.938134836754695 done: False
+For debug - reward:  5.27614104777132 done: False
+For debug - reward:  5.749987498508243 done: False
+For debug - reward:  5.901237750811693 done: False
+
+ 11%|██████████████▍                                                                                                                   | 1114/10001 [05:28<45:29,  3.26it/s]
+For debug - reward:  6.554796511611187 done: False
+For debug - reward:  6.5415978902146295 done: False
+For debug - reward:  6.11839947146185 done: False
+For debug - reward:  6.103481942092819 done: False
+For debug - reward:  6.468468641004166 done: False
+
+ 11%|██████████████▌                                                                                                                   | 1121/10001 [05:30<46:14,  3.20it/s]
+For debug - reward:  6.101320345038001 done: False
+For debug - reward:  6.03927796266603 done: False
+For debug - reward:  6.433243091280794 done: False
+For debug - reward:  6.886703650659649 done: False
+For debug - reward:  7.270447498315093 done: False
+For debug - reward:  8.431725233834808 done: False
+
+ 11%|██████████████▋                                                                                                                   | 1128/10001 [05:32<44:49,  3.30it/s]
+For debug - reward:  9.65249446123797 done: False
+For debug - reward:  8.806825883618366 done: False
+For debug - reward:  8.350312513115153 done: False
+For debug - reward:  8.490638136527526 done: False
+For debug - reward:  7.8756565600742965 done: False
+For debug - reward:  7.031778820847018 done: False
+
+ 11%|██████████████▋                                                                                                                   | 1134/10001 [05:34<45:34,  3.24it/s]
+For debug - reward:  6.0036852463451735 done: False
+For debug - reward:  5.775766281084383 done: False
+For debug - reward:  5.91208315439246 done: False
+For debug - reward:  5.55639676953441 done: False
+For debug - reward:  5.137364129372007 done: False
+For debug - reward:  4.99875520981837 done: False
+
+ 11%|██████████████▊                                                                                                                   | 1141/10001 [05:36<43:37,  3.39it/s]
+For debug - reward:  5.659515395005696 done: False
+For debug - reward:  5.776170886368275 done: False
+For debug - reward:  5.465836602250538 done: False
+For debug - reward:  5.016202028042493 done: False
+For debug - reward:  4.74216482481351 done: False
+
+ 11%|██████████████▉                                                                                                                   | 1147/10001 [05:38<45:30,  3.24it/s]
+For debug - reward:  4.467305290174409 done: False
+For debug - reward:  4.715010211014758 done: False
+For debug - reward:  4.644915139531123 done: False
+For debug - reward:  4.358694692594423 done: False
+For debug - reward:  4.398517876677072 done: False
+For debug - reward:  4.695967264881817 done: False
+
+ 12%|███████████████                                                                                                                   | 1154/10001 [05:40<43:58,  3.35it/s]
+For debug - reward:  4.890386565137473 done: False
+For debug - reward:  4.646974205849326 done: False
+For debug - reward:  4.454268884003713 done: False
+For debug - reward:  4.499362896854898 done: False
+For debug - reward:  4.714803987314078 done: False
+For debug - reward:  4.9430002150450045 done: False
+
+For debug - reward:  5.5192030628394395 done: False
+For debug - reward:  5.738403960660921 done: False
+For debug - reward:  5.6773966237322515 done: False
+For debug - reward:  5.491446830187198 done: False
+For debug - reward:  5.439293058910551 done: False
+For debug - reward:  5.611423978788844 done: False
+
+ 12%|███████████████▏                                                                                                                  | 1168/10001 [05:44<43:28,  3.39it/s]
+For debug - reward:  5.703643449788839 done: False
+For debug - reward:  5.396636776572868 done: False
+For debug - reward:  5.088766705512399 done: False
+For debug - reward:  4.89707132475917 done: False
+For debug - reward:  4.73468871285313 done: False
+For debug - reward:  4.857100711993873 done: False
+
+ 12%|███████████████▎                                                                                                                  | 1175/10001 [05:46<42:35,  3.45it/s]
+For debug - reward:  4.567455990698121 done: False
+For debug - reward:  4.752722899044407 done: False
+For debug - reward:  4.8815172327464325 done: False
+For debug - reward:  4.672304886178282 done: False
+For debug - reward:  4.730282319724557 done: False
+For debug - reward:  4.642826949277504 done: False
+For debug - reward:  4.878445116395143 done: False
+
+For debug - reward:  5.015884002051583 done: False
+For debug - reward:  5.09837835546435 done: False
+For debug - reward:  5.1235596292593755 done: False
+For debug - reward:  5.015475265841797 done: False
+For debug - reward:  5.149148889701457 done: False
+For debug - reward:  5.124551132748212 done: False
+
+ 12%|███████████████▍                                                                                                                  | 1189/10001 [05:50<41:29,  3.54it/s]
+For debug - reward:  5.776733008180601 done: False
+For debug - reward:  5.950338067400106 done: False
+For debug - reward:  6.126385001338253 done: False
+For debug - reward:  5.827634895821625 done: False
+For debug - reward:  5.284592684534516 done: False
+For debug - reward:  4.883965070503969 done: False
+
+ 12%|███████████████▌                                                                                                                  | 1195/10001 [05:52<43:18,  3.39it/s]
+For debug - reward:  4.9169686137084145 done: False
+For debug - reward:  4.932111520387111 done: False
+For debug - reward:  5.0181953307677025 done: False
+For debug - reward:  4.882618963176964 done: False
+For debug - reward:  4.561778086256784 done: False
+
+ 12%|███████████████▌                                                                                                                  | 1202/10001 [05:54<45:19,  3.24it/s]
+For debug - reward:  4.7011557150916365 done: False
+For debug - reward:  4.783867227873741 done: False
+For debug - reward:  4.588115297072919 done: False
+For debug - reward:  4.501566297354256 done: False
+For debug - reward:  4.519243404932407 done: False
+For debug - reward:  4.606886338650005 done: False
+
+ 12%|███████████████▋                                                                                                                  | 1209/10001 [05:56<43:40,  3.35it/s]
+For debug - reward:  4.9952465703544 done: False
+For debug - reward:  4.940071744277391 done: False
+For debug - reward:  5.031964907222343 done: False
+For debug - reward:  4.981531233581129 done: False
+For debug - reward:  5.115815952016245 done: False
+For debug - reward:  4.835251466059712 done: False
+
+ 12%|███████████████▊                                                                                                                  | 1215/10001 [05:58<43:44,  3.35it/s]
+For debug - reward:  4.700467366962293 done: False
+For debug - reward:  4.4779272284370935 done: False
+For debug - reward:  4.523267988203346 done: False
+For debug - reward:  4.771587618616837 done: False
+For debug - reward:  4.905980918078953 done: False
+For debug - reward:  4.788889791723622 done: False
+
+ 12%|███████████████▉                                                                                                                  | 1222/10001 [06:00<44:12,  3.31it/s]
+For debug - reward:  5.2305932663544175 done: False
+For debug - reward:  4.975512611070867 done: False
+For debug - reward:  4.718465529398969 done: False
+For debug - reward:  4.497378238667232 done: False
+For debug - reward:  4.545841584475925 done: False
+
+ 12%|███████████████▉                                                                                                                  | 1228/10001 [06:02<45:03,  3.25it/s]
+For debug - reward:  4.896070559890369 done: False
+For debug - reward:  4.710694360348729 done: False
+For debug - reward:  4.572307888088612 done: False
+For debug - reward:  4.615125264891383 done: False
+For debug - reward:  4.4292935070752115 done: False
+
+ 12%|████████████████                                                                                                                  | 1233/10001 [06:04<45:26,  3.22it/s]
+For debug - reward:  4.483294667388901 done: False
+For debug - reward:  4.694197220220837 done: False
+For debug - reward:  5.216007107281101 done: False
+For debug - reward:  5.542759152316867 done: False
+For debug - reward:  5.720273356287151 done: False
+For debug - reward:  5.592418270958429 done: False
+
+ 12%|████████████████                                                                                                                  | 1240/10001 [06:06<45:43,  3.19it/s]
+For debug - reward:  6.431652898868252 done: False
+For debug - reward:  6.914604068690014 done: False
+For debug - reward:  7.0353884997845775 done: False
+For debug - reward:  6.703397608458038 done: False
+For debug - reward:  7.028749333139587 done: False
+
+ 12%|████████████████▏                                                                                                                 | 1246/10001 [06:08<45:26,  3.21it/s]
+For debug - reward:  7.000416269298401 done: False
+For debug - reward:  6.289298906905897 done: False
+For debug - reward:  5.764571034749419 done: False
+For debug - reward:  5.547768851778776 done: False
+For debug - reward:  5.94618892997729 done: False
+For debug - reward:  6.4832689119409705 done: False
+
+ 13%|████████████████▎                                                                                                                 | 1253/10001 [06:10<44:03,  3.31it/s]
+For debug - reward:  6.913564099976969 done: False
+For debug - reward:  7.606932426480053 done: False
+For debug - reward:  7.772305123779656 done: False
+For debug - reward:  7.093208169248995 done: False
+For debug - reward:  6.727879932576708 done: False
+
+ 13%|████████████████▎                                                                                                                 | 1259/10001 [06:12<44:08,  3.30it/s]
+For debug - reward:  8.07727841333353 done: False
+For debug - reward:  8.831652196385575 done: False
+For debug - reward:  9.125164448836472 done: False
+For debug - reward:  9.777935061231322 done: False
+For debug - reward:  9.717989980268266 done: False
+For debug - reward:  11.180408554336195 done: False
+
+ 13%|████████████████▍                                                                                                                 | 1266/10001 [06:14<44:45,  3.25it/s]
+For debug - reward:  11.250705033864651 done: False
+For debug - reward:  10.497129649655774 done: False
+For debug - reward:  8.782910070468457 done: False
+For debug - reward:  8.178751019532747 done: False
+For debug - reward:  8.190222996954128 done: False
+For debug - reward:  9.172651141746845 done: False
+
+ 13%|████████████████▌                                                                                                                 | 1273/10001 [06:16<43:46,  3.32it/s]
+For debug - reward:  11.081845412293886 done: False
+For debug - reward:  11.32110724150275 done: False
+For debug - reward:  11.139355578789123 done: False
+For debug - reward:  13.548383436755943 done: False
+For debug - reward:  16.29641952108828 done: False
+For debug - reward:  18.703770829074365 done: False
+
+ 13%|████████████████▋                                                                                                                 | 1280/10001 [06:18<42:27,  3.42it/s]
+For debug - reward:  16.763006849789544 done: False
+For debug - reward:  15.760624107860119 done: False
+For debug - reward:  11.929528271563298 done: False
+For debug - reward:  10.512961909761543 done: False
+For debug - reward:  9.561188520375705 done: False
+For debug - reward:  9.266901748916686 done: False
+
+ 13%|████████████████▋                                                                                                                 | 1287/10001 [06:20<42:50,  3.39it/s]
+For debug - reward:  8.94490197898577 done: False
+For debug - reward:  9.25555811295739 done: False
+For debug - reward:  8.555696420770127 done: False
+For debug - reward:  7.975563919865967 done: False
+For debug - reward:  7.7839301466931445 done: False
+
+ 13%|████████████████▊                                                                                                                 | 1293/10001 [06:22<44:21,  3.27it/s]
+For debug - reward:  9.628638861870957 done: False
+For debug - reward:  10.872546306952103 done: False
+For debug - reward:  11.096634649966248 done: False
+For debug - reward:  10.274245544585908 done: False
+For debug - reward:  11.471064425385128 done: False
+
+ 13%|████████████████▉                                                                                                                 | 1299/10001 [06:24<44:58,  3.23it/s]
+For debug - reward:  10.19322483831953 done: False
+For debug - reward:  11.394549197600751 done: False
+For debug - reward:  11.777577511361242 done: False
+For debug - reward:  12.47753864744862 done: False
+For debug - reward:  11.952346445727706 done: False
+
+ 13%|████████████████▉                                                                                                                 | 1305/10001 [06:26<45:30,  3.19it/s]
+For debug - reward:  14.566040841468592 done: False
+For debug - reward:  17.956476380773168 done: False
+For debug - reward:  18.804633539871336 done: False
+For debug - reward:  18.46957937212132 done: False
+For debug - reward:  17.63641612622482 done: False
+For debug - reward:  21.659445461576134 done: False
+
+ 13%|█████████████████                                                                                                                 | 1312/10001 [06:28<45:56,  3.15it/s]
+For debug - reward:  24.21262461944533 done: False
+For debug - reward:  26.92457886686051 done: False
+For debug - reward:  30.131395345832114 done: False
+For debug - reward:  19.280537093856466 done: False
+For debug - reward:  16.755793556984163 done: False
+For debug - reward:  16.178123933296913 done: False
+
+For debug - reward:  15.051770210255434 done: False
+For debug - reward:  14.744034034971447 done: False
+For debug - reward:  13.113100200331496 done: False
+For debug - reward:  15.494446475597499 done: False
+For debug - reward:  20.45984098134 done: False
+For debug - reward:  23.88499297383094 done: False
+
+ 13%|█████████████████▏                                                                                                                | 1325/10001 [06:32<43:35,  3.32it/s]
+For debug - reward:  49.61236953149644 done: False
+For debug - reward:  30.183734131175203 done: False
+For debug - reward:  21.7865787042504 done: False
+For debug - reward:  21.228309508485676 done: False
+For debug - reward:  23.208723229618126 done: False
+For debug - reward:  20.90060428490085 done: False
+
+ 13%|█████████████████▎                                                                                                                | 1332/10001 [06:34<43:32,  3.32it/s]
+For debug - reward:  39.01758687007182 done: False
+For debug - reward:  30.001428495229284 done: False
+For debug - reward:  26.051566654904054 done: False
+For debug - reward:  29.405326711616446 done: False
+For debug - reward:  21.178895556824077 done: False
+For debug - reward:  15.63484269861408 done: False
+
+ 13%|█████████████████▍                                                                                                                | 1339/10001 [06:36<42:17,  3.41it/s]
+For debug - reward:  14.276253402346896 done: False
+For debug - reward:  14.960355299996095 done: False
+For debug - reward:  15.395387230273277 done: False
+For debug - reward:  14.853406322463387 done: False
+For debug - reward:  14.828517216254458 done: False
+For debug - reward:  15.712124833649419 done: False
+For debug - reward:  19.77373956279495 done: False
+
+ 13%|█████████████████▌                                                                                                                | 1347/10001 [06:38<39:01,  3.70it/s]
+For debug - reward:  20.509776801935693 done: False
+For debug - reward:  21.7163910755908 done: False
+For debug - reward:  19.595353777873544 done: False
+For debug - reward:  26.008810416660825 done: False
+For debug - reward:  25.25341854635195 done: False
+
+ 14%|█████████████████▌                                                                                                                | 1353/10001 [06:40<42:38,  3.38it/s]
+stage.py - goaled 1
+For debug - reward:  6.976834881866871 done: True
+For debug - reward:  7.217418026495197 done: False
+For debug - reward:  6.859854063179789 done: False
+For debug - reward:  7.332072174031089 done: False
+For debug - reward:  7.570739151424609 done: False
+For debug - reward:  7.286903556999837 done: False
+
+ 14%|█████████████████▋                                                                                                                | 1360/10001 [06:42<41:52,  3.44it/s]
+For debug - reward:  8.198621184060343 done: False
+For debug - reward:  7.28184183047249 done: False
+For debug - reward:  6.769287626218582 done: False
+For debug - reward:  6.4055250413607805 done: False
+For debug - reward:  6.075931817465038 done: False
+For debug - reward:  5.835143609400057 done: False
+
+ 14%|█████████████████▊                                                                                                                | 1367/10001 [06:44<42:38,  3.37it/s]
+For debug - reward:  6.56995944435118 done: False
+For debug - reward:  6.529537189099219 done: False
+For debug - reward:  6.972640885646133 done: False
+For debug - reward:  7.926128001139145 done: False
+For debug - reward:  8.712726370873451 done: False
+
+ 14%|█████████████████▊                                                                                                                | 1373/10001 [06:46<43:25,  3.31it/s]
+For debug - reward:  10.258932210931064 done: False
+For debug - reward:  11.523398803735999 done: False
+For debug - reward:  10.413604772002179 done: False
+For debug - reward:  9.341832218086497 done: False
+For debug - reward:  8.750651777418888 done: False
+For debug - reward:  8.546772866487643 done: False
+
+ 14%|█████████████████▉                                                                                                                | 1380/10001 [06:48<42:35,  3.37it/s]
+For debug - reward:  7.563235111434878 done: False
+For debug - reward:  6.893770513640463 done: False
+For debug - reward:  6.62226900985198 done: False
+For debug - reward:  7.053592179741636 done: False
+For debug - reward:  7.90745644199572 done: False
+For debug - reward:  8.970356880209106 done: False
+
+ 14%|██████████████████                                                                                                                | 1387/10001 [06:50<43:05,  3.33it/s]
+For debug - reward:  11.220555512682347 done: False
+For debug - reward:  13.594159583408896 done: False
+For debug - reward:  14.193418491560799 done: False
+For debug - reward:  14.066460106049513 done: False
+For debug - reward:  18.088804447594203 done: False
+For debug - reward:  22.8361931011571 done: False
+
+For debug - reward:  28.773558376043894 done: False
+For debug - reward:  31.817261787811965 done: False
+For debug - reward:  30.745817890921806 done: False
+For debug - reward:  35.48542912675753 done: False
+For debug - reward:  26.96241352427877 done: False
+For debug - reward:  22.89006040198596 done: False
+
+ 14%|██████████████████▏                                                                                                               | 1400/10001 [06:54<44:20,  3.23it/s]
+stage.py - goaled 2
+For debug - reward:  6.676891507359055 done: True
+For debug - reward:  6.037464806480229 done: False
+For debug - reward:  5.717739032486737 done: False
+For debug - reward:  5.194562744603841 done: False
+For debug - reward:  5.223023308955045 done: False
+
+ 14%|██████████████████▎                                                                                                               | 1406/10001 [06:56<46:18,  3.09it/s]
+For debug - reward:  5.809184111355089 done: False
+For debug - reward:  5.470764066105944 done: False
+For debug - reward:  5.340441023984759 done: False
+For debug - reward:  5.59004666341675 done: False
+For debug - reward:  5.825498618111386 done: False
+For debug - reward:  6.369065394772951 done: False
+
+ 14%|██████████████████▎                                                                                                               | 1413/10001 [06:58<43:19,  3.30it/s]
+For debug - reward:  6.741496254866719 done: False
+For debug - reward:  6.422894053560695 done: False
+For debug - reward:  6.745915366686718 done: False
+For debug - reward:  6.9173866046945065 done: False
+For debug - reward:  6.635656170719933 done: False
+For debug - reward:  6.4356980411307045 done: False
+
+ 14%|██████████████████▍                                                                                                               | 1420/10001 [07:00<41:06,  3.48it/s]
+For debug - reward:  6.246794241449447 done: False
+For debug - reward:  6.357665022207606 done: False
+For debug - reward:  6.104870505625926 done: False
+For debug - reward:  6.634335572564004 done: False
+For debug - reward:  7.111957096150062 done: False
+For debug - reward:  7.3703097087431555 done: False
+
+ 14%|██████████████████▌                                                                                                               | 1427/10001 [07:02<40:51,  3.50it/s]
+For debug - reward:  7.6512256305934985 done: False
+For debug - reward:  8.442125759214344 done: False
+For debug - reward:  9.370856853858005 done: False
+For debug - reward:  10.12597031959489 done: False
+For debug - reward:  9.704850633332665 done: False
+
+ 14%|██████████████████▋                                                                                                               | 1433/10001 [07:04<43:41,  3.27it/s]
+For debug - reward:  12.689628885273136 done: False
+For debug - reward:  15.049157839100822 done: False
+For debug - reward:  13.554947588703701 done: False
+For debug - reward:  11.682128390824792 done: False
+For debug - reward:  11.78646578392587 done: False
+For debug - reward:  13.664214639780475 done: False
+
+ 14%|██████████████████▋                                                                                                               | 1440/10001 [07:06<43:06,  3.31it/s]
+For debug - reward:  12.408813602405896 done: False
+For debug - reward:  11.336111526050168 done: False
+For debug - reward:  12.263593336057214 done: False
+For debug - reward:  11.866002389705509 done: False
+For debug - reward:  10.393923241583947 done: False
+
+ 14%|██████████████████▊                                                                                                               | 1446/10001 [07:08<43:18,  3.29it/s]
+For debug - reward:  10.600653484027 done: False
+For debug - reward:  10.531584512848783 done: False
+For debug - reward:  10.241214616631776 done: False
+For debug - reward:  11.879497107249783 done: False
+For debug - reward:  12.736469237417905 done: False
+For debug - reward:  14.65080695128975 done: False
+
+ 15%|██████████████████▉                                                                                                               | 1453/10001 [07:10<44:03,  3.23it/s]
+For debug - reward:  14.784803337075374 done: False
+For debug - reward:  19.098754542323096 done: False
+For debug - reward:  25.52852150001156 done: False
+For debug - reward:  23.39906562093115 done: False
+For debug - reward:  17.71855032651889 done: False
+
+ 15%|██████████████████▉                                                                                                               | 1460/10001 [07:12<42:47,  3.33it/s]
+For debug - reward:  13.203568832905212 done: False
+For debug - reward:  15.077881387200454 done: False
+For debug - reward:  14.571430321225243 done: False
+For debug - reward:  17.55048950923792 done: False
+For debug - reward:  19.283391236362554 done: False
+For debug - reward:  17.876749732804253 done: False
+
+ 15%|███████████████████                                                                                                               | 1467/10001 [07:14<41:50,  3.40it/s]
+For debug - reward:  21.751072868432264 done: False
+For debug - reward:  18.700112011666928 done: False
+For debug - reward:  19.672760113035586 done: False
+For debug - reward:  20.24090752454013 done: False
+For debug - reward:  25.360792098621356 done: False
+For debug - reward:  29.430833698665957 done: False
+For debug - reward:  21.326696136436546 done: False
+
+ 15%|███████████████████▏                                                                                                              | 1474/10001 [07:16<39:05,  3.64it/s]
+For debug - reward:  18.997070266081202 done: False
+For debug - reward:  19.3894619877876 done: False
+For debug - reward:  20.973297597383095 done: False
+For debug - reward:  21.0104753823277 done: False
+For debug - reward:  23.784161499885005 done: False
+For debug - reward:  29.039645342888733 done: False
+For debug - reward:  23.15433910658822 done: False
+
+ 15%|███████████████████▎                                                                                                              | 1482/10001 [07:18<38:35,  3.68it/s]
+For debug - reward:  16.092612265562277 done: False
+For debug - reward:  14.460446130000543 done: False
+For debug - reward:  16.201806008328028 done: False
+For debug - reward:  19.87420797220405 done: False
+For debug - reward:  21.42039945573478 done: False
+
+ 15%|███████████████████▎                                                                                                              | 1488/10001 [07:20<41:13,  3.44it/s]
+For debug - reward:  15.489701197049445 done: False
+For debug - reward:  21.306939666047608 done: False
+For debug - reward:  25.669495952561277 done: False
+For debug - reward:  22.60545605155447 done: False
+For debug - reward:  30.41610697541558 done: False
+For debug - reward:  31.48034930717132 done: False
+
+ 15%|███████████████████▍                                                                                                              | 1495/10001 [07:22<41:27,  3.42it/s]
+For debug - reward:  18.87103360622346 done: False
+For debug - reward:  26.504003646418028 done: False
+For debug - reward:  35.97432168571154 done: False
+For debug - reward:  37.70184748739165 done: False
+For debug - reward:  34.60538067055631 done: False
+For debug - reward:  45.501332303218284 done: False
+
+ 15%|███████████████████▌                                                                                                              | 1502/10001 [07:24<42:27,  3.34it/s]
+For debug - reward:  19.95411704332096 done: False
+For debug - reward:  16.824549674953456 done: False
+For debug - reward:  15.912745627950468 done: False
+For debug - reward:  19.712128827950384 done: False
+For debug - reward:  23.801505949209567 done: False
+
+ 15%|███████████████████▌                                                                                                              | 1509/10001 [07:26<41:49,  3.38it/s]
+For debug - reward:  29.18678590835322 done: False
+For debug - reward:  37.712389511987105 done: False
+stage.py - goaled 1
+For debug - reward:  6.930708302271529 done: True
+For debug - reward:  6.4176079453658 done: False
+For debug - reward:  5.886775340597426 done: False
+For debug - reward:  5.667936160672376 done: False
+
+ 15%|███████████████████▋                                                                                                              | 1516/10001 [07:28<41:33,  3.40it/s]
+For debug - reward:  5.5512927683937265 done: False
+For debug - reward:  5.991228060603251 done: False
+For debug - reward:  6.5125249917084895 done: False
+For debug - reward:  6.812911893422695 done: False
+For debug - reward:  7.436940163704354 done: False
+For debug - reward:  8.383332733996445 done: False
+
+ 15%|███████████████████▊                                                                                                              | 1523/10001 [07:30<40:39,  3.48it/s]
+For debug - reward:  7.939749199684345 done: False
+For debug - reward:  7.298246781456759 done: False
+For debug - reward:  6.611526295197028 done: False
+For debug - reward:  6.367173344826364 done: False
+For debug - reward:  6.064367863442069 done: False
+For debug - reward:  6.10990062795458 done: False
+
+ 15%|███████████████████▉                                                                                                              | 1529/10001 [07:32<42:13,  3.34it/s]
+For debug - reward:  5.194070037080006 done: False
+For debug - reward:  5.061277710552854 done: False
+For debug - reward:  5.193162546114787 done: False
+For debug - reward:  5.7671646216011405 done: False
+For debug - reward:  6.057346406492418 done: False
+For debug - reward:  6.120986028742828 done: False
+
+ 15%|███████████████████▉                                                                                                              | 1536/10001 [07:34<41:19,  3.41it/s]
+For debug - reward:  5.796958760360277 done: False
+For debug - reward:  5.758869737570391 done: False
+For debug - reward:  5.834892882716877 done: False
+For debug - reward:  5.5215083594159005 done: False
+For debug - reward:  5.330008465976445 done: False
+For debug - reward:  5.466982267614191 done: False
+
+ 15%|████████████████████                                                                                                              | 1543/10001 [07:36<41:00,  3.44it/s]
+For debug - reward:  4.702809873770968 done: False
+For debug - reward:  4.59363856643335 done: False
+For debug - reward:  4.6205654461410735 done: False
+For debug - reward:  4.726133649177758 done: False
+For debug - reward:  4.61341947517003 done: False
+For debug - reward:  4.603251105806385 done: False
+
+ 15%|████████████████████▏                                                                                                             | 1550/10001 [07:38<41:01,  3.43it/s]
+For debug - reward:  5.341310739792256 done: False
+For debug - reward:  5.548501402390716 done: False
+For debug - reward:  5.368058549883926 done: False
+For debug - reward:  4.975574050885602 done: False
+For debug - reward:  4.63622711620704 done: False
+
+ 16%|████████████████████▏                                                                                                             | 1556/10001 [07:40<43:21,  3.25it/s]
+For debug - reward:  4.801907888517818 done: False
+For debug - reward:  4.972800066880852 done: False
+For debug - reward:  4.840435952279157 done: False
+For debug - reward:  5.140829862391151 done: False
+For debug - reward:  5.164928015790219 done: False
+
+ 16%|████████████████████▎                                                                                                             | 1563/10001 [07:42<43:28,  3.24it/s]
+For debug - reward:  5.177757430129661 done: False
+For debug - reward:  5.041049385972175 done: False
+For debug - reward:  5.350937304151471 done: False
+For debug - reward:  5.598456280227593 done: False
+For debug - reward:  5.709298860158888 done: False
+For debug - reward:  5.618369861612304 done: False
+For debug - reward:  5.833371453662981 done: False
+
+ 16%|████████████████████▍                                                                                                             | 1570/10001 [07:44<40:55,  3.43it/s]
+For debug - reward:  5.9039167250684095 done: False
+For debug - reward:  5.519852616316299 done: False
+For debug - reward:  5.179481512882533 done: False
+For debug - reward:  5.54435253196704 done: False
+For debug - reward:  5.553329523361931 done: False
+
+ 16%|████████████████████▍                                                                                                             | 1576/10001 [07:46<42:02,  3.34it/s]
+For debug - reward:  4.950280175126311 done: False
+For debug - reward:  4.935669225813447 done: False
+For debug - reward:  5.362345885928176 done: False
+For debug - reward:  5.628260668097448 done: False
+For debug - reward:  5.75703135248 done: False
+For debug - reward:  5.597642148100876 done: False
+
+ 16%|████████████████████▌                                                                                                             | 1583/10001 [07:48<40:30,  3.46it/s]
+For debug - reward:  5.980391352542913 done: False
+For debug - reward:  5.75547197378264 done: False
+For debug - reward:  6.166244540132035 done: False
+For debug - reward:  6.751976290570742 done: False
+For debug - reward:  7.2103958740594365 done: False
+For debug - reward:  8.087200100949175 done: False
+
+ 16%|████████████████████▋                                                                                                             | 1590/10001 [07:50<41:34,  3.37it/s]
+For debug - reward:  9.940992822882366 done: False
+For debug - reward:  9.60559472317805 done: False
+For debug - reward:  9.902252620458949 done: False
+For debug - reward:  9.052391338262236 done: False
+For debug - reward:  8.35452717770915 done: False
+
+ 16%|████████████████████▊                                                                                                             | 1597/10001 [07:52<42:05,  3.33it/s]
+For debug - reward:  6.716365837161933 done: False
+For debug - reward:  7.077266129144435 done: False
+For debug - reward:  7.038737260823116 done: False
+For debug - reward:  7.158495226237354 done: False
+For debug - reward:  7.334011455638318 done: False
+For debug - reward:  7.779100102957921 done: False
+For debug - reward:  7.294486861377466 done: False
+
+For debug - reward:  7.084826666383574 done: False
+For debug - reward:  7.622866718836369 done: False
+For debug - reward:  7.949205419212522 done: False
+For debug - reward:  7.211958458836891 done: False
+For debug - reward:  6.958616432128049 done: False
+For debug - reward:  7.725334155911864 done: False
+
+ 16%|████████████████████▉                                                                                                             | 1610/10001 [07:56<41:40,  3.36it/s]
+For debug - reward:  7.581936528408626 done: False
+For debug - reward:  8.808358825098015 done: False
+For debug - reward:  9.170812237274514 done: False
+For debug - reward:  8.499089938648478 done: False
+For debug - reward:  9.031385304699915 done: False
+For debug - reward:  9.569479044135784 done: False
+
+ 16%|█████████████████████                                                                                                             | 1617/10001 [07:58<41:25,  3.37it/s]
+For debug - reward:  10.562605473399646 done: False
+For debug - reward:  10.997084466928879 done: False
+For debug - reward:  10.412446676294111 done: False
+For debug - reward:  11.80948535731305 done: False
+For debug - reward:  13.351331874896047 done: False
+For debug - reward:  13.489310090298744 done: False
+
+ 16%|█████████████████████                                                                                                             | 1625/10001 [08:00<39:07,  3.57it/s]
+For debug - reward:  10.516586158635445 done: False
+For debug - reward:  9.990151560313434 done: False
+For debug - reward:  10.467141958882193 done: False
+For debug - reward:  9.82516324063176 done: False
+For debug - reward:  10.21242872759276 done: False
+For debug - reward:  9.371189536738255 done: False
+
+ 16%|█████████████████████▏                                                                                                            | 1632/10001 [08:02<39:26,  3.54it/s]
+For debug - reward:  9.44382875606662 done: False
+For debug - reward:  9.387934948905459 done: False
+For debug - reward:  11.011900516899624 done: False
+For debug - reward:  12.367190260714619 done: False
+For debug - reward:  14.05609692554227 done: False
+For debug - reward:  15.194773387389727 done: False
+
+ 16%|█████████████████████▎                                                                                                            | 1638/10001 [08:04<40:51,  3.41it/s]
+For debug - reward:  15.07828326774547 done: False
+For debug - reward:  14.301008586684963 done: False
+For debug - reward:  14.766455348290402 done: False
+For debug - reward:  16.174401043138822 done: False
+For debug - reward:  16.841999649145404 done: False
+For debug - reward:  17.062888641984827 done: False
+
+ 16%|█████████████████████▍                                                                                                            | 1645/10001 [08:06<40:55,  3.40it/s]
+For debug - reward:  14.699482267404775 done: False
+For debug - reward:  15.398475976503182 done: False
+For debug - reward:  15.216848721650837 done: False
+For debug - reward:  16.497720513906078 done: False
+For debug - reward:  16.468793784726664 done: False
+For debug - reward:  16.396042917008145 done: False
+
+For debug - reward:  16.242889098357725 done: False
+For debug - reward:  16.019257660721816 done: False
+For debug - reward:  16.39644725007303 done: False
+For debug - reward:  18.483960303420215 done: False
+For debug - reward:  19.638775934804446 done: False
+For debug - reward:  16.615658476346347 done: False
+
+ 17%|█████████████████████▌                                                                                                            | 1659/10001 [08:10<40:25,  3.44it/s]
+For debug - reward:  17.786979645900278 done: False
+For debug - reward:  16.107563148723067 done: False
+For debug - reward:  16.593505498674205 done: False
+For debug - reward:  15.610968257260158 done: False
+For debug - reward:  15.89751996122299 done: False
+
+ 17%|█████████████████████▋                                                                                                            | 1665/10001 [08:12<43:45,  3.18it/s]
+For debug - reward:  15.851128747655196 done: False
+For debug - reward:  15.606016663754122 done: False
+For debug - reward:  16.55684349015656 done: False
+For debug - reward:  16.277640689838588 done: False
+For debug - reward:  16.70845661260873 done: False
+For debug - reward:  18.331583158374652 done: False
+
+ 17%|█████████████████████▋                                                                                                            | 1671/10001 [08:14<43:03,  3.22it/s]
+For debug - reward:  24.135757093923928 done: False
+For debug - reward:  25.789155354940746 done: False
+For debug - reward:  33.14313977559791 done: False
+For debug - reward:  26.233449365712307 done: False
+For debug - reward:  23.76693675631554 done: False
+For debug - reward:  24.500689018093237 done: False
+
+ 17%|█████████████████████▊                                                                                                            | 1678/10001 [08:16<41:21,  3.35it/s]
+For debug - reward:  15.748569803579828 done: False
+For debug - reward:  16.985718348087147 done: False
+For debug - reward:  15.135922830186807 done: False
+For debug - reward:  13.573672574771674 done: False
+For debug - reward:  14.334269343952288 done: False
+
+ 17%|█████████████████████▉                                                                                                            | 1685/10001 [08:18<41:41,  3.32it/s]
+For debug - reward:  17.4641369228422 done: False
+For debug - reward:  15.579970218245396 done: False
+For debug - reward:  13.702988469730213 done: False
+For debug - reward:  13.239444110391249 done: False
+For debug - reward:  14.34888069170769 done: False
+For debug - reward:  15.627633057605827 done: False
+For debug - reward:  15.05623932071965 done: False
+
+ 17%|█████████████████████▉                                                                                                            | 1692/10001 [08:20<40:06,  3.45it/s]
+For debug - reward:  13.947125906964477 done: False
+For debug - reward:  12.879537334111621 done: False
+For debug - reward:  11.673084330819965 done: False
+For debug - reward:  12.48216352664514 done: False
+For debug - reward:  13.346896764468456 done: False
+
+ 17%|██████████████████████                                                                                                            | 1699/10001 [08:22<40:45,  3.39it/s]
+For debug - reward:  14.430110266395934 done: False
+For debug - reward:  18.226003892454447 done: False
+For debug - reward:  21.58691962911594 done: False
+For debug - reward:  18.05092701562057 done: False
+For debug - reward:  15.017978635963683 done: False
+For debug - reward:  14.757174903202806 done: False
+
+ 17%|██████████████████████▏                                                                                                           | 1706/10001 [08:24<39:53,  3.47it/s]
+For debug - reward:  14.438799300372217 done: False
+For debug - reward:  14.554741793872344 done: False
+For debug - reward:  16.45687624956117 done: False
+For debug - reward:  17.06872797624819 done: False
+For debug - reward:  19.070951551605543 done: False
+For debug - reward:  15.588625153980885 done: False
+
+ 17%|██████████████████████▎                                                                                                           | 1713/10001 [08:26<39:05,  3.53it/s]
+For debug - reward:  18.0843100766645 done: False
+For debug - reward:  19.38683412609158 done: False
+For debug - reward:  15.942751736621656 done: False
+For debug - reward:  16.805190081625813 done: False
+For debug - reward:  16.3814524583919 done: False
+For debug - reward:  18.388930363975103 done: False
+
+ 17%|██████████████████████▎                                                                                                           | 1720/10001 [08:28<40:42,  3.39it/s]
+For debug - reward:  15.704763500569255 done: False
+For debug - reward:  14.78928221231035 done: False
+For debug - reward:  14.583876969785328 done: False
+For debug - reward:  14.982249238271898 done: False
+For debug - reward:  14.223137575087655 done: False
+For debug - reward:  15.118261784291244 done: False
+
+ 17%|██████████████████████▍                                                                                                           | 1726/10001 [08:30<40:42,  3.39it/s]
+For debug - reward:  15.695680091786807 done: False
+For debug - reward:  13.763535797275079 done: False
+For debug - reward:  12.428742610216862 done: False
+For debug - reward:  12.992771625345753 done: False
+For debug - reward:  12.613914679148206 done: False
+
+ 17%|██████████████████████▌                                                                                                           | 1732/10001 [08:32<43:37,  3.16it/s]
+For debug - reward:  14.394109753810982 done: False
+For debug - reward:  16.34003161221385 done: False
+For debug - reward:  15.633743887096099 done: False
+For debug - reward:  18.53197216937563 done: False
+For debug - reward:  16.621783637766065 done: False
+For debug - reward:  14.388407164029454 done: False
+
+ 17%|██████████████████████▌                                                                                                           | 1739/10001 [08:34<42:06,  3.27it/s]
+For debug - reward:  20.974631897021215 done: False
+For debug - reward:  27.741340699425937 done: False
+For debug - reward:  24.399784611981534 done: False
+For debug - reward:  19.36105288090656 done: False
+For debug - reward:  16.760030462487567 done: False
+For debug - reward:  18.94554619804487 done: False
+
+ 17%|██████████████████████▋                                                                                                           | 1747/10001 [08:36<38:36,  3.56it/s]
+For debug - reward:  18.66563182858195 done: False
+For debug - reward:  20.601824301353417 done: False
+For debug - reward:  18.539486660315106 done: False
+For debug - reward:  17.388261958171757 done: False
+For debug - reward:  17.174462779971215 done: False
+For debug - reward:  22.082460040441358 done: False
+
+ 18%|██████████████████████▊                                                                                                           | 1754/10001 [08:39<39:05,  3.52it/s]
+For debug - reward:  26.33385211098365 done: False
+For debug - reward:  31.540441878998145 done: False
+For debug - reward:  29.63526701941545 done: False
+For debug - reward:  35.32410245932098 done: False
+For debug - reward:  30.851940133986663 done: False
+For debug - reward:  37.75908074303093 done: False
+
+ 18%|██████████████████████▉                                                                                                           | 1761/10001 [08:40<38:04,  3.61it/s]
+For debug - reward:  43.458158609226 done: False
+For debug - reward:  40.22064456302464 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|██████████████████████▉                                                                                                           | 1768/10001 [08:42<38:53,  3.53it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|███████████████████████                                                                                                           | 1775/10001 [08:44<39:49,  3.44it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|███████████████████████▏                                                                                                          | 1788/10001 [08:48<41:10,  3.33it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|███████████████████████▎                                                                                                          | 1795/10001 [08:51<40:22,  3.39it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|███████████████████████▍                                                                                                          | 1801/10001 [08:52<40:22,  3.38it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|███████████████████████▌                                                                                                          | 1809/10001 [08:54<37:54,  3.60it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|███████████████████████▌                                                                                                          | 1816/10001 [08:56<37:38,  3.62it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|███████████████████████▋                                                                                                          | 1823/10001 [08:58<38:32,  3.54it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|███████████████████████▊                                                                                                          | 1830/10001 [09:00<38:53,  3.50it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|███████████████████████▉                                                                                                          | 1837/10001 [09:02<38:18,  3.55it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 18%|███████████████████████▉                                                                                                          | 1844/10001 [09:04<39:37,  3.43it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████                                                                                                          | 1851/10001 [09:07<40:27,  3.36it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████▏                                                                                                         | 1857/10001 [09:08<41:30,  3.27it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████▏                                                                                                         | 1864/10001 [09:11<41:26,  3.27it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████▎                                                                                                         | 1870/10001 [09:12<41:00,  3.30it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████▍                                                                                                         | 1878/10001 [09:15<38:26,  3.52it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████▍                                                                                                         | 1884/10001 [09:16<39:37,  3.41it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████▌                                                                                                         | 1891/10001 [09:18<40:10,  3.36it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████▋                                                                                                         | 1898/10001 [09:20<38:26,  3.51it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████▊                                                                                                         | 1905/10001 [09:23<41:07,  3.28it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████▊                                                                                                         | 1911/10001 [09:25<42:28,  3.17it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|████████████████████████▉                                                                                                         | 1917/10001 [09:26<41:56,  3.21it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|█████████████████████████                                                                                                         | 1924/10001 [09:29<40:48,  3.30it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|█████████████████████████                                                                                                         | 1931/10001 [09:30<38:54,  3.46it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|█████████████████████████▏                                                                                                        | 1938/10001 [09:32<39:15,  3.42it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 19%|█████████████████████████▎                                                                                                        | 1945/10001 [09:35<38:49,  3.46it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 20%|█████████████████████████▎                                                                                                        | 1952/10001 [09:37<39:43,  3.38it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 20%|█████████████████████████▍                                                                                                        | 1958/10001 [09:39<41:08,  3.26it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 20%|█████████████████████████▌                                                                                                        | 1965/10001 [09:41<40:24,  3.31it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 20%|█████████████████████████▋                                                                                                        | 1972/10001 [09:43<39:42,  3.37it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 20%|█████████████████████████▋                                                                                                        | 1978/10001 [09:45<40:47,  3.28it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 20%|█████████████████████████▊                                                                                                        | 1985/10001 [09:47<39:42,  3.36it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 20%|█████████████████████████▉                                                                                                        | 1991/10001 [09:49<40:42,  3.28it/s]
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+For debug - reward:  34.16215609298175 done: False
+
+ 20%|█████████████████████████▉                                                                                                        | 1998/10001 [09:51<39:28,  3.38it/s]
+Traceback (most recent call last):
+  File "/home/howard/RLproject/train_finetuning.py", line 275, in <module>
+    app.run(main)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "/home/howard/RLproject/train_finetuning.py", line 185, in main
+    action, agent = agent.sample_actions(observation)
+  File "/home/howard/RLproject/rlproject/agents/agent.py", line 45, in sample_actions
+    return np.asarray(actions), self.replace(rng=new_rng)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/array.py", line 360, in __array__
+    return np.asarray(self._value, dtype=dtype)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/jax/_src/array.py", line 515, in _value
+    self._npy_value = self._single_device_array_to_np_array()  # type: ignore
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+KeyboardInterrupt:
