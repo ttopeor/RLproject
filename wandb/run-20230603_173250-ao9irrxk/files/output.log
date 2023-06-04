@@ -1,0 +1,75 @@
+
+I0603 17:32:54.616112 139622399076096 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0603 17:32:56.940505 139624057574976 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter CUDA Host
+I0603 17:32:56.941869 139624057574976 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0603 17:32:56.942351 139624057574976 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+0it [00:00, ?it/s]
+  0%|                                                                                                              | 0/21 [00:00<?, ?it/s]
+For debug - agent created
+For debug - replay_buffer created
+CustomEnv Environment reset, state =  [ 3.58335592e-05  2.20121091e-01 -8.99603448e+01  4.81327221e+02
+
+  5%|████▊                                                                                                 | 1/21 [00:00<00:14,  1.34it/s]
+For debug - reward:  11.529912836727219 done: False
+
+ 10%|█████████▋                                                                                            | 2/21 [00:05<00:56,  2.96s/it]
+For debug - update time:  3.572756767272949
+
+
+ 14%|██████████████▌                                                                                       | 3/21 [00:08<00:54,  3.03s/it]
+For debug - update time:  2.329383373260498
+
+ 19%|███████████████████▍                                                                                  | 4/21 [00:11<00:51,  3.00s/it]
+
+ 33%|██████████████████████████████████                                                                    | 7/21 [00:14<00:26,  1.87s/it]
+For debug - reward:  6.668015065256414 done: False
+For debug - update time:  0.00732421875
+For debug - reward:  5.970541463660097 done: False
+For debug - update time:  0.03783440589904785
+For debug - reward:  5.391914076835836 done: False
+
+ 43%|███████████████████████████████████████████▋                                                          | 9/21 [00:15<00:18,  1.53s/it]
+For debug - reward:  5.4747662027318444 done: False
+For debug - update time:  0.006972551345825195
+For debug - reward:  6.11109899735868 done: False
+For debug - update time:  0.014726877212524414
+For debug - reward:  7.284937007438914 done: False
+
+ 52%|████████████████████████████████████████████████████▉                                                | 11/21 [00:17<00:13,  1.34s/it]
+For debug - reward:  7.264330329499143 done: False
+For debug - update time:  0.014451026916503906
+For debug - reward:  6.2570549005285905 done: False
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 14/21 [00:19<00:08,  1.15s/it]
+For debug - reward:  5.351812322759745 done: False
+For debug - update time:  0.011844158172607422
+For debug - reward:  5.3532463646491335 done: False
+
+ 76%|████████████████████████████████████████████████████████████████████████████▉                        | 16/21 [00:21<00:05,  1.07s/it]
+For debug - reward:  5.237907920414363 done: False
+For debug - update time:  0.03167104721069336
+For debug - reward:  5.517201876724346 done: False
+For debug - update time:  0.023634910583496094
+For debug - reward:  6.317009313663967 done: False
+
+ 90%|███████████████████████████████████████████████████████████████████████████████████████████▍         | 19/21 [00:23<00:01,  1.01it/s]
+For debug - reward:  7.509786132831333 done: False
+For debug - update time:  0.030699729919433594
+For debug - reward:  7.2785331094640355 done: False
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:25<00:00,  1.22s/it]
+For debug - reward:  7.580642909440624 done: False
+For debug - update time:  0.030933141708374023
+For debug - reward:  9.024063472185016 done: False
+For debug - update time:  0.007102251052856445
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

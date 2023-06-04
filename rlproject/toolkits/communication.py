@@ -128,20 +128,13 @@ class Robot:
             'payload': des
         }))
 
-    def preset_pos_2(self):
-        self.ws_open = True
-        msg = {
-            'action': 'SetTask',
-            'payload': {
-                'type': 'CartesianControlWithAccel',
-            }
-        }
-        self.ws.send(json.dumps(msg))
-
-        self.ws.send(json.dumps({
-            'action': 'CartesianControlWithAccel',
-            'payload': {"x":0,"y":0.22,"z":0.068,"roll":180,"pitch":0,"yaw":-90}}
-        ))
+    def reset(self):
+        self.des["z"] = 0.070
+        self.des["roll"] = 180
+        self.des["pitch"] = 0
+        self.des["x"] = 0
+        self.des["y"] = 0.22
+        self.des["yaw"] = -90
 
     def run_websocket(self, ws):
         self.ws.run_forever()

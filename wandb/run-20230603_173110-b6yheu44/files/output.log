@@ -1,0 +1,57 @@
+
+I0603 17:31:14.587885 140481222526720 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0603 17:31:16.867779 140482679682624 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: CUDA Interpreter Host
+I0603 17:31:16.880805 140482679682624 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0603 17:31:16.883119 140482679682624 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - agent created
+For debug - replay_buffer created
+0it [00:00, ?it/s]
+
+  5%|████▊                                                                                                 | 1/21 [00:00<00:14,  1.35it/s]
+CustomEnv Environment reset, state =  [-2.86387709e-04  2.20478783e-01 -8.96798288e+01 -9.47902245e+02
+  1.36640616e+02]
+For debug - reward:  16.96556683127506 done: False
+
+ 10%|█████████▋                                                                                            | 2/21 [00:05<00:55,  2.92s/it]
+For debug - reward:  16.57146127771437 done: False
+
+
+ 19%|███████████████████▍                                                                                  | 4/21 [00:11<00:49,  2.92s/it]
+For debug - reward:  15.13259895515971 done: False
+For debug - reward:  19.406636791028962 done: False
+
+ 33%|██████████████████████████████████                                                                    | 7/21 [00:13<00:25,  1.82s/it]
+stage.py - goaled 1
+For debug - reward:  7.823192775622827 done: True
+CustomEnv Environment reset, state =  [ 2.16282832e-06  2.19898454e-01 -8.98161463e+01 -2.24696642e+02
+
+ 38%|██████████████████████████████████████▊                                                               | 8/21 [00:15<00:23,  1.84s/it]
+For debug - reward:  11.531164053167323 done: False
+
+ 52%|████████████████████████████████████████████████████▉                                                | 11/21 [00:18<00:14,  1.43s/it]
+For debug - reward:  17.047667687225214 done: False
+For debug - reward:  19.513322282645586 done: False
+
+ 62%|██████████████████████████████████████████████████████████████▌                                      | 13/21 [00:19<00:10,  1.27s/it]
+For debug - reward:  12.210808043890763 done: False
+
+ 76%|████████████████████████████████████████████████████████████████████████████▉                        | 16/21 [00:22<00:05,  1.10s/it]
+For debug - reward:  14.023639078394861 done: False
+For debug - reward:  9.5560654876355 done: False
+
+ 86%|██████████████████████████████████████████████████████████████████████████████████████▌              | 18/21 [00:23<00:03,  1.04s/it]
+For debug - reward:  8.548516715895243 done: False
+For debug - reward:  9.478272808912878 done: False
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:26<00:00,  1.24s/it]
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

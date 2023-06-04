@@ -29,6 +29,25 @@ def beep():
 
 
 def stage_update(state):
+    
+
+    #get the cube location from the state data
+    xc = state[3]
+    yc = state[4]
+    x = state[0]
+    y = state[1]
+    done = False
+    if dist_robot_to_goal(x, y, goal_1) <= threshold_goal:
+        # if dist_cube_to_robot(xc, yc) <= threshold_cube: #goaled
+            print("stage.py - goaled 1")
+            
+            done = True
+
+    return state, goal_1, 1, done
+
+
+
+def stage_update_two_goal(state):
     # print("state: ", state)
 
 
@@ -67,6 +86,7 @@ def stage_update(state):
             if dist_robot_to_goal(x, y, goal_1) <= threshold_goal:
             # if dist_cube_to_robot(xc, yc) <= threshold_cube: #goaled
                 print("stage.py - goaled 1")
+               
                 #flip the stage
                 current_goal = goal_2                    
                 current_stage = 2

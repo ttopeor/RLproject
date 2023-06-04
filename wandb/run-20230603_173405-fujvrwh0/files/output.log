@@ -1,0 +1,70 @@
+
+I0603 17:34:09.367801 139856332916480 _logging.py:76] Websocket connected
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0603 17:34:11.659196 139857790088768 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: CUDA Interpreter Host
+I0603 17:34:11.673027 139857790088768 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0603 17:34:11.673474 139857790088768 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+For debug - agent created
+For debug - replay_buffer created
+CustomEnv Environment reset, state =  [-3.58335592e-05  2.20101293e-01 -8.99517619e+01 -3.63049103e+02
+  5.47897745e+02]
+For debug - reward:  14.021039814866924 done: False
+0it [00:00, ?it/s]
+  5%|████▊                                                                                                 | 1/21 [00:00<00:07,  2.80it/s]
+For debug - reward:  15.140314166959417 done: False
+
+ 10%|█████████▋                                                                                            | 2/21 [00:04<00:48,  2.58s/it]
+
+ 14%|██████████████▌                                                                                       | 3/21 [00:07<00:44,  2.48s/it]
+For debug - update time:  1.8999536037445068
+
+ 24%|████████████████████████▎                                                                             | 5/21 [00:10<00:32,  2.03s/it]
+For debug - update time:  2.3386244773864746
+For debug - reward:  13.019045865916278 done: False
+For debug - update time:  0.0201108455657959
+For debug - reward:  13.529098980732131 done: False
+
+ 48%|████████████████████████████████████████████████                                                     | 10/21 [00:12<00:11,  1.02s/it]
+For debug - reward:  12.971148003728619 done: False
+For debug - update time:  0.0021219253540039062
+For debug - reward:  14.12735989687818 done: False
+For debug - update time:  0.013066291809082031
+For debug - reward:  13.452211143325309 done: False
+For debug - update time:  0.02677178382873535
+For debug - reward:  14.754707676605689 done: False
+For debug - update time:  0.014752388000488281
+For debug - reward:  13.89958075660261 done: False
+
+ 67%|███████████████████████████████████████████████████████████████████▎                                 | 14/21 [00:14<00:05,  1.33it/s]
+For debug - reward:  13.008285544497397 done: False
+For debug - update time:  0.0187380313873291
+For debug - reward:  12.212518737591985 done: False
+For debug - update time:  0.02527451515197754
+For debug - reward:  12.905297215733656 done: False
+For debug - update time:  0.03225255012512207
+
+For debug - reward:  12.223119634636346 done: False
+For debug - update time:  0.023821353912353516
+For debug - reward:  12.991523092051075 done: False
+For debug - update time:  0.007539272308349609
+For debug - reward:  13.773858851662501 done: False
+For debug - update time:  0.02804255485534668
+For debug - reward:  14.588497412747676 done: False
+For debug - update time:  0.006091117858886719
+For debug - reward:  13.363618087144877 done: False
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:17<00:00,  1.22it/s]
+For debug - reward:  12.432933450678709 done: False
+For debug - update time:  0.057546377182006836
+For debug - reward:  11.8168489383408 done: False
+For debug - update time:  0.03431129455566406
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

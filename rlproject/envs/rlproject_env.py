@@ -38,11 +38,12 @@ class RLprojectEnv(gym.Env):
         
         # take action
         self.Env.robot.action(action[0], action[1], action[2])
-        
+        time.sleep(0.1)
         # get state
         state = self.Env.get_state()
         # print("For debug - state(in step)", state, np.shape(state), type(state)) #delete me
-
+        # take action
+        self.Env.robot.action(0,0,0)
 
         #get stage
         state, current_goal, current_stage, done = stage_update(state)
@@ -64,19 +65,26 @@ class RLprojectEnv(gym.Env):
         return observation, reward, done, info
     
     def reset(self):
-        # print("For debug - env reset") #delete me
-        # get the first observation
+        # # print("For debug - env reset") #delete me
+        # # get the first observation
+        # state = self.Env.get_state()
+        # # print("For debug - env reset state = ", state, np.shape(state)) #delete me
+        # #check if the state is None
+        # if any(element is None for element in state):
+        #     # print("error from stage.py - No state yet")
+        #     # print("using fake random state ")
+        #     state = np.array([random.random() for _ in range(5)])
+        # # print("For debug - env reset state = ", state, np.shape(state)) #delete me
+
+        self.Env.robot.reset()
+        self.Env.robot.action(0, 0, 0)
+        time.sleep(1)
         state = self.Env.get_state()
-        # print("For debug - env reset state = ", state, np.shape(state)) #delete me
-        #check if the state is None
-        if any(element is None for element in state):
-            # print("error from stage.py - No state yet")
-            # print("using fake random state ")
-            state = np.array([random.random() for _ in range(5)])
-        # print("For debug - env reset state = ", state, np.shape(state)) #delete me
+        print('CustomEnv Environment reset, state = ', state)
+
 
         return state
-        # print('CustomEnv Environment reset')
+        
         
     # def render(self):
     #     # visualize the agent, no need in our case

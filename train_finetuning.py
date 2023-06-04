@@ -82,8 +82,13 @@ def combine(one_dict, other_dict):
 
     return combined
 
+# #set a global variable to memorize the time since last done
+# last_done_time = 
+
 
 def main(_):
+    # global last_done_time
+
     assert FLAGS.offline_ratio >= 0.0 and FLAGS.offline_ratio <= 1.0
 
     wandb.init(project=FLAGS.project_name)
@@ -166,6 +171,8 @@ def main(_):
     # print("For debug - first for loop ended") #delete me
 
     observation, done = env.reset(), False
+    #set a global variable to memorize the time since last done
+    last_done_time = time.time()
     # observation = env.reset()
     # observation = [random.random() for _ in range(5)]
     # done = False
@@ -175,6 +182,7 @@ def main(_):
     for i in tqdm.tqdm(
         range(0, FLAGS.max_steps + 1), smoothing=0.1, disable=not FLAGS.tqdm
     ):
+        start_time = time.time()
         # print("For debug - second for loop started") #delete me
 
         if i < FLAGS.start_training:
@@ -214,11 +222,18 @@ def main(_):
         # print("For debug - replay_buffer inserted") #delete me
         observation = next_observation
 
+        if i >= FLAGS.start_training and (time.time() - last_done_time > 120):
+            print("For debug - stuck for 2 min, task fail")
+            observation = env.reset()
+            last_done_time = time.time()
+
         if done:
             observation, done = env.reset(), False
             for k, v in info["episode"].items():
                 decode = {"r": "return", "l": "length", "t": "time"}
                 wandb.log({f"training/{decode[k]}": v}, step=i + FLAGS.pretrain_steps)
+            #add a mechanism that prevent the agent from getting stuck
+            last_done_time = time.time()
 
         if i >= FLAGS.start_training:
             online_batch = replay_buffer.sample(
@@ -232,8 +247,10 @@ def main(_):
 
             if "antmaze" in FLAGS.env_name:
                 batch["rewards"] -= 1
-
+            # start_time = time.time()
             agent, update_info = agent.update(batch, FLAGS.utd_ratio)
+            # end_time = time.time()
+            # print("For debug - update time: ", end_time - start_time) #delete me
 
             if i % FLAGS.log_interval == 0:
                 for k, v in update_info.items():
@@ -265,6 +282,9 @@ def main(_):
                 except:
                     print("Could not save agent buffer.")
         precise_sleep(0.2)
+
+        end_time = time.time()
+        # print("For debug -training frequency: ", 1/(end_time - start_time)) #delete me
 
 def precise_sleep(delay):
     start = time.perf_counter()

@@ -1,0 +1,136 @@
+
+I0603 17:42:30.653247 140377995298560 _logging.py:76] Websocket connected
+Environment Ready!!
+CustomEnv Environment initialized
+For debug - env created
+For debug - ds created
+/home/howard/anaconda3/envs/rlpd/lib/python3.9/site-packages/gym/spaces/box.py:73: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(
+I0603 17:42:32.934752 140379452470848 xla_bridge.py:455] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: CUDA Interpreter Host
+I0603 17:42:32.963525 140379452470848 xla_bridge.py:455] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I0603 17:42:32.964007 140379452470848 xla_bridge.py:455] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+For debug - agent created
+For debug - replay_buffer created
+CustomEnv Environment reset, state =  [ 7.16203836e-05  2.20303281e-01 -9.00305873e+01 -1.17650725e+02
+ -6.56297676e+02]
+For debug - reward:  13.998424237117312 done: False
+For debug -training frequency:  2.9587150203511543
+0it [00:00, ?it/s]
+  2%|██                                                                                                    | 1/51 [00:00<00:18,  2.67it/s]
+For debug - reward:  13.684158556732132 done: False
+For debug -training frequency:  0.2154752410486647
+
+  4%|████                                                                                                  | 2/51 [00:05<02:08,  2.62s/it]
+For debug -training frequency:  0.4311054689792555
+
+  6%|██████                                                                                                | 3/51 [00:07<02:00,  2.51s/it]
+For debug -training frequency:  0.3506900333825356
+
+ 14%|██████████████                                                                                        | 7/51 [00:11<01:05,  1.49s/it]
+For debug -training frequency:  2.314230270740903
+For debug - reward:  12.92965587866095 done: False
+For debug -training frequency:  2.6248950180675314
+For debug - reward:  12.343773388949003 done: False
+For debug -training frequency:  2.3827143591593503
+For debug - reward:  13.373200285380452 done: False
+For debug -training frequency:  2.798458223995207
+For debug - reward:  14.611630942984366 done: False
+
+ 24%|███████████████████████▊                                                                             | 12/51 [00:13<00:34,  1.15it/s]
+For debug - reward:  16.27767097872386 done: False
+For debug -training frequency:  2.442543531950801
+For debug - reward:  15.241042839592792 done: False
+For debug -training frequency:  2.2876066954278453
+For debug - reward:  14.116834891729592 done: False
+For debug -training frequency:  2.810547702138381
+For debug - reward:  13.134294961043073 done: False
+For debug -training frequency:  2.9884219511256713
+For debug - reward:  12.347538435414398 done: False
+
+ 33%|█████████████████████████████████▋                                                                   | 17/51 [00:15<00:21,  1.57it/s]
+For debug - reward:  11.615405259828936 done: False
+For debug -training frequency:  2.4834428420274177
+For debug - reward:  12.114830802556414 done: False
+For debug -training frequency:  2.6191564229937025
+For debug - reward:  13.13589398194777 done: False
+For debug -training frequency:  2.8715620261050843
+For debug - reward:  14.067833641056453 done: False
+For debug -training frequency:  2.388308273288304
+
+ 43%|███████████████████████████████████████████▌                                                         | 22/51 [00:17<00:15,  1.86it/s]
+For debug -training frequency:  2.5778976967163993
+For debug - reward:  13.962573603517113 done: False
+For debug -training frequency:  2.5474539757505306
+For debug - reward:  12.904233332487555 done: False
+For debug -training frequency:  2.4460933285511417
+For debug - reward:  12.069481588658762 done: False
+For debug -training frequency:  2.6918763084561403
+For debug - reward:  11.44257758489239 done: False
+For debug -training frequency:  2.9167865100404176
+For debug - reward:  10.763109753982828 done: False
+For debug -training frequency:  2.3652908296076407
+For debug - reward:  10.165429904374983 done: False
+For debug -training frequency:  2.554157116167361
+For debug - reward:  10.59968711090128 done: False
+For debug -training frequency:  2.62872979631641
+For debug - reward:  10.151240718715602 done: False
+For debug -training frequency:  2.7750567343509127
+For debug - reward:  9.677882665060917 done: False
+For debug -training frequency:  2.7235245073466197
+For debug - reward:  10.23015439658411 done: False
+
+ 53%|█████████████████████████████████████████████████████▍                                               | 27/51 [00:19<00:11,  2.11it/s]
+For debug - reward:  10.784831629853786 done: False
+For debug -training frequency:  2.316633315235372
+For debug - reward:  10.190525326505654 done: False
+For debug -training frequency:  2.305417668640842
+For debug - reward:  9.655544347335445 done: False
+For debug -training frequency:  2.455210006509289
+For debug - reward:  9.191800544441394 done: False
+For debug -training frequency:  2.137171606925483
+
+ 63%|███████████████████████████████████████████████████████████████▎                                     | 32/51 [00:21<00:08,  2.19it/s]
+For debug -training frequency:  3.01721790086201
+For debug - reward:  9.168401680737782 done: False
+For debug -training frequency:  2.731306816701831
+For debug - reward:  9.579198503516272 done: False
+For debug -training frequency:  2.6073164924748253
+For debug - reward:  10.121781356229032 done: False
+For debug -training frequency:  3.009577713805168
+For debug - reward:  9.701100312580381 done: False
+
+ 73%|█████████████████████████████████████████████████████████████████████████▎                           | 37/51 [00:23<00:06,  2.28it/s]
+For debug - reward:  10.143611804228474 done: False
+For debug -training frequency:  2.3764300607379205
+For debug - reward:  10.616674827543786 done: False
+For debug -training frequency:  2.5564907545733426
+For debug - reward:  10.093458835325315 done: False
+For debug -training frequency:  2.196303000820543
+For debug - reward:  9.557339589974477 done: False
+For debug -training frequency:  2.6437182835103563
+
+ 80%|█████████████████████████████████████████████████████████████████████████████████▏                   | 41/51 [00:25<00:04,  2.25it/s]
+For debug -training frequency:  2.7368441658352545
+For debug - reward:  10.57899498517953 done: False
+For debug -training frequency:  2.631969523073245
+For debug - reward:  11.043270481454842 done: False
+For debug -training frequency:  2.869560101090956
+For debug - reward:  10.325289481226838 done: False
+For debug -training frequency:  2.5504188063032247
+For debug - reward:  10.963457810815292 done: False
+For debug -training frequency:  2.555511010322444
+
+ 90%|███████████████████████████████████████████████████████████████████████████████████████████          | 46/51 [00:27<00:02,  2.34it/s]
+For debug -training frequency:  2.7602168001705762
+For debug - reward:  12.342766033749525 done: False
+For debug -training frequency:  2.55552035250708
+For debug - reward:  13.449062320681897 done: False
+For debug -training frequency:  3.0590215632990696
+For debug - reward:  14.456868589379908 done: False
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 51/51 [00:29<00:00,  1.72it/s]
+Exception ignored in: <module 'threading' from '/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/home/howard/anaconda3/envs/rlpd/lib/python3.9/threading.py", line 1477, in _shutdown
+    lock.acquire()
+KeyboardInterrupt:

@@ -45,12 +45,16 @@ if __name__ == "__main__":
     Env.start()
     # Main event loop
     data = []
+    observation = Env.get_state()
+
     while True:
+        start_time = time.time()
         # Check if 'p' is pressed
         if keyboard.is_pressed('p'):
             break
 
-        observation = Env.get_state()
+
+        # observation = Env.get_state()
         action = process_key_events(Env)
         #slightly delay
         time.sleep(0.1)
@@ -75,16 +79,32 @@ if __name__ == "__main__":
             "terminals": bool(terminals),
             "next_observations": next_observation.tolist()
         }
+        observation = next_observation
+
+        time_ = time.time() - start_time
+        if done:
+            Env.robot.reset()
+            Env.robot.action(0, 0, 0)
+            time.sleep(1)
 
         if conter % 10 == 0:
             print("reward: ", reward)
             print("done: ", done)
+            
+            print("Loop frequency: ", 1/time_)
+
             # print("state: ", state)
             # print("stage: ", stage)
         # time.sleep(0.1)
 
         
         data.append(data_point)  # append data point to data list
+        end_time = time.time()
+        desire_period = 1/2.5
+        try:
+            time.sleep(desire_period - (end_time - start_time))
+        except:
+            pass
         
 
     print("data list: ", len(data))
@@ -93,4 +113,4 @@ if __name__ == "__main__":
     with open("data/data.json", "w") as file:
         print("writing data to JSON")
         json.dump(data, file, indent=4)
-        # Env.robot.preset_pos_2
+        
